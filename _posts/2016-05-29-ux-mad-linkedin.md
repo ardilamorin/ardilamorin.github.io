@@ -3,7 +3,7 @@ layout: post
 title: UX Mad on Linkedin
 published: true
 ---
-I moved to Madrid on 2011 and didn't know much people in the city. I worked on digital products for some time, but i didn't know anyone here. I tried diferent ways to enter the "scene" but it didn't work out so well.
+I moved to Madrid on 2011 and didn't know much people in the city. I worked on digital products for some time, but i didn't know anyone here. I tried different ways to enter the "scene" but it didn't work out so well.
 
 **Local events**
 
