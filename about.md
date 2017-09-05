@@ -11,10 +11,10 @@ Worked with companies like Santander, EVO, El Corte Inglés and many others to i
 
 ### Experience
 
-- [The-cocktail](https://the-cocktail.com/en "The-cocktail") (current)
-- [People Who Global](https://www.peoplewhoglobal.com)
+- [The-cocktail - UX Team Lead](https://the-cocktail.com/en "The-cocktail") (current)
+- [People Who Global - UX Manager ](https://www.peoplewhoglobal.com)
 - [Publicis group](http://www.publicis.es)
-- Chrysler Group
+- Chrysler Group - Web Services Analyst
 
 ### Awards
 
