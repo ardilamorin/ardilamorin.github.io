@@ -8,7 +8,6 @@ layout: post
 
 My experience Designing People Who
 
----
 ## UX for healthcare platforms - Designing “People Who”
 In 2011, people with an illness basically didn’t have a secure place where to communicate with others, and people around them had a hard time finding reliable information regarding the illness. 
 
