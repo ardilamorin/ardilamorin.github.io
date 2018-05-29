@@ -9,7 +9,6 @@ My experience Designing People Who, a Platform for patients with a chronich illn
 In 2011, people with an illness basically didn’t have a secure place where to communicate with others, and people around them had a hard time finding reliable information regarding the illness. 
 
 I was part of the the small team of four that started this amazing journey to create a new kind of digital platform for patients 
-(If you are just interested in the UX aspects of the solution click here)
 
 ### The project
 While working at Saatchi & Saatchi Health, I was asked to participate in a new kind of web platform, a platform for patients with a chronic illness. At first it sounded dull and full of constraints, and full of constraints it was, but not dull.
