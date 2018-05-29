@@ -1,6 +1,6 @@
 ---
 title: The UX of helthcare platforms
-published: false
+published: true
 layout: post
 ---
 ![People who header]({{site.baseurl}}/images/people_who_header.png)
