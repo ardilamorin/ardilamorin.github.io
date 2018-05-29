@@ -2,11 +2,9 @@
 title: The UX of helthcare platforms
 published: false
 layout: post
-
 ---
 My experience Designing People Who
 ---
-
 ![People who header]({{site.baseurl}}/images/people_who_header.png)
 
 My experience Designing People Who
