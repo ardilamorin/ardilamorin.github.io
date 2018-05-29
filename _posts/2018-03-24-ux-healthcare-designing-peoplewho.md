@@ -3,7 +3,7 @@ title: The UX of helthcare platforms
 published: true
 layout: post
 ---
-My experience Designing People Who, a Platform for patients with a chronic illness.
+Designing People Who, a Platform for patients with a chronic illness, from concept to multi-country platform.
 
 ---
 ![People who header]({{site.baseurl}}/images/people_who_header.png)
