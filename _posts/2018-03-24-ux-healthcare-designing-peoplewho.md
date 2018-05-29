@@ -4,8 +4,8 @@ published: true
 layout: post
 ---
 My experience Designing People Who, a Platform for patients with a chronic illness.
-![People who header]({{site.baseurl}}/images/people_who_header.png)
 
+![People who header]({{site.baseurl}}/images/people_who_header.png)
 
 ---
 
