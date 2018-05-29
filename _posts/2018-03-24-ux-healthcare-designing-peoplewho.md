@@ -1,10 +1,11 @@
 ---
 published: false
 layout: post
+title: The UX of helthcare platforms
 ---
 ![People who header]({{site.baseurl}}/images/people_who_header.png)
 
-My experience Designing a Healthcare platform
+My experience Designing People Who
 
 ---
 ## UX for healthcare platforms - Designing “People Who”
