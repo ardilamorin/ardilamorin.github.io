@@ -1,5 +1,5 @@
 ---
-title: The UX of helthcare platforms
+title: The UX of healthcare platforms
 published: true
 layout: post
 ---
