@@ -4,7 +4,8 @@ published: true
 layout: post
 ---
 ![People who header]({{site.baseurl}}/images/people_who_header.png)
-_My experience Designing People Who, a Platform for patients with a chronic illness._
+My experience Designing People Who, a Platform for patients with a chronic illness.
+
 ---
 
 In 2011, people with an illness basically didn’t have a secure place where to communicate with others, and people around them had a hard time finding reliable information regarding the illness. 
@@ -135,4 +136,3 @@ Appreciate on behance
 References:
 The website:
 https://www.peoplewhoglobal.com
-
