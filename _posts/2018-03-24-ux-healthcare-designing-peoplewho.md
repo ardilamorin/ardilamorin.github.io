@@ -71,6 +71,8 @@ This was a big factor to take into account, since some illnesses are more delica
 * We offered avatars that users could choose, instead of uploading their personal photo
 * You shared gender and city of residence, for statistical porpoises, but you could choose to share it publicly or not.
 
+![Users avatars to protect privacy]({{site.baseurl}}/images/privacy_avatars.png)
+
 #### Roles: Patient for one illness /caretaker for another
 We found that some of the users were patients for an illness, but also had a family member with another illness, and the way the wanted to interact with the platform was different  depending on the the role they were playing.
 
