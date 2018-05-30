@@ -49,9 +49,12 @@ The closest competitor was Patients like me, which was focused on the United Sta
 #### Constraints
 As you can imagine, the health industry is heavily regulated, so all patient information is critical, any advice on treatment must be given by a licensed doctor, and other considerations are important like reporting suicidal behaviour, offering help lines, avoiding spam for drugs and the difference between the drugs offered in each market.
  
+![Ux and Wireframes for People Who]({{site.baseurl}}/images/PW_Wireframes.png)
 
 ### Designing the experience
 Created with six sections: Home, Community, Data center, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.
+
+![People Who sections]({{site.baseurl}}/images/people_who_sections.png)
 
 #### Visual design
 The big major difference that was in the design was its look and feel (I had nothing t do with that, it was all the Product Manager and Visual Designer there). What we find was that every platform looked liked going to a hospital with sad colours, bad (stock) images or pictures that made you feel sorry for the people that had the illness.
