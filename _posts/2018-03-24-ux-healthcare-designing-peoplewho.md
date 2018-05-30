@@ -74,6 +74,7 @@ This was a big factor to take into account, since some illnesses are more delica
 * You shared gender and city of residence, for statistical porpoises, but you could choose to share it publicly or not.
 
 **Roles: Patient for one illness /caretaker for another**
+
 We found that some of the users were patients for an illness, but also had a family member with another illness, and the way the wanted to interact with the platform was different  depending on the the role they were playing.
 
 That was a big insight, so we designed it to be vertical, everything was tied to an illness, that meant you could only interact with people that suffered or cared for that same illness. That, for us, was a huge benefit, reducing noise, and improving the quality of relationships.
@@ -83,33 +84,40 @@ That was a big insight, so we designed it to be vertical, everything was tied to
 * Interested
 
 **Illnesses**
+
 The tricky part is not every illness available on the platform has all five sections, so we created a modular structure that allows to have the number of sections necessary and still work, changing depending on the illness selected and the sections available. Making it flexible and still familiar to users.
 
 * Flexible Nav
 
 **Anonymous Relationships**
+
 This presented a new challenge, to create friendships with people you didn’t know, and coming to a place where everyone maintains their privacy. So the challenge was to create a social network focused on discovery, where you didn’t have any friends when you first go in and start building you own “circles” of friends from interacting with others on the platform.
 
 * Open conversation
 * Your circles
 
 **Safety**
+
 This was a mejor constraint, but we managed to put in place all the resources needed with a mix of technology and great people.
 
 **Avoiding spam and Medical databases**
+
 We wanted to avoid companies going into the platform to promote their medications so we developed and integration with medical databases that detected the drug name and replaced it with its active component. 
 
 **Suicide prevention**
+
 We started the platform with Bipolar disorder as the first illness, that meant an specific set of control tools, but also meant a special attention to our users. We were required by law to report if any user had expressed they wanted to end their life. So we developed a supervision tool that analysed the comments and watched for specific words that could mean they could be in danger. 
 When this happened the platform informed the user to call the emergency services, and reported to the authorities all comments with those criteria in less then 12 hours.
 
-**Community manager**
+**Community management**
 We also had a team o community managers that could help with the supervision of the platform, detecting spam, unauthorised users (people pretending to be doctors, recommending treatments, etc) or helping users with doubts that they could have while using the platform.
 
 **Licensed doctor**
+
 We also had a licensed doctor for each illness, one that could actively participate in the conversation, answer questions and make sure that people were not following treatments that could put them in danger, always referring them to their doctor if they wanted to make changes in their treatment or were thinking of stoping it.
 
 **Tools**
+
 The doctors we had were vital for the development of tools that could help patients control their illnesses. We interview them to have a better picture of what was important, how was the best way to capture that information and what kind of information we could provide users to stick to their treatment.
 
 * Mood tracking
@@ -125,13 +133,16 @@ By 2013, The platform won a Gold Laus Award in the category of best web applicat
 ### Learning from our mistakes:
 There are some things that we could have done better:
 
-Agile mindset:
+**Agile mindset:**
+
 We followed a waterfall process and didn’t launch until all sections of the platform were developed.
 
-Data informed decisions 
+**Data informed decisions**
+
 We didn’t have a specialized data team to really understand user behavior, we were a small startup, but we definitely could have gained a lot by better insights from analytics or user testing.
 
-Focus on acquisition
+**Focus on acquisition**
+
 We put a lot of effort on adding new functionalities for existing users, looking back seems that the real challenge was gaining traction and adding more users consistently.
 
 ### Like the project?
