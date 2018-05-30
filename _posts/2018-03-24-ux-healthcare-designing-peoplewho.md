@@ -41,13 +41,16 @@ The needs were common to most illnesses:
 * Know: current and reliable information about treatment, experiences, professional opinions that could make their lives better.
 
 ### The market
+
 The European market offered several options to cover those needs, but most did not attend the Spanish market and didn’t have a all in one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.
 
 **Competitors and alternatives**
+
 The closest competitor was Patients like me, which was focused on the United States. Carenity (France) and other specific apps for wearables, or communities created for just one illness. 
 
 
 **Constraints**
+
 As you can imagine, the health industry is heavily regulated, so all patient information is critical, any advice on treatment must be given by a licensed doctor, and other considerations are important like reporting suicidal behaviour, offering help lines, avoiding spam for drugs and the difference between the drugs offered in each market.
 
 ### Designing the experience
