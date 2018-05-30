@@ -32,7 +32,7 @@ The platform was launched in October 2012 in Spain. And I left on 2015 when the 
 Who are we designing for and their needs.
 People who live with an illness don’t go through it alone, so the platform needed to be a place for patients but also for caretakers, family and friends.
 
-####What are their needs
+#### What are their needs
 The needs were common to most illnesses:
 * Connect: to connect and feel understood by others living in a similar situation.
 * Control: manage their treatment, medication, food, and other habits that may affect their health.
