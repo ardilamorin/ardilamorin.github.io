@@ -17,11 +17,11 @@ While working at Saatchi & Saatchi Health, I was asked to participate in a new k
 
 The project was born inside the agency and the Product Manager had a clear vision of what it needed to convey, who was it for, what tools they needed and what type of content should have based on the experience of working with the major pharmaceutical brands in Spain.
 
-### The Challenge
+#### The Challenge
 To create a digital platform for patients with a chronic illness, their care takers, friends and family, that could be a place to share with others, provide tools to help control the illness, and find update, reliable information.
 
 
-### My Role
+#### My Role
 I was hired to translate a product vision into a tangible product that could meet those expectations for the Spanish market while complying with a restrictive regulated market and still be a viable product. I lead the user experience for the initial MVP for Spain, and the expansion to 4 other countries, adding new illnesses, additional functionalities and development of mobile apps.
 
 I worked alongside the product manager, visual designers, content and development team creating the user flows, wireframes and write documentation for development.
@@ -49,7 +49,7 @@ The closest competitor was Patients like me, which was focused on the United Sta
 #### Constraints
 As you can imagine, the health industry is heavily regulated, so all patient information is critical, any advice on treatment must be given by a licensed doctor, and other considerations are important like reporting suicidal behaviour, offering help lines, avoiding spam for drugs and the difference between the drugs offered in each market.
 
-#### Designing the experience
+### Designing the experience
 Created with six sections ( Home, Community, Data center, Apps, Experiences, Magazine). 
 
 #### Visual design
