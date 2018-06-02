@@ -60,9 +60,7 @@ The big major difference was in the design and its look and feel (I had nothing 
 
 Our approach was different, the fact that you suffer an illness doesn't mean that you are unhappy, or need to be reminded how bad it is living with it by all aspects of the design. So we designed it with a focus on light colours, a heavy presence of illustration, and overall care for aesthetics. Making it a place where you were comfortable and were pleased to be a part of.
 
-* Icons
-* Illustration
-* Colours
+{% include vimeoPlayer.html id=189963907 %}
 
 #### Privacy 
 This was a big factor to take into account, since some illnesses are more delicate than others, people may choose to share with others that they have the illness. So we designed for privacy:
