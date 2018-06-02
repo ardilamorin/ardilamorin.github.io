@@ -24,12 +24,11 @@ To create a digital platform for patients with a chronic illness, their care tak
 #### My Role
 I was hired to translate a product vision into a tangible product that could meet those expectations for the Spanish market while complying with a restrictive regulated market and still be a viable product. I lead the user experience for the initial MVP for Spain, and the expansion to 4 other countries, adding new illnesses, additional functionalities and development of mobile apps.
 
-I worked alongside the product manager, visual designers, content and development team creating the user flows, wireframes and write documentation for development.
+I worked alongside the product manager, visual designers, content and development teams defining the product and creating user flows, wireframes and writing documentation for development.
 
 The platform was launched in October 2012 in Spain. And I left on 2015 when the platform had over 10 illnesses available, and was available in 4 countries in Europe.
 
-### Our users
-Who are we designing for and their needs.
+### Our users, who are we designing for and their needs
 People who live with an illness don’t go through it alone, so the platform needed to be a place for patients but also for caretakers, family and friends.
 
 #### What are their needs
@@ -40,16 +39,16 @@ The needs were common to most illnesses:
 * Know: current and reliable information about treatment, experiences, professional opinions that could make their lives better.
 
 ### The market
-The European market offered several options to cover those needs, but most did not attend the Spanish market and didn’t have a all in one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.
+Theere were several platforms available, but most did not attend the Spanish market and didn’t have a all-in-one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.
 
 #### Competitors and alternatives
-The closest competitor was Patients like me, which was focused on the United States. Carenity (France) and other specific apps for wearables, or communities created for just one illness. 
+The closest to our vision was "Patients like me", which was focused on the United States and made no distinction between illnesses. Carenity (France) and other specific apps for wearables, or communities created for just one illness. 
 
 
 #### Constraints
 As you can imagine, the health industry is heavily regulated, so all patient information is critical, any advice on treatment must be given by a licensed doctor, and other considerations are important like reporting suicidal behaviour, offering help lines, avoiding spam for drugs and the difference between the drugs offered in each market.
  
-![Ux and Wireframes for People Who]({{site.baseurl}}/images/PW_Wireframes.png)
+![UX and Wireframes for People Who]({{site.baseurl}}/images/PW_Wireframes.png)
 
 ### Designing the experience
 Created with six sections: Home, Community, Data center, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.
@@ -57,9 +56,9 @@ Created with six sections: Home, Community, Data center, Apps, Experiences, Maga
 ![People Who sections]({{site.baseurl}}/images/people_who_sections.png)
 
 #### Visual design
-The big major difference that was in the design was its look and feel (I had nothing t do with that, it was all the Product Manager and Visual Designer there). What we find was that every platform looked liked going to a hospital with sad colours, bad (stock) images or pictures that made you feel sorry for the people that had the illness.
+The big major difference was in the design and its look and feel (I had nothing t do with that, it was all the Product Manager and Visual Designer there). What we found was that every platform looked liked going to a hospital with sad colours, bad (stock) images or pictures that made you feel sorry for the people that had the illness.
 
-The approach was different, just because you suffer an illness it means that you are unhappy, or need to be reminded how bad it is living with it by all aspects of the design. So we designed it with a focus on light colours, a heavy presence of illustration, and overall care for aesthetics. Making it a place where you were comfortable and were pleased to be a part of.
+Our approach was different, the fact that you suffer an illness doesn't mean that you are unhappy, or need to be reminded how bad it is living with it by all aspects of the design. So we designed it with a focus on light colours, a heavy presence of illustration, and overall care for aesthetics. Making it a place where you were comfortable and were pleased to be a part of.
 
 * Icons
 * Illustration
