@@ -78,7 +78,7 @@ That was a big insight, so we designed it to be vertical, everything was tied to
 ![Patient, caretaker, interested]({{site.baseurl}}/images/pw_icons_role.svg)
 
 #### Illnesses
-The tricky part is not every illness available on the platform has all five sections, so we created a modular structure that allows to have the number of sections necessary and still work, changing depending on the illness selected and the sections available. Making it flexible and still familiar to users.
+The tricky part is not every illness available on the platform has all five sections, and the name of the illness was part of the header, so we created a modular structure that allows to have the number of sections necessary and still work, changing its width depending on the illness selected and the sections available. Making it flexible and still familiar to users.
 ![People who - Flexible nav]({{site.baseurl}}/images/pw_flexible_nav.gif)
 
 #### Anonymous Relationships
