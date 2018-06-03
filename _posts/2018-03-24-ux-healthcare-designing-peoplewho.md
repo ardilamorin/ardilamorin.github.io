@@ -79,8 +79,7 @@ That was a big insight, so we designed it to be vertical, everything was tied to
 
 #### Illnesses
 The tricky part is not every illness available on the platform has all five sections, so we created a modular structure that allows to have the number of sections necessary and still work, changing depending on the illness selected and the sections available. Making it flexible and still familiar to users.
-
-* Flexible Nav
+![People who - Flexible nav]({{site.baseurl}}/images/pw_flexible_nav.gif)
 
 #### Anonymous Relationships
 This presented a new challenge, to create friendships with people you didn’t know, and coming to a place where everyone maintains their privacy. So the challenge was to create a social network focused on discovery, where you didn’t have any friends when you first go in and start building you own “circles” of friends from interacting with others on the platform.
