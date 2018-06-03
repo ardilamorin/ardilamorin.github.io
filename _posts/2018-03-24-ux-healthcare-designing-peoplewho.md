@@ -129,8 +129,7 @@ We didn’t have a specialized data team to really understand user behavior, we 
 We put a lot of effort on adding new functionalities for existing users, looking back seems that the real challenge was gaining traction and adding more users consistently.
 
 ### Like the project?
-Appreciate on behance 
+Appreciate on [behance](https://www.behance.net/gallery/10469449/Personasquees "Personas que on Behance ")
 
-References:
 The website:
-https://www.peoplewhoglobal.com
+[https://www.peoplewhoglobal.com](https://www.peoplewhoglobal.com "People Who Global")
