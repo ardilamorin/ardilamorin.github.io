@@ -16,6 +16,8 @@ Worked with companies like BBVA, Real Madrid, Santander, El Corte Inglés and ma
 - [Publicis group - Project Manager](http://www.publicis.es)
 - Chrysler Group - Web Services Analyst
 
+[Linkedin](https://www.linkedin.com/in/ardilamorin/ "Linkedin profile")
+
 ### Awards
 
 - Gold Laus Award 2013 for best web app, Personasque.es [(video)](https://youtu.be/ay86Yzjgtqg?list=LLjZ11Zg2k39RqPiDGTpowbA)
