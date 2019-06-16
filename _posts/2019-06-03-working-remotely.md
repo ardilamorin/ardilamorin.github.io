@@ -27,7 +27,7 @@ Working remotely doesn’t mean that you can’t have a commute, and for some pe
 Keep your calendar updated and visible. Block time for your work so you have a better understanding of how you will spend your time and let others know what you are working on.
 It’s also important to reserve slots that are available to meet with others. Google Calendar allows you to define blocks of time that are free for meeting with other people. 
 
-
+![Google Calendar Appointment Slots]({{site.baseurl}}/images/google_calendar_appointment_slots.png)
 
 ### Collaboration requires tools! But also common sense.
 Tools help a lot to communicate with other people when you are in different locations, and can help make more visible the work you do but they won’t solved everything if you don’t apply some common sense. Try to have check points regularly and don’t rely only on this tools to align and have clear expectations about the work you expect from others and communicate what you understand is your responsibility.
@@ -43,9 +43,11 @@ If you, like me, work from home, you will find yourself longing human interactio
  
 
 ## Resources
-Here are some resources if you want to dig deeper on the subject
-* The state of remote work 2019 - Buffer
-* Remote, office not required - Basecamp
-* Happy Tools - Automattic 
+Here are some resources if you want to dig deeper on the subject:
 
-As closing thought, its important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think its not for everyone, make sure it aligns well with your personality and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people and the magic that comes form random encounters and the growth that comes from collective knowledge and collaboration
+* [The state of remote work 2019 - Buffer](https://buffer.com/state-of-remote-work-2019 "The state of remote work - Buffer")
+* [Remote, office not required - Basecamp](https://basecamp.com/books/remote "Book: Remote, Office not required by Basecamp")
+* [Happy Tools - Automattic](https://ma.tt/2019/04/happy-tools/ "Happy Tools by Automattic ") 
+
+
+As a closing thought, its important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think its not for everyone. Make sure it aligns well with your personality, and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people, the magic that comes from random encounters and the growth that comes from collective knowledge and collaboration.
