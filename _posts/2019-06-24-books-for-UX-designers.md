@@ -1,4 +1,5 @@
 ---
+title: Book recommendations for UX Designers
 published: true
 ---
 
