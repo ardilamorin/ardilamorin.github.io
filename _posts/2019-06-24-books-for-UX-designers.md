@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+---
+
+A list of books for UX designers, categorissed based on experience level, wether you are starting out (or transitioning towards UX), a seasoned Designer, or a new Manager.
+
 ---
 ## Book recommendations for UX Designers
 I am creating this list for my self (and for you of course) and because is a question I get often from people wanting to make the transition to UX Design. These are books that I have read and found useful. I have categorised them according to the moment your are in your career and the different roles and challenges you may face along the way. 
@@ -7,9 +11,8 @@ I am creating this list for my self (and for you of course) and because is a que
 Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.
 
 
-## Basics
+## Fundamentals
 For anyone starting out, or simply haven’t read them, these are great books about the foundations of user experience as a discipline.
-
 
 - The elements of user experience
 - Why we love or hate everyday things by Don Norman
@@ -19,7 +22,6 @@ For anyone starting out, or simply haven’t read them, these are great books ab
 
 ## Intermediate / Senior
 A mix between process, practical and theoretical books that help in your everyday practice
-
 
 - Atomic Design by Brad Frost
 - The UX team of one by Leah Buley 
@@ -41,5 +43,3 @@ Some classic, some new(ish) methodologies to create and design digital products
 - Lean UX by Jeff Gothelf with Josh Seiden
 - UX Strategy by Jaime Levy
 
-
-This page is a living page that I will update with time, adding books as I read them and think they are worthy to make this list.
