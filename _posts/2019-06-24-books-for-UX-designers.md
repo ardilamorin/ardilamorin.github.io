@@ -6,7 +6,6 @@ published: true
 A list of books for UX designers, categorissed based on experience level, wether you are starting out (or transitioning towards UX), a seasoned Designer, or a new Manager.
 
 ---
-## Book recommendations for UX Designers
 I am creating this list for my self (and for you of course) and because is a question I get often from people wanting to make the transition to UX Design. These are books that I have read and found useful. I have categorised them according to the moment your are in your career and the different roles and challenges you may face along the way. 
 
 Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.
