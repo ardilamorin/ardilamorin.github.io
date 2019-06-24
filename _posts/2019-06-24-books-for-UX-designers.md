@@ -15,7 +15,7 @@ Feel free to recommend new books to add to this list, and this page will be aliv
 ## Fundamentals
 For anyone starting out, or simply haven’t read them, these are great books about the foundations of user experience as a discipline.
 
-- The elements of user experience
+- The elements of user experience by Jesse James Garret 
 - Why we love or hate everyday things by Don Norman
 - Don’t make me think by Steve Krug
 - Information architecture (AKA the polar bear book) By Louis Rosenfeld, Peter Morville, and Jorge Arango
