@@ -20,7 +20,7 @@ What I mean by this, is to find what works for you. Working remotely can make it
 
 Before, when I worked at the office, I would stand up regularly to go to meetings, and changed the type of task and activities based on what I had scheduled for the day (I also got interrupted a lot…but let’s not get into that). Being remote I also had meetings but they were hang out calls, which meant sitting at my desk longer and strained eyes.
 
-What I learned is that is important to schedule your day in blocks that allowed to switch the type of task, or simply how you them, sitting in another place, going out to a cafe, a library or just simply standing up for the next call made a huge difference. For more info on how to defrag your calendar I recommend [this post from Lara Hogan](https://larahogan.me/blog/manager-energy-drain/)
+What I learned is that is important to schedule your day in blocks that allowed to switch the type of task, or simply how you do them, sitting in another place, going out to a cafe, a library or just simply standing up for the next call made a huge difference. For more info on how to defrag your calendar I recommend [this post from Lara Hogan](https://larahogan.me/blog/manager-energy-drain/)
 
 Also, try to find stuff to do as transition between tasks. Cooking was good for me (im sure I read this tip somewhere but can’t remember where).
 
