@@ -25,7 +25,7 @@ For anyone starting out, or simply haven’t read them, these are great books ab
 ## Intermediate
 A mix between process, practical and theoretical books that help in your everyday practice
 
-- Atomic Design by Brad Frost
+- [Atomic Design by Brad Frost](http://atomicdesign.bradfrost.com)
 - [The UX team of one by Leah Buley](http://leahbuley.com/ "The UX team of one by Leah Buley")
 - [Designing for emotion by Aaron Walter](https://abookapart.com/products/designing-for-emotion "Designing for emotion by Aaron Walter")
 - [Design is a job by Mike Monteiro](https://abookapart.com/products/design-is-a-job "Design is a job by Mike Monteiro")
