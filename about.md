@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-I'm UX Designer living in Amsterdam. Currently working at MediaMonks
+I'm UX Designer living in Amsterdam. Currently working at [MediaMonks](https://www.mediamonks.com "MediaMonks")
 
 I have worked with companies like BBVA, Real Madrid, Santander, El Corte Inglés and many others to improve their digital products.
 
