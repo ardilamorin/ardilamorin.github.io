@@ -1,9 +1,10 @@
 ---
-title: Working remotely
+title: What i learned working remotely
 published: true
 layout: post
+img: post-remote-work.jpg
 ---
-what I learned while working remote for the last 5 months
+What I learned while working remote for the last 5 months.
 
 ---
 For the las 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process
