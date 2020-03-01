@@ -1,0 +1,24 @@
+---
+layout: default
+published: true
+---
+<div class="hero">
+        <article class="center">
+          <h1>Blog</h1>
+            <p>Hi, <b>I am José Ardila </b> and I'm a UX Designer based in Amsterdam.<br>I work with companies to bring their digital products to life
+            </p>
+            <p><b>Here are some things I wrote</b><p>
+        </article>
+      </div>
+      <section class="main-centered">
+
+        <div class="block">
+          {% for post in site.posts %}
+          <article class="card">
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            {{ post.excerpt }}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          </article >
+          {% endfor %}
+      </div>
+      </section>

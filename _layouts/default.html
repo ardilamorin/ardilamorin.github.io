@@ -9,43 +9,45 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style-new.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+    <body>
+    <div class="grid-container">
+      <div class="site-header">
+        <a href="{{ site.baseurl }}/" class="logo">ARDILA<span class="title-color">MORIN</span></a>
+        <nav class="nav">
+          <ul>
+            <li><a href="{{ site.baseurl }}/">About</a></li>
+            <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+        {{ content }}
+        <div class="highlight green">
+      <div class="grid-container">
+        <div class="block">
+          <article>
+            <h2>Lets talk</h2>
+              <p>I help great companies improve their digital products, define new products and services and orchetrate amazing user experiences</p>
+          <a href="mailto:info@ardilamorin.com" class="primary-button">Send an email</a>
+          </article>
+          <figure class="image">
+            <img src="/images/iPhone-contact.png">
+          </figure>
       </div>
     </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
     </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+    <div class="highlight footer">
+      <div class="grid-container">
+        <article>
+          <p>©2016 - 2020 José Ardila. </p>
+        </article>
       </div>
     </div>
-
-    {% include analytics.html %}
   </body>
 </html>

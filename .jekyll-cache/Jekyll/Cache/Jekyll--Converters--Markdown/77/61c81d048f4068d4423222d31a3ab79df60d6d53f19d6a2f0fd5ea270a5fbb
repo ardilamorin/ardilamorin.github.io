@@ -1,0 +1,137 @@
+I".<p>Designing People Who, a Platform for patients with a chronic illness, from concept to multi-country platform.</p>
+
+<hr />
+<p>In 2011, people with an illness basically didn’t have a secure place where to communicate with others, and people around them had a hard time finding reliable information regarding the illness.</p>
+
+<p>I was part of the the small team of four that started this amazing journey to create a new kind of digital platform for patients.</p>
+
+<h2 id="the-project">The project</h2>
+<p>While working at Saatchi &amp; Saatchi Health, I was asked to participate in a new kind of web platform, a platform for patients with a chronic illness. At first it sounded dull and full of constraints, and full of constraints it was, but not dull.</p>
+
+<p>The project was born inside the agency and the Product Manager had a clear vision of what it needed to convey, who was it for, what tools they needed and what type of content should have based on the experience of working with the major pharmaceutical brands in Spain.</p>
+
+<h3 id="the-challenge">The Challenge</h3>
+<p>To create a digital platform for patients with a chronic illness, their care takers, friends and family, that could be a place to share with others, provide tools to help control the illness, and find update, reliable information.</p>
+
+<h3 id="my-role">My Role</h3>
+<p>I was hired to translate a product vision into a tangible product that could meet those expectations for the Spanish market while complying with a restrictive regulated market and still be a viable product. I lead the user experience for the initial MVP for Spain, and the expansion to 4 other countries, adding new illnesses, additional functionalities and development of mobile apps.</p>
+
+<p>I worked alongside the product manager, visual designers, content and development teams defining the product and creating user flows, wireframes and writing documentation for development.</p>
+
+<p>The platform was launched in October 2012 in Spain. And I left on 2015 when the platform had over 10 illnesses available, and was available in 4 countries in Europe.</p>
+
+<h2 id="our-users-who-are-we-designing-for-and-their-needs">Our users, who are we designing for and their needs</h2>
+<p>People who live with an illness don’t go through it alone, so the platform needed to be a place for patients but also for caretakers, family and friends.</p>
+
+<h3 id="what-are-their-needs">What are their needs</h3>
+<p>The needs were common to most illnesses:</p>
+<ul>
+  <li>Connect: to connect and feel understood by others living in a similar situation.</li>
+  <li>Control: manage their treatment, medication, food, and other habits that may affect their health.</li>
+  <li>Express: tell their stories, as a way to unload and share experiences that may help others.</li>
+  <li>Know: current and reliable information about treatment, experiences, professional opinions that could make their lives better.</li>
+</ul>
+
+<h3 id="the-market">The market</h3>
+<p>There were several platforms available, but most did not attend the Spanish market and didn’t have a all-in-one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.</p>
+
+<h3 id="competitors-and-alternatives">Competitors and alternatives</h3>
+<p>The closest to our vision was “Patients like me”, which was focused on the United States and made no distinction between illnesses. Carenity (France) and other specific apps for wearables, or communities created for just one illness.</p>
+
+<h3 id="constraints">Constraints</h3>
+<p>As you can imagine, the health industry is heavily regulated, so all patient information is critical, any advice on treatment must be given by a licensed doctor, and other considerations are important like reporting suicidal behaviour, offering help lines, avoiding spam for drugs and the difference between the drugs offered in each market.</p>
+
+<p><img src="/images/PW_Wireframes.png" alt="UX and Wireframes for People Who" /></p>
+
+<h2 id="designing-the-experience">Designing the experience</h2>
+<p>Created with six sections: Home, Community, Data center, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.</p>
+
+<p><img src="/images/people_who_sections.png" alt="People Who sections" /></p>
+
+<h3 id="visual-design">Visual design</h3>
+<p>The big major difference was in the design and its look and feel (I had nothing t do with that, it was all the Product Manager and Visual Designer there). What we found was that every platform looked liked going to a hospital with sad colours, bad (stock) images or pictures that made you feel sorry for the people that had the illness.</p>
+
+<p>Our approach was different, the fact that you suffer an illness doesn’t mean that you are unhappy, or need to be reminded how bad it is living with it by all aspects of the design. So we designed it with a focus on light colours, a heavy presence of illustration, and overall care for aesthetics. Making it a place where you were comfortable and were pleased to be a part of.</p>
+
+<div class="fluid-width-video-wrapper">
+<iframe src="https://player.vimeo.com/video/189963907" width="100%" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<h3 id="privacy">Privacy</h3>
+<p>This was a big factor to take into account, since some illnesses are more delicate than others, people may choose to share with others that they have the illness. So we designed for privacy:</p>
+<ul>
+  <li>We asked for a username, instead of real names</li>
+  <li>We offered avatars that users could choose, instead of uploading their personal photo</li>
+  <li>You shared gender and city of residence, for statistical porpoises, but you could choose to share it publicly or not.</li>
+</ul>
+
+<p><img src="/images/privacy_avatars.png" alt="Users avatars to protect privacy" /></p>
+
+<h3 id="roles-patient-for-one-illness-caretaker-for-another">Roles: Patient for one illness /caretaker for another</h3>
+<p>We found that some of the users were patients for an illness, but also had a family member with another illness, and the way the wanted to interact with the platform was different  depending on the the role they were playing.</p>
+
+<p>That was a big insight, so we designed it to be vertical, everything was tied to an illness, that meant you could only interact with people that suffered or cared for that same illness. That, for us, was a huge benefit, reducing noise, and improving the quality of relationships.</p>
+
+<p><img src="/images/pw_icons_role.svg" alt="Patient, caretaker, interested" /></p>
+
+<h3 id="illnesses">Illnesses</h3>
+<p>The tricky part is not every illness available on the platform has all five sections, and the name of the illness was part of the header, so we created a modular structure that allows to have the number of sections necessary and still work, changing its width depending on the illness selected and the sections available. Making it flexible and still familiar to users.
+<img src="/images/pw_flexible_nav.gif" alt="People who - Flexible nav" /></p>
+
+<h3 id="anonymous-relationships">Anonymous Relationships</h3>
+<p>This presented a new challenge, to create friendships with people you didn’t know, and coming to a place where everyone maintains their privacy. So the challenge was to create a social network focused on discovery, where you didn’t have any friends when you first go in and start building you own “circles” of friends from interacting with others on the platform.</p>
+
+<ul>
+  <li>Open conversation</li>
+  <li>Your circles</li>
+</ul>
+
+<h3 id="safety">Safety</h3>
+<p>This was a mejor constraint, but we managed to put in place all the resources needed with a mix of technology and great people.</p>
+
+<h3 id="avoiding-spam-and-medical-databases">Avoiding spam and Medical databases</h3>
+<p>We wanted to avoid companies going into the platform to promote their medications so we developed and integration with medical databases that detected the drug name and replaced it with its active component.</p>
+
+<h3 id="suicide-prevention">Suicide prevention</h3>
+<p>We started the platform with Bipolar disorder as the first illness, that meant an specific set of control tools, but also meant a special attention to our users. We were required by law to report if any user had expressed they wanted to end their life. So we developed a supervision tool that analysed the comments and watched for specific words that could mean they could be in danger.
+When this happened the platform informed the user to call the emergency services, and reported to the authorities all comments with those criteria in less then 12 hours.</p>
+
+<h3 id="community-management">Community management</h3>
+<p>We also had a team o community managers that could help with the supervision of the platform, detecting spam, unauthorised users (people pretending to be doctors, recommending treatments, etc) or helping users with doubts that they could have while using the platform.</p>
+
+<h3 id="licensed-doctor">Licensed doctor</h3>
+<p>We also had a licensed doctor for each illness, one that could actively participate in the conversation, answer questions and make sure that people were not following treatments that could put them in danger, always referring them to their doctor if they wanted to make changes in their treatment or were thinking of stoping it.</p>
+
+<h4 id="tools">Tools</h4>
+<p>The doctors we had were vital for the development of tools that could help patients control their illnesses. We interview them to have a better picture of what was important, how was the best way to capture that information and what kind of information we could provide users to stick to their treatment.</p>
+
+<ul>
+  <li>Mood tracking</li>
+</ul>
+
+<h3 id="going-global">Going global</h3>
+<p>Due to each country’s regulations, we need a global platform with local websites, adjusting language, medical databases, community supervision and the specific cultural needs.</p>
+
+<p>The first to arrive was Germany, France and Italy, each with its own set of challenges but proving the concept worked with some adjustments.</p>
+
+<h3 id="awards">Awards</h3>
+<p>By 2013, The platform won a Gold Laus Award in the category of best web application, for its overall user experience, navigation structure, visual simplicity, iconography and easy access to content.</p>
+
+<h3 id="learning-from-our-mistakes">Learning from our mistakes:</h3>
+<p>There are some things that we could have done better:</p>
+
+<h4 id="agile-mindset">Agile mindset:</h4>
+<p>We followed a waterfall process and didn’t launch until all sections of the platform were developed.</p>
+
+<h4 id="data-informed-decisions">Data informed decisions</h4>
+<p>We didn’t have a specialized data team to really understand user behavior, we were a small startup, but we definitely could have gained a lot by better insights from analytics or user testing.</p>
+
+<h4 id="focus-on-acquisition">Focus on acquisition</h4>
+<p>We put a lot of effort on adding new functionalities for existing users, looking back seems that the real challenge was gaining traction and adding more users consistently.</p>
+
+<h3 id="like-the-project">Like the project?</h3>
+<p>Appreciate on <a href="https://www.behance.net/gallery/10469449/Personasquees" title="Personas que on Behance ">behance</a></p>
+
+<p>The website:
+<a href="https://www.peoplewhoglobal.com" title="People Who Global">https://www.peoplewhoglobal.com</a></p>
+:ET
