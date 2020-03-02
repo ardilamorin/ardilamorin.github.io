@@ -1,5 +1,5 @@
 ---
-title: What i learned working remotely
+title: What I learned working remotely
 published: true
 layout: post
 img: post-remote-work.jpg
