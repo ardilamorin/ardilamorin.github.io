@@ -227,6 +227,9 @@ max-width: 26em;
     font-size: 22px;
     font-style: italic;
   }
+.post .block{
+  margin-top: 0rem;
+}
 
   .post .date {
     margin-top: 2.2rem;
