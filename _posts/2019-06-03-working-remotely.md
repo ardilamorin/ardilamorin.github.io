@@ -25,9 +25,9 @@ Before, when I worked at the office, I would stand up regularly to go to meeting
 
 What I learned is that is important to schedule your day in blocks that allowed to switch the type of task, or simply how you do them, sitting in another place, going out to a cafe, a library or just simply standing up for the next call made a huge difference. For more info on how to defrag your calendar I recommend [this post from Lara Hogan](https://larahogan.me/blog/manager-energy-drain/)
 
-Also, try to find stuff to do as transition between tasks. Cooking was good for me (im sure I read this tip somewhere but can’t remember where).
+Also, try to find stuff to do as transition between tasks. Cooking was good for me (I'm sure I read this tip somewhere but can’t remember where).
 
-Working remotely doesn’t mean that you can’t have a commute, and for some people is important to have it to get into “work mode”. Pablo Stanley talks about this in a podcast called "breadtime" (i wanted to add the link but the url is now broken, google it...maybe youll find it)
+Working remotely doesn’t mean that you can’t have a commute, and for some people is important to have it to get into “work mode”. Pablo Stanley talks about this in a podcast called "breadtime" (i wanted to add the link but the url is now broken, google it...maybe you will find it)
 
 
 ## Visibility and collaboration
@@ -40,7 +40,7 @@ It’s also important to reserve slots that are available to meet with others. G
 Tools help a lot to communicate with other people when you are in different locations, and can help make more visible the work you do but they won’t solved everything if you don’t apply some common sense. Try to have check points regularly and don’t rely only on this tools to align and have clear expectations about the work you expect from others and communicate what you understand is your responsibility.
 
 Don’t overthink it, pick up the phone and talk it out
-When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decision were made. If you have some doubts try to clarify them as soon as posible, and if it’s on a call way better. Somehow the email and text being asynchronous opened to much room for interpretation and more second guessing.
+When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decision were made. If you have some doubts try to clarify them as soon as possible, and if it’s on a call way better. Somehow the email and text being asynchronous opened too much room for interpretation and more second guessing.
 
 
 ## Create a network
@@ -59,4 +59,4 @@ Here are some resources if you want to dig deeper on the subject:
 * [Happy Tools - Automattic](https://ma.tt/2019/04/happy-tools/ "Happy Tools by Automattic")
 
 
-As a closing thought, its important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think its not for everyone. Make sure it aligns well with your personality, and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people, the magic that comes from random encounters and the growth that comes from collective knowledge and collaboration.
+As a closing thought, it's important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think it's not for everyone. Make sure it aligns well with your personality, and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people, the magic that comes from random encounters and the growth that comes from collective knowledge and collaboration.
