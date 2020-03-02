@@ -21,7 +21,7 @@ To create a digital platform for patients with a chronic illness, their care tak
 
 
 ### My Role
-I was hired to translate a product vision into a tangible product that could meet those expectations for the Spanish market while complying with a restrictive regulated market and still be a viable product. I lead the user experience for the initial MVP for Spain, and the expansion to 4 other countries, adding new illnesses, additional functionalities and development of mobile apps.
+I was hired to translate a product vision into a tangible product that could meet those expectations for the Spanish market while complying with a restrictive regulated market and still be a viable product. I led the user experience for the initial MVP for Spain, and the expansion to 4 other countries, adding new illnesses, additional functionalities and development of mobile apps.
 
 I worked alongside the product manager, visual designers, content and development teams defining the product and creating user flows, wireframes and writing documentation for development.
 
@@ -115,7 +115,7 @@ There are some things that we could have done better:
 We followed a waterfall process and didn’t launch until all sections of the platform were developed.
 
 ### Data informed decisions
-We didn’t have a specialized data team to really understand user behavior, we were a small startup, but we definitely could have gained a lot by better insights from analytics or user testing.
+We didn’t have a specialised data team to really understand user behaviour, we were a small startup, but we definitely could have gained a lot by better insights from analytics or user testing.
 
 ### Focus on acquisition
 We put a lot of effort on adding new functionalities for existing users, looking back seems that the real challenge was gaining traction and adding more users consistently.
