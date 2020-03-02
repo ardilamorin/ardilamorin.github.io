@@ -26,7 +26,7 @@ For anyone starting out, or simply haven’t read them, these are great books ab
 
 
 ## Intermediate
-A mix between process, practical and theoretical books that help in your everyday practice
+A mix between process, practical and theoretical books that help in your everyday practice.
 
 - [Atomic Design by Brad Frost](http://atomicdesign.bradfrost.com)
 - [The UX team of one by Leah Buley](http://leahbuley.com/ "The UX team of one by Leah Buley")
@@ -44,7 +44,7 @@ If you’ve chosen a management path, you probably found out that managing desig
 
 
 ## Methodologies
-Some classic, some new(ish) methodologies to create and design digital products
+Some classic, some new(ish) methodologies to create and design digital products.
 
 - [Sprint by Jake Knapp](https://www.thesprintbook.com/ "Sprint by Jake Knapp")
 - [Lean UX by Jeff Gothelf with Josh Seiden](https://www.jeffgothelf.com/books/#LIBROS-PAGE "Lean UX by Jeff Gothelf with Josh Seiden")
