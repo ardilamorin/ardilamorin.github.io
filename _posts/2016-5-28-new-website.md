@@ -17,7 +17,7 @@ The first thing to stand out in this website is that it works using github pages
 * Decoupled theming system that allows me to change the website design without affecting the content.
 * Simple hosting, since I don't need much space, database or dynamic content I didn't want to deal with web hosting services and the monthly cost.
 
-## What s next
+## What's next
 
 I hope to publish blog posts about UX design, side projects and any resources I found could be useful for the rest of the community.
 
