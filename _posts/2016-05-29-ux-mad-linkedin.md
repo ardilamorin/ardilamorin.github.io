@@ -19,7 +19,7 @@ Madrid has its fair share of local events about Design, User Experience, Custome
 - [UX Academy](http://www.meetup.com/es-ES/UX-Academy/?chapter_analytics_code=UA-55896633-1)
 - [UX Fighters](http://experiencefighters.com)
 
-I attended some of these events planning to meet people, collaborate and maybe find job opportunities in the future. Apparently most people already know each other, and after a while I noticed that there wasn't much rotation in the speakers lineup. So i stoped attending.
+I attended some of these events planning to meet people, collaborate and maybe find job opportunities in the future. Apparently most people already know each other, and after a while I noticed that there wasn't much rotation in the speakers lineup. So I stoped attending.
 
 ## Other ways to network
 That doesn't mean I gave up. I looked for other ways to stay in the loop and I decided to take the matter in my own hands. I did not start a "UX and Ribs" meetup, but I did create a group on LinkedIn for UX professionals in Madrid. It's gaining some traction and there are some job posts from time to time but people are still a bit shy when it comes to posting.
