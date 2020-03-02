@@ -38,7 +38,7 @@ The needs were common to most illnesses:
 * Know: current and reliable information about treatment, experiences, professional opinions that could make their lives better.
 
 ### The market
-There were several platforms available, but most did not attend the Spanish market and didn’t have a all-in-one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.
+There were several platforms available, but most did not attend the Spanish market and didn't have an all-in-one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.
 
 ### Competitors and alternatives
 The closest to our vision was "Patients like me", which was focused on the United States and made no distinction between illnesses. Carenity (France) and other specific apps for wearables, or communities created for just one illness.
@@ -50,7 +50,7 @@ As you can imagine, the health industry is heavily regulated, so all patient inf
 ![UX and Wireframes for People Who]({{site.baseurl}}/images/PW_Wireframes.png)
 
 ## Designing the experience
-Created with six sections: Home, Community, Data center, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.
+Created with six sections: Home, Community, Data centre, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.
 
 ![People Who sections]({{site.baseurl}}/images/people_who_sections.png)
 
@@ -63,9 +63,9 @@ Our approach was different, the fact that you suffer an illness doesn't mean tha
 
 ### Privacy
 This was a big factor to take into account, since some illnesses are more delicate than others, people may choose to share with others that they have the illness. So we designed for privacy:
-* We asked for a username, instead of real names
-* We offered avatars that users could choose, instead of uploading their personal photo
-* You shared gender and city of residence, for statistical porpoises, but you could choose to share it publicly or not.
+* We asked for a username, instead of real names.
+* We offered avatars that users could choose, instead of uploading their personal photo.
+* You shared gender and city of residence, for statistical purposes, but you could choose to share it publicly or not.
 
 ![Users avatars to protect privacy]({{site.baseurl}}/images/privacy_avatars.png)
 
@@ -83,18 +83,15 @@ The tricky part is not every illness available on the platform has all five sect
 ### Anonymous Relationships
 This presented a new challenge, to create friendships with people you didn’t know, and coming to a place where everyone maintains their privacy. So the challenge was to create a social network focused on discovery, where you didn’t have any friends when you first go in and start building you own “circles” of friends from interacting with others on the platform.
 
-* Open conversation
-* Your circles
-
 ### Safety
-This was a mejor constraint, but we managed to put in place all the resources needed with a mix of technology and great people.
+This was a major constraint, but we managed to put in place all the resources needed with a mix of technology and great people.
 
 ### Avoiding spam and Medical databases
 We wanted to avoid companies going into the platform to promote their medications so we developed and integration with medical databases that detected the drug name and replaced it with its active component.
 
 ### Suicide prevention
-We started the platform with Bipolar disorder as the first illness, that meant an specific set of control tools, but also meant a special attention to our users. We were required by law to report if any user had expressed they wanted to end their life. So we developed a supervision tool that analysed the comments and watched for specific words that could mean they could be in danger.
-When this happened the platform informed the user to call the emergency services, and reported to the authorities all comments with those criteria in less then 12 hours.
+We started the platform with bipolar disorder as the first illness, that meant a specific set of control tools, but also meant a special attention to our users. We were required by law to report if any user had expressed they wanted to end their life. So we developed a supervision tool that analysed the comments and watched for specific words that could mean they could be in danger.
+When this happened, the platform informed the user to call the emergency services, and reported to the authorities all comments with those criteria in less than 12 hours.
 
 ### Community management
 We also had a team o community managers that could help with the supervision of the platform, detecting spam, unauthorised users (people pretending to be doctors, recommending treatments, etc) or helping users with doubts that they could have while using the platform.
