@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/  
-published: true
+published: false
 ---
 
 I'm UX Designer living in Amsterdam. Currently working at [MediaMonks](https://www.mediamonks.com "MediaMonks")
