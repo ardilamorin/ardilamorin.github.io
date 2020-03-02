@@ -1,10 +1,10 @@
 ---
 layout: post
-title: UXMad, group about UX on Linkedin
+title: UXMad, group about UX on LinkedIn
 published: true
 img: post-uxmad-linkedin.jpg
 ---
-A Linkedin group for UX professional in Madrid as a way to connect with the UX community and share knowledge.
+A LinkedIn group for UX professional in Madrid as a way to connect with the UX community and share knowledge.
 
 ---
 
@@ -19,13 +19,13 @@ Madrid has its fair share of local events about Design, User Experience, Custome
 - [UX Academy](http://www.meetup.com/es-ES/UX-Academy/?chapter_analytics_code=UA-55896633-1)
 - [UX Fighters](http://experiencefighters.com)
 
-I attended some of these events planning to meet people, collaborate and maybe find job oportunitties in the future. Apparently most people already now each other, and after a while I noticed that there wasnt much rotation in the speakers lineup. So i stoped attending
+I attended some of these events planning to meet people, collaborate and maybe find job opportunities in the future. Apparently most people already know each other, and after a while I noticed that there wasn't much rotation in the speakers lineup. So i stoped attending.
 
 ## Other ways to network
-That doesn't mean I gave up. I looked for other ways to stay in the loop and I decided to take the matter in my own hands. I did not start a "UX and Ribs" meetup, but I did create a group on Linkedin for UX professionals in Madrid. It's gaining some traction and there are some job posts from time to time but people are still a bit shy when it comes to posting.
+That doesn't mean I gave up. I looked for other ways to stay in the loop and I decided to take the matter in my own hands. I did not start a "UX and Ribs" meetup, but I did create a group on LinkedIn for UX professionals in Madrid. It's gaining some traction and there are some job posts from time to time but people are still a bit shy when it comes to posting.
 
 ## Join us
-The more the merrier, so please join, introduce yourself, ask questions and make some friends (thats why i created it int he first place)
+The more the merrier, so please join, introduce yourself, ask questions and make some friends, thats why I created it in the first place.
 If you want to join here is the link:
 
-[UX MAD on Linkedin](https://www.linkedin.com/groups/4816589)
+[UX MAD on LinkedIn](https://www.linkedin.com/groups/4816589)
