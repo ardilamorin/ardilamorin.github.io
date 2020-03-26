@@ -186,6 +186,9 @@ color: #9B9B9B;
 display: grid;
 grid-column: span 2;
 }
+.block .entry ul{
+  list-style-type: square;
+}
 
 .block article{
 padding: 1em 1em 1em 1em;
