@@ -3,9 +3,10 @@ layout: post
 title: New website built using Jekyll
 published: true
 img: post-new-website.jpeg
+excerpt: It's not done or perfect, but it's live and will continue to evolve and change over time.
 ---
 
-Built using Jekyllnow, it's not done or perfect, but it's live. It's a living thing that will continue to evolve and change in time.
+![New Website with JekyllNow]({{site.baseurl}}/images/new-website-jekyll-now.png)*Jekyll Now*
 
 ## Technology
 

@@ -4,21 +4,23 @@ published: true
 ---
 <div class="hero">
         <article class="center">
-          <h1>Blog 📖</h1>
-            <p>Hi, <b>I am José Ardila </b> and I'm a UX Designer based in Amsterdam.<br>I work with companies to bring their digital products to life
+          <h1>Blog</h1>
+            <p>Hi, <b>I am José Ardila </b> and I'm a UX Designer based in Amsterdam.I work with companies to bring their digital products to life
             </p>
-            <p><b>Here are some things I wrote</b><p>
+            <h3>Here are some things I wrote</h3>
         </article>
       </div>
       <section class="main-centered">
-
-        <div class="block">
-          {% for post in site.posts %}
-          <article class="card">
-            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-            {{ post.excerpt }}
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-          </article >
-          {% endfor %}
+        <div class="content-group">
+          <div class="block">
+            {% for post in site.posts %}
+            <div class="card">
+              <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt }}</p>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
+            </div>
+            {% endfor %}
+        </div>
       </div>
       </section>

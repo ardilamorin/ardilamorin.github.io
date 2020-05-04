@@ -3,12 +3,11 @@ title: What I learned working remotely
 published: true
 layout: post
 img: post-remote-work.jpg
----
-What I learned while working remote for the last 5 months.
-
+excerpt: Tips and advice on office setup, work routine and collaboration while away from the office.
 ---
 For the las 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process.
 
+![Remote Work - Humaaans]({{site.baseurl}}/images/remote-work.png)*Illustration using Humaaaans by Pablo Stanley*
 
 ## Your office
 Find the best location and setup to do your work. Based on your personality you could find it difficult to work from home, tempted to stay in bed, or doing chores, a co-working space could be the best scenario for you. In my case, I enjoyed working from home, because it allowed me to configure my setup, cook my own meals and have more time for actual work and less on commute. The down side is I didn’t get to see people, which I tried to solve outside office hours (see “create a network” further down this list).
@@ -29,12 +28,11 @@ Also, try to find stuff to do as transition between tasks. Cooking was good for 
 
 Working remotely doesn’t mean that you can’t have a commute, and for some people is important to have it to get into “work mode”. Pablo Stanley talks about this in a podcast called "breadtime" (i wanted to add the link but the url is now broken, google it...maybe you will find it).
 
+![Google Calendar Appointment Slots]({{site.baseurl}}/images/google_calendar_appointment_slots.png)
 
 ## Visibility and collaboration
 Keep your calendar updated and visible. Block time for your work so you have a better understanding of how you will spend your time and let others know what you are working on.
 It’s also important to reserve slots that are available to meet with others. Google Calendar allows you to define blocks of time that are free for meeting with other people.
-
-![Google Calendar Appointment Slots]({{site.baseurl}}/images/google_calendar_appointment_slots.png)
 
 ### Collaboration requires tools! But also common sense.
 Tools help a lot to communicate with other people when you are in different locations, and can help make more visible the work you do but they won’t solved everything if you don’t apply some common sense. Try to have check points regularly and don’t rely only on this tools to align and have clear expectations about the work you expect from others and communicate what you understand is your responsibility.
@@ -42,6 +40,7 @@ Tools help a lot to communicate with other people when you are in different loca
 Don’t overthink it, pick up the phone and talk it out
 When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decision were made. If you have some doubts try to clarify them as soon as possible, and if it’s on a call way better. Somehow the email and text being asynchronous opened too much room for interpretation and more second guessing.
 
+![Create a network]({{site.baseurl}}/images/remote-work-invision-meetup.jpeg)*Invision Design Leadership meetup*
 
 ## Create a network
 If you, like me, work from home, you will find yourself longing human interaction (maybe not, and that’s ok too). In order to compensate I joined several meet-up groups related to UX that would allow me to meet different people and also learn new things. Here are some ways to foster social interaction:
