@@ -2,33 +2,33 @@
 layout: default
 published: true
 ---
-<div class="hero">
-        <article class="center">
-          <h1>Hello 👋🏻</h1>
-            <p><b>Im José Ardila </b> and I'm a UX Designer based in Amsterdam.</p>
-            <p>I manage incredible designers to help them  define, design and drive the developement of digital products. I also help people in companies figure out the best digital solutions to reach their goals.</p>
-        </article>
-      </div>
-      <section class="main-centered">
-
-        <div class="block">
-          <article>
-            <h2>latest posts</h2>
-              <a href="{{ site.baseurl }}/blog">read the blog</a>
-              </article>
-              {% for post in site.posts limit:3 %}
-              <article class="card">
+  <section class="hero">
+    <div class="center">
+      <h1>Hello</h1>
+        <p>My name is José Ardila and I am a UX Designer based in Amsterdam working with brands to bring their digital products to life</p>
+        <h3>This is a summary of what I do</h3>
+    </div>
+  </section>
+  <div class="main-centered">
+        <div class="content-group">
+          <h2>Latest posts</h2>
+          <div class="block">
+            {% for post in site.posts limit:3 %}
+              <div class="card">
+                <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                {{ post.excerpt }}
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-              </article >
-              {% endfor %}
-      </div>
-      <div class="highlight">
-            <div class="grid-container">
+                <p>{{ post.excerpt }}</p>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
+              </div >
+            {% endfor %}
+            <a href="{{ site.baseurl }}/blog">Read the blog</a>
+          </div>
+
+        </div>
+      <div class=highlight>
+        <div class="grid-container">
+            <div class="content-group">
               <div class="block">
-
-
                   <figure class="panel">
                     <ul>
                       <li><img src="/images/svg/logo/Twitter_Logo_Blue.svg"></li>
@@ -40,11 +40,12 @@ published: true
                   <h2>The Work</h2>
                   <p>I have led projects for global companies, working across timezones, with multicultural teams, collaborating with teams from diverse disciplines to find creative solutions to complex problems.</p>
                 </article>
-
               </div>
             </div>
           </div>
+        </div>
 
+          <div class="content-group">
             <div class="block">
               <article>
                 <h2>Awards</h2>
@@ -54,20 +55,19 @@ published: true
               <figure class="image">
                 <img src="images/about_laus_award.png">
               </figure>
-
+              </div>
             </div>
-
-            <div class="block">
-              <figure class="image">
-                <img src="images/about_classes.png">
-              </figure>
-              <article>
-                <h2>Classes, Talks, training...</h2>
-                <p>I teach at the UX and digital products design Master in Madrid.
-
-                <p>If you want me to collaborate with you in teaching, mentoring or speaking events you can send me an email.</p>
-                <a href="mailto:info@ardilamorin.com">Send me an email</a>
-              </article>
+            <div class="content-group">
+              <div class="block">
+                <figure class="image">
+                  <img src="images/about_classes.png">
+                </figure>
+                  <article>
+                    <h2>Classes, Talks, training...</h2>
+                    <p>I teach at the UX and digital products design Master in Madrid.</p>
+                    <p>If you want me to collaborate with you in teaching, mentoring or speaking events you can send me an email.</p>
+                    <a href="mailto:info@ardilamorin.com">Send email</a>
+                  </article>
+              </div>
           </div>
-
-    </section>
+  </div>

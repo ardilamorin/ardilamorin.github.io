@@ -1,18 +1,25 @@
 ---
 layout: default
 ---
-<div class="hero-post">
+<!-- <div class="hero-post">
 <img src="/images/{{ page.img }}">
-</div>
+</div> -->
+<section class="hero">
+  <div class="center">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.excerpt }}</p>
+    <p class="text-small">
+      {{ page.date | date: "%B %e, %Y" }}
+    </p>
+  </div>
+</section>
 
 <article class="post">
   <div class="block">
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  <div class="entry">
-  <h1>{{ page.title }}</h1>
-      {{ content }}
+    <div class="content-group">
+    <div class="entry">
+        {{ content }}
     </div>
   </div>
+</div>
 </article>

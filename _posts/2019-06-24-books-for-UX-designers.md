@@ -1,19 +1,16 @@
 ---
-title: Books for UX Designers
+title: Best books for every UX Designer
 published: true
 layout: post
 img: post-books-ux-design.jpg
-
----
-A list categorised based on experience level, wether you are starting out, a seasoned Designer, or a new Manager.
-
+excerpt: A list categorised based on experience level.
 ---
 
 I am creating this list for my self (and for you of course) and because is a question I get often from people wanting to make the transition to UX Design. These are books that I have read and found useful. I have categorised them according to the moment your are in your career and the different roles and challenges you may face along the way.
 
 Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.
 
-
+![Don_Norman]({{site.baseurl}}/images/Emotional-Design-Book-Don-Norman.jpg)*Emotional Design: Why we love (or hate) everyday things by Don Norman*
 
 ## Fundamentals
 For anyone starting out, or simply haven’t read them, these are great books about the foundations of user experience as a discipline.
@@ -23,7 +20,7 @@ For anyone starting out, or simply haven’t read them, these are great books ab
 - [Don’t make me think by Steve Krug](http://sensible.com/dmmt.html "Don’t make me think by Steve Krug")
 - [Information architecture (AKA the polar bear book) By Louis Rosenfeld, Peter Morville, and Jorge Arango](https://jarango.com/books/ "Information architecture (AKA the polar bear book) By Louis Rosenfeld, Peter Morville, and Jorge Arango")
 
-
+![Leah_Buley]({{site.baseurl}}/images/uxtoo_300.png)*User experience team of one by Leah Buley*
 
 ## Intermediate
 A mix between process, practical and theoretical books that help in your everyday practice.
@@ -33,7 +30,7 @@ A mix between process, practical and theoretical books that help in your everyda
 - [Designing for emotion by Aaron Walter](https://abookapart.com/products/designing-for-emotion "Designing for emotion by Aaron Walter")
 - [Design is a job by Mike Monteiro](https://abookapart.com/products/design-is-a-job "Design is a job by Mike Monteiro")
 
-
+![Leah_Buley]({{site.baseurl}}/images/radical-candor-book.png)*Radical Candor by Kim Scott*
 
 ## Management
 If you’ve chosen a management path, you probably found out that managing designers is not easy. These books will help you understand better what your role demands and be a better boss for your team.
