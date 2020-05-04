@@ -57,7 +57,6 @@ h2{
   font-size: clamp(1.75rem, 4vw, 2.25rem);
   font-weight: 900;
   margin-block-end: 0.8em;
-
 }
 
 h3{
@@ -80,6 +79,7 @@ h4{
   font-family: 'Roboto', Fallback, sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  margin-block-end: 0.8em;
 }
 
 /* ul {
@@ -307,8 +307,7 @@ max-width: 26em;
     margin-block-end: 0em;
     margin-inline-start: 0em;
     margin-inline-end: 0em;
-    padding: 1.8em;
-
+    padding: clamp(1em, 4vw, 1.8em);
 }
 
 .block figure img {
