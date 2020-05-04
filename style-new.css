@@ -190,7 +190,7 @@ color: #9B9B9B;
 
 .nav ul {
   display: flex;
-  flex-basis: content;
+  flex-basis: fit-content;
   margin: 0;
   list-style: none;
 
@@ -248,7 +248,7 @@ color: #9B9B9B;
 
 .block{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 0em;
   }
 .block h2{
@@ -294,7 +294,7 @@ margin-right: auto;
 }
 
 .block article{
-padding: 1em 1em 1em 1em;
+padding: 1em;
 }
 
 .block article p{
