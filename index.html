@@ -11,7 +11,11 @@ published: true
   </div>
   <div class="main-centered">
         <div class="content-group">
-          <h2>Latest posts</h2>
+          <div class="block">
+            <article>
+            <h2>Latest posts</h2>
+            </article>
+          </div>
           <div class="block">
             {% for post in site.posts limit:3 %}
               <div class="card">
@@ -21,10 +25,14 @@ published: true
                 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
               </div >
             {% endfor %}
-            <a href="{{ site.baseurl }}/blog">Read the blog</a>
+            <div class="block">
+              <article>
+                <a href="{{ site.baseurl }}/blog">Read the blog</a>
+              <article>
+            </div>
           </div>
-
         </div>
+
       <div class=highlight>
         <div class="grid-container">
             <div class="content-group">
