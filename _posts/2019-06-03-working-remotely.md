@@ -28,7 +28,7 @@ Also, try to find stuff to do as transition between tasks. Cooking was good for 
 
 Working remotely doesn’t mean that you can’t have a commute, and for some people is important to have it to get into “work mode”. Pablo Stanley talks about this in a podcast called "breadtime" (i wanted to add the link but the url is now broken, google it...maybe you will find it).
 
-![Google Calendar Appointment Slots]({{site.baseurl}}/images/google_calendar_appointment_slots.png)
+![Google Calendar Appointment Slots]({{site.baseurl}}/images/google_calendar_appointment_slots.png)*Google calendar appointment slots*
 
 ## Visibility and collaboration
 Keep your calendar updated and visible. Block time for your work so you have a better understanding of how you will spend your time and let others know what you are working on.
