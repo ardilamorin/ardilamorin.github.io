@@ -6,9 +6,7 @@ img: post-books-ux-design.jpg
 excerpt: A list categorised based on experience level.
 ---
 
-I am creating this list for my self (and for you of course) and because is a question I get often from people wanting to make the transition to UX Design. These are books that I have read and found useful. I have categorised them according to the moment your are in your career and the different roles and challenges you may face along the way.
-
-Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.
+I am creating this list for myself (and for you of course) and because is a question I get often from people wanting to make the transition to UX Design. These are books that I have read and found useful. I have categorised them according to the moment you are in your career and the different roles and challenges you may face along the way.
 
 ![Don_Norman]({{site.baseurl}}/images/Emotional-Design-Book-Don-Norman.jpg)*Emotional Design: Why we love (or hate) everyday things by Don Norman*
 
@@ -46,3 +44,5 @@ Some classic, some new(ish) methodologies to create and design digital products.
 - [Sprint by Jake Knapp](https://www.thesprintbook.com/ "Sprint by Jake Knapp")
 - [Lean UX by Jeff Gothelf with Josh Seiden](https://www.jeffgothelf.com/books/#LIBROS-PAGE "Lean UX by Jeff Gothelf with Josh Seiden")
 - [UX Strategy by Jaime Levy](https://jaimelevy.com/ux-strategy-book/ "UX Strategy by Jaime Levy")
+
+Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.
