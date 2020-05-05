@@ -193,9 +193,10 @@ color: #9B9B9B;
   flex-basis: fit-content;
   margin: 0;
   list-style: none;
+  padding-inline-start: 0px;
 
   /* text-align: center; */
-  /* padding-inline-start: 40px; */
+
 }
 
 .nav li {
@@ -205,7 +206,9 @@ color: #9B9B9B;
   font-weight: bold;
   color: #9B9B9B;
   height: 3em;
-  margin: 0.2em 2em 0.2em 0;
+  margin-left: 0;
+  margin-right: clamp(1.2em, 1vw, 2.4em);
+  /* margin: 0.2em 2em 0.2em 0; */
 }
 
 .nav li a {
