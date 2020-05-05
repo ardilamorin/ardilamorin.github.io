@@ -40,7 +40,7 @@ Tools help a lot to communicate with other people when you are in different loca
 Don’t overthink it, pick up the phone and talk it out
 When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decision were made. If you have some doubts try to clarify them as soon as possible, and if it’s on a call way better. Somehow the email and text being asynchronous opened too much room for interpretation and more second guessing.
 
-![Create a network]({{site.baseurl}}/images/remote-work-invision-meetup.jpeg)*Invision Design Leadership meetup*
+![Create a network]({{site.baseurl}}/images/remote-work-invision-meetup.jpeg)*Invision Design Leadership meet up*
 
 ## Create a network
 If you, like me, work from home, you will find yourself longing human interaction (maybe not, and that’s ok too). In order to compensate I joined several meet-up groups related to UX that would allow me to meet different people and also learn new things. Here are some ways to foster social interaction:
