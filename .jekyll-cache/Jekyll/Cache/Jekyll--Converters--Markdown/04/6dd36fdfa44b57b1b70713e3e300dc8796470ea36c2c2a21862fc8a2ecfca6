@@ -1,0 +1,38 @@
+I"<p>I finally redesigned this website. The challenge was to do a fully responsive site without media queries using <a href="&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;">Flexbox</a> and <a href="&quot;https://css-tricks.com/snippets/css/complete-guide-grid/&quot;">CSS Grid</a>.</p>
+
+<p>This the 3rd version of this site. The first version of this website was done hand-coded by me, following the instructions from <a href="&quot;https://ethanmarcotte.com&quot;">Ethan Marcatte</a> and his book <a href="&quot;https://abookapart.com/products/responsive-web-design&quot;">Responsive Web Design</a> . The second version was made using <a href="&quot;https://www.jekyllnow.com&quot;"> Jekyll-now</a> to include a blog section to the site using the standard theme, and what you are seeing now is version 3.</p>
+
+<p>A while a go, I read an article from <a href="&quot;https://www.juangarcia.design&quot;">Juan Martin García</a> titled  <a href="&quot;https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/&quot;">“Look Ma, no media Queries”</a> and I was determined to try it on my website. I thought that it could be a great way to learn more about CSS grid. Also, I am a firm believer that we should design not for devices but based on the content and where it breaks, so the idea of being able to make the whole website responsive without having to worry about different device-based breakpoints sounded fantastic.</p>
+
+<p>Before I jumped into creation mode, I first wanted to think about the redesign in terms of layout and visual style. The previous version was super basic, a 1 column layout that just grew vertically. This looked like a good opportunity to try something different and test the limits of what was possible with this “no media queries” approach.</p>
+
+<p><img src="/images/post-responsive-explorations.jpg" alt="Visual explorations for the new  website" /><em>Explorations as a form of procrastination</em></p>
+
+<p>This exploration mode went on for some time, and it became a form of procrastination. After a while I decided to move on, since anything different from what I had online was definitively an improvement.</p>
+
+<p>Fast forward to February 2020, I went to the <a href="&quot;https://www.juangarcia.design&quot;">AWWWards conference</a> in Amsterdam and listened to <a href="&quot;https://robin-noguier.com&quot;">Robin Noguier</a> give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.</p>
+
+<p>The first part I had to do was translate the design into the html structure, and make it responsive without media queries as shown on the article. That came with some challenges based on my design. It meant making changes to the design to accomplish the goal (remember… no media queries) and without falling again into procrastination mode.</p>
+
+<p><img src="/images/video-responsive-no-media.mp4" alt="Visual explorations for the new  website" /><em>Explorations as a form of procrastination</em></p>
+
+<p>The second part was making it work with <a href="&quot;https://jekyllrb.com&quot;">Jekyll</a>, which I wanted to continue to use to write blog articles. I wanted to have my content in a place I could control, tinker with and use as a tool for communication and learning. This was a bit more intimidating since I am not a developer. Jekyll is based on Liquid for the templating system, which turned out not to be so hard to modify and adapt to my needs.</p>
+
+<p><img src="/images/responsive-code.png" alt="Visual explorations for the new  website" /><em>Writing the html and CSS in Atom (its a bit messy, I know)</em></p>
+
+<p>As a final push, I wanted to improve how the site font scaled in the different resolutions. I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn’t what I expected. By looking for ways to solve this, I found this <a href="&quot;https://css-tricks.com/simplified-fluid-typography/&quot;">Simplified fluid typography</a> approach that aligned well with what wanted to do. By defining a minimum and maximum font size as limits, but the actual size would change based on the width of the screen. (You won’t be able to see it if you try resizing this page, unless you refresh the page).</p>
+
+<p>So this is it, a fully responsive personal website, blog capabilities without media queries or breakpoints defined by a device but its content. As the previous one, it’s not done and not great visually either, I will play with it, add functionality and evolve it based on what I want to learn or express.</p>
+
+<p>I have learned a lot along the process and it has given me a different perspective on what can be done with this new technologies in terms of layout and responsive design. I am specially happy about making the time to get it done and sharing it with the world, even if its far from perfect.</p>
+
+<p>Thank You!</p>
+
+<p>I have to thank <a href="&quot;https://rachelandrew.co.uk&quot;">Rachel Andrews</a> for her great explanations of CSS Grid, CSS-tricks for their flex-box and grid guides and the open nature of the web that allowed me to peek into other websites by inspecting the html. Here are some of the resources I used if you want to give it a try:</p>
+
+<p><a href="&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;">A Complete Guide to Flexbox</a>
+<a href="&quot;https://css-tricks.com/snippets/css/complete-guide-grid/&quot;">A Complete Guide to CSS Grid</a>
+<a href="&quot;https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/&quot;">Look Ma no Media Queries</a>
+<a href="&quot;https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/&quot;">Create a responsive grid layout with no media queries, using CSS Grid</a>
+<a href="&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;">Simplified fluid typography</a></p>
+:ET
