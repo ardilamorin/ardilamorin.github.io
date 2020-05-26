@@ -12,7 +12,7 @@ For the las 5 months I worked remotely. As the first UX employee working on this
 ## Your office
 Find the best location and setup to do your work. Based on your personality you could find it difficult to work from home, tempted to stay in bed, or doing chores, a co-working space could be the best scenario for you. In my case, I enjoyed working from home, because it allowed me to configure my setup, cook my own meals and have more time for actual work and less on commute. The down side is I didn’t get to see people, which I tried to solve outside office hours (see “create a network” further down this list).
 
-If you go for the "home office" approach, be sure to have a proper chair, a good monitor, and a good webcam (yes I know it sounds very 90’s, but I swear its important). Here is [the best webcam for video conferencing according to John Maeda](https://maeda.pm/2017/11/04/the-best-webcam-at-least-for-me/ "theist web cam - according to John Maeda")
+If you go for the "home office" approach, be sure to have a proper chair, a good monitor, and a good webcam (yes I know it sounds very 90’s, but I swear its important). Here is [the best webcam for video conferencing according to John Maeda](https://maeda.pm/2017/11/04/the-best-webcam-at-least-for-me/ "theist web cam - according to John Maeda"){:target="_blank"}
 
 Don’t be afraid to ask your employer to pay for the co-working space or reimburse some of the expenses associated to your home office.
 
@@ -22,7 +22,7 @@ What I mean by this, is to find what works for you. Working remotely can make it
 
 Before, when I worked at the office, I would stand up regularly to go to meetings, and changed the type of task and activities based on what I had scheduled for the day (I also got interrupted a lot…but let’s not get into that). Being remote I also had meetings but they were hang out calls, which meant sitting at my desk longer and strained eyes.
 
-What I learned is that is important to schedule your day in blocks that allowed to switch the type of task, or simply how you do them, sitting in another place, going out to a cafe, a library or just simply standing up for the next call made a huge difference. For more info on how to defrag your calendar I recommend [this post from Lara Hogan](https://larahogan.me/blog/manager-energy-drain/).
+What I learned is that is important to schedule your day in blocks that allowed to switch the type of task, or simply how you do them, sitting in another place, going out to a cafe, a library or just simply standing up for the next call made a huge difference. For more info on how to defrag your calendar I recommend [this post from Lara Hogan](https://larahogan.me/blog/manager-energy-drain/){:target="_blank"}.
 
 Also, try to find stuff to do as transition between tasks. Cooking was good for me (I'm sure I read this tip somewhere but can’t remember where).
 
@@ -52,10 +52,10 @@ If you, like me, work from home, you will find yourself longing human interactio
 ## Resources
 Here are some resources if you want to dig deeper on the subject:
 
-* [Remote UX Work: The NN/g Case Study](https://www.nngroup.com/articles/remote-ux-work-nng-case-study/ "Remote UX Work: The NN/g Case Study")
-* [The state of remote work 2019 - Buffer](https://buffer.com/state-of-remote-work-2019 "The state of remote work - Buffer")
-* [Remote, office not required - Basecamp](https://basecamp.com/books/remote "Book: Remote, Office not required by Basecamp")
-* [Happy Tools - Automattic](https://ma.tt/2019/04/happy-tools/ "Happy Tools by Automattic")
+* [Remote UX Work: The NN/g Case Study](https://www.nngroup.com/articles/remote-ux-work-nng-case-study/ "Remote UX Work: The NN/g Case Study"){:target="_blank"}
+* [The state of remote work 2019 - Buffer](https://buffer.com/state-of-remote-work-2019 "The state of remote work - Buffer"){:target="_blank"}
+* [Remote, office not required - Basecamp](https://basecamp.com/books/remote "Book: Remote, Office not required by Basecamp"){:target="_blank"}
+* [Happy Tools - Automattic](https://ma.tt/2019/04/happy-tools/ "Happy Tools by Automattic"){:target="_blank"}
 
 
 As a closing thought, it's important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think it's not for everyone. Make sure it aligns well with your personality, and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people, the magic that comes from random encounters and the growth that comes from collective knowledge and collaboration.
