@@ -19,7 +19,7 @@ Before I jumped into creation mode, I first wanted to think about the redesign i
 
 This exploration mode went on for some time, and it became a form of procrastination. After a while I decided to move on, since anything different from what I had online was definitively an improvement.
 
-Fast forward to February 2020, I went to the [AWWWards conference]("https://www.juangarcia.design") in Amsterdam and listened to [Robin Noguier]("https://robin-noguier.com") give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.
+Fast forward to February 2020, I went to the [AWWWARDS conference]("https://www.juangarcia.design") in Amsterdam and listened to [Robin Noguier]("https://robin-noguier.com") give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.
 
 The first part I had to do was translate the design into the html structure, and make it responsive without media queries as shown on the article. That came with some challenges based on my design. It meant making changes to the design to accomplish the goal (remember… no media queries) and without falling again into procrastination mode.
 
@@ -27,7 +27,8 @@ The first part I had to do was translate the design into the html structure, and
 
 The second part was making it work with [Jekyll]("https://jekyllrb.com"), which I wanted to continue to use to write blog articles. I wanted to have my content in a place I could control, tinker with and use as a tool for communication and learning. This was a bit more intimidating since I am not a developer. Jekyll is based on [Liquid]("https://shopify.github.io/liquid/") for the templating system, which turned out not to be so hard to modify and adapt to my needs.
 
-![Visual explorations for the new  website]({{site.baseurl}}/images/post-responsive-css.png)*Writing the html and CSS in Atom (its a bit messy, I know)*
+![Writing the CSS]({{site.baseurl}}/images/post-responsive-css-atom.png)*Writing the html and CSS in Atom, it's a bit messy, I know*
+
 
 As a final push, I wanted to improve how the site font scaled in the different resolutions. I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn't what I expected. By looking for ways to solve this, I found this [Simplified fluid typography]("https://css-tricks.com/simplified-fluid-typography/") approach that aligned well with what wanted to do. By defining a minimum and maximum font size as limits, but the actual size would change based on the width of the screen. (You won't be able to see it if you try resizing this page, unless you refresh the page).
 
