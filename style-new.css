@@ -1,43 +1,31 @@
+
 @font-face{
-    font-family: 'Roboto';
-    font-weight: 100;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('./Fonts/Roboto/Roboto-Thin.woff') format('WOFF');
-}
-@font-face{
-    font-family: 'Roboto';
+    font-family: 'OpenSans Regular';
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-    src: url('./Fonts/Roboto/Roboto-Regular.woff') format('WOFF');
+    src: url('./Fonts/OpenSans/OpenSans-Regular-webfont.woff') format('WOFF');
 }
-@font-face{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('./Fonts/Roboto/Roboto-Regular.woff') format('WOFF');
+
+@font-face {
+font-family: 'Manrope Semibold';
+font-style: normal;
+font-weight: semibold;
+src: local('Manrope Semibold'), url('./Fonts/Manrope/manrope-semibold.woff') format('woff');
 }
-@font-face{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('./Fonts/Roboto/Roboto-Bold.woff') format('WOFF');
+
+@font-face {
+font-family: 'Manrope Bold';
+font-style: normal;
+font-weight: bold;
+src: local('Manrope Bold'), url('./Fonts/Manrope/manrope-bold.woff') format('woff');
 }
-@font-face{
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('./Fonts/Roboto/Roboto-Bold.woff') format('WOFF');
-}
+
 html{
   font-size: 16px;
 }
 body {
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: 'OpenSans Regular', Fallback, sans-serif;
   font-weight: 400;
   font-size: clamp(1rem, 2vw, 1.375rem);
   color: #9B9B9B;
@@ -45,38 +33,38 @@ body {
 }
 
 h1{
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: 'Manrope Bold', Fallback, sans-serif;
   color: #4A4A4A;
   font-size: clamp(2.25rem, 4vw, 4rem);
-  font-weight: 900;
+  font-weight:800;
 }
 
 h2{
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: 'Manrope Bold', Fallback, sans-serif;
   color: #4A4A4A;
   font-size: clamp(1.75rem, 3.2vw, 2.25rem);
-  font-weight: 900;
+  font-weight: 800;
   margin-block-end: 0.8em;
 }
 
 h3{
   color: #4A4A4A;
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: 'Manrope', Fallback, sans-serif;
   font-size: clamp(1.375rem, 2.8vw, 1.75rem);
-  font-weight: 700;
+  font-weight: normal;
   margin-block-end: 0em;
 }
 
 h4{
   color: #4A4A4A;
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: 'Manrope Semi-Bold', Fallback, sans-serif;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
   margin-block-end: 0em;
 }
 
 .text-small{
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: 'OpenSans Regular', Fallback, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   margin-block-end: 0.8em;
@@ -151,8 +139,8 @@ h4{
 
 .content-group{
 /* padding: 4em 0em; */
-  padding-top:clamp(1em, 4vw, 4em);
-  padding-bottom: clamp(1em, 4vw, 4em);
+  padding-top:clamp(1em, 4vw, 3.6em);
+  padding-bottom: clamp(1em, 4vw, 3.6em);
 }
 
 .site-header{
@@ -169,9 +157,9 @@ h4{
 
 .logo {
   color: #4A4A4A;
-  font-family: 'Roboto', Fallback, sans-serif;
-  font-size: 1.2em;
-  font-weight: 900;
+  font-family: 'Manrope Bold', Fallback, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
   justify-content: center;
   align-self: center;
   grid-column: span 2;
@@ -200,14 +188,16 @@ color: #9B9B9B;
 }
 
 .nav li {
+  font-family: 'Manrope Semibold', Fallback, sans-serif;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: semibold;
   color: #9B9B9B;
   height: 3em;
   margin-left: 0;
   margin-right: clamp(1.2em, 1vw, 2.4em);
+  transition: box-shadow 0.4s ease, color 0.4s ease;
   /* margin: 0.2em 2em 0.2em 0; */
 }
 
@@ -218,12 +208,12 @@ color: #9B9B9B;
   font-size: 1.125rem;
   /* justify-content: center; */
   padding: 2em 0;
-  transition: color 0.2s ease-in-out;
+
 }
 
 .nav li:hover {
   color: #4A4A4A;
-  box-shadow: 0px 4px 0px 0px #9B9B9B;
+  box-shadow: 0px 4px 0px 0px #4285f4;
 }
 .social-links{
 
@@ -254,9 +244,6 @@ color: #9B9B9B;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 0em;
   }
-.block h2{
-
-}
 
 .block .entry{
 display: grid;
@@ -290,12 +277,6 @@ margin-right: auto;
   margin-bottom: 1.6rem;
 }
 
-.block .entry a {
-  color:#4A4A4A;
-  font-weight: normal;
-  text-decoration:underline;
-}
-
 .block article{
 padding: 1em;
 }
@@ -318,17 +299,47 @@ max-width: 26em;
   position: relative;
   border-radius: 1.2em;
   width:100%;
-  box-shadow: -14px 14px 32px 2px rgba(0,0,0,.12);
+  /* box-shadow: -14px 14px 32px 2px rgba(0,0,0,.12); */
   /* box-shadow: -4px 4px 8px 1px rgba(119,119,136,.25); */
 }
 
 .block a {
-  margin: 1rem 0rem;
-  color:#4A4A4A;
-  font-weight: bold;
+  text-decoration: none;
+}
+.block li a {
+  text-decoration: none;
+  color:#4285f4;
+}
+.block li a:hover {
   text-decoration: underline;
 }
 
+.block p a {
+  margin: 1rem 0rem;
+  color:#4285f4;
+  text-decoration: none;
+}
+
+.block p a:hover {
+  text-decoration: underline;
+}
+
+.call-to-action{
+  font-family: 'Manrope Semibold', Fallback, sans-serif;
+  margin: 1rem 0rem;
+  color:#4A4A4A;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+.call-to-action:hover {
+  color:#4285f4;
+}
+
+.cta-arrow {
+margin: 1rem 0rem;
+color:#4285f4;
+text-decoration: none;
+}
 
 .entry blockquote {
     font-weight:600;
@@ -390,7 +401,7 @@ max-width: 26em;
 
 .panel ul img {
 
-  max-height: 8em;
+  max-height: 6em;
   overflow: hidden;
   border-top-left-radius: .5em;
   border-top-right-radius: .5em;
@@ -420,18 +431,21 @@ max-width: 26em;
   flex-direction: column;
   align-content: start;
   max-width: 20em;
-
   padding: 0 1em 1em 1em;
-  margin: 1em;
+  margin: 1em 1.2em 1em 0em;
   background-color: #fff;
-  border-radius: 1.2em;
-  box-shadow: -14px 14px 32px 2px rgba(0,0,0,.12);
+  border-width: 0.25rem;
+  border-radius: 0.75em;
+  border-style: solid;
+  border-color: #F2F2F2;
+  transition: 0.5s ease;
+  /* box-shadow: -14px 14px 32px 2px rgba(0,0,0,.12); */
   /* box-shadow: -4px 4px 8px 1px rgba(119,119,136,.25); */
 }
+
 .card:hover {
-  box-shadow: -14px 14px 18px 2px rgba(0,0,0,.14);
-  transform:scale(1.01);
-  transition: transform 0.4s ease-out, opacity 0.4s ease;
+  order-style: solid;
+  border-color: #4285f4;
 }
 
 .card .read-more {
@@ -444,6 +458,9 @@ max-width: 26em;
 .card h3 a{
   text-decoration: none;
   font-size: clamp(1.375rem, 2.4vw, 1.75rem);
+}
+.card p{
+  color: #9B9B9B;
 }
 
 .footer {
