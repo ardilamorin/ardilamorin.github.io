@@ -1,0 +1,93 @@
+I"�+<p>I finally redesigned this website. The challenge was to do a fully responsive site without media queries using <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a> and <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS Grid</a>.</p>
+
+<p><img src="/images/responsive-no-media.gif" alt="Visual explorations for the new  website" /><em>Responsive design without media queries</em></p>
+
+<p>For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where user’s were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.</p>
+
+<p>There are other techniques to design responsive websites that embrace flexibility, making the content accessible regardless of the browser, platform or screen that the person chooses to access your page. The concept is not new, and John Allsopp has been advocating for it since the year 2000 when he wrote the article <a href="https://alistapart.com/article/dao/" target="_blank">The DAO of the web.</a></p>
+
+<p>But It wasn’t until last year, when I read and article from <a href="https://www.juangarcia.design" target="_blank">Juan Martin García</a> titled <a href="https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/" target="_blank">“Look Ma, no media Queries! Responsive Layouts Using CSS Grid”</a> that I decided to give it a try, explore what could be done with the new CSS capabilities like CSS Grid and Flexbox, that promised to accomplish better results with less development effort, and in the case of Juan’s article, no media-queries.</p>
+
+<blockquote>
+  <p>Creating a full site without media queries was more a personal challenge than a technical one</p>
+</blockquote>
+
+<p>Creating a full site without media queries was more a personal challenge than a technical one. I knew could be done, but could I do it? Answering that question involved overcoming certain challenges:</p>
+
+<ol>
+  <li>
+    <p>Making time for it, when there are tools coming out every month that promise of getting a “premium look on your website without struggling to create it.” But in this case, it was more about setting a goal and committing to it than a matter of speed.</p>
+  </li>
+  <li>
+    <p>Force myself to do the end-to-end process of designing, creating the html structure and working out the css. Having an <a href="https://en.wikipedia.org/wiki/Information_engineering" target="_blank">information engineering</a> degree and years of experience working as a UX Designer would mean I should be able to do it right? Well, not exactly. Building websites has become a fairly specialised process that involves several specialties, so it’s not often that you get to participate in every phase.</p>
+  </li>
+  <li>
+    <p>Learning-by-doing what is actually possible to do with the new technologies that were being advocated for some years - Flexbox and CSS Grid - but apparently few people dared to use for real projects due to poor browser support. I wanted to flex the muscles and acquire some hands on experience.</p>
+  </li>
+</ol>
+
+<p>There you go, a self imposed challenge that allowed me to learn something new.</p>
+
+<h2 id="the-process">The process</h2>
+<p>Before I jumped into creation mode, I first wanted to think about the redesign in terms of layout and visual style. The previous version was super basic, a 1 column layout that just grew vertically. This looked like a good opportunity to try something different and test the limits of what was possible with this “no media queries” approach.</p>
+
+<p><img src="/images/post-responsive-explorations.jpg" alt="Visual explorations for the new  website" /><em>Explorations as a form of procrastination</em></p>
+
+<p>This exploration mode went on for some time, and it became a form of procrastination. Fast forward to February 2020, I went to the AWWWards conference in Amsterdam and listened to <a href="https://robin-noguier.com" target="_blank">Robin Noguier</a> give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.</p>
+
+<blockquote>
+  <p>“consistency over intensity”</p>
+</blockquote>
+
+<p>The first part I had to do was translate the design into the HTML structure and make it responsive without media queries as shown on the article. That meant making changes to the initial design layout to accomplish the goal and without falling again into procrastination mode.</p>
+
+<p><img src="/images/video-responsive-no-media2.gif" alt="Testing the html content break points" /><em>Testing the html content break points</em></p>
+
+<p>I used css grid for the layout and overall structure, the main columns and their responsive behaviour. Grid offers a way to define as many columns as the number of elements on the container using ”repeat (auto-fit)” and their width in fractions of the space available “1fr”.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.block</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">grid</span><span class="p">;</span>
+  <span class="py">grid-template-columns</span><span class="p">:</span> <span class="nb">repeat</span><span class="p">(</span><span class="n">auto-fit</span><span class="p">,</span> <span class="n">minmax</span><span class="p">(</span><span class="m">300px</span><span class="p">,</span> <span class="m">1</span><span class="n">fr</span><span class="p">));</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0em</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Flexbox was used to define the flexibility within the elements of a component. For example the site header, where specifying that the logo and navigation should each align to the edges is done through the justify content property: space-between. And when there is not enough space to fit in the same row, they just move to a new line through the flex-wrap property.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.site-header</span><span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+  <span class="nl">justify-content</span><span class="p">:</span><span class="n">space-between</span><span class="p">;</span>
+  <span class="nl">flex-wrap</span><span class="p">:</span> <span class="n">wrap</span><span class="p">;</span>
+  <span class="p">}</span></code></pre></figure>
+
+<p>The second part was making it work with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, which I wanted to continue using to write blog articles. I wanted to have my content in a place I could control, tinker with and use as a tool for communication and learning. This was a bit more intimidating since I am not a developer. Jekyll is based on <a href="https://shopify.github.io/liquid/" target="_blank">Liquid</a> for the templating system, which turned out not to be so hard to modify and adapt to my needs.vsdafadsfsdfdsf</p>
+
+<p>Showing the last three posts of the blog is done through this sentence:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">for post in site.posts limit:3</code></pre></figure>
+
+<!-- ![Writing the CSS](/images/post-responsive-css-atom.png)*Writing the html and CSS in Atom, it's a bit messy, I know* -->
+
+<p>The third was polishing the design, working on the CSS on the details to make it look better, now that the technical part of making work was done. One of the things I wanted to improve was how the site font scaled in different resolutions.</p>
+
+<p>I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn’t what I expected. By looking for ways to solve this, I found this <a href="https://css-tricks.com/simplified-fluid-typography/" target="_blank">Simplified fluid typography</a> approach that aligned well with what wanted to do. By defining a minimum and maximum size limits where the actual size would change based on the width of the screen. (If you are using safari, you won’t be able to see it if you try resizing this page, unless you refresh the page).</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span><span class="p">{</span>
+<span class="nl">font-size</span><span class="p">:</span> <span class="n">clamp</span><span class="p">(</span><span class="m">2.25rem</span><span class="p">,</span> <span class="m">4vw</span><span class="p">,</span> <span class="m">4rem</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>So this is it, a fully responsive personal website, blog capabilities without media queries or breakpoints defined by a device but its content. And, as the previous one, it’s not done. I will play with it, add functionality and evolve it based on what I want to learn or express.</p>
+
+<p>Building it has given me a different perspective on what can be done with this new technologies in terms of layout and responsive design, but even more about making the time to get things done and sharing the process, even when its far from perfect.</p>
+
+<h2 id="thank-you">Thank You!</h2>
+
+<p>I have to thank <a href="https://rachelandrew.co.uk" target="_blank">Rachel Andrews</a> for her great explanations of CSS Grid, <a href="https://css-tricks.com" target="_blank">CSS-tricks</a> for their flex-box and grid guides and the open nature of the web that allowed me to peek into other websites by inspecting the html. Here are some of the resources I used if you want to give it a try:</p>
+
+<ul>
+  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a></li>
+  <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to CSS Grid</a></li>
+  <li><a href="https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/" target="_blank">Look Ma no Media Queries</a></li>
+  <li><a href="https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/" target="_blank">Create a responsive grid layout with no media queries, using CSS Grid</a></li>
+  <li><a href="https://css-tricks.com/simplified-fluid-typography/" target="_blank">Simplified fluid typography</a></li>
+</ul>
+:ET
