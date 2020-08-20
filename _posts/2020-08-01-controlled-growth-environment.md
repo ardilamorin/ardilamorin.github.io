@@ -5,6 +5,8 @@ layout: post
 img: post-books-ux-design.jpg
 excerpt: Finding a better way to help your team members grow and support them in the process.
 ---
+![Visual explorations for the new  website]({{site.baseurl}}/images/post-sink-swim.jpg)*Professionnal growth, Sink or Swim*
+
 In our industry, creating digital products, professional growth and learning is determined by your formal education and experience. Experience can be a crucial factor in shaping your growth, the type of designer you will be, and finding out what is that you actually enjoy doing in our very fragmented and specialised profession.
 
 As someone who has a certain level of responsibility of what projects people on my team get to do, I believe that you have to make and effort on finding the right person for the job based on the needs of the project and their skills. But (there is always a but...) if we only allow people to do what they are already good at, they probably won’t grow.
@@ -14,8 +16,6 @@ As someone who has a certain level of responsibility of what projects people on 
 In my personal experience the projects that I’ve grown the most are the ones that presented the biggest challenges, those that push you beyond what you think you are capable of doing. At the end, you push through and come out in the other side better and stronger. That process is hard, people struggle a lot, requires them to put in extra hours and could take a toll in their confidence if things don’t turn out well.
 
 It's “sink or swim” and we have accepted it as the way people are supposed to grow, to challenge themselves, face bigger or harder tasks, pushing themselves to be better, sometimes underestimating what could happen if they can't swim.
-
-![Visual explorations for the new  website]({{site.baseurl}}/images/post-sink-swim.jpg)*Professionnal growth, Sink or Swim*
 
 ## Creating a better growth experience
 At a meeting, while discussing this subject regarding a person on our team, the magic phrase came out from one of my colleagues “just because we had to suffer to grow doesn’t mean they have to”.
