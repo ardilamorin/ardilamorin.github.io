@@ -2,7 +2,7 @@
 title: Responsive website with no media queries
 published: true
 layout: post
-img: /images/responsive-no-media.gif
+img: https://ardilamorin.com//images/responsive-no-media.gif
 excerpt: A fully responsive site without media queries using Flexbox and CSS Grid.
 ---
 I finally redesigned this website. The challenge was to do a fully responsive site without media queries using [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="_blank"} and [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="_blank"}.
