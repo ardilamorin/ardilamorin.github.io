@@ -2,7 +2,7 @@
 title: Controlled growth environment
 published: true
 layout: post
-img: post-books-ux-design.jpg
+img: /images/post-sink-swim.jpg
 excerpt: Finding a better way to help your team members grow and support them in the process.
 ---
 ![Visual explorations for the new  website]({{site.baseurl}}/images/post-sink-swim.jpg)*Professionnal growth, Sink or Swim*
