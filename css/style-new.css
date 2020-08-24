@@ -279,7 +279,7 @@ figure.highlight {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 margin: 2em 0 2em 0;
-padding: 1.2em; 
+padding: 1.2em;
 position: relative;
 background: #F2F2F2;
 font-family: Monaco,Consolas,"Lucida Console",monospace;
