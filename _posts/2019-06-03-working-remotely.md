@@ -2,7 +2,7 @@
 title: What I learned working remotely
 published: true
 layout: post
-img: https://ardilamorin.com//images/post-remote-work.jpg
+img: https://ardilamorin.com/images/post-remote-work.jpg
 excerpt: Tips and advice on office setup, work routine and collaboration while away from the office.
 ---
 For the las 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process.
