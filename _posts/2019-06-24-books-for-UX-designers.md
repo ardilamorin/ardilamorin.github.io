@@ -2,7 +2,7 @@
 title: Best books for every UX Designer
 published: true
 layout: post
-img: /images/books-sprint.jpg
+img: https://ardilamorin.com/images/books-sprint.jpg
 excerpt: A list categorised based on experience level.
 ---
 
