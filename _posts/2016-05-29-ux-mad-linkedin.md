@@ -2,7 +2,7 @@
 layout: post
 title: UXMad, group about UX on LinkedIn
 published: true
-img: /images/post-uxmad-linkedin.jpg
+img: https://ardilamorin.com//images/post-uxmad-linkedin.jpg
 excerpt: A group for UX professional in Madrid to connect with the UX community and share knowledge.
 ---
 
