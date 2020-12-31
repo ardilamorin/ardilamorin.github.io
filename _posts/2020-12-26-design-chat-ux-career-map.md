@@ -1,5 +1,5 @@
 ---
-title: Design Chat: UX career map
+title: Design Chat UX career map
 published: true
 layout: post
 img: https://ardilamorin.com/images/post-ux-career-map.jpg
@@ -9,7 +9,7 @@ excerpt: Thoughts on how to find the next steps in your UX career.
 
 The following is a copy of an interview with Molly Jennings from Few & Far, as part of a Design Chat, a series of short interviews with Design Leaders talking about all things design.
 
-Link to the original article [here](https://www.linkedin.com/pulse/design-chat-jos%C3%A9-daniel-ardila-m-mediamonks-molly-jennings)
+Link to the original article [here](https://www.linkedin.com/pulse/design-chat-jos%C3%A9-daniel-ardila-m-mediamonks-molly-jennings){:target="_blank"}
 
 ---
 
