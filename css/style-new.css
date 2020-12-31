@@ -71,7 +71,7 @@ h4{
 }
 
 .primary-button{
-    font-size: 0.725em;
+    font-size: 0.725rem;
     font-weight: 500;
     background-color: #4A4A4A;
     color: white;
@@ -159,11 +159,10 @@ color: #9B9B9B;
 }
 
 .nav li {
-  font-family: 'Manrope Semibold', Fallback, sans-serif;
+  font-family: 'Manrope bold', Fallback, sans-serif;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  font-weight: semibold;
   color: #9B9B9B;
   height: 3em;
   margin-left: 0;
