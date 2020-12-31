@@ -5,12 +5,11 @@ layout: post
 img: https://ardilamorin.com/images/post-ux-career-map.jpg
 excerpt: Thoughts on how to find the next steps in your UX career.
 ---
+![Creating your UX career map]({{site.baseurl}}/images/post-ux-career-map-small.jpg)*Creating your own UX career map*
+
 The following is a copy of an interview with Molly Jennings from Few & Far, as part of a Design Chat, a series of short interviews with Design Leaders talking about all things design.
 
 Link to the original article [here](https://www.linkedin.com/pulse/design-chat-jos%C3%A9-daniel-ardila-m-mediamonks-molly-jennings){:target="_blank"}
-
----
-![Creating your UX career map]({{site.baseurl}}/images/post-ux-career-map-small.jpg)*Creating your own UX career map*
 
 Meet José Daniel Ardila, the UX Lead at Amsterdam-based MediaMonks - a creative production company that produced 131 Cannes Lions and 250+ FWAs to date.
 José has worked for different companies - big and small and more recently in digital agencies doing consultancy work (although admitting that most people are not calling it that). With time, his role has expanded from designing to helping other designers with their career path and overseeing project teams to deliver great work, and hopefully, have fun in the process.
