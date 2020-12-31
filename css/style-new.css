@@ -95,7 +95,7 @@ h4{
 }
 .secondary-button:hover{
   display: inline-block;
-  padding: 0.725em 1.125em;
+  padding: 0.725rem 1.125rem;
   border-radius: 2.575em;
   border: 0.2em;
   border-style: solid;
@@ -160,6 +160,7 @@ color: #9B9B9B;
 
 .nav li {
   font-family: 'Manrope bold', Fallback, sans-serif;
+  font-weight: bold;
   display: flex;
   align-items: center;
   text-transform: uppercase;
