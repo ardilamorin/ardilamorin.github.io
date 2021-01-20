@@ -4,21 +4,21 @@
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-    src: url('./Fonts/OpenSans/OpenSans-Regular-webfont.woff') format('WOFF');
+    src: local('OpenSans Regular'), url('../Fonts/OpenSans/OpenSans-Regular-webfont.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Manrope Semibold';
 font-style: normal;
 font-weight: semibold;
-src: local('Manrope Semibold'), url('./Fonts/Manrope/manrope-semibold.woff') format('woff');
+src: local('Manrope Semibold'), url('../Fonts/Manrope/manrope-semibold.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Manrope Bold';
 font-style: normal;
 font-weight: bold;
-src: local('Manrope Bold'), url('./Fonts/Manrope/manrope-bold.woff') format('woff');
+src: local('Manrope Bold'), url('../Fonts/Manrope/manrope-bold.woff') format('woff');
 }
 
 html{
