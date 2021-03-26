@@ -49,7 +49,7 @@ h2{
 
 h3{
   color: #4A4A4A;
-  font-family: 'Manrope', Fallback, sans-serif;
+  font-family: 'Manrope Semibold', Fallback, sans-serif;
   font-size: clamp(1.375rem, 2.8vw, 1.75rem);
   font-weight: normal;
   margin-block-end: 0em;
@@ -57,7 +57,7 @@ h3{
 
 h4{
   color: #4A4A4A;
-  font-family: 'Manrope Semi-Bold', Fallback, sans-serif;
+  font-family: 'Manrope Semibold', Fallback, sans-serif;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
   margin-block-end: 0em;
