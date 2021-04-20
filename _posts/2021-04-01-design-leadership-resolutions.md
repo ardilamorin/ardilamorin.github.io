@@ -5,7 +5,7 @@ layout: post
 img: https://ardilamorin.com/images/ardila-leadership-resolutions.gif
 excerpt: A list to challenge myself, help my team’s professional development and avoid screwing up.
 ---
-![Creating your UX career map]({{site.baseurl}}/images/leadership-resolutions.gif)*Leadership resolutions*
+![Creating your UX career map]({{site.baseurl}}/images/ardila-leadership-resolutions.gif)*Leadership resolutions*
 
 I believe that managing others is a big responsibility. One that could make or break their experience at a company, or even their careers. With that in mind I try to do my best, to put the time and the effort to support the team and constantly question whether I’m having a positive or negative impact.
 
