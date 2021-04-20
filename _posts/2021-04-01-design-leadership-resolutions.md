@@ -55,7 +55,7 @@ Some things just take time, the value is not always tangible. Be nice to yoursel
 
 I hope this can help you reflect, identify the things that are important to you and define your own principles to work better with people on your team. Do you have your own set of resolutions? Let me know on twitter @ardilamorin 
 
-Ps: I recently gave a talk about what it means to be a UX Lead, where I share my views on the role, the challenges and (a condensed version) of my resolutions.[Here is the link](https://vimeo.com/529312180){:target="_blank"}(Spanish only) in case you want to watch the recording.
+Ps: I recently gave a talk about what it means to be a UX Lead, where I share my views on the role, the challenges and (a condensed version) of my resolutions.[Here is the link](https://vimeo.com/529312180){:target="_blank"} (Spanish only) in case you want to watch the recording.
 
 Want to continue the conversation? Let’s talk [@ardilamorin](https://twitter.com/ardilamorin)
 
