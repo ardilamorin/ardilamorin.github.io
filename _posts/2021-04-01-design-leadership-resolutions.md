@@ -2,10 +2,14 @@
 title: Leadership resolutions
 published: true
 layout: post
-img: https://ardilamorin.com/images/leadership-resolutions.gif
-excerpt: A list to challenge myself, help my team’s professional development and not screw up too much.
+img: https://ardilamorin.com/images/ardila-leadership-resolutions.gif
+excerpt: A list to challenge myself, help my team’s professional development and avoid screwing up.
 ---
 ![Creating your UX career map]({{site.baseurl}}/images/leadership-resolutions.gif)*Leadership resolutions*
+
+I believe that managing others is a big responsibility. One that could make or break their experience at a company, or even their careers. With that in mind I try to do my best, to put the time and the effort to support the team and constantly question whether I’m having a positive or negative impact.
+
+So I created this list of things I aspire to do, a list to keep myself in check, to not repeat the mistakes of the past, the things I have suffered and things I've made others endure. My list of resolutions to continuously challenge myself, help my team’s professional development and avoid screwing up.
 
 ## 01 Think Big and act Lean
 
