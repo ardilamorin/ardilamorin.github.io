@@ -61,5 +61,5 @@ Want to continue the conversation? Let’s talk [@ardilamorin](https://twitter.c
 
 ## References
 
-Tender discipline by Jocelyn[here](https://hurryslowly.co/215-jocelyn-k-glei/){:target="_blank"}
+Tender discipline by Jocelyn K. Glei [here](https://hurryslowly.co/215-jocelyn-k-glei/){:target="_blank"}
 
