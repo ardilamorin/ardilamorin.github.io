@@ -13,7 +13,7 @@ So I created this list of things I aspire to do, a list to keep myself in check,
 
 ## 01 Think Big and act Lean
 
-One effective thing you can do as a “lead” is set big ambitious goals, but in order to keep everyone engaged on the goal you also have to show progress and keep momentum. Break those big goals into smaller short-term milestones that allow you to see the steps you are taking towards the big picture, and keep track of progress, celebrating small victories.
+One effective thing you can do as a “lead” is set big ambitious goals. But in order to keep everyone engaged on the goal you also have to show progress and keep momentum. Break those big goals into smaller short-term milestones that allow you to see the steps you are taking towards the big picture, keep track of progress, celebrating small victories.
 
 ## 02 Distrust the process
 
@@ -25,15 +25,15 @@ You have the responsibility to be honest and tell your team what they are doing 
 
 ## 04 Show instead of tell
 
-The best way to help others understand what you want more of, is to show them. Highlight what “good” looks like, give timely feedback that reinforces the right attitudes and use artifacts that help everyone be ont the same page.
+The best way to help others understand what you want more of, is to show them. Highlight what “good” looks like, give timely feedback that reinforces the right attitudes and use artifacts that help everyone be on the same page.
 
 ## 05 Help others find their own answers
 
-You don’t have to have all the answers, and even if you know the answer you should try to refrain and ask questions. People learn more when they find their own answers. It's not the most efficient way, but it will be the most powerful way to empower your team and help them grow.
+You don’t have to have all the answers, and even if you do, you should try to refrain and ask questions. People learn more when they find their own answers. It's not the most efficient way, but it will be the most powerful way to empower your team and help them grow.
 
 ## 06 Consider the person before the work
 
-When things are not going as expected try to see the person before the work. There could be other factors affecting the person and impacting their performance. Take the time to know them. It will allow you to identify signals that you need to ask before you judge.
+When things are not going as expected try to see the person before the work. There could be other factors affecting the person and impacting their performance. Take the time to know them, it will allow you to identify signals that you need to ask before you judge.
 
 ## 07 Don’t make promises you can't keep
 
