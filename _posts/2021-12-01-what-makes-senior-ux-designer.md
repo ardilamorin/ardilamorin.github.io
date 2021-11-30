@@ -1,17 +1,15 @@
 ---
-title: What makes a UX Designer a Senior UX Designer?
+title: What makes a Senior UX Designer?
 published: true
 layout: post
 img: https://ardilamorin.com/images/what-makes-a-senior-ux-designer.jpg
-excerpt: What makes a UX designer a Senior UX Designer?
+excerpt: Key traits that define seniority of a UX Designer
 ---
 ![Senior UX Designer Traits]({{site.baseurl}}/images//what-makes-a-senior-ux-designer.jpg)*Senior UX Designer Traits*
 
 One question I get asked, either from people in my team or during interview processes, is what makes a UX designer a Senior UX Designer?. Here is my answer.
 
-First of all, I don’t like the labels “junior” or “mid”.
-
-Everyone has different levels of expertise on different things, and we can learn a lot from any level designer. Experience is not directly tied to years of practice and the role and responsibilities may be different on each company.
+First of all, I don’t like the labels “junior” or “mid”. Everyone has different levels of expertise on different things, and we can learn a lot from any level designer. Experience is not directly tied to years of practice and the role and responsibilities may be different on each company.
 
 But, as Dan Mall says, ["Titles are important"](https://medium.com/@danielmall/titles-are-important-4d816fc913c){:target="_blank"}, because they set expectations to people that you interact with, helping understand your role and responsibility.
 
