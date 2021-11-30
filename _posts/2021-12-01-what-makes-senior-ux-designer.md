@@ -5,7 +5,7 @@ layout: post
 img: https://ardilamorin.com/images/what-makes-a-senior-ux-designer.jpg
 excerpt: What makes a UX designer a Senior UX Designer?
 ---
-![Creating your UX career map]({{site.baseurl}}/images//what-makes-a-senior-ux-designer.jpg)*Senior UX Designer Traits*
+![Senior UX Designer Traits]({{site.baseurl}}/images//what-makes-a-senior-ux-designer.jpg)*Senior UX Designer Traits*
 
 One question I get asked, either from people in my team or during interview processes, is what makes a UX designer a Senior UX Designer?. Here is my answer.
 
