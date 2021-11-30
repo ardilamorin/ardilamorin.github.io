@@ -1,5 +1,5 @@
 ---
-title: What makes a UX Designer a Senior UX Designer
+title: What makes a UX Designer a Senior UX Designer?
 published: true
 layout: post
 img: https://ardilamorin.com/images/what-makes-a-senior-ux-designer.jpg
