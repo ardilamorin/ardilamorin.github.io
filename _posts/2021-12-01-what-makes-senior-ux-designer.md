@@ -17,21 +17,15 @@ So for me, the things that make a Senior UX Designer are:
 
 ## Capacity
 
-This means the level of complexity of the challenges you can solve.
-Ability to define the right approach, knowing what kind of problems you could encounter and anticipate them. Be able to move at different levels of abstraction, between the strategy and the interface.
-Deliver quality, having a critical sense for what good looks like, being able to overcome challenges and drive results.
+This means the level of complexity of the challenges you can solve. Identifying the real problem to solve, with the ability to define the right process, anticipate problems, moving at different levels of abstraction (between the strategy and the interface) to drive and deliver good results.
 
 ## Autonomy
 
-Be able to deal with ambiguity and solve a challenge with little direction.
-Good management of timelines, being able to scope the work and manage expectations of what you are going to produce.
-Good sense of communication, when and what to share to get alignment.
+Being able to deal with ambiguity and solve a challenge with little direction. Good management of (changing) timelines, being able to scope the work and manage expectations of what you are going to produce. Having a good sense of communication, knowing when and what to share to get alignment, adapting your message to the audience you are delivering it to.
 
 ## Collaboration
 
-Working alongside others to generate better results based on each person skill set.
-Knowing when to lead and when to follow.
-Being great at giving and receiving feedback.
+Working alongside others to generate better results based on each person skill set. Knowing when to lead and when to follow. Being great at giving and receiving feedback.
 
 ---
 
