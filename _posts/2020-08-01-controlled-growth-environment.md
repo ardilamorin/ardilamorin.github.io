@@ -25,7 +25,9 @@ Then, I was able to put into words what is that we try to do every time we assig
 In order to do that well - provide controlled growth environment - you have to do some things first.
 
 ### Understand their capabilities
-You have to know what that person can do well, tangible things, like creating wireframes, defining the information architecture, conceptualising new solutions, creating prototypes. What others things they bring to the project, and this can be more subjective, like their ability to collaborate with others, or their stakeholder management abilities, presenting and articulating design solutions.  Additionally you have to understand what motivates them, where would they like to grow, and what’s their idea of a good project, are they better on short or longer projects, do they need supervision, what’s their preferred way of communication.
+You have to know what that person can do well, tangible things, like creating wireframes, defining the information architecture, conceptualising new solutions, creating prototypes. What others things they bring to the project, and this can be more subjective, like their ability to collaborate with others, or their stakeholder management abilities, presenting and articulating design solutions.  
+
+Additionally you have to understand what motivates them, where would they like to grow, and what’s their idea of a good project, are they better on short or longer projects, do they need supervision, what’s their preferred way of communication.
 
 ### Growth trajectory / Personal Phase
 For most people, you what their capabilities are if you work long enough with them. But one thing that we should also consider is how are they in that particular moment on a professional and personal level.
@@ -39,19 +41,29 @@ But even doing your best as a manager, knowing your team and what motivates them
 ## So, what can you do?
 
 ### Visibility of the team’s skills and growth plan
-Make the information of your team’s skills and growth plan visible to the people in charge of resourcing projects, if that's you, keep a document where you can review them before assigning people to projects. Sometimes we see some level of unconscious favouritism, people who get assigned to the best projects, or who we have in our top of mind because we’ve seen more of their work lately, that could result in a vicious cycle where only a few continue to grow and have the opportunity to show their worth while others get stuck on less challenging projects.
+Make the information of your team’s skills and growth plan visible to the people in charge of resourcing projects, if that's you, keep a document where you can review them before assigning people to projects. 
+
+Sometimes we see some level of unconscious favouritism, people who get assigned to the best projects, or who we have in our top of mind because we’ve seen more of their work lately, that could result in a vicious cycle where only a few continue to grow and have the opportunity to show their worth while others get stuck on less challenging projects.
 
 ### Clear goals and responsibilities
-This is the most common problem I have seen. Projects start with incomplete teams, the main goal wasn't clearly communicated to the group, or roles were unclear. If you are doing this well it should be reflected in the quality of your project kickoff sessions.
+This is the most common problem I have seen. Projects start with incomplete teams, the main goal wasn't clearly communicated to the group, or roles were unclear. 
+
+If you are doing this well it should be reflected in the quality of your project kickoff sessions.
 
 ### Goals alignment
-Help the person assign to the project align their personal goals with the project goals. Where are the opportunities to grow and make sure there is enough space for the challenge. Doing something new sometimes mean requiring more time to do so, or it could mean compromising quality, so make sure that the challenge given to the person is not the most critical element of the project or that you have a solid backup plan in place.
+Help the person assign to the project align their personal goals with the project goals. Where are the opportunities to grow and make sure there is enough space for the challenge. 
+
+Doing something new sometimes mean requiring more time to do so, or it could mean compromising quality, so make sure that the challenge given to the person is not the most critical element of the project or that you have a solid backup plan in place.
 
 ### Pair up, and let go
-Depending on the person, you can give them a challenge and they will find the way to figure it out on their own. Other times is best to show them the way, pairing them up with someone that can show how it’s done and slowly move out, giving more responsibility to the more junior person on the team after having set up a common understanding on the next steps and what is expected from them.
+Depending on the person, you can give them a challenge and they will find the way to figure it out on their own. 
+
+Other times is best to show them the way, pairing them up with someone that can show how it’s done and slowly move out, giving more responsibility to the more junior person on the team after having set up a common understanding on the next steps and what is expected from them.
 
 ### Know when (not) to step back in
-During the project, it will come a time where your team member will struggle. It’s important that you learn when is a moment that requires you to step back in and support them, or in the contrary, let them face the challenge on their own. Make sure you stay in the loop and offer the right level of support during the process.
+During the project, it will come a time where your team member will struggle. It’s important that you learn when is a moment that requires you to step back in and support them, or in the contrary, let them face the challenge on their own. 
+
+Make sure you stay in the loop and offer the right level of support during the process.
 
 ### Transition plan
 Projects change, move to different phases, or change scope. You have to be willing to adapt to those changes. Allow people to step out when the project is not longer aligned with their goals, or after they have spent more time than expected.
