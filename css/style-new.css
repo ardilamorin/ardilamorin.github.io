@@ -219,6 +219,7 @@ color: #9B9B9B;
   0% { 
     transform: translate(0px, 20px);
     opacity:0;
+    }
   }
 
 .block{
