@@ -194,7 +194,7 @@ color: #9B9B9B;
   grid-template-columns: repeat(auto-fit, minmax(240px, 3fr));
 }
 .hero {
-  padding: 2em 2em;
+  padding: 1em 1em;
   background: white;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
