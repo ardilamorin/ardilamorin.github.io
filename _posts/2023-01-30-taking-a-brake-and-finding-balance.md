@@ -29,7 +29,7 @@ As a nice coincidence I have come across this quote from a speech from Bryan Dys
 Resources that have help me find balance are:
 
 * [Make time](https://maketime.blog){:target=“_blank”} Book by Jake Knapp and John Zeratsky.
-* [Designing your life]{:target=“_blank”} Book by Bill Burnett and Dave Evans.
+* [Designing your life](https://designingyour.life/the-book/){:target=“_blank”} Book by Bill Burnett and Dave Evans.
 * [Peter trucker managing oneself](https://hbr.org/2005/01/managing-oneself){:target=“_blank”} by Peter F. Drucker.
 * [Atomic Habits](https://jamesclear.com/atomic-habits){:target=“_blank”} Book by James Clear.
 
