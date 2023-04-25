@@ -7,6 +7,8 @@ excerpt: Reflection about time management, focusing on what matters and scheduli
 ---
 ![Balance]({{site.baseurl}}/images/balance.jpg)*Finding balance*
 
+I’m currently on a break from my job. Four weeks away after dedicating my full attention to, what we sometimes say but don’t practice, what’s most important to me: my family.
+
 This break has allowed me to grasp perspective when it comes to how I manage my time. I often have prioritized work over other parts of my life. Sometimes with the feeling of chasing the next step, a salary bump, a better title. With a feeling of work expanding into other parts of life, squeezing time out of other important areas.
 
 I have met a few people that are able to find that balance, to fully thrive without compromising their passions, friendships and health. I have noticed a few traits in them:
