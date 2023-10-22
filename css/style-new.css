@@ -470,10 +470,10 @@ text-decoration: none;
 }
 
 .footer {
-    color: #0000;
+    color: #4A4A4A;
     font-weight: bold;
     text-decoration: none;
-    background-color: #4A4A4A;
+    background-color: #ffff;
     padding-block-start:0.1em;
     margin-bottom: -1em;
     }
