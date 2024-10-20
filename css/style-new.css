@@ -34,21 +34,21 @@ body {
 
 h1{
   font-family: 'Manrope Bold', Fallback, sans-serif;
-  color: #4A4A4A;
+  color: #222222;
   font-size: clamp(2.25rem, 4vw, 4rem);
   font-weight:800;
 }
 
 h2{
   font-family: 'Manrope Bold', Fallback, sans-serif;
-  color: #4A4A4A;
+  color: #222222;
   font-size: clamp(1.75rem, 3.2vw, 2.25rem);
   font-weight: 800;
   margin-block-end: 0.8em;
 }
 
 h3{
-  color: #4A4A4A;
+  color: #222222;
   font-family: 'Manrope Semibold', Fallback, sans-serif;
   font-size: clamp(1.375rem, 2.8vw, 1.75rem);
   font-weight: normal;
@@ -56,7 +56,7 @@ h3{
 }
 
 h4{
-  color: #4A4A4A;
+  color: #222222;
   font-family: 'Manrope Semibold', Fallback, sans-serif;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
@@ -73,7 +73,7 @@ h4{
 .primary-button{
     font-size: 0.725rem;
     font-weight: 500;
-    background-color: #4A4A4A;
+    background-color: #222222;
     color: white;
     text-decoration: none;
     padding: 1.125em 2.125em;
@@ -89,7 +89,7 @@ h4{
     margin: 2em auto;
     font-weight: 500;
     background-color: white;
-    color: #4A4A4A;
+    color: #222222;
     text-decoration: none;
     transition: all .3s;
 }
@@ -99,7 +99,7 @@ h4{
   border-radius: 2.575em;
   border: 0.2em;
   border-style: solid;
-  border-color: #4A4A4A;
+  border-color: #222222;
   transition: all .5s;
 }
 
@@ -129,7 +129,7 @@ h4{
 } */
 
 .logo {
-  color: #4A4A4A;
+  color: #222222;
   font-family: 'Manrope Bold', Fallback, sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
@@ -183,7 +183,7 @@ color: #9B9B9B;
 }
 
 .nav li:hover {
-  color: #4A4A4A;
+  color: #222222;
   box-shadow: 0px 4px 0px 0px #4285f4;
 }
 
@@ -333,7 +333,7 @@ pre {
 .call-to-action{
   font-family: 'Manrope Semibold', Fallback, sans-serif;
   margin: 1rem 0rem;
-  color:#4A4A4A;
+  color:#222222;
   text-decoration: none;
   transition: 0.4s ease;
 }
@@ -353,7 +353,7 @@ text-decoration: none;
     margin: 1.8em .8em;
     border-left: 0.08em dotted #4285f4;
     padding: 0.1em 1em;
-    color: #4A4A4A;
+    color: #222222;
     font-size: clamp(1.75rem, 3.2vw, 2.25rem);
     font-style: italic;
   }
@@ -468,7 +468,7 @@ text-decoration: none;
 }
 
 .footer {
-    color: #4A4A4A;
+    color: #222222;
     font-weight: bold;
     text-decoration: none;
     background-color: #ffff;
