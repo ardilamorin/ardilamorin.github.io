@@ -324,13 +324,13 @@ pre {
   text-decoration: underline;
 }
 
-.p a {
+p a {
   margin: 1rem 0rem;
   color:#4285f4;
   text-decoration: none;
 }
 
-.p a:hover {
+p a:hover {
   text-decoration: underline;
 }
 
