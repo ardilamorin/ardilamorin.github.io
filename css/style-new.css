@@ -251,7 +251,7 @@ border-radius: 0.45em;
   margin: 1rem;
 }
 
-.post entry p a {
+.post entry a {
 color: #4285f4;
 }
 
@@ -313,7 +313,6 @@ pre {
 }
 
 .block a {
-  color: #4285F4;
   text-decoration: none;
 }
 .block li a {
