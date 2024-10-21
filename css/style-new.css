@@ -251,7 +251,7 @@ border-radius: 0.45em;
   margin: 1rem;
 }
 
-.post entry a {
+.post .entry a {
 color: #4285f4;
 }
 
@@ -270,6 +270,9 @@ padding: 1em;
 .block article p{
 max-width: 26em;
 }
+
+.block .article a{
+color: #4285F4;
 
 /* .block figure{
     display: block;
