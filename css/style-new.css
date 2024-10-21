@@ -121,12 +121,6 @@ h4{
   justify-content:space-between;
   flex-wrap: wrap;
 }
-/* .site-header{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  align-items: center;
-  margin: auto;
-} */
 
 .logo {
   color: #222222;
@@ -155,7 +149,6 @@ color: #9B9B9B;
   margin: 0;
   list-style: none;
   padding-inline-start: 0px;
-  /* text-align: center; */
 }
 
 .nav li {
@@ -169,7 +162,6 @@ color: #9B9B9B;
   margin-left: 0;
   margin-right: clamp(1.2em, 1vw, 2.4em);
   transition: box-shadow 0.4s ease, color 0.4s ease;
-  /* margin: 0.2em 2em 0.2em 0; */
 }
 
 .nav li a {
@@ -255,6 +247,7 @@ border-radius: 0.45em;
 color: #4285f4;
 }
 
+
 .block .entry ul{
   list-style-type: circle;
 }
@@ -333,6 +326,10 @@ p a {
 p a:hover {
   text-decoration: underline;
 }
+
+p a:visited {
+  color:#FE7351;
+  }
 
 .call-to-action{
   font-family: 'Manrope Semibold', Fallback, sans-serif;
