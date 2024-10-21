@@ -117,7 +117,7 @@ We didn’t have a specialised data team to really understand user behaviour, we
 We put a lot of effort on adding new functionalities for existing users, looking back seems that the real challenge was gaining traction and adding more users consistently.
 
 ## Awards
-By 2013, The platform won a Gold Laus Award in the category of best web application, for its overall user experience, navigation structure, visual simplicity, iconography and easy access to content.
+On 2013, The platform won a [Gold Laus Award](https://www.youtube.com/watch?v=ay86Yzjgtqg&list=LLjZ11Zg2k39RqPiDGTpowbA “Gold Laus Award ceremony Youtube video”){:target=“_blank”} in the category of best web application, for its overall user experience, navigation structure, visual simplicity, iconography and easy access to content.
 
 ## Like the project?
 - Appreciate on [behance](https://www.behance.net/gallery/10469449/Personasquees "Personas que on Behance"){:target="_blank"}
