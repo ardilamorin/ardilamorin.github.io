@@ -251,6 +251,10 @@ border-radius: 0.45em;
   margin: 1rem;
 }
 
+.post entry p a {
+color: #4285f4;
+}
+
 .block .entry ul{
   list-style-type: circle;
 }
@@ -314,7 +318,7 @@ pre {
 }
 .block li a {
   text-decoration: none;
-  color:#4285f4;
+  
 }
 .block li a:hover {
   text-decoration: underline;
