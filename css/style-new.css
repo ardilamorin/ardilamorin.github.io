@@ -164,7 +164,7 @@ color: #9B9B9B;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #9B9B9B;
+  color: #222222;
   height: 3em;
   margin-left: 0;
   margin-right: clamp(1.2em, 1vw, 2.4em);
