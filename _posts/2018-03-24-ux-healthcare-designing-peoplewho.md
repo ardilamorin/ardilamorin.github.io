@@ -121,5 +121,4 @@ On 2013, The platform won a [Gold Laus Award](https://www.youtube.com/watch?v=ay
 
 ## Like the project?
 - Appreciate on [behance](https://www.behance.net/gallery/10469449/Personasquees "Personas que on Behance"){:target="_blank"}
-- The website:
-[https://www.peoplewhoglobal.com](https://www.peoplewhoglobal.com "People Who Global"){:target="_blank"}
+
