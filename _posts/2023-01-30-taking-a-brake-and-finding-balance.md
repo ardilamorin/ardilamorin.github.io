@@ -2,10 +2,10 @@
 title: Taking a break & finding balance
 published: true
 layout: post
-img: https://ardilamorin.com/images/finding-balance.jpg
+img: /images/finding-balance.jpg
 excerpt: Reflection about time management, focusing on what matters and scheduling time for it
 ---
-![Balance]({{site.baseurl}}/images/balance.jpg)*Finding balance*
+![Balance](/images/balance.jpg)*Finding balance*
 
 I’m currently on a break from my job. Four weeks away after dedicating my full attention to, what we sometimes say but don’t practice, what’s most important to me: my family.
 
