@@ -2,12 +2,12 @@
 title: Responsive website with no media queries
 published: true
 layout: post
-img: https://ardilamorin.com/images/responsive-no-media.gif
+img: /images/responsive-no-media.gif
 excerpt: A fully responsive site without media queries using Flexbox and CSS Grid.
 ---
 I finally redesigned this website. The challenge was to do a fully responsive site without media queries using [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="_blank"} and [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="_blank"}.
 
-![Visual explorations for the new  website]({{site.baseurl}}/images/responsive-no-media.gif)*Responsive design without media queries*
+![Visual explorations for the new  website](/images/responsive-no-media.gif)*Responsive design without media queries*
 
 For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where user’s were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.
 
@@ -30,7 +30,7 @@ There you go, a self imposed challenge that allowed me to learn something new.
 ## The process
 Before I jumped into creation mode, I first wanted to think about the redesign in terms of layout and visual style. The previous version was super basic, a 1 column layout that just grew vertically. This looked like a good opportunity to try something different and test the limits of what was possible with this "no media queries" approach.
 
-![Visual explorations for the new  website]({{site.baseurl}}/images/post-responsive-explorations.jpg)*Explorations as a form of procrastination*
+![Visual explorations for the new  website](/images/post-responsive-explorations.jpg)*Explorations as a form of procrastination*
 
 This exploration mode went on for some time, and it became a form of procrastination. Fast forward to February 2020, I went to the AWWWards conference in Amsterdam and listened to [Robin Noguier](https://robin-noguier.com){:target="_blank"} give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.
 

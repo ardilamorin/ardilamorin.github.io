@@ -9,7 +9,7 @@ In 2011, people with an illness basically didn’t have a secure place where to 
 
 I was part of the the small team of four that started this amazing journey to create a new kind of digital platform for patients.
 
-![UX and Wireframes for People Who]({{site.baseurl}}/images/PW_Wireframes.png)*People Who initial wireframes using Balsamiq*
+![UX and Wireframes for People Who](/images/PW_Wireframes.png)*People Who initial wireframes using Balsamiq*
 
 ## The project
 While working at Saatchi & Saatchi Health, I was asked to participate in a new kind of web platform, a platform for patients with a chronic illness. At first it sounded dull and full of constraints, and full of constraints it was, but not dull.
@@ -52,18 +52,18 @@ As you can imagine, the health industry is heavily regulated, so all patient inf
 ## Designing the experience
 Created with six sections: Home, Community, Data centre, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.
 
-![People Who sections]({{site.baseurl}}/images/people_who_sections.png)*People Who website sections*
+![People Who sections](/images/people_who_sections.png)*People Who website sections*
 
 ### Illnesses
 The tricky part is not every illness available on the platform has all five sections, and the name of the illness was part of the header, so we created a modular structure that allows to have the number of sections necessary and still work, changing its width depending on the illness selected and the sections available. Making it flexible and still familiar to users.
-![People who - Flexible nav]({{site.baseurl}}/images/pw_flexible_nav.gif)
+![People who - Flexible nav](/images/pw_flexible_nav.gif)
 
 ### Roles: Patient for one illness /caretaker for another
 We found that some of the users were patients for an illness, but also had a family member with another illness, and the way the wanted to interact with the platform was different  depending on the the role they were playing.
 
 That was a big insight, so we designed it to be vertical, everything was tied to an illness, that meant you could only interact with people that suffered or cared for that same illness. That, for us, was a huge benefit, reducing noise, and improving the quality of relationships.
 
-![Patient, caretaker, interested]({{site.baseurl}}/images/pw_icons_role.svg)*User roles*
+![Patient, caretaker, interested](/images/pw_icons_role.svg)*User roles*
 
 ### Privacy
 This was a big factor to take into account, since some illnesses are more delicate than others, people may choose to share with others that they have the illness. So we designed for privacy:
@@ -71,7 +71,7 @@ This was a big factor to take into account, since some illnesses are more delica
 * We offered avatars that users could choose, instead of uploading their personal photo.
 * You shared gender and city of residence, for statistical purposes, but you could choose to share it publicly or not.
 
-![Users avatars to protect privacy]({{site.baseurl}}/images/privacy_avatars.png)*User avatars*
+![Users avatars to protect privacy](/images/privacy_avatars.png)*User avatars*
 
 #### Anonymous Relationships
 This presented a new challenge, to create friendships with people you didn’t know, and coming to a place where everyone maintains their privacy. So the challenge was to create a social network focused on discovery, where you didn’t have any friends when you first go in and start building you own “circles” of friends from interacting with others on the platform.

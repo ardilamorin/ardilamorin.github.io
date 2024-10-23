@@ -2,10 +2,10 @@
 title: Controlled growth environment
 published: true
 layout: post
-img: https://ardilamorin.com/images/post-sink-swim.jpg
+img:/images/post-sink-swim.jpg
 excerpt: Finding a better way to help your team members grow and support them in the process.
 ---
-![Visual explorations for the new  website]({{site.baseurl}}/images/post-sink-swim.jpg)*Professionnal growth, Sink or Swim*
+![Visual explorations for the new  website](/images/post-sink-swim.jpg)*Professionnal growth, Sink or Swim*
 
 In our industry, creating digital products, professional growth and learning is determined by your formal education and experience. Experience can be a crucial factor in shaping your growth, the type of designer you will be, and finding out what is that you actually enjoy doing in our very fragmented and specialised profession.
 
