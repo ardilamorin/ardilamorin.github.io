@@ -2,7 +2,7 @@
 layout: post
 title: New website built using Jekyll
 published: true
-img: https://ardilamorin.com/images/post-new-website.jpeg
+img: /images/post-new-website.jpeg
 excerpt: It's not done or perfect, but it's live and will continue to evolve and change over time.
 ---
 
