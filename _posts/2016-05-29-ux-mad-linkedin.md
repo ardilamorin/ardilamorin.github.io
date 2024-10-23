@@ -8,7 +8,7 @@ excerpt: A group for UX professional in Madrid to connect with the UX community 
 
 I moved to Madrid on 2011 and didn't know much people in the city. I worked on digital products for some time, but I didn't know anyone here. I tried different ways to enter the "scene" but it didn't work out so well.
 
-![UXMAD]({{site.baseurl}}/images/UXMAD.png)*UXMAD a group for UX Designers in Madrid*
+![UXMAD](/images/UXMAD.png)*UXMAD a group for UX Designers in Madrid*
 
 ## Local events
 Madrid has its fair share of local events about Design, User Experience, Customer Experience and Digital products. Here is a list of some of those in case you are interested:
