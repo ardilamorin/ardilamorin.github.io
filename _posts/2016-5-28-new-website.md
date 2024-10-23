@@ -6,7 +6,7 @@ img: https://ardilamorin.com/images/post-new-website.jpeg
 excerpt: It's not done or perfect, but it's live and will continue to evolve and change over time.
 ---
 
-![New Website with JekyllNow]({{site.baseurl}}/images/new-website-jekyll-now.png)*Jekyll Now*
+![New Website with JekyllNow](/images/new-website-jekyll-now.png)*Jekyll Now*
 
 ## Technology
 
