@@ -10,6 +10,12 @@ layout: default
     <p>{{ page.excerpt }}</p>
     <p class="text-small">
       {{ page.date | date: "%B %e, %Y" }}
+      {% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+<i class="icon ion-md-time" style="padding-right: 8px;"></i>{{ words | plus: 180 | divided_by: 180 | append: ' minute read' }}
+{% endunless %}
     </p>
   </div>
 </section>
