@@ -40,5 +40,3 @@ From those resources, there is a key take away. You have to plan and schedule ti
 After this break I am more self-aware, but that doesn’t mean I have figured out how to solve this. I’m making this a resolution for the upcoming year to optimize my schedule to better match the lifestyle I want to have, accomplish my goals and spend time with loved ones.  
 
 ---
-Want to continue the conversation? Let’s talk, now on Mastodon [@ardilamorin@mstdn.social](https://mstdn.social/@ardilamorin){:target=“_blank”}
-

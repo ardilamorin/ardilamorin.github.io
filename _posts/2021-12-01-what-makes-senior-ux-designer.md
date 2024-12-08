@@ -27,15 +27,13 @@ Being able to deal with ambiguity and solve a challenge with little direction. G
 
 Working alongside others to generate better results based on each person skill set. Knowing when to lead and when to follow. Being great at giving and receiving feedback.
 
----
-
 That’s it. 
 So if you are shooting for that senior role, or need to explain it to people looking to grow in their career path, try to articulate it in terms of capacity, autonomy and collaborating with others. 
-
-Want to continue the conversation? Let’s talk [@ardilamorin](https://twitter.com/ardilamorin)
 
 ## References
 
 Dan Mall ["Titles are important"](https://medium.com/@danielmall/titles-are-important-4d816fc913c){:target="_blank"}
 
 Cyd Harrel [“Getting to Senior in UX”](https://docs.google.com/presentation/d/1v3SlMKO5_9zrEJINhaOlT-YIA0UZi2Qpiv_gYCJMiCI/edit){:target="_blank"}
+
+---

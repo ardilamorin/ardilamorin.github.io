@@ -57,9 +57,8 @@ I hope this can help you reflect, identify the things that are important to you 
 
 Ps: I recently gave a talk about what it means to be a UX Lead, where I share my views on the role, the challenges and (a condensed version) of my resolutions. [Here is the video](https://vimeo.com/529312180/2216f0cf9f){:target="_blank"} (Spanish only) in case you want to watch the recording.
 
-Want to continue the conversation? Let’s talk [@ardilamorin](https://twitter.com/ardilamorin)
-
 ## References
 
 Tender discipline by Jocelyn K. Glei [here](https://hurryslowly.co/215-jocelyn-k-glei/){:target="_blank"}
 
+---
