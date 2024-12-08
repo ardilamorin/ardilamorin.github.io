@@ -104,11 +104,15 @@ h4{
 }
 
 .tinylytics_kudos{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  max-width: 20em;
+  align-content: start;
   color: #222222;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
-  padding: 1.25em 1.5em;
+  margin: 1em 1.2em 1em 0em;
+  padding: 1em 1.25em;
   margin: 0.75em;
   background-color: #F2F2F2;
   border: none;
@@ -117,11 +121,14 @@ h4{
   }
   
 .tinylytics_kudos:hover{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  max-width: 20em;
+  align-content: start;
   color: white;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
-  padding: 1.25em 1.5em;
+  padding: 1em 1.25em;
   margin: 0.75em;
   background-color: #4285f4;
   border: none;
