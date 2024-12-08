@@ -104,20 +104,26 @@ h4{
 }
 
 .tinylytics_kudos{
-  padding: 0.75em 1.25em;
+  font-weight: 500;
+  padding: 1.25em 1.75em;
   margin: 0.75rem;
   background-color: #F2F2F2;
   border: none;
   border-radius: 0.75em;
+  text-align: center;
+  display: inline-block;
 
   }
   
 .tinylytics_kudos:hover{
   color: white;
-  padding: 0.75em 1.25em;
+  font-weight: 500;
+  padding: 1.25em 1.75em;
   background-color: #4285f4;
   border: none;
   border-radius: 0.75em;
+  text-align: center;
+  display: inline-block;
   transition: all .5s;
   }
 
