@@ -104,19 +104,20 @@ h4{
 }
 
 .tinylytics_kudos{
-  padding: 0.75em 1.75em;
+  padding: 0.75em 1.25em;
+  margin: 0.75rem;
   background-color: #F2F2F2;
   border: none;
   border-radius: 0.75em;
-  padding: 0.75rem 1.75rem;
+
   }
   
 .tinylytics_kudos:hover{
-  padding: 0.75em 1.75em;
+  color: white;
+  padding: 0.75em 1.25em;
   background-color: #4285f4;
   border: none;
   border-radius: 0.75em;
-  padding: 0.75rem 1.75rem;
   transition: all .5s;
   }
 
