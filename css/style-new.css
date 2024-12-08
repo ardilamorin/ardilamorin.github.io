@@ -108,16 +108,16 @@ h4{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .tinylytics_kudos{
   display: flex; 
-  flex: flex-grow;
+  flex-grow: 1;
   color: #222222;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
-  padding: var(--blockPadding) max(2rem, 50vw - var(--contentWidth) / 2);
+  padding: 0.75rem; 
   margin: 0.5em;
   background-color: #F2F2F2;
   border: none;
