@@ -116,6 +116,7 @@ h4{
   }
   
 .tinylytics_kudos:hover{
+  display: inline-block;
   color: white;
   font-size: clamp(1.75rem, 3.2vw, 2.25rem);
   font-weight: 500;
@@ -124,7 +125,6 @@ h4{
   border: none;
   border-radius: 0.75em;
   text-align: center;
-  display: inline-block;
   transition: all .5s;
   }
 
