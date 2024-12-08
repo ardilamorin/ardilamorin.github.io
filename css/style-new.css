@@ -114,7 +114,7 @@ flex: 0 1 auto;
 max-width: calc(70% + 1ch);
  }
 
-.kudos_button{
+.tinylytics_kudos{
   display: flex;  
   text-align: center;
   color: #222222;
