@@ -127,12 +127,11 @@ h4{
   
 .tinylytics_kudos:hover{
   display: flex; 
-  flex: flex-grow;
-  display: block
+  flex-grow: 1;
   color: white;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
-  padding: var(--blockPadding) max(2rem, 50vw - var(--contentWidth) / 2);
+  padding: 0.75rem; 
   margin: 0.5em;
   background-color: #4285f4;
   border: none;
