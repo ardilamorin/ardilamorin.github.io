@@ -104,6 +104,7 @@ h4{
 }
 
 .kudos {
+  max-width: 36em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
