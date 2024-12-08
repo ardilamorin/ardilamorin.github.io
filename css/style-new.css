@@ -103,17 +103,21 @@ h4{
   transition: all .5s;
 }
 
-.tinylytics_kudos{
+.kudos {
   display: flex;
-  flex-direction: column;
-  max-width: 20em;
-  align-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.tinylytics_kudos{
+  display: flex; 
+  flex: flex-grow;
   color: #222222;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
-  margin: 1em 1.2em 1em 0em;
-  padding: 1em 1.25em;
-  margin: 0.75em;
+  padding: var(--blockPadding) max(2rem, 50vw - var(--contentWidth) / 2);
+  margin: 0.5em;
   background-color: #F2F2F2;
   border: none;
   border-radius: 0.75em;
@@ -121,15 +125,14 @@ h4{
   }
   
 .tinylytics_kudos:hover{
-  display: flex;
-  flex-direction: column;
-  max-width: 20em;
-  align-content: start;
+  display: flex; 
+  flex: flex-grow;
+  display: block
   color: white;
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
-  padding: 1em 1.25em;
-  margin: 0.75em;
+  padding: var(--blockPadding) max(2rem, 50vw - var(--contentWidth) / 2);
+  margin: 0.5em;
   background-color: #4285f4;
   border: none;
   border-radius: 0.75em;
