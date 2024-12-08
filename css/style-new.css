@@ -476,9 +476,8 @@ text-decoration: none;
   }
   
 .entry hr {
-  border-top: 1rem dashed #fff;
+  border-top: 0.08em dotted #fff;
   width: 96%;
-  height: 2rem;
   
 }
 
