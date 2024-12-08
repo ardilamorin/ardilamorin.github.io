@@ -474,6 +474,10 @@ text-decoration: none;
 .card p{
   color: #4A4A4A;
   }
+  
+.entry hr {
+  border-top: 1px dashed #fff;
+}
 
 .footer {
     color: #222222;
