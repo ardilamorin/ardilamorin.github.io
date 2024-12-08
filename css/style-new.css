@@ -476,7 +476,10 @@ text-decoration: none;
   }
   
 .entry hr {
-  border-top: 1px dashed #fff;
+  border-top: 1rem dashed #fff;
+  width: 96%;
+  height: 2rem;
+  
 }
 
 .footer {
