@@ -109,9 +109,9 @@ h4{
   flex-wrap: wrap;
   align-items: center;
 }
-.kudos_text{
-flex: 0 1 auto;
-max-width: calc(70% + 1ch);
+.kudos p{
+  flex: 0 1 auto;
+  max-width: calc(70% + 1ch);
  }
 
 .tinylytics_kudos{
@@ -121,7 +121,7 @@ max-width: calc(70% + 1ch);
   font-size: clamp(1.175rem, 4vw, 1.5rem);
   font-weight: 500;
   padding: 0.75rem; 
-  margin: 0.5em;
+  margin: auto;
   background-color: #F2F2F2;
   border: none;
   border-radius: 0.75em;
