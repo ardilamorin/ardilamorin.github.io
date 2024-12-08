@@ -103,6 +103,25 @@ h4{
   transition: all .5s;
 }
 
+.tinylytics_kudos{
+  padding: 0.75em 1.75em;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 0.75em;
+  padding: 0.75rem 1.75rem;
+  }
+  
+.tinylytics_kudos:hover{
+  padding: 0.75em 1.75em;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 0.75em;
+  padding: 0.75rem 1.75rem;
+  transition: all .5s;
+  }
+
+
+
 .grid-container{
   max-width: 72rem;
    margin-left: auto;
@@ -347,13 +366,7 @@ margin: 1rem 0rem;
 color:#4285f4;
 text-decoration: none;
 }
-
-.tinylytics_kudos{
-  background-color: transparent;
-  border: none;
-  padding: 0.75rem 1.75rem;
-  }
-  
+ 
 
 .entry blockquote {
     font-family: 'Manrope', Fallback, sans-serif;
