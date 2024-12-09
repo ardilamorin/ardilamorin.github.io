@@ -128,7 +128,7 @@ h4{
   
   }
   
-.kudos_button:hover{ 
+.tinylytics_kudos:hover{ 
   color: white;
   background-color: #4285f4;
   transition: all .5s;
