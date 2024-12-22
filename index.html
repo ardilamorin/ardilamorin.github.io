@@ -2,82 +2,67 @@
 layout: default
 published: true
 ---
-  <div class="hero">
+  <section class="hero">
     <div class="center">
-      <h1>Hello</h1>
-        <p>My name is José Ardila Morin and I am a UX Designer based in Amsterdam working with brands to bring their digital products to life</p>
-        <h3>This is a summary of what I do</h3>
+      <p>Hi, I’m José Ardila</p>
+      <h1>UX design manager leading teams to deliver amazing products</h1>
     </div>
-  </div>
-  <div class="main-centered">
+  </section>
+   <div class="main-centered">
         <div class="content-group">
           <div class="block">
-            <article>
-            <h2>Latest posts</h2>
-            </article>
+          <h2>Blog</h2>
           </div>
           <div class="block">
             {% for post in site.posts limit:3 %}
-              <div class="card">
-                <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
-                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                <p>{{ post.excerpt }}</p>
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
-              </div >
+            <div class="card">
+              <a href="{{ site.baseurl }}{{ post.url }}">
+              <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.excerpt }}</p>
+              </a>
+            </div>
             {% endfor %}
             <div class="block">
-              <article>
-                <a href="{{ site.baseurl }}/blog">Read the blog</a>
-              <article>
+            <a href="{{ site.baseurl }}/blog" class="call-to-action">Read the blog <span class="cta-arrow">&rarr;</span></a>
+
             </div>
           </div>
         </div>
 
-      <div class=highlight>
+      <div class=content-highlight>
         <div class="grid-container">
             <div class="content-group">
               <div class="block">
                   <figure class="panel">
                     <ul>
-                      <li><img src="/images/svg/logo/Twitter_Logo_Blue.svg" alt="Twitter logo"></li>
-                      <li><img src="/images/svg/logo/Google.svg" alt="Google logo"></li>
-                      <li><img src="/images/svg/logo/Braun.svg" alt="Braun logo"></li>
-                      <li><img src="/images/svg/logo/BBVA.svg" alt="BBVA logo"></li>
+                      <li><img loading="lazy" src="/images/svg/logo/Bose.svg" alt="Bose company logo"></li>
+                      <li><img loading="lazy" src="/images/svg/logo/MediaMonks.svg" alt="Mediamonks company logo"></li>
+                      <li><img loading="lazy" src="/images/svg/logo/TheCocktail.svg" alt="The cocktail company logo"></li>
+                      <li><img loading="lazy" src="/images/svg/logo/PeopleWho.svg" alt="PeopleWho company logo"></li>
                   </figure>
                   <article>
-                  <h2>The Work</h2>
-                  <p>I am UX Lead at <a href="https://the-cocktail.com/en" target="_blank">MediaMonks</a>. I have led projects for global companies, working across timezones, with multicultural teams, collaborating with teams from diverse disciplines to find creative solutions to complex problems.</p>
-                  <p>Previously worked as a UX Manager at <a href="https://the-cocktail.com/en" target="_blank" >The Cocktail</a> and other roles in companies like Razorfish, Ogilvy and The Chrysler Group</p>
+                  <h2>Work</h2>
+                  <p>I am a Design Manager at <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer">Booking.com</a>. I have led projects for global companies, working across timezones, with multicultural teams, collaborating with teams from diverse disciplines to find creative solutions to complex problems.</p>
+                  <p>Previously worked as a UX Lead at <a href="https://media.monks.com" target="_blank" rel="noopener noreferrer">Media.Monks</a>, UX Manager at <a href="https://the-cocktail.com/en" target="_blank" rel="noopener noreferrer">The Cocktail</a> and other roles in companies like Razorfish, Ogilvy and The Chrysler Group</p>
                 </article>
               </div>
             </div>
           </div>
         </div>
 
-          <div class="content-group">
-            <div class="block">
-              <article>
-                <h2>Awards</h2>
-                <p>We received a Gold Laus Award for the project 'Personas que', a platform for people who live with a chronic illness. I was responsible for the UX of the platform.</p>
-                <a href="https://www.youtube.com/watch?v=ay86Yzjgtqg&feature=youtu.be&list=LLjZ11Zg2k39RqPiDGTpowbA" target="_blank">Watch the video</a>
-              </article>
-              <figure class="image">
-                <img src="images/about_laus_award.png" alt="Laus Award book">
-              </figure>
-              </div>
-            </div>
-            <div class="content-group">
+         <div class="content-group">
 
               <div class="block">
 
                   <article>
-                    <h2>Classes, Talks, training...</h2>
+                    <h2>Classes, Talks, training</h2>
                     <p>I teach at the UX and digital products design Master in Madrid.</p>
                     <p>If you want me to collaborate with you in teaching, mentoring or speaking events you can send me an email.</p>
-                    <a href="mailto:info@ardilamorin.com">Send email</a>
+                    <a href="mailto:info@ardilamorin.com" class="call-to-action" title="Send an email to José Ardila">Send email <span class="cta-arrow">&rarr;</span></a>
                   </article>
                   <figure class="image">
-                    <img src="images/about_classes.jpg" alt="UX and digital products design master in Madrid">
+                    <img loading="lazy" src="images/about_classes.jpg" alt="Jose Ardila teaching a class at UX and digital products design master in Madrid">
                   </figure>
               </div>
           </div>

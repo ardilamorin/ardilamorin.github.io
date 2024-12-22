@@ -4,9 +4,8 @@ published: true
 ---
 <div class="hero">
         <article class="center">
-          <h1>Blog</h1>
-            <p>My name is José Ardila Morin and I am a UX Designer based in Amsterdam working with brands to bring their digital products to life</p>
-            <h3>Here are some things I wrote</h3>
+          <p>Hi, I’m José Ardila</p>
+          <h1>I write about UX design, leadership and technology</h1>
         </article>
       </div>
       <section class="main-centered">
@@ -14,10 +13,11 @@ published: true
           <div class="block">
             {% for post in site.posts %}
             <div class="card">
+              <a href="{{ site.baseurl }}{{ post.url }}">
               <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
-              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+              <h3>{{ post.title }}</h3>
               <p>{{ post.excerpt }}</p>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
+              </a>
             </div>
             {% endfor %}
         </div>
