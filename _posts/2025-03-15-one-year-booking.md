@@ -41,7 +41,7 @@ It's a really good sign to see a company that values personal development at the
 
 ## My personal development
 
-I feel fortunate to have worked at great places where I have been able to work alongside very talented people, regardless of how well know the company was. Some of those moves were very intentional and I was lucky to land where I wanted to go. Other moves were done by an opportunity being presented in that context, offering benefits and learnings I wasn’t actively pursuing. 
+I feel fortunate to have worked at great places where I have been able to work alongside very talented people, regardless of how well-known the company was. Some of those moves were very intentional and I was lucky to land where I wanted to go. Other moves were done by an opportunity being presented in that context, offering benefits and learnings I wasn’t actively pursuing. 
 
 When the chance to join booking.com came along, I jumped at it, because it represented the chance to switch to a Product compnay, which had resisted itself in the past, and was also in an area I was passionate about like design systems, that I firmly believe will play a pivotal role (even more than it has had up until now) in the future of how designers work in the future.
 
