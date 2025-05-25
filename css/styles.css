@@ -189,7 +189,7 @@ a:hover {
   align-items: center;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-variable-sm;
+	height: var(--space-variable-sm);
   margin-left: 0;
   margin-right: clamp(1.2em, 1vw, 2.4em);
 	transition:  var(--transition-smooth);
@@ -375,7 +375,7 @@ text-decoration: none;
 	justify-content: flex-start;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-lg);
+	height: var(--space-variable-sm);
   margin-left: 0;
 
 }
