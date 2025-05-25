@@ -405,6 +405,16 @@ margin-bottom: var(--space-md);
 border-radius: 0.45em;
 }
 
+figure.highlight pre {
+width: 100%;
+margin: 0;
+padding: 0.6em;
+
+}
+pre {
+  overflow-x: auto;
+}
+
 .entry {
 	display: flex;
 	flex-direction: column;
