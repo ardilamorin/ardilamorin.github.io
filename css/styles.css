@@ -51,6 +51,7 @@ src: local('Manrope Bold'), url('../Fonts/Manrope/manrope-bold.woff') format('wo
 
   /* Spacing */
 	--space-variable: clamp(1rem, 3vw, 4rem);
+	--space-variable-sm: clamp(1rem 2vw, 2rem)
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -160,7 +161,7 @@ a:hover {
 	color: var(--color-text-dark);	
 	align-self: center;
   align-items: center;
-	height: var(--space-lg);
+	height: var(--space-variable-sm);
 	transition:  var(--transition-smooth);
 }
 
@@ -188,7 +189,7 @@ a:hover {
   align-items: center;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-xl);
+	height: var(--space-variable-sm;
   margin-left: 0;
   margin-right: clamp(1.2em, 1vw, 2.4em);
 	transition:  var(--transition-smooth);
@@ -356,7 +357,7 @@ text-decoration: none;
   flex-wrap: wrap;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-xl);
+	height: var(--space-variable);
 	padding-bottom: var(--space-md);
 }
 
@@ -374,7 +375,7 @@ text-decoration: none;
 	justify-content: flex-start;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-xl);
+	height: var(--space-lg);
   margin-left: 0;
 
 }
