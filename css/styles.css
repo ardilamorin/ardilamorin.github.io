@@ -390,7 +390,7 @@ text-decoration: none;
 }
 
 .footer li:hover .hide {
-opacity: 1;
+visibility: visible;
 }
 	
 /*blog posts styles*/
