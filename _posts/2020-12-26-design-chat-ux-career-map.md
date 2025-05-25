@@ -60,5 +60,3 @@ Finally, consider alternatives. Creating digital products is a specialised busin
 ## Closing thoughts
 
 There is no map, of course there is a landscape, a playing field that you should be familiar with, but there is no one way to move forward, you can build new roads along the way. Every person is different, growth happens at different pace, and opportunities come along in different moments (or don't come, and you have to make your own). Give yourself permission to experiment and design the next steps in your career.
-
----

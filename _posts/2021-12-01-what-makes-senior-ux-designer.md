@@ -35,5 +35,3 @@ So if you are shooting for that senior role, or need to explain it to people loo
 Dan Mall ["Titles are important"](https://medium.com/@danielmall/titles-are-important-4d816fc913c){:target="_blank"}
 
 Cyd Harrel [“Getting to Senior in UX”](https://docs.google.com/presentation/d/1v3SlMKO5_9zrEJINhaOlT-YIA0UZi2Qpiv_gYCJMiCI/edit){:target="_blank"}
-
----

@@ -2,15 +2,15 @@
 layout: default
 published: true
 ---
-<div class="hero">
+				<div class="hero">
         <article class="center">
           <p>Hi, I’m José Ardila</p>
           <h1>I write about UX design, leadership and technology</h1>
         </article>
       </div>
-      <section class="main-centered">
-        <div class="content-group">
-          <div class="block">
+			
+      <section class="content-group">
+          <div class="block-small">
             {% for post in site.posts %}
             <div class="card">
               <a href="{{ site.baseurl }}{{ post.url }}">
@@ -21,5 +21,4 @@ published: true
             </div>
             {% endfor %}
         </div>
-      </div>
       </section>

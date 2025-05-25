@@ -76,5 +76,3 @@ Try to anticipate this, create a transition plan, don’t make promises you cant
 Your team’s growth is important, but it’s a shared responsibility. They are responsible fort their own growth,  as such, they should work on knowing what should be their next steps and ask you for the opportunities to make it happen. Then, you can provide the right context to enable it, support them through the process, course correct, and provide the right work to keep growing.
 
 If you know other ways to help team members grow, or think one of this has flaws let me know. This is a process and should change and adapt based on the types of projects that we get to work on and the people that form the team.
-
---- 

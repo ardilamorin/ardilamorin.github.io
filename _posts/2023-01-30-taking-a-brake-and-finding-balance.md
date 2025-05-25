@@ -38,5 +38,3 @@ Resources that have help me find balance are:
 From those resources, there is a key take away. You have to plan and schedule time for the things that are important to you, and create the right environment that will help you make them happen on a daily basis - no matter if its work related or personal. Your holidays, gym time, classes, focus time for that key project, quality family time. If you don’t schedule time for it, most likely it wont happen. 
 
 After this break I am more self-aware, but that doesn’t mean I have figured out how to solve this. I’m making this a resolution for the upcoming year to optimize my schedule to better match the lifestyle I want to have, accomplish my goals and spend time with loved ones.  
-
----

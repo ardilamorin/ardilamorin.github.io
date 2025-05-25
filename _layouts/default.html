@@ -11,7 +11,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style-new.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/manni.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -20,7 +20,7 @@
 
   <body>
     <body>
-    <div class="grid-container">
+    <div class="page-container">
       <header class="site-header">
         <a href="{{ site.baseurl }}/" class="logo">ARDILA<span class="title-color">MORIN</span></a>
         <nav class="nav">
@@ -31,31 +31,31 @@
         </nav>
       </header>
         {{ content }}
-        <div class="hero grey">
-        <div class="center">
-          <section>
-            <h2>Let's talk</h2>
+				
+          <section class="content-group">
+					<div class="content-block-centered" id="highlight"> 
+						<div>
+							<h2>Let's talk</h2>
               <p>If you think we can collaborate on a project, want me to teach a class about UX, or speak at you conference, get in touch.</p>
-          <a href="mailto:info@ardilamorin.com" class="primary-button" role="button" aria-pressed="false" title="Send an email to José Ardila">Contact me</a>
-        </section>
-      </div>
-    </div>
-    <div class="content-highlight footer">
-      <div class="grid-container">
-        <div class="site-header">
-          <p class="logo">©2024 JOSE ARDILA.</p>
+						</div>			
+						<div>
+          		<a href="mailto:info@ardilamorin.com" class="primary-button" role="button" aria-pressed="false" title="Send an email to José Ardila">Contact me</a>
+        		</div>
+					</div>
+				</section>
+			
+				<div class="footer">
+          	<a href="{{ site.baseurl }}/" class="logo">ARDILA<span class="title-color">MORIN</span></a>
           <div>
-          <nav class="nav">
-          <ul>
-            <li><a href="https://www.linkedin.com/in/ardilamorin/">Linkedin</a></li>
-            <li><a href="https://mstdn.social/@ardilamorin">Mastodon</a></li>
-            <li><a href="https://ardilamorin.com/feed.xml">RSS</a></li>
-          </ul>
-        </nav>
+						<nav>
+		          <ul>
+		            <li> <a href="https://www.linkedin.com/in/ardilamorin/">Linkedin</a><img class="hide" loading="lazy" src="../images/svg/external-link.svg" alt="arrow icon external link"></li>
+		            <li><a href="https://mstdn.social/@ardilamorin">Mastodon</a><img class="hide" loading="lazy" src="../images/svg/external-link.svg" alt="arrow icon external link"></li>
+		            <li><a href="https://ardilamorin.com/feed.xml">RSS</a><img class="hide" loading="lazy" src="../images/svg/external-link.svg" alt="arrow icon external link"></li>
+		          </ul>
+	        	</nav>
           </div>
-        </div>
-      </div>
-    </div>
+        </div>		
     {% include analytics.html %}
   </body>
 </html>
