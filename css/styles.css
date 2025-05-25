@@ -294,7 +294,7 @@ figure {
 	display: block;
 	max-inline-size: 100%;
 	block-size: auto;
-	max-width: 100%;
+/*	max-width: 100%;*/
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
 	margin-bottom: var(--space-md);
@@ -370,7 +370,6 @@ text-decoration: none;
   color: var(--color-text-dark);
 	height: var(--space-xl);
   margin-left: 0;
-  margin-right: clamp(1.2em, 1vw, 2.4em);
 	align-items: center;
 }
 
@@ -385,10 +384,10 @@ text-decoration: none;
 	color: var(--color-accent);
 }
 	
-.hide {
+/*.hide {
 	opacity: 0;
 	transition: var(--transition-smooth);
-}
+}*/
 
 .footer li:hover .hide {
 opacity: 1;
@@ -455,12 +454,12 @@ pre {
 
 .kudos p{
   flex: 0 1 auto;
-  max-width: calc(70% + 1ch);
+  max-width: calc(60% + 1ch);
  }
 
 .tinylytics_kudos{
   display: flex;  
-	max-width: calc(20% + 1ch);
+	max-width: calc(28% + 1ch);
  	font-size: var(--font-size-md);
 	text-align: center;
   color: var(--color-text-dark);
