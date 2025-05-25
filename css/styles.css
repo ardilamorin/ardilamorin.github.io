@@ -459,10 +459,12 @@ pre {
 
 .tinylytics_kudos{
   display: flex;  
-  text-align: center;
+	max-width: calc(20% + 1ch);
+ 	font-size: var(--font-size-md);
+	text-align: center;
   color: var(--color-text-dark);
   font-weight: 500;
-  padding: 0.75em 1.75em;
+	padding: 0.75rem; 
   margin: auto;
   background-color: var(--color-bg-neutral);
   border: none;
