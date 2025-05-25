@@ -365,7 +365,7 @@ text-decoration: none;
   margin: 0;
   list-style: none;
   padding-inline-start: 0px;
-	gap: var(--space-lg);
+	gap: var(--space-sm) var(--space-md);
 }
 
 .footer li {
