@@ -3,7 +3,7 @@ title: Taking a break & finding balance
 published: true
 layout: post
 img: /images/finding-balance.jpg
-excerpt: Reflection about time management, focusing on what matters and scheduling time for it
+excerpt: Reflection about time management, focus and scheduling time
 ---
 ![Balance](/images/balance.jpg)*Finding balance*
 
