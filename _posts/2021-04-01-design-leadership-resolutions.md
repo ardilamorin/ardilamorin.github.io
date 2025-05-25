@@ -60,5 +60,3 @@ Ps: I recently gave a talk about what it means to be a UX Lead, where I share my
 ## References
 
 Tender discipline by Jocelyn K. Glei [here](https://hurryslowly.co/215-jocelyn-k-glei/){:target="_blank"}
-
----

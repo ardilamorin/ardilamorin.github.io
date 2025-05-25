@@ -59,5 +59,3 @@ Here are some resources if you want to dig deeper on the subject:
 
 
 As a closing thought, it's important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think it's not for everyone. Make sure it aligns well with your personality, and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people, the magic that comes from random encounters and the growth that comes from collective knowledge and collaboration.
-
----

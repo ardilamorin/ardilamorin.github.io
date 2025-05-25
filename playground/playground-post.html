@@ -1,0 +1,102 @@
+<html lang="en-us">
+  <head>
+		<meta charset="utf-8" />
+  	<link rel="icon" type="image/png" href="../favicon.png"/>
+  	<title>Playground Post Page</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/manni.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+	
+  <body>
+	   <div class="page-container">
+			<div>
+
+<!-- 				Header and and nav -->
+				
+      	<header class="site-header">
+					<a href="{{ site.baseurl }}/" class="logo">ARDILA<span class="title-color">MORIN</span></a>
+						<nav class="nav">
+		          <ul>
+		            <li><a href="{{ site.baseurl }}/">About</a></li>
+		            <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+		          </ul>
+        		</nav>
+      	</header>
+				
+<section class="hero">
+    <h1>Really Simple Syndication</h1>
+    <p>Back to the roots of blogging and owning your content.</p>
+    <p class="text-small">
+      {{ page.date | date: "%B %e, %Y" }} &#183;
+      {% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+<i style="padding-right: 8px;"></i>{{ words | plus: 180 | divided_by: 180 | append: ' minute read' }}
+{% endunless %}
+    </p>
+</section>
+
+<article class="post">
+    <div class="content-group">
+    <div class="entry">
+			<figure>
+			<img src="../images/post-rss.jpg">
+			</figure>
+			<p>My personal site has been a way to keep me more hands on, experiment with new (and old) technologies, and most of all, do it all by hand to understand how things work.	
+			</p>
+			<h2>Why RSS</h2>
+			 <ul>
+		     <li>Matthias Ott - <a href="https://www.linkedin.com/in/ardilamorin/">Own your web</a></li>
+				 <li>Matthias Ott - <a href="https://www.linkedin.com/in/ardilamorin/">Own your web</a></li>
+		  </ul>
+			<blockquote>Booking.com runs more than 1,000 rigorous tests simultaneously</blockquote>
+			
+			<hr>
+			
+			<aside>				
+	      <p>Want to continue the conversation? Let’s talk, now on Mastodon <a href="https://mstdn.social/@ardilamorin" target="_blank" rel="noopener noreferrer">@ardilamorin@mstdn.social</a>. 
+	      </p>      
+	      
+				<div class="kudos">
+	      <p class="kudos_text">If you liked the article give Kudos here</p><button class="tinylytics_kudos"></button>
+	      </div>
+				
+			</aside>   
+  </div>    
+	
+    <div class="content-group">
+			<div class="block-small">
+			<h4>Continue reading</h4>
+		</div>
+    <div class="block-md">
+      <!-- {% if page.previous.url %} -->
+      <div class="card">
+        <a href="{{ site.baseurl }}{{page.previous.url}}">
+        <p class="text-small">{{ page.previous.date | date: "%-d.%-m.%y" }}</p>
+        <h3>{{page.previous.title}}</h3>
+        <p>{{page.previous.excerpt }}</p>
+        </a>
+      </div>
+     <!--  {% endif %}
+      {% if page.next.url %} -->
+      <div class="card">
+        <a href="{{ site.baseurl }}{{page.next.url}}">
+        <p class="text-small">{{ page.next.date | date: "%-d.%-m.%y" }}</p>
+        <h3>{{page.next.title}}</h3>
+        <p>{{page.next.excerpt }}</p>
+        </a>
+      </div>
+<!--       {% endif %} -->
+    </div>
+    </div>
+  </div>
+</article>

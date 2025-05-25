@@ -46,5 +46,3 @@ Some classic, some new(ish) methodologies to create and design digital products.
 - [UX Strategy by Jaime Levy](https://jaimelevy.com/ux-strategy-book/ "UX Strategy by Jaime Levy"){:target="_blank"}
 
 Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.
-
----

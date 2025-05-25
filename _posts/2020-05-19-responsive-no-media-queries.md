@@ -92,5 +92,3 @@ I have to thank [Rachel Andrews](https://rachelandrew.co.uk){:target="_blank"} f
 - [Look Ma no Media Queries](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/){:target="_blank"}
 - [Create a responsive grid layout with no media queries, using CSS Grid](https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/){:target="_blank"}
 - [Simplified fluid typography](https://css-tricks.com/simplified-fluid-typography/){:target="_blank"}
-
----
