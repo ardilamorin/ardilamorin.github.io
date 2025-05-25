@@ -51,7 +51,7 @@ src: local('Manrope Bold'), url('../Fonts/Manrope/manrope-bold.woff') format('wo
 
   /* Spacing */
 	--space-variable: clamp(1rem, 3vw, 4rem);
-	--space-variable-sm: clamp(1rem 2vw, 2rem);
+	--space-variable-sm: clamp(1rem, 2vw, 2rem);
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
