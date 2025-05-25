@@ -160,7 +160,7 @@ a:hover {
 	color: var(--color-text-dark);	
 	align-self: center;
   align-items: center;
-	height: var(--space-xl);
+	height: var(--space-lg);
 	transition:  var(--transition-smooth);
 }
 
