@@ -436,3 +436,26 @@ border-radius: 0.45em;
 	gap: var(--space-md);
 	margin: var(--space-lg) 0;
 }
+
+.kudos p{
+  flex: 0 1 auto;
+  max-width: calc(70% + 1ch);
+ }
+
+.tinylytics_kudos{
+  display: flex;  
+  text-align: center;
+  color: var(--color-text-dark);
+  font-weight: 500;
+  padding: var(--space-md); 
+  margin: auto;
+  background-color: var(--color-bg-neutral);
+  border: none;
+  border-radius: var(--radius-lg);
+  }
+  
+.tinylytics_kudos:hover{ 
+  color: white;
+  background-color: #4285f4;
+  transition: all .5s;
+  }
