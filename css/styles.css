@@ -410,6 +410,7 @@ border-radius: 0.45em;
 }
 
 figure.highlight pre {
+background: var(--color-bg-neutral);
 width: 100%;
 margin: 0;
 padding: 0.6em;
