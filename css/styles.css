@@ -162,7 +162,8 @@ a:hover {
 	align-self: center;
   align-items: center;
 	height: var(--space-variable-sm);
-	transition:  var(--transition-smooth);
+	padding: var(--space-sm);
+	transition: var(--transition-smooth);
 }
 
 .logo:hover {
