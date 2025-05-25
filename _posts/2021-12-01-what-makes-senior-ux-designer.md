@@ -3,7 +3,7 @@ title: What makes a Senior UX Designer?
 published: true
 layout: post
 img: /images/what-makes-a-senior-ux-designer.jpg
-excerpt: Key traits that define seniority of a UX Designer
+excerpt: Key traits that define seniority of a UX Designer.
 ---
 ![Senior UX Designer Traits](/images//what-makes-a-senior-ux-designer.jpg)*Senior UX Designer Traits*
 
