@@ -151,6 +151,8 @@ a:hover {
 
 .site-header{
   display: flex;
+	height: var(--space-variable-sm);
+	align-items: center;
   justify-content:space-between;
   flex-wrap: wrap;
 	font-family: 'Manrope Bold', Fallback, sans-serif;
@@ -159,9 +161,6 @@ a:hover {
 .logo {
 	display: flex;
 	color: var(--color-text-dark);	
-	align-self: center;
-  align-items: center;
-	height: var(--space-variable-sm);
 	padding: var(--space-sm);
 	transition: var(--transition-smooth);
 }
@@ -190,7 +189,6 @@ a:hover {
 	display: flex;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-variable-sm);
   margin-left: 0;
   margin-right: clamp(1.2em, 1vw, 2.4em);
 	transition:  var(--transition-smooth);
@@ -356,6 +354,7 @@ text-decoration: none;
 	display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
+	align-items: center;
   text-transform: uppercase;
   color: var(--color-text-dark);
 	height: var(--space-variable);
@@ -364,6 +363,7 @@ text-decoration: none;
 
 .footer ul {
   display: flex;
+	align-items: center;
   margin: 0;
   list-style: none;
   padding-inline-start: 0px;
@@ -372,7 +372,6 @@ text-decoration: none;
 
 .footer li {
 	display: flex;
-  align-items: center;
 	justify-content: flex-start;
   text-transform: uppercase;
   color: var(--color-text-dark);
