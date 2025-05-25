@@ -384,10 +384,10 @@ text-decoration: none;
 	color: var(--color-accent);
 }
 	
-/*.hide {
-	opacity: 0;
+.hide {
+	visibility: hidden;
 	transition: var(--transition-smooth);
-}*/
+}
 
 .footer li:hover .hide {
 opacity: 1;
