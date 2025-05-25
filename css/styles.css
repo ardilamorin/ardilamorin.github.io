@@ -414,6 +414,7 @@ background: var(--color-bg-neutral);
 width: 100%;
 margin: 0;
 padding: 0.6em;
+border-radius: var(--radius-lg);
 
 }
 pre {
