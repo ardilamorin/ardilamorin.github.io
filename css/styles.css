@@ -365,12 +365,12 @@ text-decoration: none;
   margin: 0;
   list-style: none;
   padding-inline-start: 0px;
-	row-gap: var(--space-lg);
+	gap: var(--space-lg);
 }
 
 .footer li {
 	display: flex;
-	flex:
+	flex
   align-items: center;
 	justify-content: flex-start;
   text-transform: uppercase;
