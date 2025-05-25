@@ -294,7 +294,7 @@ figure {
 	display: block;
 	max-inline-size: 100%;
 	block-size: auto;
-/*	max-width: 100%;*/
+	max-width: 100%;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
 	margin-bottom: var(--space-md);
@@ -315,6 +315,7 @@ figure {
     display: inline-block;
     transition: var(--transition-smooth);
 		align-self: center;
+		margin-bottom:var(--space-md);
 }
 
 .primary-button:hover {
