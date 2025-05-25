@@ -456,6 +456,6 @@ border-radius: 0.45em;
   
 .tinylytics_kudos:hover{ 
   color: white;
-  background-color: #4285f4;
+  background-color: var(--color-accent);
   transition: all .5s;
   }
