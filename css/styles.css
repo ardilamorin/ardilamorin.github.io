@@ -365,17 +365,19 @@ text-decoration: none;
   margin: 0;
   list-style: none;
   padding-inline-start: 0px;
-	gap: var(--space-sm);
+	row-gap: var(--space-lg);
 }
 
 .footer li {
 	display: flex;
+	flex:
   align-items: center;
 	justify-content: flex-start;
   text-transform: uppercase;
   color: var(--color-text-dark);
 	height: var(--space-xl);
   margin-left: 0;
+
 }
 
 .footer li a {
