@@ -115,6 +115,10 @@ h1 { font-size: var(--font-size-xl); font-family:'Manrope Bold', Fallback, sans-
 h2 { font-size: var(--font-size-lg);font-family:'Manrope Bold', Fallback, sans-serif ; color: var(--color-text-dark); }
 h3 { font-size: var(--font-size-md);font-family:'Manrope Bold', Fallback, sans-serif ; color: var(--color-text-dark); }
 
+.excerpt {
+	text-wrap: balance;
+}
+
 a {
   color: var(--color-link);
   text-decoration: none;
