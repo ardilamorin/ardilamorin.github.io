@@ -365,22 +365,22 @@ text-decoration: none;
   margin: 0;
   list-style: none;
   padding-inline-start: 0px;
+	gap: var(--space-sm);
 }
 
 .footer li {
 	display: flex;
   align-items: center;
+	justify-content: flex-start;
   text-transform: uppercase;
   color: var(--color-text-dark);
 	height: var(--space-xl);
   margin-left: 0;
-	align-items: center;
 }
 
 .footer li a {
   color: inherit;
   text-decoration: none;
-	padding: var(--space-sm);
 	transition: var(--transition-smooth);
 }
 
