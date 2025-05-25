@@ -394,7 +394,7 @@ text-decoration: none;
 }
 
 .footer li:hover .hide {
-visibility: visible;
+	visibility: visible;
 }
 	
 /*blog posts styles*/
