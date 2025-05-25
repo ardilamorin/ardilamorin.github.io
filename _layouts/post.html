@@ -1,9 +1,8 @@
 ---
 layout: default
+published: true
 ---
-<!-- <div class="hero-post">
-<img src="/images/{{ page.img }}">
-</div> -->
+
 <section class="hero">
     <h1>{{ page.title }}</h1>
     <p>{{ page.excerpt }}</p>
@@ -21,43 +20,42 @@ layout: default
 
 <article class="post">
     <div class="content-group">
-    <div class="entry">
-        {{ content }}
-      <hr> 
-     			<aside>				
-			      <p>Want to continue the conversation? Let’s talk, now on Mastodon <a href="https://mstdn.social/@ardilamorin" target="_blank" rel="noopener noreferrer">@ardilamorin@mstdn.social</a>. 
-			      </p>      
-		      <div class="kudos">
-		      <p class="kudos_text">If you liked the article give Kudos here</p><button class="tinylytics_kudos"></button>
+	    <div class="entry">
+	        {{ content }}
+	      <hr> 
+	     			<aside>				
+				      <p>Want to continue the conversation? Let’s talk, now on Mastodon <a href="https://mstdn.social/@ardilamorin" target="_blank" rel="noopener noreferrer">@ardilamorin@mstdn.social</a>. 
+				      </p>      
+			      <div class="kudos">
+			      <p class="kudos_text">If you liked the article give Kudos here</p><button class="tinylytics_kudos"></button>
+			      </div>
+				</aside>        
+	  </div>  
+	  
+	   <div class="content-group">
+				<div class="block-small">
+					<h4>Continue reading</h4>
+			</div>
+	    <div class="block-md">
+	      <!-- {% if page.previous.url %} -->
+		      <div class="card">
+		        <a href="{{ site.baseurl }}{{page.previous.url}}">
+		        <p class="text-small">{{ page.previous.date | date: "%-d.%-m.%y" }}</p>
+		        <h3>{{page.previous.title}}</h3>
+		        <p>{{page.previous.excerpt }}</p>
+		        </a>
 		      </div>
-			</aside>        
-  </div>  
-  
-   <div class="content-group">
-			<div class="block-small">
-			<h4>Continue reading</h4>
-		</div>
-    <div class="block-md">
-      <!-- {% if page.previous.url %} -->
-      <div class="card">
-        <a href="{{ site.baseurl }}{{page.previous.url}}">
-        <p class="text-small">{{ page.previous.date | date: "%-d.%-m.%y" }}</p>
-        <h3>{{page.previous.title}}</h3>
-        <p>{{page.previous.excerpt }}</p>
-        </a>
-      </div>
-     <!--  {% endif %}
-      {% if page.next.url %} -->
-      <div class="card">
-        <a href="{{ site.baseurl }}{{page.next.url}}">
-        <p class="text-small">{{ page.next.date | date: "%-d.%-m.%y" }}</p>
-        <h3>{{page.next.title}}</h3>
-        <p>{{page.next.excerpt }}</p>
-        </a>
-      </div>
-<!--       {% endif %} -->
-    </div>
-		</div>
-  </div>
+	     <!--  {% endif %}
+	      {% if page.next.url %} -->
+		      <div class="card>
+		        <a href="{{ site.baseurl }}{{page.next.url}}">
+		        <p class="text-small">{{ page.next.date | date: "%-d.%-m.%y" }}</p>
+		        <h3>{{page.next.title}}</h3>
+		        <p>{{page.next.excerpt }}</p>
+		        </a>
+		      </div>
+	<!--       {% endif %} -->
+	    	</div>
+			</div>
 	
 </article>
