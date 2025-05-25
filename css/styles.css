@@ -188,7 +188,6 @@ a:hover {
 
 .nav li {
 	display: flex;
-  align-self: center;
   text-transform: uppercase;
   color: var(--color-text-dark);
 	height: var(--space-variable-sm);
