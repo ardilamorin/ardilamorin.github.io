@@ -446,6 +446,7 @@ pre {
 
 .kudos {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	gap: var(--space-md);
 	margin: var(--space-lg) 0;
@@ -461,7 +462,7 @@ pre {
   text-align: center;
   color: var(--color-text-dark);
   font-weight: 500;
-  padding: var(--space-md); 
+  padding: 0.75em 1.75em;
   margin: auto;
   background-color: var(--color-bg-neutral);
   border: none;
