@@ -360,7 +360,6 @@ text-decoration: none;
 	row-gap: var(--space-variable-sm);
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-variable);
 	padding-bottom: var(--space-variable);
 }
 
