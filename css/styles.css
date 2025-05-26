@@ -238,6 +238,7 @@ a:hover {
 	.block-md {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	
 /*	padding: 6vw 0;*/
   }
 
@@ -287,9 +288,8 @@ a:hover {
 .card-md {
 	display: flex;
 	flex-direction: column;
-/*	flex: 1 1 28rem; /* Allow cards to shrink and grow, minimum ~1 column */
 	padding: var(--space-variable);
-	
+/*	flex: 1 1 28rem; /* Allow cards to shrink and grow, minimum ~1 column */
 }
 
 figure {
