@@ -256,7 +256,9 @@ a:hover {
 
 #highlight {
 	padding: 4vw 0;
-	border-image: conic-gradient(var(--color-bg-neutral) 0 0) fill 0//0 100vw;
+	background-color: var(--color-bg-neutral);
+	border-radius: var(--radius-lg);
+/*	border-image: conic-gradient(var(--color-bg-neutral) 0 0) fill 0//0 100vw;*/
 }
 	
 	
