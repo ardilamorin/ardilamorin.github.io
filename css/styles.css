@@ -358,7 +358,7 @@ text-decoration: none;
 	row-gap: var(--space-variable-sm);
   text-transform: uppercase;
   color: var(--color-text-dark);
-	padding-bottom: var(--space-variable);
+	padding: var(--space-sm) var(--space-sm) var(--space-sm) 0;
 }
 
 .footer ul {
