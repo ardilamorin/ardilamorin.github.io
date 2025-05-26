@@ -238,7 +238,6 @@ a:hover {
 	.block-md {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-	grid-gap: var(--space-md); 
 /*	padding: 6vw 0;*/
   }
 
