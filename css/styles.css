@@ -151,7 +151,6 @@ a:hover {
 
 .site-header{
   display: flex;
-	height: var(--space-variable-sm);
 	align-items: center;
   justify-content:space-between;
   flex-wrap: wrap;
