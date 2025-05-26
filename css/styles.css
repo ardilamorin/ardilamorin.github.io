@@ -435,7 +435,7 @@ pre {
     border-left: 0.08em dotted #4285f4;
     padding: 0.1em 1em;
     color: #222222;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     font-style: italic;
   }
 	
