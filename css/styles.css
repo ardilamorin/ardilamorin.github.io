@@ -377,7 +377,6 @@ text-decoration: none;
 	justify-content: flex-start;
   text-transform: uppercase;
   color: var(--color-text-dark);
-	height: var(--space-variable-sm);
   margin-left: 0;
 
 }
