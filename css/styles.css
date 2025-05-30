@@ -434,7 +434,7 @@ pre {
 .entry blockquote {
 		font-family: 'Manrope Semibold';
 		margin: 1.8em .8em;
-    border-left: 0.08em dotted #4285f4;
+    border-left: 0.2rem dotted #4285f4;
     padding: 0.1em 1em;
     color: #222222;
     font-size: var(--font-size-md);
