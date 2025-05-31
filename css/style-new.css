@@ -481,7 +481,7 @@ text-decoration: none;
 }
 
 .card:hover {
-  order-style: solid;
+  border-style: solid;
   border-color: #4285f4;
 }
 
