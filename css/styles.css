@@ -118,6 +118,7 @@ body {
 h1, h2, h3 {
   line-height: 1.3;
 	text-wrap: balance;
+	
 }
 
 h1 { font-size: var(--font-size-xl); font-family:'Manrope Bold', Fallback, sans-serif ; color: var(--color-text-dark); }
@@ -126,6 +127,14 @@ h3 { font-size: var(--font-size-md);font-family:'Manrope Bold', Fallback, sans-s
 
 .excerpt {
 	text-wrap: balance;
+}
+
+img {
+    width: 100%;
+		height: auto;
+		border-radius: var(--radius-md);
+/*  	box-shadow: var(--shadow-soft);*/
+		margin-bottom: var(--space-md);
 }
 
 a {
@@ -219,13 +228,6 @@ a:hover {
 	box-shadow: 0px 4px 0px 0px var( --color-accent);
 }
 	
-.nav-hover {
-	content: '';
-	position: aboslute;
-	width: 100%;
-	height: 0.05rem;
-}
-	
 .nav li a {
   color: inherit;
   text-decoration: none;
@@ -233,27 +235,29 @@ a:hover {
 }
 
 .hero {
+	display: flex;
+	flex-direction: column;
+	row-gap: var(--space-md);
 	padding: var(--space-l-2xl) 0;
 	align-items: center;
 	text-align: center;
-  max-width: 44em;
   margin: auto;
 }
 
-.hero-post {
-	padding: var(--space-l-2xl) 0 var(--space-sm);
-	align-items: center;
+.hero h1, h4{ 
 	text-align: center;
-  max-width: 44em;
-  margin: auto;
+	max-width: 55ch;
+	margin: auto;
+	animation: intro 1s ease;
+ 	margin-top: var(--space-sm);
+}
+
+
+.margin-sm {
+	padding: var(--space-l-2xl) 0 var(--space-sm);
 }
 
 .hero-post h1{
- animation: intro 1s ease;
- margin-top: var(--space-sm);
- }
-
-.hero h1{
  animation: intro 1s ease;
  margin-top: var(--space-sm);
  }
@@ -263,7 +267,7 @@ a:hover {
 	padding: 0 0 var(--space-l-2xl);
 }
 
-.content-group h1, h2, h3 {
+.content-group h1, h2, h3, h4 { 
 margin-top: 1em;
 }
 
@@ -276,7 +280,7 @@ margin-top: 1em;
 
 .block-small {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
 	grid-gap: var(--space-md); 
 	margin-top: var(--space-sm);
   }
@@ -349,12 +353,12 @@ figure {
 	margin: 0;
 }
 
- .card-md img {
+/* .card-md img {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
 	margin-bottom: var(--space-md);
 }
-
+*/
  figcaption {
 	font-size: var(--font-size-sm);
 }
