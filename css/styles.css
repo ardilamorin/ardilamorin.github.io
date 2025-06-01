@@ -238,17 +238,20 @@ a:hover {
 	text-align: center;
   max-width: 44em;
   margin: auto;
-/*	margin-bottom: var(--space-xl);*/
 }
 
 .hero-post {
-	padding: var(--space-l-2xl) 0 var(--space-sm) ;
+	padding: var(--space-l-2xl) 0 var(--space-sm);
 	align-items: center;
 	text-align: center;
   max-width: 44em;
   margin: auto;
-/*	margin-bottom: var(--space-xl);*/
 }
+
+.hero-post h1{
+ animation: intro 1s ease;
+ margin-top: var(--space-sm);
+ }
 
 .hero h1{
  animation: intro 1s ease;
@@ -257,7 +260,7 @@ a:hover {
 
 .content-group {
 /*	padding: var(--space-md) 0;*/
-	padding: var(--space-l-2xl) 0;
+	padding: 0 0 var(--space-l-2xl);
 }
 
 .content-group h1, h2, h3 {
