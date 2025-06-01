@@ -248,10 +248,10 @@ a:hover {
 
 .content-group {
 /*	padding: var(--space-md) 0;*/
-	padding: var(--space-xl) 0;
+	padding: var(--space-lg) 0;
 }
 
-content-group h1, h2, h3 {
+.content-group h1, h2, h3 {
 margin-top: 0.6rem;
 }
 
@@ -356,7 +356,7 @@ figure {
     display: inline-block;
     transition: var(--transition-smooth);
 		align-self: center;
-		margin-bottom:var(--space-md);
+		margin-bottom: var(--space-md);
 }
 
 .primary-button:hover {
