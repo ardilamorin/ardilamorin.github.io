@@ -55,7 +55,7 @@ src: local('Manrope Bold'), url('../Fonts/Manrope/manrope-bold.woff') format('wo
   --space-md: clamp(1.5rem, 1.38rem + 0.58vw, 1.875rem);
   --space-lg: clamp(2rem, 1.84rem + 0.78vw, 4.75rem);
 	--space-xl: clamp(2.5rem, 2.38rem + 0.98vw, 6.75rem);
-  
+	--space-l-2xl: clamp(2rem, 1.07rem + 4.66vw, 5rem);
   /* Radius */
   --radius-sm: 0.25rem;
   --radius-md: 0.45rem;
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .hero {
-	padding: var(--space-xl) 0;
+	padding: var(--space-l-2xl) 0;
 	align-items: center;
 	text-align: center;
   max-width: 44em;
@@ -248,7 +248,7 @@ a:hover {
 
 .content-group {
 /*	padding: var(--space-md) 0;*/
-	padding:  0 0 var(--space-lg);
+	padding: var(--space-l-2xl) 0;
 }
 
 .content-group h1, h2, h3 {
