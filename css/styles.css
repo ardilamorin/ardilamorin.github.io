@@ -233,12 +233,12 @@ a:hover {
 }
 
 .hero {
-	padding: var(--space-xl) 0em;
+	padding: var(--space-xl) 0;
 	align-items: center;
 	text-align: center;
   max-width: 44em;
   margin: auto;
-	margin-bottom: var(--space-xl);
+/*	margin-bottom: var(--space-xl);*/
 }
 
 .hero h1{
