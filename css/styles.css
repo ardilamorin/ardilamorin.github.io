@@ -248,7 +248,7 @@ a:hover {
 
 .content-group {
 /*	padding: var(--space-md) 0;*/
-	padding: var(--space-lg) 0;
+	padding:  0 0 var(--space-lg);
 }
 
 .content-group h1, h2, h3 {
@@ -281,6 +281,8 @@ margin-top: 1em;
 	flex-direction: column;
 	gap: var(--space-lg);
 	justify-content: center;
+	padding: var(--space-lg);
+	
 }
 
 .content-block-centered > * { 
@@ -494,7 +496,7 @@ pre {
 	flex-wrap: wrap;
 	align-items: center;
 	gap: var(--space-md);
-	margin: var(--space-lg) 0;
+	margin: var(--space-sm) 0;
 }
 
 .kudos p{
