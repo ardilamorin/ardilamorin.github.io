@@ -287,7 +287,7 @@ margin-top: 1em;
 
 	.block-md {
 	  display: grid;
-	  grid-template-columns: repeat(auto-fit, minmax(clamp(16rem,40vw,26rem), 1fr));
+	  grid-template-columns: repeat(auto-fill, minmax(clamp(16rem,40vw,26rem), 1fr));
 		grid-gap: var(--space-sm) var(--space-lg); 
 		min-width: 0;
   }
