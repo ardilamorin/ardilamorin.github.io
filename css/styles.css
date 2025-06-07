@@ -272,7 +272,7 @@ margin-top: 1em;
 }
 
 .group-title {
-	margin-bottom: 1em;
+	margin-bottom: var(--space-l-2xl);
 }
 
 .block {
@@ -351,6 +351,7 @@ margin-top: 1em;
 	height: 100%;
 	object-fit: cover;
 	transition: transform 0.3s ease;
+	padding: var(--);
   }
 
 .carousel-item:hover img {
@@ -411,7 +412,7 @@ margin-top: 1em;
 	display: flex;
 	flex-direction: column;
 	align-content: start;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .card-md h2{
@@ -483,7 +484,7 @@ figure {
 	row-gap: var(--space-md);
   text-transform: uppercase;
   color: var(--color-text-dark);
-	padding: var(--space-md);
+/*	padding: var(--space-md);*/
 }
 
 .footer ul {
