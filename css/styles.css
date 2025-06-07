@@ -272,7 +272,8 @@ margin-top: 1em;
 }
 
 .group-title {
-	margin-bottom: var(--space-l-2xl);
+	margin-bottom: var(--space-lg);
+	text-align: center;
 }
 
 .block {
