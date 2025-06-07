@@ -327,6 +327,7 @@ margin-top: 1em;
 	/* Custom scrollbar styling */
 	scrollbar-width: thin;
 	scrollbar-color: rgba(102, 126, 234, 0.3) transparent;
+	max-width: 100%;
 }
 
 .carousel-item {
@@ -352,7 +353,6 @@ margin-top: 1em;
 	height: 100%;
 	object-fit: cover;
 	transition: transform 0.3s ease;
-	padding: var(--);
   }
 
 .carousel-item:hover img {
