@@ -334,7 +334,6 @@ margin-top: 1em;
 	min-width: 15.625rem; /* Minimum width before horizontal scroll kicks in */
 	max-width: 25rem; /* Maximum width on large screens */
 	height: 17.5rem;
-	        
 	border-radius: var(--radius-lg);
 	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
@@ -412,6 +411,7 @@ margin-top: 1em;
 	display: flex;
 	flex-direction: column;
 	align-content: start;
+	margin: auto;
 }
 
 .card-md h2{
