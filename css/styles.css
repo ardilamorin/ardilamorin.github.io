@@ -336,14 +336,14 @@ margin-top: 1em;
 	height: 17.5rem;
 	border-radius: var(--radius-lg);
 	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+/*	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);*/
 	position: relative;
 	overflow: hidden;
 	      }
 
 .carousel-item:hover {
-	transform: translateY(-8px) scale(1.02);
-	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+	transform: translateY(-2px) scale(1.02);
+/*	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);*/
   }
 
 .carousel-item img {
