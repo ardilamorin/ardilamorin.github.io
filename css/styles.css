@@ -415,6 +415,10 @@ margin-top: 1em;
 	margin: 0 auto;
 }
 
+.card-md .middle{
+	margin: auto;
+}
+
 .card-md h2{
 	margin-top: 0.6rem;
 }
