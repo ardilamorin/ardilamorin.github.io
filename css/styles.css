@@ -151,6 +151,20 @@ a:hover {
 	margin-top: 0;
 }
 
+ul li {
+list-style: disc;
+margin-block-end: 1rem;
+}
+
+ul li::marker {
+  color: var(--color-text-dark);
+}
+
+ul li span {
+	color: var(--color-text-dark);
+}
+
+
 @keyframes intro {
   0% { 
     transform: translate(0px, 20px);
