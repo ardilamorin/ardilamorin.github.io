@@ -151,7 +151,6 @@ a:hover {
 }
 
 ul li {
-list-style: disc;
 margin-block-end: 1rem;
 }
 
@@ -309,6 +308,10 @@ margin-top: 1em;
 		grid-gap: var(--space-sm) var(--space-lg); 
 		min-width: 0;
   }
+	
+	.block-md img {
+		margin-bottom: var(--space-sm);
+	}
 
 .content-block-centered {
   display: flex;
