@@ -304,7 +304,7 @@ margin-top: 1em;
 
 	.block-md {
 	  display: grid;
-	  grid-template-columns: repeat(auto-fill, minmax(clamp(16rem,40vw,26rem), 1fr));
+	  grid-template-columns: repeat(auto-fill, minmax(clamp(14rem,40vw,26rem), 1fr));
 		grid-gap: var(--space-sm) var(--space-lg); 
 		min-width: 0;
   }
@@ -440,6 +440,36 @@ margin-top: 1em;
 .card-md img{
 	 margin-bottom: var(--space-sm) ;
  }
+ 
+.list-alt {
+    padding-inline-start: 0px;
+}
+
+.list-alt p {
+    margin-block-start: 0px;
+}
+
+.list-alt > * {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.6rem;
+}
+
+.list-alt .aside {
+    flex-grow: 1;
+    flex-basis: 8rem;
+    font-weight: bold;
+    margin-block-start: 0px;
+}
+
+.list-alt .main {
+    flex-grow: 999;
+    flex-basis: 0px;
+    min-inline-size: 60%;
+}
+
+ 
 
 figure {
 	margin: 0;
