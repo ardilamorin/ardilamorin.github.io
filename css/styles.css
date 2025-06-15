@@ -372,10 +372,10 @@ margin-top: 1em;
 	overflow: hidden;
   }
 
-.carousel-item:hover img-container {
+/*.carousel-item:hover img-container {
 	transform: translateY(-8px) scale(1.02);
   }
-	
+	*/
 	.carousel-item img {
             width: 100%;
             height: 100%;
