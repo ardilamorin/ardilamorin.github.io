@@ -345,9 +345,7 @@ margin-top: 1em;
 
 .carousel-item {
 	/* Key properties for responsive behavior */
-	flex: 1 0 min(18.75rem, 45vw); /* Grow, don't shrink, with responsive base width */
-	min-width: 15.625rem; /* Minimum width before horizontal scroll kicks in */
-	max-width: 25rem; /* Maximum width on large screens */
+	flex: 0 0 17.5rem; /* Don't grow or shrink, fixed width */
 /*	height: 17.5rem;*/
 	border-radius: var(--radius-lg);
 	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -356,11 +354,6 @@ margin-top: 1em;
 	overflow: hidden;
 	      }
 
-.carousel-item:hover {
-	transform: translateY(-2px) scale(1.02);
-/*	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);*/
-  }
-	
  .carousel-item figure {
             margin: 0;
             height: 100%;
