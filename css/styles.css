@@ -348,7 +348,7 @@ margin-top: 1em;
 	flex: 1 0 min(18.75rem, 45vw); /* Grow, don't shrink, with responsive base width */
 	min-width: 15.625rem; /* Minimum width before horizontal scroll kicks in */
 	max-width: 25rem; /* Maximum width on large screens */
-	height: 17.5rem;
+/*	height: 17.5rem;*/
 	border-radius: var(--radius-lg);
 	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 /*	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);*/
@@ -360,6 +360,13 @@ margin-top: 1em;
 	transform: translateY(-2px) scale(1.02);
 /*	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);*/
   }
+	
+ .carousel-item figure {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
 
 .carousel-item img {
 	width: 100%;
