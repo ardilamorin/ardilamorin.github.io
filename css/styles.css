@@ -337,6 +337,7 @@ margin-top: 1em;
 	overflow-x: auto;
 	scroll-behavior: smooth;
 	padding: 0.5rem 0 1rem 0;
+	align-items:flex-start;
 	/* Custom scrollbar styling */
 	scrollbar-width: thin;
 	scrollbar-color: rgba(102, 126, 234, 0.3) transparent;
@@ -344,9 +345,9 @@ margin-top: 1em;
 }
 
 .carousel-item {
-	/* Key properties for responsive behavior */
-	flex: 0 0 17.5rem; /* Don't grow or shrink, fixed width */
-/*	height: 17.5rem;*/
+	flex: 1 1 min(17.5rem,45vw); /* Grow, don't shrink, with responsive base width */
+	min-width: 17.5rem; /* Minimum width before horizontal scroll kicks in */
+	max-width: 25rem;
 	border-radius: var(--radius-lg);
 	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 /*	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);*/
@@ -355,37 +356,36 @@ margin-top: 1em;
 	      }
 
  .carousel-item figure {
-            margin: 0;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-.carousel-item img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: transform 0.3s ease;
-  }
-
-/*.carousel-item:hover img {
-  transform: scale(1.1);
-  }*/
-
-   /* Demo images with gradients */
-	 
-		/*.carousel-img {
-    width: 100%;
+    margin: 0;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.3rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
-}			*/
+    flex-direction: column;
+		row-gap: var(--space-sm);
+        }
+
+.carousel-item img-container {
+	flex: 1;
+	width: 100%;
+	aspect-ratio:4/3;
+	min-height: 12rem;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	overflow: hidden;
+  }
+
+.carousel-item:hover img-container {
+	transform: translateY(-8px) scale(1.02);
+  }
+	
+	.carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .carousel-item:hover img {
+            transform: scale(1.1);
+        }
 
   /* Touch scroll enhancement for mobile */
   .flex-carousel,
@@ -469,18 +469,10 @@ margin-top: 1em;
     min-inline-size: 60%;
 }
 
- 
-
 figure {
 	margin: 0;
 }
 
-/* .card-md img {
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-soft);
-	margin-bottom: var(--space-md);
-}
-*/
  figcaption {
 	font-size: var(--font-size-sm);
 }
