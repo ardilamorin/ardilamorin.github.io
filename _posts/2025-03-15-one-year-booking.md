@@ -56,7 +56,7 @@ This is simply a self-reminder to make any move for the right reasons, understan
 
 ## How it's going
 
-So far, the experience has been great. I'm happy to be part of a company that continous to challenge itself and allows its employees to go after new goals, not being a fraid of introducing new ways of doing things. In this time, I have worked on interesting projects like setting a baseline for mesuring the Design System's impact, defining AI guidelines for Design,and the evolution of dark mode.
+So far, the experience has been great. I'm happy to be part of a company that continous to challenge itself and allows its employees to go after new goals, not being a fraid of introducing new ways of doing things. In this time, I have worked on interesting projects like setting a baseline for mesuring the Design System's impact, defining AI guidelines for Design, and the evolution of dark mode.
 
 I'm looking forwards to more exciting challenges in this pivotal moment of design and the evolution of how we create digital products.
 
