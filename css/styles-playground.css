@@ -1,0 +1,599 @@
+/* ===================
+   Modern CSS Reset
+   Based on Andy Bell's approach
+   =================== */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after
+{
+	box-sizing: border-box;
+}
+
+/* Remove default margin */
+*
+{
+	margin: 0;
+}
+
+/* Allow percentage-based heights */
+html,
+body
+{
+	height: 100%;
+}
+
+/* Typographic tweaks */
+body
+{
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg
+{
+	display: block;
+	max-width: 100%;
+}
+
+/* Remove built-in form typography styles */
+input,
+button,
+textarea,
+select
+{
+	font: inherit;
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	overflow-wrap: break-word;
+}
+
+/* Remove list styles on ul, ol elements with a class */
+ul[class],
+ol[class]
+{
+	list-style: none;
+	padding: 0;
+}
+
+/* ===================
+   Design Tokens
+   =================== */
+
+:root
+{
+	/* Colors */
+	--color-text-primary: #1e1e1e;
+	--color-text-secondary: #666666;
+	--color-bg-body: #ffffff;
+	--color-bg-nav: #f5f5f5;
+	--color-bg-footer: #f5f5f5;
+	--color-bg-about: #f4f1ed;
+	--color-bg-work: #e3ece3;
+	--color-bg-blog: #e7ebf3;
+	--color-bg-button: #2c2c2c;
+	--color-text-button: #f5f5f5;
+	
+	/* Spacing Scale - using rem (16px base) */
+	--space-xs: 0.375rem;
+	/* 6px */
+	--space-sm: 0.5rem;
+	/* 8px */
+	--space-md: 1rem;
+	/* 16px */
+	--space-lg: 1.5rem;
+	/* 24px */
+	--space-xl: 2rem;
+	/* 32px */
+	--space-2xl: 3rem;
+	/* 48px */
+	--space-3xl: 4rem;
+	/* 64px */
+	
+	/* Fluid Spacing - scales with viewport */
+	--space-fluid-md: clamp(1rem, 3vw, 1.5rem);
+	/* 16px - 24px */
+	--space-fluid-lg: clamp(1.5rem, 4vw, 3rem);
+	/* 24px - 48px */
+	--space-fluid-xl: clamp(2rem, 5vw, 4rem);
+	/* 32px - 64px */
+	
+	/* Typography Scale */
+	--text-xs: 0.875rem;
+	/* 14px */
+	--text-base: 1rem;
+	/* 16px */
+	--text-lg: 1.5rem;
+	/* 24px */
+	--text-xl: 2rem;
+	/* 32px */
+	--text-2xl: 3rem;
+	/* 48px */
+	--text-hero: clamp(4rem, 20vw, 12rem);
+	/* fluid 64px - 192px */
+	
+	/* Line Heights */
+	--leading-tight: 1.2;
+	--leading-normal: 1.4;
+	--leading-relaxed: 1.5;
+	
+	/* Border Radius */
+	--radius-sm: 0.5rem;
+	/* 8px */
+	--radius-md: 1rem;
+	/* 16px */
+	
+	/* ===================
+   Base Styles
+   =================== */
+	
+	html
+	{
+		font-size: 100%;
+		/* Respects user's browser settings */
+	}
+	
+	body
+	{
+		font-family: 'Inter', system-ui, -apple-system, sans-serif;
+		font-size: var(--text-base);
+		line-height: var(--leading-normal);
+		color: var(--color-text-primary);
+		background-color: var(--color-bg-body);
+		
+		/* Page layout - using Grid */
+		display: grid;
+		gap: var(--space-lg);
+		padding: var(--space-lg);
+		min-height: 100vh;
+	}
+	
+	/* Typography */
+	h1,
+	h2,
+	h3
+	{
+		line-height: var(--leading-tight);
+	}
+	
+	h1
+	{
+		font-size: var(--text-hero);
+		font-weight: 400;
+		letter-spacing: -0.03em;
+		/* Tighter tracking for large text */
+	}
+	
+	h2
+	{
+		font-size: var(--text-xl);
+		font-weight: 400;
+	}
+	
+	h3
+	{
+		font-size: var(--text-xl);
+		font-weight: 400;
+	}
+	
+	p
+	{
+		line-height: var(--leading-normal);
+	}
+	
+	/* Links */
+	a
+	{
+		color: inherit;
+		text-decoration: none;
+	}
+	
+	a:hover
+	{
+		color: var(--color-text-secondary);
+	}
+	
+	/* Time element */
+	time
+	{
+		font-size: var(--text-xs);
+		color: var(--color-text-primary);
+	}
+	
+	/* ===================
+   Navigation
+   =================== */
+	
+	.site-nav
+	{
+		background-color: var(--color-bg-nav);
+		border-radius: var(--radius-sm);
+		padding: var(--space-fluid-md) var(--space-fluid-lg);
+		/* Fluid padding */
+		
+		
+		/* Flexbox layout */
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-end;
+		gap: var(--space-md);
+	}
+	
+	.nav-brand p
+	{
+		font-size: var(--text-lg);
+		font-weight: 400;
+		letter-spacing: -0.02em;
+	}
+	
+	.nav-menu
+	{
+		display: flex;
+		gap: var(--space-2xl);
+	}
+	
+	.nav-menu a
+	{
+		font-size: var(--text-lg);
+		font-weight: 400;
+		letter-spacing: -0.02em;
+	}
+	
+	/* ===================
+   Hero Banner
+   =================== */
+	
+	.hero-banner
+	{
+		/* Flexbox layout */
+		display: flex;
+		flex-wrap: wrap;
+		gap: clamp(1.5rem, 3vw, 3rem);
+		/* Smaller, tighter range */
+		align-items: center;
+		
+		padding-block: var(--space-xl);
+	}
+	
+	.hero-title
+	{
+		padding-inline: var(--space-lg);
+	}
+	
+	.hero-title h1
+	{
+		line-height: 0.9;
+	}
+	
+	.hero-description
+	{
+		flex: 1 1 27.5rem;
+		/* Grow, shrink, basis of ~440px */
+		min-width: min(100%, 27.5rem);
+		max-width: 42.5rem;
+		/* ~680px max */
+		
+		padding-block: var(--space-fluid-lg) var(--space-lg);
+		/* Fluid top, fixed bottom */
+		padding-inline: var(--space-lg);
+	}
+	
+	.hero-description p
+	{
+		font-size: var(--text-xl);
+		line-height: var(--leading-tight);
+		text-wrap: balance;
+	}
+	
+	/* ===================
+   Main Content Layout
+   =================== */
+	
+	.main-content
+	{
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-lg);
+	}
+	
+	.about-section
+	{
+		flex: 1 1 20rem;
+		min-width: min(100%, 20rem);
+		/* max-width removed */
+		
+		/* Sticky positioning */
+		position: sticky;
+		top: 0;
+		align-self: flex-start;
+		z-index: 0;
+		/* Behind scrolling content */
+	}
+	
+	.content-column
+	{
+		flex: 999 1 38.75rem;
+		min-width: min(100%, 38.75rem);
+		
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-lg);
+		
+		position: relative;
+		/* Creates stacking context */
+		z-index: 1;
+		/* Above the sticky about card */
+		
+  background-color: rgba(255, 255, 255, 0.4);  /* Semi-transparent white */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  
+  border-radius: var(--radius-sm);
+/*  padding: var(--space-lg);*/
+}
+	
+	.work-section,
+	.blog-section
+	{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+		gap: var(--space-lg);
+	}
+	
+	/* ===================
+   Card Styles
+   =================== */
+	
+	/* Base card styles */
+	.card
+	{
+		border-radius: var(--radius-sm);
+		padding: var(--space-lg);
+		
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-lg);
+	}
+	
+	/* Card heights */
+
+.card-about,
+.card-intro,
+.card-work,
+.card-blog {
+  min-height: clamp(20rem, 40vh, 30rem);
+}
+	
+	/* Card with content that needs space-between */
+	.card-about,
+	.card-intro
+	{
+		justify-content: space-between;
+	}
+	
+	/* Card backgrounds - contextual colors */
+	.about-section .card
+	{
+		background-color: var(--color-bg-about);
+	}
+	
+	.work-section .card
+	{
+		background-color: var(--color-bg-work);
+	}
+	
+	.blog-section .card
+	{
+		background-color: var(--color-bg-blog);
+	}
+	
+	/* Card content areas */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  max-width: 65ch; /* Limits to ~65 characters wide */
+}
+	
+	/* Card labels (the small "about", "work", "blog" text) */
+	.card-label
+	{
+		font-size: var(--text-base);
+		color: var(--color-text-primary);
+	}
+	
+	/* Card actions (the links at bottom of cards) */
+	.card-actions
+	{
+		display: flex;
+		gap: var(--space-md);
+		flex-wrap: wrap;
+	}
+	
+	/* Text links with arrows */
+	.text-link
+	{
+		display: flex;
+		gap: var(--space-sm);
+		align-items: center;
+		
+		font-size: var(--text-base);
+		text-decoration: underline;
+		text-underline-offset: 0.25rem;
+		/* Space between text and underline */
+	}
+	
+	.text-link:hover
+	{
+		color: var(--color-text-secondary);
+	}
+	
+	.icon-arrow
+	{
+		width: 1.125rem;
+		/* 18px */
+		height: 1.125rem;
+		flex-shrink: 0;
+		/* Prevents icon from squishing */
+	}
+	
+	/* Work cards with images */
+	.card-work
+	{
+		gap: var(--space-md);
+		/* Tighter gap for image cards */
+	}
+	
+	.card-image
+	{
+		width: 100%;
+		height: 14.8125rem;
+		/* ~237px from Figma */
+		border-radius: var(--radius-md);
+		overflow: hidden;
+		background-color: #e0e0e0;
+		/* Placeholder color */
+	}
+	
+	.card-image img
+	{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	
+	.card-work h3
+	{
+		margin-top: auto;
+		/* Pushes title down if needed */
+	}
+	
+	/* Blog cards with graphics */
+	.card-blog
+	{
+		justify-content: space-between;
+	}
+	
+	.card-graphic
+	{
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 10rem;
+	}
+	
+	.blog-graphic-text
+	{
+		font-size: clamp(3rem, 8vw, 5rem);
+		font-weight: 700;
+		color: var(--color-text-primary);
+		opacity: 0.1;
+		/* Subtle background text */
+	}
+	/* ===================
+   Footer
+   =================== */
+
+.site-footer {
+  background-color: var(--color-bg-footer);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2xl) var(--space-fluid-lg);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: var(--space-2xl);
+  align-items: start;
+}
+
+.footer-cta h2 {
+  font-size: var(--text-2xl);
+  font-weight: 400;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.contact-text h3 {
+  font-size: var(--text-xl);
+  font-weight: 400;
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-2xl);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-links a {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+/* ===================
+   Buttons
+   =================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  
+  font-size: var(--text-base);
+  font-weight: 400;
+  text-decoration: none;
+  
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  
+  width: fit-content; /* Only as wide as content */
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: var(--color-bg-button);
+  color: var(--color-text-button);
+  border-color: var(--color-bg-button);
+}
+
+/* Ensure button text stays light on hover */
+.btn-primary:hover {
+  color: var(--color-text-button);
+}
