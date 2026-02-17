@@ -1,11 +1,11 @@
 {% if site.tinylytics_site_id and jekyll.environment == "production" %}
 
-<!-- Tinylytics Base Analytics (loads on ALL pages) -->
-<script src="https://tinylytics.app/embed/{{ site.tinylytics_site_id }}.js" defer></script>
-
 {% if page.layout == "post" %}
-<!-- Tinylytics Kudos (ONLY loads on blog posts) -->
+<!-- Tinylytics with Kudos (blog posts) -->
 <script src="https://tinylytics.app/embed/{{ site.tinylytics_site_id }}.js?kudos=✌️" defer></script>
+{% else %}
+<!-- Tinylytics Analytics (all other pages) -->
+<script src="https://tinylytics.app/embed/{{ site.tinylytics_site_id }}.js" defer></script>
 {% endif %}
 
 {% endif %}
