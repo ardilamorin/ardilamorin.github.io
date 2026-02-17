@@ -1662,18 +1662,9 @@ time {
 	/* Lift effect like cards */
 }
 
-.kudos-emoji {
-	font-size: var(--text-lg);
-}
-
-.kudos-text {
-	font-size: var(--text-base);
-}
-
-.kudos-count {
+.kudos-label {
 	font-size: var(--text-base);
 	color: var(--color-text-secondary);
-	font-weight: 600;
 }
 
 /* ===================
