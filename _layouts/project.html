@@ -1,0 +1,72 @@
+---
+layout: homepage
+---
+
+<!-- Back Button -->
+<div class="back-navigation">
+    <a href="{{ site.baseurl }}/work" class="back-link">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+        <span>work</span>
+    </a>
+</div>
+
+<!-- Two Column Layout -->
+<main class="main-content">
+
+    <!-- Left Column: Project Intro Card -->
+    <aside class="info-section">
+        <article class="card card-project-intro">
+            <div class="card-content">
+                <!-- Wrapper for title and meta to control spacing -->
+                <div class="project-header">
+                    <h1 class="project-title">{{ page.title }}</h1>
+                    <p class="project-meta">{{ page.role }}</p>
+                    <p class="project-meta">{{ page.year }}</p>
+                </div>
+                {% if page.tags %}
+                <div class="project-tags">
+                    {% for tag in page.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Project Content -->
+    <div class="content-column">
+
+        <!-- Hero Image -->
+        {% if page.hero_image %}
+        <figure class="project-hero">
+            <img src="{{ site.baseurl }}/images/{{ page.hero_image }}" alt="{{ page.hero_caption }}"
+                class="full-width" />
+            {% if page.hero_caption %}
+            <figcaption>{{ page.hero_caption }}</figcaption>
+            {% endif %}
+        </figure>
+        {% endif %}
+
+        <!-- Impact Metrics (if provided) -->
+        {% if page.metrics %}
+        <h2>Impact</h2>
+        <section class="metric-grid animate-on-scroll">
+            {% for metric in page.metrics %}
+            <article class="card card-metric">
+                <p class="metric-number">{{ metric.number }}</p>
+                <p class="metric-description">{{ metric.description }}</p>
+            </article>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        <!-- Main Content (from markdown) -->
+        {{ content }}
+
+    </div>
+
+</main>

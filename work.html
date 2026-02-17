@@ -1,0 +1,63 @@
+---
+layout: homepage
+title: Work
+published: true
+---
+
+<!-- Hero Banner -->
+<header class="hero-banner">
+    <div class="hero-title">
+        <h1>work</h1>
+    </div>
+    <div class="hero-description animate-on-scroll">
+        <p>
+            I scale great design through <span class="underline-text">data, systems</span> and <span
+                class="highlight-text">cross-functional collaboration</span>
+        </p>
+    </div>
+</header>
+
+<!-- Two Column Layout -->
+<main class="main-content">
+
+    <!-- Left Column: Info Section -->
+    <aside class="info-section">
+        <article class="card card-info">
+            <div class="card-content">
+                <p class="selected-intro">Selected projects</p>
+                <p class="selected-list">
+                    <a href="#booking" class="underline-link">Booking.com</a>,
+                    <a href="#bose" class="underline-link">Bose</a>,
+                    <a href="#maserati" class="underline-link">Maserati</a>
+                </p>
+            </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Project Cards -->
+    <div class="content-column">
+
+        <section class="card-grid-md">
+
+            <!-- Dynamic Project Cards -->
+            {% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
+            {% for project in featured_projects %}
+            <a href="{{ site.baseurl }}{{ project.url }}" class="work-card-link">
+                <article class="card card-work" id="{{ project.company | slugify }}">
+                    <div class="card-image">
+                        <img src="{{ site.baseurl }}/images/{{ project.image }}"
+                            alt="{{ project.company }} - {{ project.title }}" />
+                    </div>
+                    <div class="card-content">
+                        <h3>{{ project.company }}</h3>
+                        <p>{{ project.excerpt }}</p>
+                    </div>
+                </article>
+            </a>
+            {% endfor %}
+
+        </section>
+
+    </div>
+
+</main>

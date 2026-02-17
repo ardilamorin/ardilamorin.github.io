@@ -2,14 +2,14 @@
 title: Controlled growth environment
 published: true
 layout: post
-img: /images/post-sink-swim.jpg
+card-image: blog-growth.svg
 excerpt: Finding a better way to help your team members grow and support them in the process.
 ---
-![Visual explorations for the new  website](/images/post-sink-swim.jpg)*Professionnal growth, Sink or Swim*
+![Visual explorations for the new  website](/images/blog-growth.svg)*Professional growth, Sink or Swim*
 
 In our industry, creating digital products, professional growth and learning is determined by your formal education and experience. Experience can be a crucial factor in shaping your growth, the type of designer you will be, and finding out what is that you actually enjoy doing in our very fragmented and specialised profession.
 
-As someone who has a certain level of responsibility of what projects people on my team get to do, I believe that you have to make and effort on finding the right person for the job based on the needs of the project and their skills. But (there is always a but...) if we only allow people to do what they are already good at, they probably won’t grow.
+As someone who has a certain level of responsibility of what projects people on my team get to do, I believe that you have to make an effort on finding the right person for the job based on the needs of the project and their skills. But (there is always a but...) if we only allow people to do what they are already good at, they probably won’t grow.
 
 >if we only allow people to do what they are already good at, they probably won’t grow
 
@@ -30,9 +30,9 @@ You have to know what that person can do well, tangible things, like creating wi
 Additionally you have to understand what motivates them, where would they like to grow, and what’s their idea of a good project, are they better on short or longer projects, do they need supervision, what’s their preferred way of communication.
 
 ### Growth trajectory / Personal Phase
-For most people, you what their capabilities are if you work long enough with them. But one thing that we should also consider is how are they in that particular moment on a professional and personal level.
+For most people, you know what their capabilities are if you work long enough with them. But one thing that we should also consider is how are they in that particular moment on a professional and personal level.
 
-The growth trajectory refers to how they feel about the kind of work they want to do: are they eager to tackle a new challenge, or are they coming of a big hard project and prefer something different. Are they looking to grow towards management roles or they love their craft and are happy with refining it further.
+The growth trajectory refers to how they feel about the kind of work they want to do: are they eager to tackle a new challenge, or are they coming off a big hard project and prefer something different. Are they looking to grow towards management roles or they love their craft and are happy with refining it further.
 
 On a personal level, we should be aware of what is going on in their life that could impact their performance. Moving houses, sick relative, hard breakup, newborn. How we are in our lives impacts our work more than we know.
 
@@ -66,13 +66,13 @@ During the project, it will come a time where your team member will struggle. It
 Make sure you stay in the loop and offer the right level of support during the process.
 
 ### Transition plan
-Projects change, move to different phases, or change scope. You have to be willing to adapt to those changes. Allow people to step out when the project is not longer aligned with their goals, or after they have spent more time than expected.
+Projects change, move to different phases, or change scope. You have to be willing to adapt to those changes. Allow people to step out when the project is no longer aligned with their goals, or after they have spent more time than expected.
 
 It’s common for managers to take the comfortable way out and trying to keep people for as long as possible in the same project, they would be the most knowledgeable and also means not playing resourcing Tetris to replace them. I have seen this go wrong multiple times, when people leave the company because of feeling stuck, sometimes even before even saying that they would rather work on something else and searching for a solution internally.
 
-Try to anticipate this, create a transition plan, don’t make promises you cant keep regarding the timelines, and try to bring some fresh air into projects by changing who gets to work on them.
+Try to anticipate this, create a transition plan, don’t make promises you can't keep regarding the timelines, and try to bring some fresh air into projects by changing who gets to work on them.
 
 ## A shared responsibility
-Your team’s growth is important, but it’s a shared responsibility. They are responsible fort their own growth,  as such, they should work on knowing what should be their next steps and ask you for the opportunities to make it happen. Then, you can provide the right context to enable it, support them through the process, course correct, and provide the right work to keep growing.
+Your team’s growth is important, but it’s a shared responsibility. They are responsible for their own growth,  as such, they should work on knowing what should be their next steps and ask you for the opportunities to make it happen. Then, you can provide the right context to enable it, support them through the process, course correct, and provide the right work to keep growing.
 
-If you know other ways to help team members grow, or think one of this has flaws let me know. This is a process and should change and adapt based on the types of projects that we get to work on and the people that form the team.
+If you know other ways to help team members grow, or think one of these has flaws let me know. This is a process and should change and adapt based on the types of projects that we get to work on and the people that form the team.

@@ -2,7 +2,7 @@
 layout: post
 title: New website built using Jekyll
 published: true
-img: /images/post-new-website.jpeg
+card-image: blog-new-website.svg
 excerpt: It's not done or perfect, but it's live and will continue to evolve and change over time.
 ---
 

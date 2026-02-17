@@ -1,61 +1,124 @@
 ---
-layout: default
+layout: homepage
+title: Design Leader
 published: true
 ---
- 				<!-- 			Intro  -->				
-				
-		   <section class="hero">
-				  <p>Hi, I'm José Ardila</p>
-				  <h1>Design Leader delivering great UX at scale through data, systems, and trust</h1>
-			</section>
-			
-				<!-- About -->
-			<section class="content-group">
-				<div class="block-md" id="highlight">
-				<figure class="card-md">	
-				<img loading="lazy" src="/images/post-booking.jpg" alt="Booking.com Amsterdam Headquarters">
-				<figcaption>Booking.com Amsterdam headquarters</figcaption>
-			</figure>
-			
-			<div class="card-md">
-     	 <h2>About</h2>
-      	<p>I'm a Design Manager at <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer">Booking.com</a>. I have led projects for global companies, working across timezones, with multicultural teams, collaborating with teams from diverse disciplines to find creative solutions to complex problems.</p>
-				<a href="{{ site.baseurl }}/about" class="tertiary-button" title="Learn nore about me">More about me<span class="cta-arrow">&rarr;</span></a>
-			</div>
-		</section>
-	
-	<!-- 			Blog section -->		
-			
-			<section class="content-group">
-								<h2>Blog</h2>	
-								
-						<div class="block-small">
-            {% for post in site.posts limit:3 %}
-	            <div class="card">
-	              <a href="{{ site.baseurl }}{{ post.url }}">
-	              <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
-	              <h3>{{ post.title }}</h3>
-	              <p>{{ post.excerpt }}</p>
-	              </a>
-	            </div>
+
+<!-- Hero Banner -->
+<header class="hero-banner">
+    <div class="hero-title">
+        <h1>hello</h1>
+    </div>
+    <div class="hero-description animate-on-scroll">
+        <p>
+            I'm a <span class="highlight-text">Design Leader</span> helping companies deliver <span
+                class="underline-text">great UX at scale</span>.
+        </p>
+    </div>
+</header>
+
+<!-- Two Column Layout -->
+<main class="main-content">
+
+    <!-- Left Column: Info Section -->
+    <aside class="info-section">
+        <article class="card card-info">
+            <div class="card-content">
+                <p class="card-label">info</p>
+                <h2>{{ site.name }}</h2>
+                <p>{{ site.description }}</p>
+            </div>
+            <div class="card-actions">
+                <a href="{{ site.baseurl }}/info" class="text-link">
+                    <span>Learn more</span>
+                    <svg class="icon-arrow" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M6 4l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" />
+                    </svg>
+                </a>
+            </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Work & Blog -->
+    <div class="content-column">
+
+        <!-- Work Section -->
+        <section class="card-grid-md">
+
+            <!-- Work Intro Card -->
+            <article class="card card-intro">
+                <div class="card-content">
+                    <p class="card-label">work</p>
+                    <h2>Experience leading UX across industries</h2>
+                </div>
+                <a href="{{ site.baseurl }}/work" class="text-link">
+                    <span>Explore projects</span>
+                    <svg class="icon-arrow" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M6 4l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" />
+                    </svg>
+                </a>
+            </article>
+
+            <!-- Dynamic Project Cards (limit to 3) -->
+            {% assign featured_projects = site.projects | where: "featured", true | sort: "order" | limit: 3 %}
+            {% for project in featured_projects %}
+            <a href="{{ site.baseurl }}{{ project.url }}" class="work-card-link">
+                <article class="card card-work">
+                    <div class="card-image">
+                        <img src="{{ site.baseurl }}/images/{{ project.image }}"
+                            alt="{{ project.company }} - {{ project.title }}" />
+                    </div>
+                    <h3>{{ project.company }}</h3>
+                    <p>{{ project.excerpt }}</p>
+                </article>
+            </a>
             {% endfor %}
-          </div>
-					 <a href="{{ site.baseurl }}/blog" class="tertiary-button">Read the blog <span class="cta-arrow">&rarr;</span></a>
+
         </section>
-				
-			
-<!-- Collaborations -->
-         <section class="content-group">
-                  <div class="block-md" id="highlight">
-                  <figure class="card-md">
-                    <img loading="lazy" src="/images/about_classes_new.jpg" alt="Jose Ardila teaching a class at UX and digital products design master in Madrid">
-										<figcaption>José Ardila - Digital Prototyping Class</figcaption>
-                  </figure>
-									<div class="card-md">
-                    <h2>Collaborations</h2>
-                    <p>I teach at the UX and digital products design Master in Madrid. If you want me to collaborate with you in teaching, mentoring or speaking events you can send me an email.</p>
-                    <a href="mailto:info@ardilamorin.com" class="tertiary-button" title="Send an email to José Ardila">Send me an email <span class="cta-arrow">&rarr;</span></a>
-                  </div>
-              </div>
-          </section>
-					
+
+        <!-- Blog Section -->
+        <section class="card-grid-md">
+
+            <!-- Blog Intro Card -->
+            <article class="card card-intro">
+                <div class="card-content">
+                    <p class="card-label">blog</p>
+                    <h2>My thoughts on design leadership</h2>
+                </div>
+                <a href="{{ site.baseurl }}/blog" class="text-link">
+                    <span>Explore the blog</span>
+                    <svg class="icon-arrow" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M6 4l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" />
+                    </svg>
+                </a>
+            </article>
+
+            <!-- Dynamic Blog Post Cards -->
+            {% for post in site.posts limit:3 %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card-link">
+                <article class="card card-blog">
+                    <div class="card-graphic">
+                        {% if post.card-image %}
+                        <img src="{{ site.baseurl }}/images/{{ post.card-image }}" alt="{{ post.title }}" />
+                        {% elsif post.graphic-svg-file %}
+                        <img src="{{ site.baseurl }}/images/{{ post.graphic-svg-file }}" alt="{{ post.title }}" />
+                        {% elsif post.featured-image %}
+                        <img src="{{ site.baseurl }}/images/{{ post.featured-image }}" alt="{{ post.title }}" />
+                        {% else %}
+                        <p class="blog-graphic-text">{{ post.graphic-text | default: "BLOG" }}</p>
+                        {% endif %}
+                    </div>
+                    <div class="card-content">
+                        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d.%-m.%y" }}</time>
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                    </div>
+                </article>
+            </a>
+            {% endfor %}
+
+        </section>
+
+    </div>
+
+</main>

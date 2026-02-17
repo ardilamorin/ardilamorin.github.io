@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!-- CSS for redesigned homepage -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/styles-playground.css" />
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+        href="{{ site.baseurl }}/feed.xml" />
+</head>
+
+<body class="page-{{ page.title | slugify }}{% if page.layout == 'project' %} page-work{% elsif page.layout == 'post' %} page-blog{% endif %}">
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <div class="nav-brand">
+            <a href="{{ site.baseurl }}/">
+                <p>ardila morín</p>
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="{{ site.baseurl }}/info" class="nav-link nav-link-info">info<span class="nav-indicator"></span></a></li>
+            <li><a href="{{ site.baseurl }}/work" class="nav-link nav-link-work">work<span class="nav-indicator"></span></a></li>
+            <li><a href="{{ site.baseurl }}/blog" class="nav-link nav-link-blog">blog<span class="nav-indicator"></span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    {{ content }}
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <!-- Left: Let's talk -->
+            <div class="footer-cta">
+                <h2>Let's talk</h2>
+            </div>
+
+            <!-- Right: Contact + Social Links wrapper -->
+            <div class="footer-right">
+
+                <div class="footer-contact">
+                    <div class="contact-text">
+                        <h3>Want to collaborate?</h3>
+                        <p>Reach out if you think we can collaborate on a project, teach a class about UX, or speak at
+                            your conference.</p>
+                    </div>
+                    <a href="mailto:info@ardilamorin.com"
+                        class="btn btn-primary">Contact me</a>
+                </div>
+
+                <nav class="footer-links">
+                    <a href="{{ site.baseurl }}/feed.xml">rss</a>
+                    <a href="https://www.linkedin.com/in/ardilamorin/">linkedin</a>
+                    <a href="https://bsky.app/profile/ardilamorin.com">bluesky</a>
+                </nav>
+
+            </div>
+
+        </div>
+    </footer>
+    {% include analytics.html %}
+</body>
+
+</html>
