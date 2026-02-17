@@ -2,14 +2,14 @@
 title: Responsive website with no media queries
 published: true
 layout: post
-img: /images/responsive-no-media.gif
+card-image: blog-responsive.svg
 excerpt: A fully responsive site without media queries using Flexbox and CSS Grid.
 ---
 I finally redesigned this website. The challenge was to do a fully responsive site without media queries using [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="_blank"} and [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="_blank"}.
 
 ![Visual explorations for the new  website](/images/responsive-no-media.gif)*Responsive design without media queries*
 
-For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where user’s were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.
+For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where users were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.
 
 There are other techniques to design responsive websites that embrace flexibility, making the content accessible regardless of the browser, platform or screen that the person chooses to access your page. The concept is not new, and John Allsopp has been advocating for it since the year 2000 when he wrote the article [The DAO of the web.](https://alistapart.com/article/dao/){:target="_blank"}
 
@@ -71,7 +71,7 @@ for post in site.posts limit:3
 
 The third was polishing the design, working on the CSS on the details to make it look better, now that the technical part of making work was done. One of the things I wanted to improve was how the site font scaled in different resolutions.
 
-I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn't what I expected. By looking for ways to solve this, I found this [Simplified fluid typography](https://css-tricks.com/simplified-fluid-typography/){:target="_blank"} approach that aligned well with what wanted to do. By defining a minimum and maximum size limits where the actual size would change based on the width of the screen. (If you are using safari, you won't be able to see it if you try resizing this page, unless you refresh the page).
+I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn't what I expected. By looking for ways to solve this, I found this [Simplified fluid typography](https://css-tricks.com/simplified-fluid-typography/){:target="_blank"} approach that aligned well with what I wanted to do. By defining a minimum and maximum size limits where the actual size would change based on the width of the screen. (If you are using safari, you won't be able to see it if you try resizing this page, unless you refresh the page).
 
 {% highlight css%}
 h1{
@@ -81,7 +81,7 @@ font-size: clamp(2.25rem, 4vw, 4rem);
 
 So this is it, a fully responsive personal website, blog capabilities without media queries or breakpoints defined by a device but its content. And, as the previous one, it’s not done. I will play with it, add functionality and evolve it based on what I want to learn or express.
 
-Building it has given me a different perspective on what can be done with this new technologies in terms of layout and responsive design, but even more about making the time to get things done and sharing the process, even when its far from perfect.
+Building it has given me a different perspective on what can be done with these new technologies in terms of layout and responsive design, but even more about making the time to get things done and sharing the process, even when its far from perfect.
 
 ## Thank You!
 

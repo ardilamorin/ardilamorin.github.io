@@ -2,23 +2,23 @@
 title: What I learned working remotely
 published: true
 layout: post
-img: /images/post-remote-work.jpg
+card-image: blog-remote.svg
 excerpt: Tips and advice on office setup, work routine and collaboration while away from the office.
 ---
-For the las 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process.
+For the last 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process.
 
 ![Remote Work - Humaaans](/images/remote-work.png)*Illustration using Humaaaans by Pablo Stanley*
 
 ## Your office
 Find the best location and setup to do your work. Based on your personality you could find it difficult to work from home, tempted to stay in bed, or doing chores, a co-working space could be the best scenario for you. In my case, I enjoyed working from home, because it allowed me to configure my setup, cook my own meals and have more time for actual work and less on commute. The down side is I didn’t get to see people, which I tried to solve outside office hours (see “create a network” further down this list).
 
-If you go for the "home office" approach, be sure to have a proper chair, a good monitor, and a good webcam (yes I know it sounds very 90’s, but I swear its important). Here is [the best webcam for video conferencing according to John Maeda](https://maeda.pm/2017/11/04/the-best-webcam-at-least-for-me/ "theist web cam - according to John Maeda"){:target="_blank"}
+If you go for the "home office" approach, be sure to have a proper chair, a good monitor, and a good webcam (yes I know it sounds very 90’s, but I swear its important). Here is [the best webcam for video conferencing according to John Maeda](https://maeda.pm/2017/11/04/the-best-webcam-at-least-for-me/ "the best web cam - according to John Maeda"){:target="_blank"}
 
 Don’t be afraid to ask your employer to pay for the co-working space or reimburse some of the expenses associated to your home office.
 
 
 ## Establish a work routine
-What I mean by this, is to find what works for you. Working remotely can make it harder to either start working or stop. So try to determine in what schedule you are more productive, when can you collaborate with the rest of the company and when to take brakes.
+What I mean by this, is to find what works for you. Working remotely can make it harder to either start working or stop. So try to determine in what schedule you are more productive, when can you collaborate with the rest of the company and when to take breaks.
 
 Before, when I worked at the office, I would stand up regularly to go to meetings, and changed the type of task and activities based on what I had scheduled for the day (I also got interrupted a lot…but let’s not get into that). Being remote I also had meetings but they were hang out calls, which meant sitting at my desk longer and strained eyes.
 
@@ -35,10 +35,10 @@ Keep your calendar updated and visible. Block time for your work so you have a b
 It’s also important to reserve slots that are available to meet with others. Google Calendar allows you to define blocks of time that are free for meeting with other people.
 
 ### Collaboration requires tools! But also common sense.
-Tools help a lot to communicate with other people when you are in different locations, and can help make more visible the work you do but they won’t solved everything if you don’t apply some common sense. Try to have check points regularly and don’t rely only on this tools to align and have clear expectations about the work you expect from others and communicate what you understand is your responsibility.
+Tools help a lot to communicate with other people when you are in different locations, and can help make more visible the work you do but they won't solve everything if you don't apply some common sense. Try to have check points regularly and don't rely only on these tools to align and have clear expectations about the work you expect from others and communicate what you understand is your responsibility.
 
 Don’t overthink it, pick up the phone and talk it out
-When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decision were made. If you have some doubts try to clarify them as soon as possible, and if it’s on a call way better. Somehow the email and text being asynchronous opened too much room for interpretation and more second guessing.
+When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decisions were made. If you have some doubts try to clarify them as soon as possible, and if it’s on a call way better. Somehow the email and text being asynchronous opened too much room for interpretation and more second guessing.
 
 ![Create a network](/images/remote-work-invision-meetup.jpeg)*Invision Design Leadership meet up*
 

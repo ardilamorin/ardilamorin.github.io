@@ -1,0 +1,36 @@
+<svg viewBox="0 0 271 132" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .graphic-dot-blue-dark {
+      fill: #7B9BD8;
+    }
+
+    .graphic-dot-blue {
+      fill: #B4DEEC;
+    }
+
+    .graphic-dot-green {
+      fill: #BFD7BF;
+    }
+
+    .graphic-dot-beige {
+      fill: #D2C5B5;
+    }
+
+    .graphic-dashed-line {
+      stroke: black;
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <!-- Bullet circles -->
+  <circle cx="30.7759" cy="36.1802" r="5.77592" class="graphic-dot-blue-dark"/>
+  <circle cx="30.7759" cy="57.732" r="5.77592" class="graphic-dot-blue"/>
+  <circle cx="30.7759" cy="79.2837" r="5.77592" class="graphic-dot-green"/>
+  <circle cx="30.7759" cy="100.835" r="5.77592" class="graphic-dot-beige"/>
+
+  <!-- Dashed text lines -->
+  <line x1="51" y1="35.3076" x2="245" y2="35.3076" class="graphic-dashed-line"/>
+  <line x1="51" y1="57.3076" x2="245" y2="57.3076" class="graphic-dashed-line"/>
+  <line x1="51" y1="79.3076" x2="245" y2="79.3076" class="graphic-dashed-line"/>
+  <line x1="51" y1="101.308" x2="245" y2="101.308" class="graphic-dashed-line"/>
+</svg>

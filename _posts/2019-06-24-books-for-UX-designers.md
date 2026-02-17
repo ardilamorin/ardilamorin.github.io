@@ -2,7 +2,7 @@
 title: Best books for every UX Designer
 published: true
 layout: post
-img: /images/books-sprint.jpg
+card-image: blog-books.svg
 excerpt: A list categorised based on experience level.
 ---
 

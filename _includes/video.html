@@ -1,0 +1,41 @@
+{% comment %}
+Usage in markdown/html:
+{% include video.html
+src="/images/booking-01-verify-design.mp4"
+poster="/images/booking-01-verify-design-poster.jpg"
+caption="Internally developed Figma plugin to verify designs"
+width="text"
+%}
+
+Parameters:
+- src: path to video file (required)
+- poster: path to poster image (optional but recommended)
+- caption: text for figcaption (optional)
+- width: "text" for 65ch width, anything else for full width (default: full)
+{% endcomment %}
+
+{% if include.width == "text" %}
+<figure class="video-figure">
+    <div class="video-wrapper">
+        <video controls playsinline preload="metadata" {% if include.poster %}poster="{{ include.poster }}" {% endif %}>
+            <source src="{{ include.src }}" type="video/mp4">
+            <p>Your browser doesn't support video playback. <a href="{{ include.src }}">Download the video</a>.</p>
+        </video>
+    </div>
+    {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>
+{% else %}
+<figure class="video-figure full-width">
+    <div class="video-wrapper">
+        <video controls playsinline preload="metadata" {% if include.poster %}poster="{{ include.poster }}" {% endif %}>
+            <source src="{{ include.src }}" type="video/mp4">
+            <p>Your browser doesn't support video playback. <a href="{{ include.src }}">Download the video</a>.</p>
+        </video>
+    </div>
+    {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>
+{% endif %}

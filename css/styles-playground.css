@@ -1,4 +1,112 @@
 /* ===================
+   View Transitions (Cross-Document)
+   =================== */
+
+@view-transition {
+	navigation: auto;
+}
+
+/* Default page transition: crossfade */
+::view-transition-old(root) {
+	animation: 0.25s ease-out both vt-fade-out;
+}
+
+::view-transition-new(root) {
+	animation: 0.25s ease-in both vt-fade-in;
+}
+
+@keyframes vt-fade-out {
+	from { opacity: 1; }
+	to   { opacity: 0; }
+}
+
+@keyframes vt-fade-in {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Named transitions: elements that persist across pages */
+.site-nav {
+	view-transition-name: site-nav;
+}
+
+.site-footer {
+	view-transition-name: site-footer;
+}
+
+/* Page title just fades with the rest of the page — no separate transition */
+
+/* ===================
+   Scroll-Triggered Animations
+   =================== */
+
+@keyframes draw-in {
+	from { clip-path: inset(0 100% 0 0); }
+	to   { clip-path: inset(0 0% 0 0); }
+}
+
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		transform: translateY(1.5rem);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Cards within grids animate on scroll */
+.card-grid-md > *,
+.card-grid-lg > * {
+	animation: fade-in-up linear both;
+	animation-timeline: view();
+	animation-range: entry 0% entry 25%;
+}
+
+/* Staggered delay for cards in grids */
+.card-grid-md > :nth-child(2),
+.card-grid-lg > :nth-child(2) {
+	animation-delay: 50ms;
+}
+
+.card-grid-md > :nth-child(3),
+.card-grid-lg > :nth-child(3) {
+	animation-delay: 100ms;
+}
+
+.card-grid-md > :nth-child(4),
+.card-grid-lg > :nth-child(4) {
+	animation-delay: 150ms;
+}
+
+/* Scroll animation for standalone sections */
+.animate-on-scroll {
+	animation: fade-in-up linear both;
+	animation-timeline: view();
+	animation-range: entry 0% entry 25%;
+}
+
+/* Footer reveal */
+.site-footer {
+	animation: fade-in-up linear both;
+	animation-timeline: view();
+	animation-range: entry 0% entry 40%;
+}
+
+/* ===================
+   Font Files
+   =================== */
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../Fonts/Inter-VariableFont.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ===================
    Modern CSS Reset
    Based on Andy Bell's approach
    =================== */
@@ -6,27 +114,23 @@
 /* Box sizing rules */
 *,
 *::before,
-*::after
-{
+*::after {
 	box-sizing: border-box;
 }
 
 /* Remove default margin */
-*
-{
+* {
 	margin: 0;
 }
 
 /* Allow percentage-based heights */
 html,
-body
-{
-	height: 100%;
+body {
+	/* height: 100%; */
 }
 
 /* Typographic tweaks */
-body
-{
+body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
@@ -36,8 +140,7 @@ img,
 picture,
 video,
 canvas,
-svg
-{
+svg {
 	display: block;
 	max-width: 100%;
 }
@@ -46,8 +149,7 @@ svg
 input,
 button,
 textarea,
-select
-{
+select {
 	font: inherit;
 }
 
@@ -58,15 +160,13 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
+h6 {
 	overflow-wrap: break-word;
 }
 
 /* Remove list styles on ul, ol elements with a class */
 ul[class],
-ol[class]
-{
+ol[class] {
 	list-style: none;
 	padding: 0;
 }
@@ -75,20 +175,19 @@ ol[class]
    Design Tokens
    =================== */
 
-:root
-{
+:root {
 	/* Colors */
 	--color-text-primary: #1e1e1e;
 	--color-text-secondary: #666666;
 	--color-bg-body: #ffffff;
 	--color-bg-nav: #f5f5f5;
 	--color-bg-footer: #f5f5f5;
-	--color-bg-about: #f4f1ed;
+	--color-bg-info: #f4f1ed;
 	--color-bg-work: #e3ece3;
 	--color-bg-blog: #e7ebf3;
 	--color-bg-button: #2c2c2c;
 	--color-text-button: #f5f5f5;
-	
+
 	/* Spacing Scale - using rem (16px base) */
 	--space-xs: 0.375rem;
 	/* 6px */
@@ -104,7 +203,7 @@ ol[class]
 	/* 48px */
 	--space-3xl: 4rem;
 	/* 64px */
-	
+
 	/* Fluid Spacing - scales with viewport */
 	--space-fluid-md: clamp(1rem, 3vw, 1.5rem);
 	/* 16px - 24px */
@@ -112,7 +211,7 @@ ol[class]
 	/* 24px - 48px */
 	--space-fluid-xl: clamp(2rem, 5vw, 4rem);
 	/* 32px - 64px */
-	
+
 	/* Typography Scale */
 	--text-xs: 0.875rem;
 	/* 14px */
@@ -124,476 +223,1471 @@ ol[class]
 	/* 32px */
 	--text-2xl: 3rem;
 	/* 48px */
-	--text-hero: clamp(4rem, 20vw, 12rem);
-	/* fluid 64px - 192px */
-	
+	--text-hero: clamp(10rem, 20vw, 12rem);
+	/* 160px - 192px */
+	--text-hero-description: clamp(1.25rem, 4vw, 2rem);
+	/* 20px - 32px */
+
 	/* Line Heights */
 	--leading-tight: 1.2;
 	--leading-normal: 1.4;
 	--leading-relaxed: 1.5;
-	
+
 	/* Border Radius */
 	--radius-sm: 0.5rem;
 	/* 8px */
 	--radius-md: 1rem;
 	/* 16px */
-	
-	/* ===================
+}
+
+/* ===================
    Base Styles
    =================== */
-	
-	html
-	{
-		font-size: 100%;
-		/* Respects user's browser settings */
-	}
-	
-	body
-	{
-		font-family: 'Inter', system-ui, -apple-system, sans-serif;
-		font-size: var(--text-base);
-		line-height: var(--leading-normal);
-		color: var(--color-text-primary);
-		background-color: var(--color-bg-body);
-		
-		/* Page layout - using Grid */
-		display: grid;
-		gap: var(--space-lg);
-		padding: var(--space-lg);
-		min-height: 100vh;
-	}
-	
-	/* Typography */
-	h1,
-	h2,
-	h3
-	{
-		line-height: var(--leading-tight);
-	}
-	
-	h1
-	{
-		font-size: var(--text-hero);
-		font-weight: 400;
-		letter-spacing: -0.03em;
-		/* Tighter tracking for large text */
-	}
-	
-	h2
-	{
-		font-size: var(--text-xl);
-		font-weight: 400;
-	}
-	
-	h3
-	{
-		font-size: var(--text-xl);
-		font-weight: 400;
-	}
-	
-	p
-	{
-		line-height: var(--leading-normal);
-	}
-	
-	/* Links */
-	a
-	{
-		color: inherit;
-		text-decoration: none;
-	}
-	
-	a:hover
-	{
-		color: var(--color-text-secondary);
-	}
-	
-	/* Time element */
-	time
-	{
-		font-size: var(--text-xs);
-		color: var(--color-text-primary);
-	}
-	
-	/* ===================
+
+html {
+	font-size: 100%;
+	/* Respects user's browser settings */
+	scroll-behavior: smooth;
+	/* Smooth scrolling for anchor links */
+	background-color: var(--color-bg-body);
+	background-image: radial-gradient(circle, rgba(30, 30, 30, 0.18) 1px, transparent 1px);
+	background-size: 24px 24px;
+	background-position: 0 0;
+}
+
+body {
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+	font-size: var(--text-base);
+	line-height: var(--leading-normal);
+	color: var(--color-text-primary);
+
+	/* Page layout - using Grid */
+	display: grid;
+	gap: var(--space-lg);
+	padding: var(--space-fluid-md);
+	max-width: 1600px;
+	margin-inline: auto;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+	line-height: var(--leading-tight);
+}
+
+h1 {
+	font-size: var(--text-hero);
+	font-weight: 400;
+	letter-spacing: -0.03em;
+	/* Tighter tracking for large text */
+}
+
+h2 {
+	font-size: var(--text-xl);
+	font-weight: 400;
+}
+
+h3 {
+	font-size: var(--text-xl);
+	font-weight: 400;
+}
+
+p {
+	line-height: var(--leading-normal);
+}
+
+/* Links */
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--color-text-secondary);
+}
+
+/* Time element */
+time {
+	font-size: var(--text-xs);
+	color: var(--color-text-primary);
+}
+
+/* ===================
    Navigation
    =================== */
-	
-	.site-nav
-	{
-		background-color: var(--color-bg-nav);
-		border-radius: var(--radius-sm);
-		padding: var(--space-fluid-md) var(--space-fluid-lg);
-		/* Fluid padding */
-		
-		
-		/* Flexbox layout */
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: flex-end;
-		gap: var(--space-md);
-	}
-	
-	.nav-brand p
-	{
-		font-size: var(--text-lg);
-		font-weight: 400;
-		letter-spacing: -0.02em;
-	}
-	
-	.nav-menu
-	{
-		display: flex;
-		gap: var(--space-2xl);
-	}
-	
-	.nav-menu a
-	{
-		font-size: var(--text-lg);
-		font-weight: 400;
-		letter-spacing: -0.02em;
-	}
-	
-	/* ===================
+
+.site-nav {
+	background-color: var(--color-bg-nav);
+	border-radius: var(--radius-md);
+	padding: var(--space-fluid-md) var(--space-fluid-lg);
+	/* Fluid padding */
+
+	/* Flexbox layout */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: var(--space-md);
+}
+
+.nav-brand p {
+	font-size: var(--text-lg);
+	font-weight: 400;
+	letter-spacing: -0.02em;
+}
+
+.nav-menu {
+	display: flex;
+	gap: var(--space-2xl);
+}
+
+.nav-menu a {
+	font-size: var(--text-lg);
+	font-weight: 400;
+	letter-spacing: -0.02em;
+}
+
+/* Nav link hover states */
+.nav-link {
+	position: relative;
+	padding: 0.375rem 0.75rem;
+	border-radius: var(--radius-sm);
+	transition: background-color 0.2s ease;
+}
+
+.nav-link-info:hover {
+	background-color: var(--color-bg-info);
+}
+
+.nav-link-work:hover {
+	background-color: var(--color-bg-work);
+}
+
+.nav-link-blog:hover {
+	background-color: var(--color-bg-blog);
+}
+
+/* Active page indicator dot */
+.nav-indicator {
+	display: none;
+	width: 0.375rem;
+	height: 0.375rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -0.625rem;
+	transform: translateY(-50%);
+}
+
+.page-info .nav-link-info .nav-indicator {
+	display: block;
+	background-color: var(--color-text-primary);
+	view-transition-name: nav-active-dot;
+}
+
+.page-work .nav-link-work .nav-indicator {
+	display: block;
+	background-color: var(--color-text-primary);
+	view-transition-name: nav-active-dot;
+}
+
+.page-blog .nav-link-blog .nav-indicator {
+	display: block;
+	background-color: var(--color-text-primary);
+	view-transition-name: nav-active-dot;
+}
+
+/* ===================
    Hero Banner
    =================== */
-	
-	.hero-banner
-	{
-		/* Flexbox layout */
-		display: flex;
-		flex-wrap: wrap;
-		gap: clamp(1.5rem, 3vw, 3rem);
-		/* Smaller, tighter range */
-		align-items: center;
-		
-		padding-block: var(--space-xl);
-	}
-	
-	.hero-title
-	{
-		padding-inline: var(--space-lg);
-	}
-	
-	.hero-title h1
-	{
-		line-height: 0.9;
-	}
-	
-	.hero-description
-	{
-		flex: 1 1 27.5rem;
-		/* Grow, shrink, basis of ~440px */
-		min-width: min(100%, 27.5rem);
-		max-width: 42.5rem;
-		/* ~680px max */
-		
-		padding-block: var(--space-fluid-lg) var(--space-lg);
-		/* Fluid top, fixed bottom */
-		padding-inline: var(--space-lg);
-	}
-	
-	.hero-description p
-	{
-		font-size: var(--text-xl);
-		line-height: var(--leading-tight);
-		text-wrap: balance;
-	}
-	
-	/* ===================
+
+.hero-banner {
+	/* Flexbox layout */
+	display: flex;
+	flex-wrap: wrap;
+	gap: clamp(1.5rem, 3vw, 3rem);
+	align-items: center;
+	padding-block: var(--space-xl);
+}
+
+.hero-title {
+	padding-inline: var(--space-lg);
+}
+
+.hero-title h1 {
+	line-height: 0.9;
+}
+
+.hero-description {
+	flex: 1 1 27.5rem;
+	min-width: min(100%, 27.5rem);
+	max-width: 42.5rem;
+	padding-block: var(--space-fluid-lg) var(--space-lg);
+	padding-inline: var(--space-lg);
+
+	/* Prevent overflow */
+	overflow: hidden;
+}
+
+.hero-description p {
+	font-size: var(--text-hero-description);
+	/* Fluid size */
+	line-height: var(--leading-tight);
+	text-wrap: balance;
+}
+
+/* Hero decorative elements */
+.highlight-text {
+	position: relative;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.highlight-text::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: clamp(10em, 14em, 15em);
+	height: 2.8em;
+	background-image: url('../images/blob-highlight-green.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+	opacity: 0.7;
+	pointer-events: none;
+	animation: draw-in 0.8s ease-out 0.3s both;
+}
+
+/* Page-specific blob highlight colors */
+.page-info .highlight-text::before {
+	background-image: url('../images/blob-highlight.svg');
+}
+
+.page-blog .highlight-text::before {
+	background-image: url('../images/blob-highlight-blue.svg');
+}
+
+.page-blog .underline-text::after {
+	background-image: url('../images/brush-underline-beige.svg');
+	opacity: 1;
+}
+
+.underline-text {
+	position: relative;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.underline-text::after {
+	content: '';
+	position: absolute;
+	left: -0.05em;
+	bottom: -0.3rem;
+	/* Changed from em to rem for consistent spacing */
+	width: clamp(100%, 105%, 110%);
+	height: 0.6em;
+	background-image: url('../images/brush-underline.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	z-index: -1;
+	opacity: 0.6;
+	pointer-events: none;
+	max-width: calc(100vw - 2rem);
+	animation: draw-in 0.6s ease-out 0.6s both;
+}
+
+/* ===================
    Main Content Layout
    =================== */
-	
-	.main-content
-	{
-		display: flex;
-		flex-wrap: wrap;
-		gap: var(--space-lg);
-	}
-	
-	.about-section
-	{
-		flex: 1 1 20rem;
-		min-width: min(100%, 20rem);
-		/* max-width removed */
-		
-		/* Sticky positioning */
-		position: sticky;
-		top: 0;
-		align-self: flex-start;
-		z-index: 0;
-		/* Behind scrolling content */
-	}
-	
-	.content-column
-	{
-		flex: 999 1 38.75rem;
-		min-width: min(100%, 38.75rem);
-		
-		display: flex;
-		flex-direction: column;
-		gap: var(--space-lg);
-		
-		position: relative;
-		/* Creates stacking context */
-		z-index: 1;
-		/* Above the sticky about card */
-		
-  background-color: rgba(255, 255, 255, 0.4);  /* Semi-transparent white */
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  
-  border-radius: var(--radius-sm);
-/*  padding: var(--space-lg);*/
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-lg);
 }
-	
-	.work-section,
-	.blog-section
-	{
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-		gap: var(--space-lg);
-	}
-	
-	/* ===================
+
+.info-section {
+	flex: 1 1 20rem;
+	min-width: min(100%, 20rem);
+
+	/* Sticky positioning */
+	position: sticky;
+	top: 0;
+	align-self: flex-start;
+	z-index: 0;
+	/* Behind scrolling content */
+}
+
+.content-column {
+	flex: 999 1 38.75rem;
+	min-width: min(100%, 38.75rem);
+
+	display: flex;
+	flex-direction: column;
+	/* gap removed - flow spacing handles all spacing */
+
+	position: relative;
+	/* Creates stacking context */
+	z-index: 1;
+	/* Above the sticky info card */
+	background-color: rgba(255, 255, 255, 0.15);
+	/* Semi-transparent white */
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border-radius: var(--radius-md);
+
+	/* Only bottom padding for separation from footer */
+	padding-bottom: var(--space-lg);
+	/* 24px */
+}
+
+/* Direct content gets consistent horizontal padding */
+.content-column>h1,
+.content-column>h2,
+.content-column>h3,
+.content-column>h4,
+.content-column>p,
+.content-column>ul,
+.content-column>ol,
+.content-column>img,
+.content-column>figure,
+.content-column>p:has(>img),
+.content-column>.video-figure,
+.content-column>.metric-grid,
+.content-column>.flex-row-wrap {
+	padding-left: var(--space-lg);
+	/* 24px - aligns with card edges */
+	padding-right: var(--space-lg);
+	/* 24px - aligns with card edges */
+}
+
+/* Headings get rem-based max-width for consistent visual width */
+.content-column>h1,
+.content-column>h2,
+.content-column>h3,
+.content-column>h4 {
+	max-width: 42rem;
+	/* 672px - consistent visual width regardless of font-size */
+}
+
+/* Body text gets ch-based max-width for optimal readability */
+.content-column>p,
+.content-column>blockquote,
+.content-column>ul,
+.content-column>ol {
+	max-width: 65ch;
+	/* Character-based for body text readability */
+}
+
+/* Bullet and numbered lists */
+.content-column>ul,
+.content-column>ol {
+	padding-left: var(--space-xl);
+	/* 32px - indent for bullets/numbers */
+	line-height: var(--leading-relaxed);
+	/* 1.5 - more breathing room */
+}
+
+.content-column>ul li,
+.content-column>ol li {
+	margin-bottom: var(--space-md);
+	/* 16px between list items */
+}
+
+.content-column>ul li:last-child,
+.content-column>ol li:last-child {
+	margin-bottom: 0;
+	/* Remove margin from last item */
+}
+
+/* Images default to text width (65ch) */
+.content-column>img,
+.content-column>figure,
+.content-column>p:has(>img) {
+	max-width: 65ch;
+	/* Same as text for consistency */
+}
+
+/* ===================
+   Video Figure
+   =================== */
+
+.video-figure {
+	width: 100%;
+	max-width: 65ch;
+}
+
+.video-figure.full-width {
+	max-width: none;
+}
+
+.video-wrapper {
+	border-radius: var(--radius-sm);
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.video-figure video {
+	display: block;
+	width: 100%;
+	background-color: var(--color-bg-body);
+}
+
+.video-figure figcaption {
+	margin-top: var(--space-md);
+	font-size: var(--text-xs);
+	color: var(--color-text-secondary);
+	font-style: italic;
+}
+
+/* Safari-specific video controls */
+.video-figure video::-webkit-media-controls-enclosure {
+	border-radius: var(--radius-sm);
+	overflow: hidden;
+}
+
+.video-figure video::-webkit-media-controls-panel {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* ===================
+   Content Links
+   =================== */
+
+/* Links in content text (blog posts, project pages) */
+/* Only target links inside paragraphs, lists, blockquotes, headings */
+.content-column p a,
+.content-column li a,
+.content-column blockquote a,
+.content-column h1 a,
+.content-column h2 a,
+.content-column h3 a,
+.content-column h4 a {
+	text-decoration: underline;
+	text-underline-offset: 0.25rem;
+	text-decoration-thickness: 1px;
+	color: inherit;
+	/* Keep text color */
+}
+
+.content-column p a:hover,
+.content-column li a:hover,
+.content-column blockquote a:hover,
+.content-column h1 a:hover,
+.content-column h2 a:hover,
+.content-column h3 a:hover,
+.content-column h4 a:hover {
+	color: var(--color-text-secondary);
+	/* Gray on hover */
+}
+
+/* ===================
+   Content Images
+   =================== */
+
+/* Full-width images (opt-in with class) — override padding */
+.content-column>img.full-width,
+.content-column>figure.full-width,
+.content-column>.video-figure.full-width,
+.content-column>p:has(>img.full-width) {
+	max-width: none;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* Inline images get rounded corners */
+.content-column>img,
+.content-column>figure img,
+.content-column>p>img {
+	border-radius: var(--radius-sm);
+	/* 8px - consistent with site */
+	display: block;
+	/* Remove inline spacing */
+}
+
+/* Figure captions (proper HTML) */
+.content-column>figure figcaption {
+	margin-top: var(--space-md);
+	/* 16px - more space between image and caption */
+	font-size: var(--text-xs);
+	color: var(--color-text-secondary);
+	font-style: italic;
+	padding-right: var(--space-lg);
+}
+
+/* Markdown image captions (img + em pattern) */
+.content-column>p:has(>img) {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+	/* 16px between image and caption */
+}
+
+.content-column>p>em {
+	font-size: var(--text-xs);
+	color: var(--color-text-secondary);
+	font-style: italic;
+	padding-right: var(--space-lg);
+}
+
+/* Feature images - responsive aspect ratio */
+.content-column>.feature-image {
+	width: 100%;
+	max-width: 56rem;
+	/* 896px - limits width, keeps aspect ratio */
+	aspect-ratio: 16 / 9;
+	/* Landscape by default */
+	object-fit: cover;
+	object-position: left center;
+	/* Keep left side, crop right */
+	border-radius: var(--radius-sm);
+}
+
+/* ===================
+   Layout Utilities
+   =================== */
+
+/* Card grid - medium sized cards (20rem min) */
+.card-grid-md {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+	gap: var(--space-lg);
+}
+
+/* Card grid - large sized cards (28rem min) */
+.card-grid-lg {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr));
+	gap: var(--space-lg);
+}
+
+/* Vertical section stack with spacing */
+.section-stack {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xl);
+}
+
+/* Reusable side-by-side layout — stacks when children can't fit */
+.flex-row-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-xl);
+	align-items: flex-start;
+}
+
+.flex-row-wrap > * {
+	flex: 1 1 20rem;
+	min-width: min(100%, 20rem);
+}
+
+.flex-row-wrap > :not(img) h1,
+.flex-row-wrap > :not(img) h2,
+.flex-row-wrap > :not(img) h3,
+.flex-row-wrap > :not(img) h4 {
+	max-width: 42rem;
+}
+
+.flex-row-wrap > :not(img) p,
+.flex-row-wrap > :not(img) blockquote,
+.flex-row-wrap > :not(img) ul,
+.flex-row-wrap > :not(img) ol {
+	max-width: 65ch;
+}
+
+/* Flow spacing - any element following another gets top margin */
+.content-column>*+* {
+	margin-top: var(--space-xl);
+	/* Default spacing between content */
+}
+
+/* Larger spacing after sections */
+.content-column>section+* {
+	margin-top: var(--space-2xl);
+	/* More space after sections */
+}
+
+/* Larger spacing before sections (if preceded by text) */
+.content-column>*+section {
+	margin-top: var(--space-2xl);
+	/* More space before sections */
+}
+
+/* Tighter spacing between related text elements */
+.content-column>h2+p,
+.content-column>h3+p {
+	margin-top: var(--space-md);
+	/* Tight coupling between heading and paragraph */
+}
+
+/* Legacy support - remove if not needed */
+.section-stack.spaced {
+	/* No longer needed - flow spacing handles this */
+}
+
+/* Legacy class names for backward compatibility */
+.work-section,
+.blog-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+	gap: var(--space-lg);
+}
+
+.philosophy-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr));
+	gap: var(--space-lg);
+}
+
+.experience-section {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xl);
+	margin-top: var(--space-2xl);
+}
+
+/* ===================
    Card Styles
    =================== */
-	
-	/* Base card styles */
-	.card
-	{
-		border-radius: var(--radius-sm);
-		padding: var(--space-lg);
-		
-		display: flex;
-		flex-direction: column;
-		gap: var(--space-lg);
-	}
-	
-	/* Card heights */
 
-.card-about,
+/* Base card styles */
+.card {
+	border-radius: var(--radius-md);
+	padding: var(--space-lg);
+
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-lg);
+}
+
+/* Remove fixed min-height, let content determine height */
+.card-info,
 .card-intro,
 .card-work,
 .card-blog {
-  min-height: clamp(20rem, 40vh, 30rem);
+	min-height: unset;
 }
-	
-	/* Card with content that needs space-between */
-	.card-about,
-	.card-intro
-	{
-		justify-content: space-between;
-	}
-	
-	/* Card backgrounds - contextual colors */
-	.about-section .card
-	{
-		background-color: var(--color-bg-about);
-	}
-	
-	.work-section .card
-	{
-		background-color: var(--color-bg-work);
-	}
-	
-	.blog-section .card
-	{
-		background-color: var(--color-bg-blog);
-	}
-	
-	/* Card content areas */
+
+/* Card with content that needs space-between */
+.card-info,
+.card-intro {
+	justify-content: space-between;
+}
+
+/* Card backgrounds - contextual colors */
+.info-section .card {
+	background-color: var(--color-bg-info);
+}
+
+/* Work cards - green background */
+.card-work {
+	background-color: var(--color-bg-work);
+}
+
+/* Blog cards - blue background */
+.card-blog {
+	background-color: var(--color-bg-blog);
+}
+
+/* Intro cards inherit parent section color */
+.card-grid-md .card-intro:first-child {
+	background-color: inherit;
+	/* Will inherit from first usage context */
+}
+
+/* Work intro card - green */
+.card-grid-md:has(.card-work) .card-intro {
+	background-color: var(--color-bg-work);
+}
+
+/* Blog intro card - blue */
+.card-grid-md:has(.card-blog) .card-intro {
+	background-color: var(--color-bg-blog);
+}
+
+/* Legacy support for old class names */
+.work-section .card {
+	background-color: var(--color-bg-work);
+}
+
+.blog-section .card {
+	background-color: var(--color-bg-blog);
+}
+
+/* Card content areas */
 .card-content {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-lg);
-  max-width: 65ch; /* Limits to ~65 characters wide */
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-lg);
+	max-width: 65ch;
 }
-	
-	/* Card labels (the small "about", "work", "blog" text) */
-	.card-label
-	{
-		font-size: var(--text-base);
-		color: var(--color-text-primary);
-	}
-	
-	/* Card actions (the links at bottom of cards) */
-	.card-actions
-	{
-		display: flex;
-		gap: var(--space-md);
-		flex-wrap: wrap;
-	}
-	
-	/* Text links with arrows */
-	.text-link
-	{
-		display: flex;
-		gap: var(--space-sm);
-		align-items: center;
-		
-		font-size: var(--text-base);
-		text-decoration: underline;
-		text-underline-offset: 0.25rem;
-		/* Space between text and underline */
-	}
-	
-	.text-link:hover
-	{
-		color: var(--color-text-secondary);
-	}
-	
-	.icon-arrow
-	{
-		width: 1.125rem;
-		/* 18px */
-		height: 1.125rem;
-		flex-shrink: 0;
-		/* Prevents icon from squishing */
-	}
-	
-	/* Work cards with images */
-	.card-work
-	{
-		gap: var(--space-md);
-		/* Tighter gap for image cards */
-	}
-	
-	.card-image
-	{
-		width: 100%;
-		height: 14.8125rem;
-		/* ~237px from Figma */
-		border-radius: var(--radius-md);
-		overflow: hidden;
-		background-color: #e0e0e0;
-		/* Placeholder color */
-	}
-	
-	.card-image img
-	{
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
-	
-	.card-work h3
-	{
-		margin-top: auto;
-		/* Pushes title down if needed */
-	}
-	
-	/* Blog cards with graphics */
-	.card-blog
-	{
-		justify-content: space-between;
-	}
-	
-	.card-graphic
-	{
-		flex: 1;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		min-height: 10rem;
-	}
-	
-	.blog-graphic-text
-	{
-		font-size: clamp(3rem, 8vw, 5rem);
-		font-weight: 700;
-		color: var(--color-text-primary);
-		opacity: 0.1;
-		/* Subtle background text */
-	}
-	/* ===================
+
+/* Card labels (the small "info", "work", "blog" text) */
+.card-label {
+	font-size: var(--text-base);
+	color: var(--color-text-primary);
+}
+
+/* Card actions (the links at bottom of cards) */
+.card-actions {
+	display: flex;
+	gap: var(--space-md);
+	flex-wrap: wrap;
+}
+
+/* Text links with arrows */
+.text-link {
+	display: flex;
+	gap: var(--space-sm);
+	align-items: center;
+
+	font-size: var(--text-base);
+	text-decoration: underline;
+	text-underline-offset: 0.25rem;
+}
+
+.text-link:hover {
+	color: var(--color-text-secondary);
+}
+
+.icon-arrow {
+	width: 1.125rem;
+	height: 1.125rem;
+	flex-shrink: 0;
+}
+
+/* Work cards with images */
+.card-work {
+	gap: var(--space-md);
+	scroll-margin-top: var(--space-lg);
+	/* Space when scrolling to anchor */
+}
+
+/* Blog cards */
+.card-blog {
+	/* Styles handled by link wrapper */
+}
+
+/* Fixed aspect ratio for work card images */
+.card-image {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	/* Landscape ratio */
+	border-radius: var(--radius-sm);
+	overflow: hidden;
+	background-color: #e0e0e0;
+}
+
+.card-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Fixed aspect ratio for blog graphics */
+.card-graphic {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	/* Wide landscape */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: unset;
+}
+
+.blog-graphic-text {
+	font-size: clamp(3rem, 8vw, 5rem);
+	font-weight: 700;
+	color: var(--color-text-primary);
+	opacity: 0.1;
+}
+
+/* ===================
    Footer
    =================== */
 
 .site-footer {
-  background-color: var(--color-bg-footer);
-  border-radius: var(--radius-sm);
-  padding: var(--space-2xl) var(--space-fluid-lg);
+	background-color: var(--color-bg-footer);
+	border-radius: var(--radius-md);
+	padding: var(--space-2xl) var(--space-fluid-lg);
 }
 
 .footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
-  gap: var(--space-2xl);
-  align-items: start;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-xl);
+	align-items: flex-start;
+}
+
+/* Let's talk - matches info-section width */
+.footer-cta {
+	flex: 1 1 18rem;
+	min-width: min(100%, 18rem);
 }
 
 .footer-cta h2 {
-  font-size: var(--text-2xl);
-  font-weight: 400;
+	font-size: var(--text-xl);
+	/* Match nav and footer links */
+	font-weight: 400;
 }
 
+/* Right side container - matches content-column width */
+.footer-right {
+	flex: 999 1 38.75rem;
+	min-width: 0;
+	/* Allow shrinking below basis */
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-2xl);
+	align-items: flex-start;
+}
+
+/* Contact section */
 .footer-contact {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xl);
+	flex: 10 1 18rem;
+	/* High grow value, lower basis */
+	min-width: min(100%, 18rem);
+
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-fluid-md);
+	align-items: flex-start;
 }
 
 .contact-text {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
 }
 
 .contact-text h3 {
-  font-size: var(--text-xl);
-  font-weight: 400;
+	font-size: var(--text-xl);
+	font-weight: 400;
 }
 
+.contact-text p {
+	max-width: 50ch;
+	/* Readable line length */
+}
+
+/* Social links */
 .footer-links {
-  display: flex;
-  gap: var(--space-2xl);
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: center;
+	flex: 1 0 18rem;
+	/* Low grow value, small basis */
+	min-width: min(100%, 18rem);
+
+	display: flex;
+	gap: var(--space-2xl);
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .footer-links a {
-  font-size: var(--text-lg);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+	font-size: var(--text-lg);
+	font-weight: 400;
+	/* Match main nav (not bold) */
+	letter-spacing: -0.02em;
 }
+
 /* ===================
    Buttons
    =================== */
 
 .btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-sm);
-  
-  padding: 0.75rem 1rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid transparent;
-  
-  font-size: var(--text-base);
-  font-weight: 400;
-  text-decoration: none;
-  
-  cursor: pointer;
-  transition: opacity 0.2s ease;
-  
-  width: fit-content; /* Only as wide as content */
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--space-sm);
+
+	padding: 0.75rem 1rem;
+	border-radius: var(--radius-sm);
+	/* 8px - consistent with site */
+	border: 1px solid transparent;
+
+	font-size: var(--text-base);
+	font-weight: 400;
+	text-decoration: none;
+
+	cursor: pointer;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+	/* Consistent with cards */
+
+	width: fit-content;
+	/* Only as wide as content */
 }
 
 .btn:hover {
-  opacity: 0.8;
+	opacity: 0.8;
+	transform: translateY(-2px);
+	/* Lift effect like cards */
 }
 
 .btn-primary {
-  background-color: var(--color-bg-button);
-  color: var(--color-text-button);
-  border-color: var(--color-bg-button);
+	background-color: var(--color-bg-button);
+	color: var(--color-text-button);
+	border-color: var(--color-bg-button);
 }
 
 /* Ensure button text stays light on hover */
 .btn-primary:hover {
-  color: var(--color-text-button);
+	color: var(--color-text-button);
+}
+
+/* Force button text color (override any inherited link styles) */
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:active {
+	color: var(--color-text-button);
+}
+
+/* ===================
+   Blog Card SVG Graphics
+   =================== */
+
+/* Container for SVG graphics via img tag */
+.card-graphic img {
+	width: 100%;
+	height: 100%;
+	padding: var(--space-md);
+	/* Reduced padding for better visual balance */
+	object-fit: contain;
+	/* Keep SVG proportions */
+	pointer-events: none;
+	/* Let clicks pass through to parent link */
+}
+
+/* SVG element styles - these work when SVG is loaded via object tag */
+.graphic-path {
+	fill: var(--color-text-primary);
+}
+
+.graphic-dot-beige {
+	fill: var(--color-bg-info);
+	stroke: var(--color-text-primary);
+	stroke-width: 0.5;
+}
+
+.graphic-dot-blue {
+	fill: var(--color-bg-blog);
+	stroke: var(--color-text-primary);
+	stroke-width: 0.5;
+}
+
+.graphic-dot-green {
+	fill: var(--color-bg-work);
+	stroke: var(--color-text-primary);
+	stroke-width: 0.5;
+}
+
+.plane-stroke {
+	stroke: var(--color-text-primary);
+	stroke-width: 1;
+	fill: none;
+}
+
+.plane-fill-blue {
+	fill: #B4DEEC;
+	stroke: var(--color-text-primary);
+	stroke-width: 1;
+}
+
+.plane-fill-gray {
+	fill: #D9D9D9;
+	stroke: var(--color-text-primary);
+	stroke-width: 1;
+}
+
+/* ===================
+   Project Detail Pages
+   =================== */
+
+/* Back navigation */
+.back-navigation {
+	margin-bottom: var(--space-lg);
+}
+
+.back-link {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--space-sm);
+	font-size: var(--text-lg);
+	font-weight: 400;
+	text-decoration: none;
+	color: var(--color-text-primary);
+}
+
+.back-link:hover {
+	color: var(--color-text-secondary);
+}
+
+.back-link svg {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+/* Project intro card */
+.card-project-intro {
+	background-color: var(--color-bg-info);
+}
+
+/* Project header wrapper - groups title and meta */
+.project-header {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xs);
+	/* Tight spacing inside wrapper */
+}
+
+.project-title {
+	font-size: var(--text-xl);
+	font-weight: 400;
+	line-height: var(--leading-tight);
+	margin-bottom: var(--space-md);
+	/* Space before meta lines */
+}
+
+.project-meta {
+	font-size: var(--text-base);
+	color: var(--color-text-secondary);
+	/* No margin needed - gap from parent handles it */
+}
+
+.project-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-sm);
+	margin-top: var(--space-lg);
+}
+
+.tag {
+	display: inline-block;
+	padding: var(--space-sm) var(--space-md);
+	background-color: var(--color-bg-button);
+	color: var(--color-text-button);
+	font-size: var(--text-xs);
+	border-radius: var(--radius-sm);
+	white-space: nowrap;
+}
+
+/* Project hero image - full width, no padding */
+.content-column>.project-hero {
+	margin: 0;
+	max-width: none;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.content-column>.project-hero img {
+	width: 100%;
+	border-radius: var(--radius-sm);
+}
+
+.project-hero figcaption {
+	margin-top: var(--space-sm);
+	font-size: var(--text-xs);
+	color: var(--color-text-secondary);
+	text-align: left;
+	padding-right: var(--space-lg);
+}
+
+/* Metric cards grid */
+.metric-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+	gap: var(--space-lg);
+	align-items: stretch;
+	/* Ensures all items in a row have equal height */
+}
+
+.card-metric {
+	background-color: var(--color-bg-work);
+	padding: var(--space-xl);
+	text-align: center;
+	border-radius: var(--radius-md);
+
+	/* Flex layout for vertical centering */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: var(--space-md);
+
+	/* Ensure card fills grid cell height */
+	height: 100%;
+}
+
+.metric-number {
+	font-size: var(--text-2xl);
+	font-weight: 700;
+	line-height: var(--leading-tight);
+}
+
+.metric-description {
+	font-size: var(--text-base);
+	line-height: var(--leading-normal);
+	max-width: 30ch;
+	/* Readable width for metric descriptions */
+}
+
+/* ===================
+   Work Page Specific
+   =================== */
+
+/* Selected projects intro text */
+.selected-intro {
+	font-size: var(--text-base);
+	color: var(--color-text-primary);
+	margin-bottom: var(--space-sm);
+}
+
+/* Selected projects list */
+.selected-list {
+	font-size: var(--text-lg);
+	line-height: var(--leading-relaxed);
+}
+
+/* Underlined links in selected projects */
+.underline-link {
+	text-decoration: underline;
+	text-underline-offset: 0.25rem;
+	text-decoration-thickness: 1px;
+}
+
+.underline-link:hover {
+	color: var(--color-text-secondary);
+}
+
+/* Work card link wrapper - wraps entire card */
+.work-card-link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	/* Make link fill grid cell */
+}
+
+.work-card-link .card-work {
+	height: 100%;
+	/* Fill link container */
+	cursor: pointer;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.work-card-link:hover .card-work {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===================
+   Blog Page Specific
+   =================== */
+
+/* Blog card link wrapper - wraps entire card */
+.blog-card-link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	/* Make link fill grid cell */
+}
+
+.blog-card-link .card-blog {
+	height: 100%;
+	/* Fill link container */
+	cursor: pointer;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card-link:hover .card-blog {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===================
+   Info Page Specific
+   =================== */
+
+/* Principle cards */
+.card-principle {
+	background-color: var(--color-bg-body);
+	/* White background */
+	border: 1px solid var(--color-bg-info);
+	/* Beige border */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* Allow wrapping on small screens */
+	gap: var(--space-xl);
+	align-items: flex-start;
+	padding: var(--space-xl);
+}
+
+/* Principle icon container */
+.principle-icon {
+	flex: 0 0 100px;
+	/* Fixed width, don't grow or shrink */
+	width: 100px;
+	height: 100px;
+}
+
+/* SVG icons via object/img tags */
+.principle-icon object,
+.principle-icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+/* Principle content */
+.principle-content {
+	flex: 1 1 20rem;
+	/* Grow to fill, shrink if needed, min-width triggers wrap */
+	min-width: min(100%, 20rem);
+	/* Stack when container is narrower than 20rem + icon */
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+}
+
+.principle-content h3 {
+	font-size: var(--text-lg);
+	font-weight: 400;
+}
+
+.principle-content p {
+	max-width: 65ch;
+	/* Readable line length */
+}
+
+.section-title {
+	font-size: var(--text-2xl);
+	font-weight: 400;
+}
+
+/* Experience grid - 2 columns */
+.experience-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+	gap: var(--space-lg);
+}
+
+/* Experience cards */
+.card-experience {
+	background-color: var(--color-bg-info);
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xl);
+	/* More spacing */
+	align-items: center;
+	text-align: center;
+	padding: var(--space-2xl);
+	/* More padding for breathing room */
+	min-height: 16rem;
+	/* Consistent card height */
+}
+
+/* Company logo container */
+.company-logo {
+	width: 100%;
+	height: 6.25rem;
+	/* 100px - reduced from 120px */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	/* Take up available space */
+}
+
+.company-logo img {
+	max-width: 10rem;
+	/* 160px - maximum logo width */
+	max-height: 5rem;
+	/* 80px - maximum logo height */
+	object-fit: contain;
+}
+
+/* Company info */
+.company-info {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-sm);
+}
+
+.company-info h3 {
+	font-size: var(--text-lg);
+	font-weight: 400;
+}
+
+.company-info p {
+	font-size: var(--text-base);
+	color: var(--color-text-secondary);
+}
+
+/* Experience CTA */
+.experience-cta {
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* ===================
+   Blog Post Detail Pages
+   =================== */
+
+/* Post intro card - blue background like blog cards */
+.card-post-intro {
+	background-color: var(--color-bg-blog);
+}
+
+/* Post header wrapper - groups date, title, excerpt */
+.post-header {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+}
+
+.post-date {
+	font-size: var(--text-xs);
+	color: var(--color-text-primary);
+	font-weight: 400;
+}
+
+.post-title {
+	font-size: var(--text-xl);
+	font-weight: 400;
+	line-height: var(--leading-tight);
+}
+
+.post-excerpt {
+	font-size: var(--text-base);
+	line-height: var(--leading-normal);
+	color: var(--color-text-primary);
+}
+
+.post-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-sm);
+	margin-top: var(--space-lg);
+}
+
+/* Post hero image - full width, no padding */
+.content-column>.post-hero {
+	margin: 0;
+	max-width: none;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.content-column>.post-hero img {
+	width: 100%;
+	border-radius: var(--radius-sm);
+}
+
+.post-hero figcaption {
+	margin-top: var(--space-sm);
+	font-size: var(--text-xs);
+	color: var(--color-text-secondary);
+	text-align: left;
+	padding-right: var(--space-lg);
+}
+
+/* Post intro paragraph - larger text */
+.content-column>.post-intro {
+	font-size: var(--text-lg);
+	line-height: var(--leading-normal);
+	max-width: 42rem;
+	/* Same as headings - consistent visual width */
+	padding-left: var(--space-lg);
+	padding-right: var(--space-lg);
+	font-weight: 400;
+}
+
+/* Blockquotes for quotes in blog posts */
+.content-column>blockquote {
+	margin-left: var(--space-lg);
+	/* Aligns border-left with text start */
+	padding-left: var(--space-lg);
+	/* Inner text spacing after border */
+	padding-right: var(--space-lg);
+	border-left: 4px solid var(--color-text-secondary);
+	font-style: italic;
+	color: var(--color-text-secondary);
+}
+
+/* ===================
+   Kudos Section (Blog Posts)
+   =================== */
+
+.kudos-section {
+	display: flex;
+	align-items: center;
+	gap: var(--space-md);
+	padding: var(--space-xl) var(--space-lg);
+	margin-top: var(--space-2xl);
+	border-top: 1px solid var(--color-bg-info);
+}
+
+.kudos-button {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--space-sm);
+	padding: var(--space-md) var(--space-lg);
+	background-color: var(--color-bg-blog);
+	border: none;
+	/* Remove border */
+	border-radius: var(--radius-sm);
+	/* 8px - consistent with site */
+	font-size: var(--text-base);
+	font-weight: 400;
+	cursor: pointer;
+	transition: transform 0.2s ease, background-color 0.2s ease;
+	/* Consistent timing */
+}
+
+.kudos-button:hover {
+	background-color: var(--color-bg-button);
+	color: var(--color-text-button);
+	transform: translateY(-2px);
+	/* Lift effect like cards */
+}
+
+.kudos-emoji {
+	font-size: var(--text-lg);
+}
+
+.kudos-text {
+	font-size: var(--text-base);
+}
+
+.kudos-count {
+	font-size: var(--text-base);
+	color: var(--color-text-secondary);
+	font-weight: 600;
+}
+
+/* ===================
+   Accessibility
+   =================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+	.highlight-text::before,
+	.underline-text::after {
+		animation: none;
+	}
+
+	.nav-link {
+		transition: none;
+	}
 }

@@ -2,10 +2,10 @@
 title: Design Chat UX career map
 published: true
 layout: post
-img: /images/post-ux-career-map.jpg
+card-image: blog-career-map.svg
 excerpt: Thoughts on how to find the next steps in your UX career.
 ---
-![Creating your UX career map](/images/post-ux-career-map-small.jpg)*Creating your own UX career map*
+![Creating your UX career map](/images/blog-career-map.svg)*Creating your own UX career map*
 
 The following is a copy of an interview with Molly Jennings from Few & Far, as part of a Design Chat, a series of short interviews with Design Leaders talking about all things design.
 

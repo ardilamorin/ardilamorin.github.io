@@ -1,24 +1,75 @@
 ---
-layout: default
+layout: homepage
+title: Blog
 published: true
 ---
-				<div class="hero">
-        <article class="center">
-          <p>Hi, I’m José Ardila</p>
-          <h1>I write about UX design, leadership and technology</h1>
-        </article>
-      </div>
-			
-      <section class="content-group">
-          <div class="block-small">
-            {% for post in site.posts %}
-            <div class="card">
-              <a href="{{ site.baseurl }}{{ post.url }}">
-              <p class="text-small">{{ post.date | date: "%-d.%-m.%y" }}</p>
-              <h3>{{ post.title }}</h3>
-              <p>{{ post.excerpt }}</p>
-              </a>
+
+<!-- Hero Banner -->
+<header class="hero-banner">
+    <div class="hero-title">
+        <h1>blog</h1>
+    </div>
+    <div class="hero-description animate-on-scroll">
+        <p>
+            My thoughts on <span class="underline-text">design leadership</span> and building <span
+                class="highlight-text">digital products</span>
+        </p>
+    </div>
+</header>
+
+<!-- Two Column Layout -->
+<main class="main-content">
+
+    <!-- Left Column: Blog Intro -->
+    <aside class="info-section">
+        <article class="card card-info">
+            <div class="card-content">
+                <p class="selected-intro">I write about</p>
+                <p class="selected-list">
+                    <span class="underline-link">UX design</span>,
+                    <span class="underline-link">leadership</span> and
+                    <span class="underline-link">technology</span>
+                </p>
             </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Blog Posts Grid -->
+    <div class="content-column">
+
+        <section class="card-grid-md">
+
+            <!-- Dynamic Blog Post Cards -->
+            {% for post in site.posts %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card-link">
+                <article class="card card-blog">
+
+                    <!-- SVG Graphic or Placeholder -->
+                    <div class="card-graphic">
+                        {% if post.card-image %}
+                        <img src="{{ site.baseurl }}/images/{{ post.card-image }}" alt="{{ post.title }}" />
+                        {% elsif post.graphic-svg-file %}
+                        <img src="{{ site.baseurl }}/images/{{ post.graphic-svg-file }}" alt="{{ post.title }}" />
+                        {% elsif post.featured-image %}
+                        <img src="{{ site.baseurl }}/images/{{ post.featured-image }}" alt="{{ post.title }}" />
+                        {% else %}
+                        <p class="blog-graphic-text">{{ post.graphic-text | default: "BLOG" }}</p>
+                        {% endif %}
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="card-content">
+                        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d.%-m.%y" }}</time>
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+                    </div>
+
+                </article>
+            </a>
             {% endfor %}
-        </div>
-      </section>
+
+        </section>
+
+    </div>
+
+</main>

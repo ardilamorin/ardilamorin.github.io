@@ -1,58 +1,76 @@
 ---
-layout: default
-published: true
+layout: homepage
 ---
 
-<section class="hero margin-sm">
-    <h1>{{ page.title }}</h1>
-    <p class="excerpt">{{ page.excerpt }}</p>
-    <p class="text-small">
-      {{ page.date | date: "%B %e, %Y" }} &#183;
-      {% capture words %}
-{{ content | number_of_words | minus: 180 }}
-{% endcapture %}
-{% unless words contains '-' %}
-<i style="padding-right: 8px;"></i>{{ words | plus: 180 | divided_by: 180 | append: ' minute read' }}
-{% endunless %}
-    </p>
-</section>
+<!-- Back Button -->
+<div class="back-navigation">
+    <a href="{{ site.baseurl }}/blog" class="back-link">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+        <span>blog</span>
+    </a>
+</div>
 
-<article class="post">
-	
-    <div class="content-group">
-	    
-			<div class="entry">
-	        {{ content }}
-	      <hr> 
-	     			<aside>				
-				      	<div class="kudos">
-			      <p class="kudos_text">If you liked the article give Kudos here</p><button class="tinylytics_kudos"></button>
-			      </div>
-							<p>Want to continue the conversation? Let’s talk, now on Mastodon <a href="https://mstdn.social/@ardilamorin" target="_blank" rel="noopener noreferrer">@ardilamorin@mstdn.social</a>. 
-				      </p>      
-				</aside>        
-	  </div>  
-</article>
-<div class="content-group">
-				<h3 class="group-title">Continue reading</h3>
-	    <div class="block-md">
-	      <!-- {% if page.previous.url %} -->
-		      <div class="card">
-		        <a href="{{ site.baseurl }}{{page.previous.url}}">
-		        <p class="text-small">{{ page.previous.date | date: "%-d.%-m.%y" }}</p>
-		        <h3>{{page.previous.title}}</h3>
-		        <p>{{page.previous.excerpt }}</p>
-		        </a>
-		      </div>
-	     <!--  {% endif %}
-	      {% if page.next.url %} -->
-		      <div class="card">
-		        <a href="{{ site.baseurl }}{{page.next.url}}">
-		        <p class="text-small">{{ page.next.date | date: "%-d.%-m.%y" }}</p>
-		        <h3>{{page.next.title}}</h3>
-		        <p>{{page.next.excerpt }}</p>
-		        </a>
-		      </div>
-	<!--       {% endif %} -->
-	    	</div>
-	</div>
+<!-- Two Column Layout -->
+<main class="main-content">
+
+    <!-- Left Column: Post Info Card -->
+    <aside class="info-section">
+        <article class="card card-post-intro">
+            <div class="card-content">
+                <!-- Post header wrapper -->
+                <div class="post-header">
+                    <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date:
+                        "%d.%m.%y" }}</time>
+                    <h1 class="post-title">{{ page.title }}</h1>
+                    {% if page.excerpt %}
+                    <p class="post-excerpt">{{ page.excerpt | strip_html }}</p>
+                    {% endif %}
+                </div>
+                {% if page.tags %}
+                <div class="post-tags">
+                    {% for tag in page.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Post Content -->
+    <div class="content-column">
+
+        <!-- Hero Image (if provided) - uses separate hero-image field -->
+        {% if page.hero-image %}
+        <figure class="post-hero">
+            <img src="{{ site.baseurl }}/images/{{ page.hero-image }}" alt="{{ page.image-caption }}"
+                class="full-width" />
+            {% if page.image-caption %}
+            <figcaption>{{ page.image-caption }}</figcaption>
+            {% endif %}
+        </figure>
+        {% endif %}
+
+        <!-- Post Intro (if provided) - larger text -->
+        {% if page.intro %}
+        <p class="post-intro">{{ page.intro }}</p>
+        {% endif %}
+
+        <!-- Main Content (from markdown) -->
+        {{ content }}
+
+        <!-- Kudos Section (only on blog posts) -->
+        <div class="kudos-section">
+            <button id="kudos-button" class="kudos-button">
+                <span class="kudos-emoji">✌️</span>
+                <span class="kudos-text">Give Kudos</span>
+            </button>
+            <span id="kudos-count" class="kudos-count"></span>
+        </div>
+
+    </div>
+
+</main>
