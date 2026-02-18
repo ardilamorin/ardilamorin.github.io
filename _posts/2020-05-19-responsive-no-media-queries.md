@@ -5,9 +5,9 @@ layout: post
 card-image: blog-responsive.svg
 excerpt: A fully responsive site without media queries using Flexbox and CSS Grid.
 ---
+
 I finally redesigned this website. The challenge was to do a fully responsive site without media queries using [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="_blank"} and [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="_blank"}.
 
-![Visual explorations for the new  website](/images/responsive-no-media.gif)*Responsive design without media queries*
 
 For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where users were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.
 
@@ -16,6 +16,8 @@ There are other techniques to design responsive websites that embrace flexibilit
 But It wasn’t until last year, when I read and article from [Juan Martin García](https://www.juangarcia.design){:target="_blank"} titled [Look Ma, no media Queries! Responsive Layouts Using CSS Grid](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/){:target="_blank"} that I decided to give it a try, explore what could be done with the new CSS capabilities like CSS Grid and Flexbox, that promised to accomplish better results with less development effort, and in the case of Juan’s article, no media-queries.
 
 >Creating a full site without media queries was more a personal challenge than a technical one
+
+## The Challenge
 
 Creating a full site without media queries was more a personal challenge than a technical one. I knew could be done, but could I do it? Answering that question involved overcoming certain challenges:
 
@@ -78,6 +80,8 @@ h1{
 font-size: clamp(2.25rem, 4vw, 4rem);
 }
 {% endhighlight %}
+
+## Closing thoughts
 
 So this is it, a fully responsive personal website, blog capabilities without media queries or breakpoints defined by a device but its content. And, as the previous one, it’s not done. I will play with it, add functionality and evolve it based on what I want to learn or express.
 

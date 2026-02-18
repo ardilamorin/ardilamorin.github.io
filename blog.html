@@ -41,31 +41,7 @@ published: true
 
             <!-- Dynamic Blog Post Cards -->
             {% for post in site.posts %}
-            <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card-link">
-                <article class="card card-blog">
-
-                    <!-- SVG Graphic or Placeholder -->
-                    <div class="card-graphic">
-                        {% if post.card-image %}
-                        <img src="{{ site.baseurl }}/images/{{ post.card-image }}" alt="{{ post.title }}" />
-                        {% elsif post.graphic-svg-file %}
-                        <img src="{{ site.baseurl }}/images/{{ post.graphic-svg-file }}" alt="{{ post.title }}" />
-                        {% elsif post.featured-image %}
-                        <img src="{{ site.baseurl }}/images/{{ post.featured-image }}" alt="{{ post.title }}" />
-                        {% else %}
-                        <p class="blog-graphic-text">{{ post.graphic-text | default: "BLOG" }}</p>
-                        {% endif %}
-                    </div>
-
-                    <!-- Card Content -->
-                    <div class="card-content">
-                        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d.%-m.%y" }}</time>
-                        <h3>{{ post.title }}</h3>
-                        <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
-                    </div>
-
-                </article>
-            </a>
+            {% include post-card.html post=post %}
             {% endfor %}
 
         </section>

@@ -6,11 +6,11 @@ card-image: blog-new-website.svg
 excerpt: It's not done or perfect, but it's live and will continue to evolve and change over time.
 ---
 
-![New Website with JekyllNow](/images/new-website-jekyll-now.png)*Jekyll Now*
-
 ## Technology
 
 The first thing to stand out in this website is that it works using github pages, powered by Jekyll, a flat file website generator. You probably have heard about flat file cms, and static website generators and their advantages. Simple, fast and easy to deploy.
+
+![New Website with JekyllNow](/images/new-website-jekyll-now.png)*Jekyll Now*
 
 ## Checklist for the new website
 

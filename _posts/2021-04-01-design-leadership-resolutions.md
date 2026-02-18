@@ -5,7 +5,6 @@ layout: post
 card-image: blog-resolutions.svg
 excerpt: A list to challenge myself, help my team’s professional development and avoid screwing up.
 ---
-![Creating your UX career map](/images/blog-resolutions.svg)*Leadership resolutions*
 
 I believe that managing others is a big responsibility. One that could make or break their experience at a company, or even their careers. With that in mind I try to do my best, to put the time and the effort to support the team and constantly question whether I’m having a positive or negative impact.
 
@@ -51,7 +50,6 @@ Ask and act on feedback. You may have the right intentions and put a lot of effo
 
 Some things just take time, the value is not always tangible. Be nice to yourself, take breaks, find motivation to keep going, celebrate your small victories and trust in your ability to accomplish what you set out to do.
 
----
 
 I hope this can help you reflect, identify the things that are important to you and define your own principles to work better with people on your team. Do you have your own set of resolutions? Let me know on twitter @ardilamorin 
 
@@ -59,4 +57,4 @@ Ps: I recently gave a talk about what it means to be a UX Lead, where I share my
 
 ## References
 
-Tender discipline by Jocelyn K. Glei [here](https://hurryslowly.co/215-jocelyn-k-glei/){:target="_blank"}
+* Tender discipline by Jocelyn K. Glei [here](https://hurryslowly.co/215-jocelyn-k-glei/){:target="_blank"}

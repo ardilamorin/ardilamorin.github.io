@@ -2,14 +2,15 @@
 title: Taking a break & finding balance
 published: true
 layout: post
-graphic-svg-file: "blog-taking-break.svg"
+card-image: blog-taking-break.svg
 excerpt: Reflection about time management, focus and scheduling time.
 ---
-![Balance](/images/blog-taking-break.svg)*Finding balance*
 
 I’m currently on a break from my job. Four weeks away after dedicating my full attention to, what we sometimes say but don’t practice, what’s most important to me: my family.
 
 This break has allowed me to grasp perspective when it comes to how I manage my time. I often have prioritized work over other parts of my life. Sometimes with the feeling of chasing the next step, a salary bump, a better title. With a feeling of work expanding into other parts of life, squeezing time out of other important areas.
+
+## Key traits to achieve balance
 
 I have met a few people that are able to find that balance, to fully thrive without compromising their passions, friendships and health. I have noticed a few traits in them:
 
@@ -23,10 +24,14 @@ Where do you live, your age, years of expertise in the field, company you work f
 
 These are important because you won't be able to find balance if you put yourself in a position where you don’t make the most of your strengths. That means the right company, the right team, the right position.
 
+## Adding perspective
+
 As a nice coincidence I have come across this quote from a speech from Bryan Dyson, Ex-CEO of Coca-Cola.
 
 >”Imagine life as a game in which you are juggling some five balls in the air. You name them – work, family, health, friends and spirit – and you’re keeping all of these in the air. You will soon understand that work is a rubber ball. If you drop it, it will bounce back. But the other four balls – family, health, friends and spirit – are made of glass. If you drop one of these, they will be irrevocably scuffed, marked, nicked, damaged, or even shattered. They will never be the same. You must understand that and strive for balance in your life.”
 - Bryan Dyson
+
+## Helpful resources
 
 Resources that have helped me find balance are:
 

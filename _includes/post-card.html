@@ -1,0 +1,34 @@
+{% assign card_class = "card card-blog" %}
+{% if include.variant == "horizontal" %}
+  {% assign card_class = "card card-blog card-blog--horizontal" %}
+{% endif %}
+
+<a href="{{ site.baseurl }}{{ include.post.url }}" class="blog-card-link">
+    <article class="{{ card_class }}">
+
+        <!-- SVG Graphic or Placeholder -->
+        <div class="card-graphic">
+            {% if include.post.card-image %}
+            <img src="{{ site.baseurl }}/images/{{ include.post.card-image }}" alt="{{ include.post.title }}" />
+            {% elsif include.post.graphic-svg-file %}
+            <img src="{{ site.baseurl }}/images/{{ include.post.graphic-svg-file }}" alt="{{ include.post.title }}" />
+            {% elsif include.post.featured-image %}
+            <img src="{{ site.baseurl }}/images/{{ include.post.featured-image }}" alt="{{ include.post.title }}" />
+            {% else %}
+            <p class="blog-graphic-text">{{ include.post.graphic-text | default: "BLOG" }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Card Content -->
+        <div class="card-content">
+            {% unless include.variant == "horizontal" %}
+            <time datetime="{{ include.post.date | date: '%Y-%m-%d' }}">{{ include.post.date | date: "%-d.%-m.%y" }}</time>
+            {% endunless %}
+            <h3>{{ include.post.title }}</h3>
+            {% unless include.variant == "horizontal" %}
+            <p>{{ include.post.excerpt | strip_html | truncatewords: 15 }}</p>
+            {% endunless %}
+        </div>
+
+    </article>
+</a>

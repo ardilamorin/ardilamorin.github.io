@@ -43,6 +43,13 @@ layout: homepage
     <!-- Right Column: Post Content -->
     <div class="content-column">
 
+        <!-- Post Illustration (from card-image) -->
+        {% if page.card-image %}
+        <div class="post-illustration{% if page.illustration-full-width %} full-width{% endif %}">
+            <img src="{{ site.baseurl }}/images/{{ page.card-image }}" alt="{{ page.title }}" />
+        </div>
+        {% endif %}
+
         <!-- Hero Image (if provided) - uses separate hero-image field -->
         {% if page.hero-image %}
         <figure class="post-hero">
@@ -67,6 +74,27 @@ layout: homepage
             <span class="kudos-label">Give Kudos</span>
             <button class="kudos-button tinylytics_kudos"></button>
         </div>
+
+        <!-- Keep Reading Navigation -->
+        {% if page.previous or page.next %}
+        <nav class="keep-reading" aria-label="More blog posts">
+            <h2 class="keep-reading__title">Keep reading</h2>
+            <div class="keep-reading__cards">
+                <div class="keep-reading__item keep-reading__item--prev">
+                    {% if page.previous %}
+                    <span class="keep-reading__label">Previous</span>
+                    {% include post-card.html post=page.previous variant="horizontal" %}
+                    {% endif %}
+                </div>
+                <div class="keep-reading__item keep-reading__item--next">
+                    {% if page.next %}
+                    <span class="keep-reading__label">Next</span>
+                    {% include post-card.html post=page.next variant="horizontal" %}
+                    {% endif %}
+                </div>
+            </div>
+        </nav>
+        {% endif %}
 
     </div>
 

@@ -5,9 +5,9 @@ layout: post
 card-image: blog-remote.svg
 excerpt: Tips and advice on office setup, work routine and collaboration while away from the office.
 ---
+
 For the last 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process.
 
-![Remote Work - Humaaans](/images/remote-work.png)*Illustration using Humaaaans by Pablo Stanley*
 
 ## Your office
 Find the best location and setup to do your work. Based on your personality you could find it difficult to work from home, tempted to stay in bed, or doing chores, a co-working space could be the best scenario for you. In my case, I enjoyed working from home, because it allowed me to configure my setup, cook my own meals and have more time for actual work and less on commute. The down side is I didn’t get to see people, which I tried to solve outside office hours (see “create a network” further down this list).

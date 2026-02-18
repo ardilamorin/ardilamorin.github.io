@@ -8,14 +8,14 @@ tags:
 card-image: blog-one-year-booking.svg
 hero-image:
 image-caption: Booking.com headquarters in Amsterdam.
-intro: "Last year I joined Booking.com as a Design Manager for UX Foundations, responsible for design in Design Systems, Design Language and Accessibility. After a year, I wanted to put into words why I decided to join the company."
 excerpt: "Reasons why I joined and how is it going so far."
 ---
 
-![Booking.com Headquarters](/images/post-booking.jpg){:loading="lazy"}*Booking.com headquarters in Amsterdam.*
-
+Last year I joined Booking.com as a Design Manager for UX Foundations, responsible for design in Design Systems, Design Language and Accessibility. After a year, I wanted to put into words why I decided to join the company.
 
 Booking.com is the leader of the online travel industry, with the mission to make it easier for everyone to experience the world. Available in 45 languages, offering services in over 220 countries around the world. But you can read all of this in booking.com website. So, what is actually interesting from a design point of view?
+
+![Booking.com Headquarters](/images/post-booking.jpg){:loading="lazy"}*Booking.com headquarters in Amsterdam.*
 
 ## The scale of the challenge
 
