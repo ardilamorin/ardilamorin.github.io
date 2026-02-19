@@ -180,6 +180,7 @@ ol[class] {
 	--color-bg-blog: #e7ebf3;
 	--color-bg-button: #2c2c2c;
 	--color-text-button: #f5f5f5;
+	--color-focus: #4d72b8;
 
 	/* Spacing Scale - using rem (16px base) */
 	--space-xs: 0.375rem;
@@ -262,6 +263,13 @@ body {
 	margin-inline: auto;
 	min-height: 100vh;
 	overflow-x: hidden;
+}
+
+/* Focus styles (keyboard navigation only) */
+:focus-visible {
+	outline: 2px dashed var(--color-focus);
+	outline-offset: 3px;
+	border-radius: 2px;
 }
 
 /* Typography */
@@ -349,6 +357,11 @@ time {
 	padding: 0.375rem 0.75rem;
 	border-radius: var(--radius-sm);
 	transition: background-color 0.2s ease;
+}
+
+.nav-link:focus-visible {
+	outline-offset: 4px;
+	border-radius: var(--radius-sm);
 }
 
 .nav-link-info:hover {
