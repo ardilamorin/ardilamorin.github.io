@@ -182,6 +182,22 @@ ol[class] {
 	--color-text-button: #f5f5f5;
 	--color-focus: #4d72b8;
 
+	/* Illustration palette — used by inline SVGs in _includes/svg/ */
+	--il-blue-dark: #7B9BD8;
+	--il-blue-medium: #9FAFCE;
+	--il-teal: #9ABECA;
+	--il-blue-light: #B4DEEC;
+	--il-blue-soft: #BECDE9;
+	--il-blue-pale: #CBEDF9;
+	--il-green-muted: #AEBBAE;
+	--il-green-light: #BFD7BF;
+	--il-beige: #D2C5B5;
+	--il-cream: #F4E3CE;
+	--il-yellow: #EEC675;
+	--il-gray: #D9D9D9;
+	--il-gray-warm: #E1E0DC;
+	--il-brown-dark: #3C3533;
+
 	/* Spacing Scale - using rem (16px base) */
 	--space-xs: 0.375rem;
 	/* 6px */
@@ -1193,6 +1209,20 @@ time {
 	/* Let clicks pass through to parent link */
 }
 
+/* Container for inline SVGs */
+.card-graphic-svg {
+	display: block;
+	width: 100%;
+	padding: var(--space-md);
+	box-sizing: border-box;
+	pointer-events: none;
+}
+
+.card-graphic-svg svg {
+	width: 100%;
+	height: auto;
+}
+
 /* SVG element styles - these work when SVG is loaded via object tag */
 .graphic-path {
 	fill: var(--color-text-primary);
@@ -1619,7 +1649,8 @@ time {
 	padding-right: 0;
 }
 
-.post-illustration img {
+.post-illustration img,
+.post-illustration svg {
 	width: 100%;
 	height: auto;
 }
@@ -1772,6 +1803,10 @@ time {
 }
 
 .card-blog--horizontal .card-graphic img {
+	padding: 0;
+}
+
+.card-blog--horizontal .card-graphic-svg {
 	padding: 0;
 }
 

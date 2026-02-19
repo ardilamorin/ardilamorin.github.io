@@ -9,7 +9,10 @@
         <!-- SVG Graphic or Placeholder -->
         <div class="card-graphic">
             {% if include.post.card-image %}
-            <img src="{{ site.baseurl }}/images/{{ include.post.card-image }}" alt="{{ include.post.title }}" />
+            {% assign svg_path = "svg/" | append: include.post.card-image %}
+            <div class="card-graphic-svg" role="img" aria-label="{{ include.post.title }}">
+                {% include {{ svg_path }} %}
+            </div>
             {% elsif include.post.graphic-svg-file %}
             <img src="{{ site.baseurl }}/images/{{ include.post.graphic-svg-file }}" alt="{{ include.post.title }}" />
             {% elsif include.post.featured-image %}

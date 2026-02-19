@@ -45,8 +45,9 @@ layout: homepage
 
         <!-- Post Illustration (from card-image) -->
         {% if page.card-image %}
-        <div class="post-illustration{% if page.illustration-full-width %} full-width{% endif %}">
-            <img src="{{ site.baseurl }}/images/{{ page.card-image }}" alt="{{ page.title }}" />
+        {% assign svg_path = "svg/" | append: page.card-image %}
+        <div class="post-illustration{% if page.illustration-full-width %} full-width{% endif %}" role="img" aria-label="{{ page.title }}">
+            {% include {{ svg_path }} %}
         </div>
         {% endif %}
 

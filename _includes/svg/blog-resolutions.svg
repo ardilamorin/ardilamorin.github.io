@@ -1,0 +1,36 @@
+<svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .resolutions--dot-blue-dark {
+      fill: var(--il-blue-dark);
+    }
+
+    .resolutions--dot-blue {
+      fill: var(--il-blue-light);
+    }
+
+    .resolutions--dot-green {
+      fill: var(--il-green-light);
+    }
+
+    .resolutions--dot-beige {
+      fill: var(--il-beige);
+    }
+
+    .resolutions--dashed-line {
+      stroke: var(--color-text-primary);
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <!-- Bullet circles -->
+  <circle cx="30.7759" cy="36.1802" r="5.77592" class="resolutions--dot-blue-dark"/>
+  <circle cx="30.7759" cy="57.732" r="5.77592" class="resolutions--dot-blue"/>
+  <circle cx="30.7759" cy="79.2837" r="5.77592" class="resolutions--dot-green"/>
+  <circle cx="30.7759" cy="100.835" r="5.77592" class="resolutions--dot-beige"/>
+
+  <!-- Dashed text lines -->
+  <line x1="51" y1="35.3076" x2="245" y2="35.3076" class="resolutions--dashed-line"/>
+  <line x1="51" y1="57.3076" x2="245" y2="57.3076" class="resolutions--dashed-line"/>
+  <line x1="51" y1="79.3076" x2="245" y2="79.3076" class="resolutions--dashed-line"/>
+  <line x1="51" y1="101.308" x2="245" y2="101.308" class="resolutions--dashed-line"/>
+</svg>

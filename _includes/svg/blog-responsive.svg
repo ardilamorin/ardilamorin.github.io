@@ -1,0 +1,45 @@
+<svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .responsive--column {
+      fill: var(--color-bg-info);
+    }
+
+    .responsive--block-blue-dark {
+      fill: var(--il-blue-medium);
+    }
+
+    .responsive--block-blue {
+      fill: var(--il-blue-light);
+    }
+
+    .responsive--block-green {
+      fill: var(--il-green-muted);
+    }
+
+    .responsive--block-beige {
+      fill: var(--il-beige);
+    }
+
+    .responsive--shadow {
+      fill: var(--color-text-primary);
+    }
+  </style>
+
+  <!-- Grid columns -->
+  <rect x="14.9996" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+  <rect x="76.9996" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+  <rect x="138" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+  <rect x="200" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+
+  <!-- Content block shadows -->
+  <rect x="19.9996" y="17.8076" width="229" height="31" rx="8" class="responsive--shadow"/>
+  <rect x="19.9996" y="52.8076" width="47" height="31" rx="8" class="responsive--shadow"/>
+  <rect x="80.9996" y="52.8076" width="168" height="31" rx="8" class="responsive--shadow"/>
+  <rect x="20.9996" y="86.8076" width="228" height="31" rx="8" class="responsive--shadow"/>
+
+  <!-- Content blocks -->
+  <rect x="19.9996" y="16.8076" width="229" height="31" rx="8" class="responsive--block-blue-dark"/>
+  <rect x="19.9996" y="51.8076" width="47" height="31" rx="8" class="responsive--block-blue"/>
+  <rect x="80.9996" y="51.8076" width="168" height="31" rx="8" class="responsive--block-green"/>
+  <rect x="20.9996" y="85.8076" width="228" height="31" rx="8" class="responsive--block-beige"/>
+</svg>

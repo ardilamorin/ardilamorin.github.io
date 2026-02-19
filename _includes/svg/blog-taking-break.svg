@@ -1,0 +1,49 @@
+<svg viewBox="0 0 273 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .taking-break--line-green {
+      stroke: var(--il-green-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .taking-break--line-beige {
+      stroke: var(--il-beige);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .taking-break--line-blue {
+      stroke: var(--il-blue-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .taking-break--shadow {
+      stroke: var(--color-text-primary);
+      stroke-width: 0.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Green line (left) with arrow -->
+  <path d="M85.6123 71.5781L4.22329 92.8502" class="taking-break--line-green" stroke-width="4"/>
+  <path d="M85.8368 72.7666L4.44787 94.0387" class="taking-break--shadow"/>
+  <path d="M9.14172 85.7734L1.50001 93.8221" class="taking-break--line-green" stroke-width="4"/>
+  <path d="M10.1417 86.7734L2.50001 94.8221" class="taking-break--shadow"/>
+  <path d="M12.508 95.4727L1.54026 93.7739" class="taking-break--line-green" stroke-width="4"/>
+
+  <!-- Beige line (upper right) with arrow -->
+  <path d="M85.4768 71.5225L267.026 2.68758" class="taking-break--line-beige" stroke-width="4"/>
+  <path d="M85.4479 72.6016L266.997 3.76668" class="taking-break--shadow"/>
+  <path d="M256.206 1.5L267.238 2.7111" class="taking-break--line-beige" stroke-width="4"/>
+  <path d="M255.448 2.7666L264.394 3.74871" class="taking-break--shadow"/>
+  <path d="M259.999 11.041L267.276 2.66169" class="taking-break--line-beige" stroke-width="4"/>
+
+  <!-- Blue line (lower right) with arrow -->
+  <path d="M85.6123 71.5771L253.015 108.11" class="taking-break--line-blue" stroke-width="4"/>
+  <path d="M85.4479 72.7656L252.85 109.298" class="taking-break--shadow"/>
+  <path d="M248.668 100.711L255.535 109.43" class="taking-break--line-blue" stroke-width="4"/>
+  <path d="M247.448 101.768L254.315 110.487" class="taking-break--shadow"/>
+  <path d="M244.519 110.103L255.597 109.422" class="taking-break--line-blue" stroke-width="4"/>
+</svg>

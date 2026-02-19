@@ -1,0 +1,46 @@
+<svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .growth--line-green {
+      stroke: var(--il-green-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .growth--line-blue {
+      stroke: var(--il-blue-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .growth--shadow {
+      stroke: var(--color-text-primary);
+      stroke-width: 0.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .growth--dashed-line {
+      stroke: var(--color-text-primary);
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <!-- Dashed baseline -->
+  <line x1="8" y1="65.3076" x2="265" y2="65.3076" class="growth--dashed-line"/>
+
+  <!-- Green line (upper right) with arrow -->
+  <path d="M133 61.8076L249.642 11.2317" class="growth--line-green" stroke-width="4"/>
+  <path d="M133 62.8076L249.642 12.2317" class="growth--shadow"/>
+  <path d="M242.51 11.0059L249.783 11.2355" class="growth--line-green" stroke-width="4"/>
+  <path d="M242.51 12.0059L249.783 12.2355" class="growth--shadow"/>
+  <path d="M245.323 16.6719L249.806 11.2031" class="growth--line-green" stroke-width="4"/>
+  <path d="M245.323 17.6719L249.806 12.2031" class="growth--shadow"/>
+
+  <!-- Blue line (lower left) with arrow -->
+  <path d="M124 65.8066L18.1384 114.547" class="growth--line-blue" stroke-width="4"/>
+  <path d="M124 66.8066L18.1384 115.547" class="growth--shadow"/>
+  <path d="M19.9914 108.788L16.6517 115.817" class="growth--line-blue" stroke-width="4"/>
+  <path d="M19.9914 109.788L16.6517 116.817" class="growth--shadow"/>
+  <path d="M24.0449 114.752L16.6094 115.82" class="growth--line-blue" stroke-width="4"/>
+  <path d="M24.0449 115.752L16.6094 116.82" class="growth--shadow"/>
+</svg>
