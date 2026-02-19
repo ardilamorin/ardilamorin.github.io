@@ -18,6 +18,9 @@
 </head>
 
 <body class="page-{{ page.title | slugify }}{% if page.layout == 'project' %} page-work{% elsif page.layout == 'post' %} page-blog{% endif %}">
+    <!-- Skip link (keyboard navigation) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Navigation -->
     <nav class="site-nav">
         <div class="nav-brand">

@@ -265,6 +265,25 @@ body {
 	overflow-x: hidden;
 }
 
+/* Skip link (keyboard navigation only) */
+.skip-link {
+	position: absolute;
+	top: -100%;
+	left: var(--space-lg);
+	padding: var(--space-xs) var(--space-md);
+	background: var(--color-bg-nav);
+	color: var(--color-text-primary);
+	border-radius: var(--radius-sm);
+	text-decoration: none;
+	font-size: var(--text-xs);
+	z-index: 9999;
+	transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+	top: var(--space-sm);
+}
+
 /* Focus styles (keyboard navigation only) */
 :focus-visible {
 	outline: 2px dashed var(--color-focus);
