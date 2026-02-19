@@ -17,7 +17,7 @@
         href="{{ site.baseurl }}/feed.xml" />
 </head>
 
-<body class="page-{{ page.title | slugify }}{% if page.layout == 'project' %} page-work{% elsif page.layout == 'post' %} page-blog{% endif %}">
+<body class="page-{{ page.title | slugify }}{% if page.layout == 'project' %} page-work{% elsif page.layout == 'post' or page.layout == 'tag' %} page-blog{% endif %}{% if page.layout == 'tag' %} page-tag{% endif %}">
     <!-- Skip link (keyboard navigation) -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 

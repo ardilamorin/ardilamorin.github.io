@@ -1,0 +1,46 @@
+---
+layout: homepage
+---
+
+<!-- Hero Banner -->
+<header class="hero-banner">
+    <div class="hero-title">
+        <h1>blog</h1>
+    </div>
+    <div class="hero-description animate-on-scroll">
+        <p>My thoughts on <span class="underline-text">{{ page.tag }}</span></p>
+    </div>
+</header>
+
+<!-- Two Column Layout -->
+<main id="main-content" class="main-content">
+
+    <!-- Left Column: Tag Nav -->
+    <aside class="info-section">
+        <article class="card card-info">
+            <div class="card-content">
+                <p class="selected-intro">I write about</p>
+                <p class="selected-list">
+                    <a href="{{ site.baseurl }}/tag/leadership/" class="underline-link{% if page.tag == 'Leadership' %} underline-link--active{% endif %}" {% if page.tag == 'Leadership' %}aria-current="page"{% endif %}>leadership</a>,
+                    <a href="{{ site.baseurl }}/tag/ux-design/" class="underline-link{% if page.tag == 'UX Design' %} underline-link--active{% endif %}" {% if page.tag == 'UX Design' %}aria-current="page"{% endif %}>UX design</a> and
+                    <a href="{{ site.baseurl }}/tag/technology/" class="underline-link{% if page.tag == 'Technology' %} underline-link--active{% endif %}" {% if page.tag == 'Technology' %}aria-current="page"{% endif %}>technology</a>
+                </p>
+            </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Filtered Post Grid -->
+    <div class="content-column">
+
+        <section class="card-grid-md">
+
+            {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+            {% for post in tagged_posts %}
+            {% include post-card.html post=post %}
+            {% endfor %}
+
+        </section>
+
+    </div>
+
+</main>

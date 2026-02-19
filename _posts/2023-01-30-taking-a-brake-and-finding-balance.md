@@ -2,6 +2,8 @@
 title: Taking a break & finding balance
 published: true
 layout: post
+tags:
+  - Leadership
 card-image: blog-taking-break.svg
 excerpt: Reflection about time management, focus and scheduling time.
 ---

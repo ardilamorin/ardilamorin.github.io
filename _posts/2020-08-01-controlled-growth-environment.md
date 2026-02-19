@@ -2,6 +2,8 @@
 title: Controlled growth environment
 published: true
 layout: post
+tags:
+  - Leadership
 card-image: blog-growth.svg
 excerpt: Finding a better way to help your team members grow and support them in the process.
 ---

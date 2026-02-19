@@ -2,6 +2,8 @@
 title: What I learned working remotely
 published: true
 layout: post
+tags:
+  - Leadership
 card-image: blog-remote.svg
 excerpt: Tips and advice on office setup, work routine and collaboration while away from the office.
 ---

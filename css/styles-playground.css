@@ -519,6 +519,10 @@ time {
 	opacity: 1;
 }
 
+.page-tag .underline-text::after {
+	background-image: url('../images/brush-underline.svg');
+}
+
 .underline-text {
 	position: relative;
 	display: inline-block;
@@ -1336,6 +1340,16 @@ time {
 	white-space: nowrap;
 }
 
+a.tag {
+	text-decoration: none;
+}
+
+a.tag:hover,
+.tag--active {
+	background-color: var(--il-blue-soft);
+	color: var(--color-text-primary);
+}
+
 /* Project hero image - full width, no padding */
 .content-column>.project-hero {
 	margin: 0;
@@ -1423,6 +1437,11 @@ time {
 
 .underline-link:hover {
 	color: var(--color-text-secondary);
+}
+
+.underline-link--active {
+	text-decoration-color: var(--il-blue-dark);
+	text-decoration-thickness: 2px;
 }
 
 /* Work card link wrapper - wraps entire card */

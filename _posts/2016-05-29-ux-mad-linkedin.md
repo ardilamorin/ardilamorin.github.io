@@ -2,6 +2,9 @@
 layout: post
 title: UXMad, group about UX on LinkedIn
 published: true
+tags:
+  - Leadership
+  - UX Design
 card-image: blog-uxmad.svg
 excerpt: A group for UX professionals in Madrid to connect with the UX community and share knowledge.
 ---

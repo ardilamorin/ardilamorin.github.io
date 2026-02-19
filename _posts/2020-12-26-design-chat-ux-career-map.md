@@ -2,6 +2,9 @@
 title: Design Chat UX career map
 published: true
 layout: post
+tags:
+  - Leadership
+  - UX Design
 card-image: blog-career-map.svg
 excerpt: Thoughts on how to find the next steps in your UX career.
 ---

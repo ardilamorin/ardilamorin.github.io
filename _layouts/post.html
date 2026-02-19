@@ -32,7 +32,7 @@ layout: homepage
                 {% if page.tags %}
                 <div class="post-tags">
                     {% for tag in page.tags %}
-                    <span class="tag">{{ tag }}</span>
+                    <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
                     {% endfor %}
                 </div>
                 {% endif %}

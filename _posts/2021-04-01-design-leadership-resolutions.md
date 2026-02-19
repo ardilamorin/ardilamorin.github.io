@@ -2,6 +2,8 @@
 title: Leadership resolutions
 published: true
 layout: post
+tags:
+  - Leadership
 card-image: blog-resolutions.svg
 excerpt: A list to challenge myself, help my team’s professional development and avoid screwing up.
 ---

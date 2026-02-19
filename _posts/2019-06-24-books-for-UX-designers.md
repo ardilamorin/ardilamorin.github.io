@@ -2,6 +2,8 @@
 title: Best books for every UX Designer
 published: true
 layout: post
+tags:
+  - UX Design
 card-image: blog-books.svg
 excerpt: A list categorised based on experience level.
 ---

@@ -2,6 +2,8 @@
 title: The UX of healthcare platforms
 published: true
 layout: post
+tags:
+  - UX Design
 card-image: blog-healthcare.svg
 excerpt: Designing People Who, a Platform for patients with a chronic illness.
 ---

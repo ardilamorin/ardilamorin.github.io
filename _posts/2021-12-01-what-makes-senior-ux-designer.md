@@ -2,6 +2,9 @@
 title: What makes a Senior UX Designer?
 published: true
 layout: post
+tags:
+  - Leadership
+  - UX Design
 card-image: blog-senior-designer.svg
 excerpt: Key traits that define seniority of a UX Designer.
 ---

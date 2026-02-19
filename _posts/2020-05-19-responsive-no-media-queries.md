@@ -2,6 +2,8 @@
 title: Responsive website with no media queries
 published: true
 layout: post
+tags:
+  - Technology
 card-image: blog-responsive.svg
 excerpt: A fully responsive site without media queries using Flexbox and CSS Grid.
 ---

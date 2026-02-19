@@ -4,7 +4,6 @@ title: "One year at Booking.com"
 date: 2025-04-15
 tags:
   - Leadership
-  - Career path
 card-image: blog-one-year-booking.svg
 hero-image:
 image-caption: Booking.com headquarters in Amsterdam.
