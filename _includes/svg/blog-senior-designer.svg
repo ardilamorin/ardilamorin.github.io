@@ -1,67 +1,49 @@
-<svg viewBox="0 0 271 76" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 273 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .senior-designer--circle-beige {
-      fill: var(--color-bg-info);
-      stroke: var(--color-text-primary);
-      stroke-width: 1;
+    .taking-break--line-green {
+      stroke: var(--il-green-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
-    .senior-designer--circle-blue-light {
-      fill: var(--color-bg-blog);
-      stroke: var(--color-text-primary);
-      stroke-width: 1;
+    .taking-break--line-beige {
+      stroke: var(--il-beige);
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
-    .senior-designer--circle-teal {
-      fill: var(--il-teal);
-      stroke: var(--color-text-primary);
-      stroke-width: 1;
+    .taking-break--line-blue {
+      stroke: var(--il-blue-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
-    .senior-designer--circle-blue-dark {
-      fill: var(--il-blue-dark);
+    .taking-break--shadow {
       stroke: var(--color-text-primary);
-      stroke-width: 1;
-    }
-
-    .senior-designer--circle-green {
-      fill: var(--color-bg-work);
-      stroke: var(--color-text-primary);
-      stroke-width: 1;
-    }
-
-    .senior-designer--circle-yellow {
-      fill: var(--il-yellow);
-      stroke: var(--color-text-primary);
-      stroke-width: 1;
+      stroke-width: 0.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
   </style>
 
-  <!-- Large beige circles -->
-  <circle cx="16.7033" cy="41.6799" r="16.2033" class="senior-designer--circle-beige"/>
-  <circle cx="158.7603" cy="33.5623" r="16.2033" class="senior-designer--circle-beige"/>
+  <!-- Green line (left) with arrow -->
+  <path d="M85.6123 71.5781L4.22329 92.8502" class="taking-break--line-green" stroke-width="4"/>
+  <path d="M85.8368 72.7666L4.44787 94.0387" class="taking-break--shadow"/>
+  <path d="M9.14172 85.7734L1.50001 93.8221" class="taking-break--line-green" stroke-width="4"/>
+  <path d="M10.1417 86.7734L2.50001 94.8221" class="taking-break--shadow"/>
+  <path d="M12.508 95.4727L1.54026 93.7739" class="taking-break--line-green" stroke-width="4"/>
 
-  <!-- Small light blue circles -->
-  <circle cx="41.2119" cy="32.9385" r="2.9346" class="senior-designer--circle-blue-light"/>
-  <circle cx="183.269" cy="42.3047" r="2.9346" class="senior-designer--circle-blue-light"/>
+  <!-- Beige line (upper right) with arrow -->
+  <path d="M85.4768 71.5225L267.026 2.68758" class="taking-break--line-beige" stroke-width="4"/>
+  <path d="M85.4479 72.6016L266.997 3.76668" class="taking-break--shadow"/>
+  <path d="M256.206 1.5L267.238 2.7111" class="taking-break--line-beige" stroke-width="4"/>
+  <path d="M255.448 2.7666L264.394 3.74871" class="taking-break--shadow"/>
+  <path d="M259.999 11.041L267.276 2.66169" class="taking-break--line-beige" stroke-width="4"/>
 
-  <!-- Medium teal circles -->
-  <circle cx="47.2998" cy="46.0518" r="7.4309" class="senior-designer--circle-teal"/>
-  <circle cx="189.356" cy="29.1914" r="7.4309" class="senior-designer--circle-teal"/>
-
-  <!-- Small dark blue circles -->
-  <circle cx="117.232" cy="33.4062" r="3.3996" class="senior-designer--circle-blue-dark"/>
-  <circle cx="259.289" cy="41.8369" r="3.3996" class="senior-designer--circle-blue-dark"/>
-
-  <!-- Small green circles -->
-  <circle cx="123.168" cy="46.0513" r="5.27592" class="senior-designer--circle-green"/>
-  <circle cx="265.224" cy="29.1919" r="5.27592" class="senior-designer--circle-green"/>
-
-  <!-- Large light blue circles -->
-  <circle cx="102.249" cy="13.5812" r="13.0812" class="senior-designer--circle-blue-light"/>
-  <circle cx="244.306" cy="61.662" r="13.0812" class="senior-designer--circle-blue-light"/>
-
-  <!-- Tiny yellow circles -->
-  <circle cx="78.9899" cy="27.1627" r="1.9977" class="senior-designer--circle-yellow"/>
-  <circle cx="221.047" cy="48.0804" r="1.9977" class="senior-designer--circle-yellow"/>
+  <!-- Blue line (lower right) with arrow -->
+  <path d="M85.6123 71.5771L253.015 108.11" class="taking-break--line-blue" stroke-width="4"/>
+  <path d="M85.4479 72.7656L252.85 109.298" class="taking-break--shadow"/>
+  <path d="M248.668 100.711L255.535 109.43" class="taking-break--line-blue" stroke-width="4"/>
+  <path d="M247.448 101.768L254.315 110.487" class="taking-break--shadow"/>
+  <path d="M244.519 110.103L255.597 109.422" class="taking-break--line-blue" stroke-width="4"/>
 </svg>
