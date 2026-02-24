@@ -45,8 +45,11 @@ published: true
             <a href="{{ site.baseurl }}{{ project.url }}" class="work-card-link">
                 <article class="card card-work" id="{{ project.company | slugify }}">
                     <div class="card-image">
-                        <img src="{{ site.baseurl }}/images/{{ project.image }}"
-                            alt="{{ project.company }} - {{ project.title }}" />
+                        <picture>
+                            {% if project.image-dark %}<source srcset="{{ site.baseurl }}/images/{{ project.image-dark }}" media="(prefers-color-scheme: dark)">{% endif %}
+                            <img src="{{ site.baseurl }}/images/{{ project.image }}"
+                                alt="{{ project.company }} - {{ project.title }}" />
+                        </picture>
                     </div>
                     <div class="card-content">
                         <h3>{{ project.company }}</h3>

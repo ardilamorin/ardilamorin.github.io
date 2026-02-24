@@ -6,11 +6,13 @@ year: 2022
 featured: true
 order: 3
 image: maserati.jpg
+image-dark: maserati-dark.jpg
 tags:
   - Digital Guidelines
   - Brand Experience
   - Multi-platform
 hero_image: maserati-hero.jpg
+hero-image-dark: maserati-hero-dark.jpg
 hero_caption: Maserati digital guidelines in action.
 excerpt: Creating digital guidelines that create replicable branded experiences that convert across touch-points.
 metrics:

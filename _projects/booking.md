@@ -6,11 +6,13 @@ year: 2025
 featured: true
 order: 1
 image: booking.jpg
+image-dark: booking-dark.jpg
 tags:
   - Design Systems
   - Strategy
   - Process Improvement
 hero_image: booking-hero.jpg
+hero-image-dark: booking-hero-dark.jpg
 hero_caption: Booking.com Design System (Booking User Interface) Figma Plugin.
 excerpt: Evolving a mature design system that powers 150+ product teams, from a reactive practice to a proactive data-informed operation that drives efficiency and enables quality at scale.
 metrics:

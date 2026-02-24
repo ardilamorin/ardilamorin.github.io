@@ -5,7 +5,7 @@ layout: homepage
 <!-- Back Button -->
 <div class="back-navigation">
     <a href="{{ site.baseurl }}/work" class="back-link">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round" />
         </svg>
@@ -43,8 +43,11 @@ layout: homepage
         <!-- Hero Image -->
         {% if page.hero_image %}
         <figure class="project-hero">
-            <img src="{{ site.baseurl }}/images/{{ page.hero_image }}" alt="{{ page.hero_caption }}"
-                class="full-width" />
+            <picture>
+                {% if page.hero-image-dark %}<source srcset="{{ site.baseurl }}/images/{{ page.hero-image-dark }}" media="(prefers-color-scheme: dark)">{% endif %}
+                <img src="{{ site.baseurl }}/images/{{ page.hero_image }}" alt="{{ page.hero_caption }}"
+                    class="full-width" />
+            </picture>
             {% if page.hero_caption %}
             <figcaption>{{ page.hero_caption }}</figcaption>
             {% endif %}

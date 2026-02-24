@@ -6,11 +6,13 @@ year: 2022
 featured: true
 order: 2
 image: bose.jpg
+image-dark: bose-dark.jpg
 tags:
   - E-commerce
   - Design Systems
   - User Research
 hero_image: bose-hero.jpg
+hero-image-dark: bose-hero-dark.jpg
 hero_caption: Bose.com product detail page redesign.
 excerpt: Providing the foundations and guidelines that transformed the company's digital operations and elevated the online shopping experience.
 metrics:

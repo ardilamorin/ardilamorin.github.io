@@ -13,7 +13,7 @@
     }
 
     .new-website--cursor-white {
-      fill: white;
+      fill: var(--color-bg-body);
     }
   </style>
 

@@ -1,7 +1,7 @@
 <svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
   <style>
     .booking--bar-blue {
-      fill: var(--color-bg-blog);
+      fill: var(--il-blue-soft);
       stroke: var(--color-text-primary);
       stroke-width: 1;
     }
@@ -13,13 +13,13 @@
     }
 
     .booking--bar-green {
-      fill: var(--color-bg-work);
+      fill: var(--il-green-muted);
       stroke: var(--color-text-primary);
       stroke-width: 1;
     }
 
     .booking--bar-beige {
-      fill: var(--color-bg-info);
+      fill: var(--il-beige);
       stroke: var(--color-text-primary);
       stroke-width: 1;
     }

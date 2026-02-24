@@ -1,0 +1,18 @@
+<svg width="162" height="162" viewBox="0 0 162 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="14" class="icon-p-main"/>
+<circle cx="62" cy="24" r="14" class="icon-p-main"/>
+<circle cx="100" cy="24" r="14" class="icon-p-main"/>
+<circle cx="138" cy="24" r="14" class="icon-p-main"/>
+<circle cx="24" cy="62" r="14" class="icon-p-main"/>
+<circle cx="62" cy="62" r="14" class="icon-p-accent"/>
+<circle cx="100" cy="62" r="14" class="icon-p-main"/>
+<circle cx="138" cy="62" r="14" class="icon-p-main"/>
+<circle cx="24" cy="100" r="14" class="icon-p-main"/>
+<circle cx="62" cy="100" r="14" class="icon-p-main"/>
+<circle cx="100" cy="100" r="14" class="icon-p-main"/>
+<circle cx="138" cy="100" r="14" class="icon-p-accent"/>
+<circle cx="24" cy="138" r="14" class="icon-p-accent"/>
+<circle cx="62" cy="138" r="14" class="icon-p-main"/>
+<circle cx="100" cy="138" r="14" class="icon-p-main"/>
+<circle cx="138" cy="138" r="14" class="icon-p-main"/>
+</svg>

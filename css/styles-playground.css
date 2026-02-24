@@ -169,6 +169,8 @@ ol[class] {
    =================== */
 
 :root {
+	color-scheme: light dark;
+
 	/* Colors */
 	--color-text-primary: #1e1e1e;
 	--color-text-secondary: #666666;
@@ -181,6 +183,9 @@ ol[class] {
 	--color-bg-button: #2c2c2c;
 	--color-text-button: #f5f5f5;
 	--color-focus: #4d72b8;
+	--color-dot-pattern: rgba(30, 30, 30, 0.18);
+	--color-backdrop: rgba(255, 255, 255, 0.15);
+	--shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.1);
 
 	/* Illustration palette — used by inline SVGs in _includes/svg/ */
 	--il-blue-dark: #7B9BD8;
@@ -260,7 +265,7 @@ html {
 	scroll-behavior: smooth;
 	/* Smooth scrolling for anchor links */
 	background-color: var(--color-bg-body);
-	background-image: radial-gradient(circle, rgba(30, 30, 30, 0.18) 1px, transparent 1px);
+	background-image: radial-gradient(circle, var(--color-dot-pattern) 1px, transparent 1px);
 	background-size: 24px 24px;
 	background-position: 0 0;
 }
@@ -508,6 +513,7 @@ time {
 /* Page-specific blob highlight colors */
 .page-info .highlight-text::before {
 	background-image: url('../images/blob-highlight.svg');
+	filter: sepia(0.4);
 }
 
 .page-blog .highlight-text::before {
@@ -582,8 +588,8 @@ time {
 	/* Creates stacking context */
 	z-index: 1;
 	/* Above the sticky info card */
-	background-color: rgba(255, 255, 255, 0.15);
-	/* Semi-transparent white */
+	background-color: var(--color-backdrop);
+	/* Semi-transparent surface */
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 	border-radius: var(--radius-md);
@@ -1031,7 +1037,7 @@ time {
 	/* Landscape ratio */
 	border-radius: var(--radius-sm);
 	overflow: hidden;
-	background-color: #e0e0e0;
+	background-color: var(--color-bg-nav);
 }
 
 .card-image img {
@@ -1461,7 +1467,7 @@ a.tag:hover,
 
 .work-card-link:hover .card-work {
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	box-shadow: var(--shadow-card-hover);
 }
 
 /* ===================
@@ -1485,7 +1491,7 @@ a.tag:hover,
 
 .blog-card-link:hover .card-blog {
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	box-shadow: var(--shadow-card-hover);
 }
 
 /* ===================
@@ -1517,11 +1523,18 @@ a.tag:hover,
 
 /* SVG icons via object/img tags */
 .principle-icon object,
-.principle-icon img {
+.principle-icon img,
+.principle-icon svg {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
 }
+
+/* Principle icon color tokens */
+.icon-p-main { fill: #9a9591; }
+.icon-p-accent { fill: var(--color-text-primary); }
+.icon-p-cutout { fill: var(--color-text-primary); }
+.icon-p-mid { fill: #9a9591; }
 
 /* Principle content */
 .principle-content {
@@ -1861,4 +1874,62 @@ a.tag:hover,
 	.nav-link {
 		transition: none;
 	}
+}
+
+/* ===================
+   Dark Mode
+   =================== */
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		/* UI colors — Warm Graphite */
+		--color-text-primary: #bfb9b3;
+		--color-text-secondary: #9a948e;
+		--color-bg-body: #1a1917;
+		--color-bg-nav: #232120;
+		--color-bg-footer: #232120;
+		--color-bg-info: #3e302b;
+		--color-bg-work: #202a1f;
+		--color-bg-blog: #1e2434;
+		--color-bg-button: #ede9e4;
+		--color-text-button: #1a1917;
+		--color-focus: #7fa0d8;
+		--color-dot-pattern: rgba(237, 233, 228, 0.08);
+		--color-backdrop: rgba(26, 25, 23, 0.4);
+		--shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+		/* Illustration overrides — calibrated to ~65-68% lightness to match --il-teal/blue-dark/green-muted */
+		--il-blue-light: #86c2d8;
+		--il-blue-soft: #90a8d4;
+		--il-blue-pale: #80bdd8;
+		--il-green-light: #8ec88e;
+		--il-beige: #b89e84;
+		--il-cream: #c0a07a;
+		--il-yellow: #d4a840;
+		--il-gray: #a8a8a8;
+		--il-gray-warm: #aeadaa;
+		--il-brown-dark: #7a6155;
+	}
+
+	/* Experience card logos: make dark logos readable on dark bg */
+	.card-experience .company-logo img {
+		filter: brightness(0) invert(1) opacity(0.75);
+	}
+
+	.highlight-text::before {
+		opacity: 0.15;
+		mix-blend-mode: screen;
+	}
+
+	.page-info .highlight-text::before {
+		filter: brightness(0.2) sepia(1) hue-rotate(335deg);
+		opacity: 0.6;
+		mix-blend-mode: screen;
+	}
+
+	/* Principle icons: invert token roles so icons remain visible */
+	.icon-p-main { fill: var(--color-text-primary); }
+	.icon-p-accent { fill: var(--il-brown-dark); }
+	.icon-p-cutout { fill: var(--il-brown-dark); }
+	.icon-p-mid { fill: var(--color-text-secondary); }
 }

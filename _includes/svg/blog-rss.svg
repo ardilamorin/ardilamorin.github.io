@@ -5,19 +5,19 @@
     }
 
     .rss--dot-beige {
-      fill: var(--color-bg-info);
+      fill: var(--il-beige);
       stroke: var(--color-text-primary);
       stroke-width: 0.5;
     }
 
     .rss--dot-blue {
-      fill: var(--color-bg-blog);
+      fill: var(--il-blue-soft);
       stroke: var(--color-text-primary);
       stroke-width: 0.5;
     }
 
     .rss--dot-green {
-      fill: var(--color-bg-work);
+      fill: var(--il-green-muted);
       stroke: var(--color-text-primary);
       stroke-width: 0.5;
     }

@@ -1,13 +1,13 @@
 <svg viewBox="0 0 271 76" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
   <style>
     .senior-designer--circle-beige {
-      fill: var(--color-bg-info);
+      fill: var(--il-beige);
       stroke: var(--color-text-primary);
       stroke-width: 1;
     }
 
     .senior-designer--circle-blue-light {
-      fill: var(--color-bg-blog);
+      fill: var(--il-blue-soft);
       stroke: var(--color-text-primary);
       stroke-width: 1;
     }
@@ -25,7 +25,7 @@
     }
 
     .senior-designer--circle-green {
-      fill: var(--color-bg-work);
+      fill: var(--il-green-muted);
       stroke: var(--color-text-primary);
       stroke-width: 1;
     }

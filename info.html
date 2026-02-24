@@ -57,7 +57,10 @@ published: true
                     <a href="mailto:info@ardilamorin.com">Email</a>
                 </p>
             </div>
-            <img src="{{ site.baseurl }}/images/info-image.png" alt="Photo of José Ardila Morín" class="feature-image" />
+            <picture>
+                <source srcset="{{ site.baseurl }}/images/info-image-dark.png" media="(prefers-color-scheme: dark)">
+                <img src="{{ site.baseurl }}/images/info-image.png" alt="Photo of José Ardila Morín" class="feature-image" />
+            </picture>
         </div>
 
         <h2 id="philosophy">My Philosophy</h2>
@@ -71,10 +74,8 @@ published: true
 
                 <!-- Principle 01 -->
                 <article class="card card-principle">
-                    <div class="principle-icon">
-                        <object data="{{ site.baseurl }}/images/icon-principle-01.svg" type="image/svg+xml">
-                            <img src="{{ site.baseurl }}/images/icon-principle-01.svg" alt="Data and insights icon" />
-                        </object>
+                    <div class="principle-icon" role="img" aria-label="Data and insights icon">
+                        {% include svg/icon-principle-01.svg %}
                     </div>
                     <div class="principle-content">
                         <h3>01. Influence with data & insights</h3>
@@ -87,10 +88,8 @@ published: true
 
                 <!-- Principle 02 -->
                 <article class="card card-principle">
-                    <div class="principle-icon">
-                        <object data="{{ site.baseurl }}/images/icon-principle-02.svg" type="image/svg+xml">
-                            <img src="{{ site.baseurl }}/images/icon-principle-02.svg" alt="Systems and scale icon" />
-                        </object>
+                    <div class="principle-icon" role="img" aria-label="Systems and scale icon">
+                        {% include svg/icon-principle-02.svg %}
                     </div>
                     <div class="principle-content">
                         <h3>02. Enable scale through systems</h3>
@@ -103,11 +102,8 @@ published: true
 
                 <!-- Principle 03 -->
                 <article class="card card-principle">
-                    <div class="principle-icon">
-                        <object data="{{ site.baseurl }}/images/icon-principle-03.svg" type="image/svg+xml">
-                            <img src="{{ site.baseurl }}/images/icon-principle-03.svg"
-                                alt="Collaboration and change icon" />
-                        </object>
+                    <div class="principle-icon" role="img" aria-label="Collaboration and change icon">
+                        {% include svg/icon-principle-03.svg %}
                     </div>
                     <div class="principle-content">
                         <h3>03. Drive change through collaboration</h3>
@@ -168,7 +164,7 @@ published: true
         </section>
         <a href="{{ site.baseurl }}/work" class="text-link">
             <span>Explore projects</span>
-            <svg class="icon-arrow" width="18" height="18" viewBox="0 0 18 18">
+            <svg aria-hidden="true" class="icon-arrow" width="18" height="18" viewBox="0 0 18 18">
                 <path d="M6 4l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" />
             </svg>
         </a>
