@@ -513,6 +513,8 @@ time {
 /* Page-specific blob highlight colors */
 .page-info .highlight-text::before {
 	background-image: url('../images/blob-highlight-beige.svg');
+	opacity: 0.45;
+	mix-blend-mode: multiply;
 }
 
 .page-blog .highlight-text::before {
