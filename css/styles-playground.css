@@ -512,8 +512,7 @@ time {
 
 /* Page-specific blob highlight colors */
 .page-info .highlight-text::before {
-	background-image: url('../images/blob-highlight.svg');
-	filter: sepia(0.4);
+	background-image: url('../images/blob-highlight-beige.svg');
 }
 
 .page-blog .highlight-text::before {
@@ -1922,8 +1921,8 @@ a.tag:hover,
 	}
 
 	.page-info .highlight-text::before {
-		filter: brightness(0.2) sepia(1) hue-rotate(335deg);
-		opacity: 0.6;
+		filter: none;
+		opacity: 0.45;
 		mix-blend-mode: screen;
 	}
 
