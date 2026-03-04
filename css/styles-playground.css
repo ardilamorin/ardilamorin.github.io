@@ -278,6 +278,7 @@ body {
 
 	/* Page layout - using Grid */
 	display: grid;
+	grid-template-rows: auto auto 1fr auto;
 	gap: var(--space-lg);
 	padding: var(--space-fluid-md);
 	max-width: 1600px;
@@ -1072,6 +1073,7 @@ time {
 	background-color: var(--color-bg-footer);
 	border-radius: var(--radius-md);
 	padding: var(--space-2xl) var(--space-fluid-lg);
+	align-self: end;
 }
 
 .footer-content {
