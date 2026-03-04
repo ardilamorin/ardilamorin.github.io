@@ -1074,7 +1074,6 @@ time {
 	background-color: var(--color-bg-footer);
 	border-radius: var(--radius-md);
 	padding: var(--space-2xl) var(--space-fluid-lg);
-	align-self: end;
 }
 
 .footer-content {
