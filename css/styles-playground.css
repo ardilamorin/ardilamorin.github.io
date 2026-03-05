@@ -501,25 +501,31 @@ time {
 	transform: translate(-50%, -50%);
 	width: clamp(10em, 14em, 15em);
 	height: 2.8em;
-	background-image: url('../images/blob-highlight-green.svg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-color: rgba(227, 236, 227, 0.7);
+	-webkit-mask-image: url('../images/blob-highlight-green.svg');
+	mask-image: url('../images/blob-highlight-green.svg');
+	-webkit-mask-size: contain;
+	mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	mask-position: center;
 	z-index: -1;
-	opacity: 0.7;
 	pointer-events: none;
 	animation: draw-in 0.8s ease-out 0.3s both;
 }
 
 /* Page-specific blob highlight colors */
 .page-info .highlight-text::before {
-	background-image: url('../images/blob-highlight-beige.svg');
-	opacity: 0.3;
-	mix-blend-mode: multiply;
+	-webkit-mask-image: url('../images/blob-highlight-beige.svg');
+	mask-image: url('../images/blob-highlight-beige.svg');
+	background-color: rgba(210, 197, 181, 0.3);
 }
 
 .page-blog .highlight-text::before {
-	background-image: url('../images/blob-highlight-blue.svg');
+	-webkit-mask-image: url('../images/blob-highlight-blue.svg');
+	mask-image: url('../images/blob-highlight-blue.svg');
+	background-color: rgba(231, 235, 243, 0.7);
 }
 
 .page-blog .underline-text::after {
@@ -1919,14 +1925,15 @@ a.tag:hover,
 	}
 
 	.highlight-text::before {
-		opacity: 0.15;
-		mix-blend-mode: screen;
+		background-color: rgba(130, 155, 125, 0.25);
 	}
 
 	.page-info .highlight-text::before {
-		filter: none;
-		opacity: 0.45;
-		mix-blend-mode: screen;
+		background-color:rgb(80 58 37 / 40%)
+	}
+
+	.page-blog .highlight-text::before {
+		background-color: rgba(130, 145, 175, 0.25);
 	}
 
 	/* Principle icons: invert token roles so icons remain visible */

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blob Highlight Playground — dark mode</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #1a1917;
+      color: #bfb9b3;
+      font-family: 'Inter', system-ui, sans-serif;
+      padding: 48px 32px;
+    }
+
+    h1 {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #9a948e;
+      margin-bottom: 8px;
+    }
+    p.note {
+      font-size: 0.875rem;
+      color: #9a948e;
+      margin-bottom: 48px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 32px;
+    }
+
+    .card {
+      background: #232120;
+      border-radius: 16px;
+      padding: 32px 24px;
+    }
+
+    .label {
+      font-size: 0.75rem;
+      color: #9a948e;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .code {
+      font-family: monospace;
+      font-size: 0.75rem;
+      color: #706961;
+      background: #1a1917;
+      padding: 8px 10px;
+      border-radius: 6px;
+      margin-bottom: 24px;
+      line-height: 1.6;
+      white-space: pre;
+    }
+
+    .demo {
+      font-size: 1.25rem;
+      line-height: 1.5;
+      color: #bfb9b3;
+    }
+
+    /* Base blob styles (matching the real CSS) */
+    .highlight-text {
+      position: relative;
+      display: inline;
+      white-space: nowrap;
+      isolation: isolate;
+    }
+    .highlight-text::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: clamp(10em, 14em, 15em);
+      height: 2.8em;
+      background-image: url('../images/blob-highlight-beige.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* ── Variations ── */
+
+    /* 1. Current live */
+    .v1 .highlight-text::before {
+      opacity: 0.45;
+      mix-blend-mode: screen;
+      filter: none;
+    }
+
+    /* 2. Sepia 0.3 */
+    .v2 .highlight-text::before {
+      opacity: 0.45;
+      mix-blend-mode: screen;
+      filter: sepia(0.3);
+    }
+
+    /* 3. Sepia 0.5 */
+    .v3 .highlight-text::before {
+      opacity: 0.45;
+      mix-blend-mode: screen;
+      filter: sepia(0.5);
+    }
+
+    /* 4. Sepia 0.5 + higher opacity */
+    .v4 .highlight-text::before {
+      opacity: 0.6;
+      mix-blend-mode: screen;
+      filter: sepia(0.5);
+    }
+
+    /* 5. Higher opacity only */
+    .v5 .highlight-text::before {
+      opacity: 0.65;
+      mix-blend-mode: screen;
+      filter: none;
+    }
+
+    /* 6. Soft-light blend */
+    .v6 .highlight-text::before {
+      opacity: 0.6;
+      mix-blend-mode: soft-light;
+      filter: none;
+    }
+
+    /* 7. Overlay blend */
+    .v7 .highlight-text::before {
+      opacity: 0.5;
+      mix-blend-mode: overlay;
+      filter: none;
+    }
+
+    /* 8. Sepia 0.7 + saturate */
+    .v8 .highlight-text::before {
+      opacity: 0.5;
+      mix-blend-mode: screen;
+      filter: sepia(0.7) saturate(1.5);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Blob highlight — info page — dark mode</h1>
+  <p class="note">Background: #1a1917 body dark · Blob SVG: blob-highlight-beige.svg (#D2C5B5)</p>
+
+  <div class="grid">
+
+    <div class="card v1">
+      <div class="label">Current live</div>
+      <div class="code">opacity: 0.45
+mix-blend-mode: screen
+filter: none</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v2">
+      <div class="label">Option A — Sepia 0.3</div>
+      <div class="code">opacity: 0.45
+mix-blend-mode: screen
+filter: sepia(0.3)</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v3">
+      <div class="label">Option B — Sepia 0.5</div>
+      <div class="code">opacity: 0.45
+mix-blend-mode: screen
+filter: sepia(0.5)</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v4">
+      <div class="label">Option C — Sepia 0.5 + opacity 0.6</div>
+      <div class="code">opacity: 0.6
+mix-blend-mode: screen
+filter: sepia(0.5)</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v5">
+      <div class="label">Option D — Higher opacity only</div>
+      <div class="code">opacity: 0.65
+mix-blend-mode: screen
+filter: none</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v6">
+      <div class="label">Option E — Soft-light blend</div>
+      <div class="code">opacity: 0.6
+mix-blend-mode: soft-light
+filter: none</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v7">
+      <div class="label">Option F — Overlay blend</div>
+      <div class="code">opacity: 0.5
+mix-blend-mode: overlay
+filter: none</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+    <div class="card v8">
+      <div class="label">Option G — Sepia 0.7 + saturate</div>
+      <div class="code">opacity: 0.5
+mix-blend-mode: screen
+filter: sepia(0.7) saturate(1.5)</div>
+      <p class="demo">I'm a <span class="highlight-text">Designer</span> of products</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
