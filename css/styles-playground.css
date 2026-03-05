@@ -1920,6 +1920,10 @@ a.tag:hover,
 	}
 
 	/* Experience card logos: make dark logos readable on dark bg */
+	.card-experience {
+		background-color: var(--color-bg-footer);
+	}
+
 	.card-experience .company-logo img {
 		filter: brightness(0) invert(1) opacity(0.75);
 	}
