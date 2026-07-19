@@ -1,0 +1,32 @@
+<svg viewBox="0 0 271 132" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .graphic-fill-blue-dark {
+      fill: #7B9BD8;
+      stroke: black;
+    }
+
+    .graphic-fill-green {
+      fill: #AEBBAE;
+      stroke: black;
+    }
+
+    .graphic-fill-blue {
+      fill: #B4DEEC;
+      stroke: black;
+    }
+  </style>
+
+  <!-- Center person body -->
+  <rect x="124.479" y="44.917" width="22.8646" height="71.4167" rx="7.5" class="graphic-fill-blue-dark"/>
+  <!-- Left person body -->
+  <rect x="97.3226" y="57.2607" width="17.1042" height="59.0729" rx="7.5" class="graphic-fill-blue"/>
+  <!-- Right person body -->
+  <rect x="158.218" y="57.2607" width="16.2812" height="59.0729" rx="7.5" class="graphic-fill-green"/>
+
+  <!-- Center person head -->
+  <path d="M135.941 16.1152C142.29 16.1154 147.402 21.0553 147.403 27.1074C147.403 33.1597 142.29 38.1005 135.941 38.1006C129.592 38.1006 124.479 33.1598 124.479 27.1074C124.479 21.0552 129.592 16.1152 135.941 16.1152Z" class="graphic-fill-blue-dark"/>
+  <!-- Left person head -->
+  <path d="M105.862 31.751C111.052 31.751 115.224 35.7881 115.224 40.7266C115.224 45.665 111.052 49.7021 105.862 49.7021C100.672 49.7021 96.4996 45.665 96.4996 40.7266C96.4997 35.7882 100.672 31.751 105.862 31.751Z" class="graphic-fill-blue"/>
+  <!-- Right person head -->
+  <path d="M166.321 31.751C170.815 31.751 174.424 35.2465 174.424 39.5166C174.424 43.7866 170.815 47.2822 166.321 47.2822C161.827 47.2821 158.218 43.7865 158.218 39.5166C158.218 35.2466 161.827 31.7511 166.321 31.751Z" class="graphic-fill-green"/>
+</svg>
