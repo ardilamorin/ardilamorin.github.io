@@ -1,0 +1,31 @@
+name: Update Gemfile.lock
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Generate Gemfile.lock
+        run: bundle lock
+
+      - name: Open PR with updated Gemfile.lock
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Update Gemfile.lock"
+          title: "Update Gemfile.lock"
+          branch: update-gemfile-lock
+          delete-branch: true
