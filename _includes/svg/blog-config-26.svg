@@ -1,0 +1,47 @@
+<svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .config--shadow {
+      fill: var(--color-text-primary, #1e1e1e);
+    }
+
+    .config--fill-beige {
+      fill: var(--il-beige, #D2C5B5);
+    }
+
+    .config--fill-gray-warm {
+      fill: var(--il-gray-warm, #E1E0DC);
+    }
+
+    .config--fill-blue-light {
+      fill: var(--il-blue-light, #B4DEEC);
+    }
+
+    .config--fill-blue-dark {
+      fill: var(--il-blue-dark, #7B9BD8);
+    }
+
+    .config--fill-green-muted {
+      fill: var(--il-green-muted, #AEBBAE);
+    }
+  </style>
+
+  <!-- Beige square (top center) -->
+  <rect x="115.999" y="12.2119" width="43" height="43" rx="8" class="config--shadow"/>
+  <rect x="115.999" y="11.2119" width="43" height="43" rx="8" class="config--fill-beige"/>
+
+  <!-- Gray-warm rotated rectangle (top right) -->
+  <rect x="170.405" y="33.2119" width="45.1542" height="38.0049" rx="8" transform="rotate(32.4748 170.405 33.2119)" class="config--shadow"/>
+  <rect x="170.405" y="32.2119" width="45.1542" height="38.0049" rx="8" transform="rotate(32.4748 170.405 32.2119)" class="config--fill-gray-warm"/>
+
+  <!-- Blue-light rotated rectangle (top left) -->
+  <rect x="87.9993" y="12.2119" width="38.0625" height="32.3946" rx="8" transform="rotate(26.0905 87.9993 12.2119)" class="config--shadow"/>
+  <rect x="87.9993" y="11.2119" width="38.0625" height="32.3946" rx="8" transform="rotate(26.0905 87.9993 11.2119)" class="config--fill-blue-light"/>
+
+  <!-- Blue-dark rotated rectangle (bottom left) -->
+  <rect x="62.9993" y="69.2119" width="60.2761" height="39.1928" rx="8" transform="rotate(-17.2452 62.9993 69.2119)" class="config--shadow"/>
+  <rect x="62.9993" y="68.2119" width="60.2761" height="39.1928" rx="8" transform="rotate(-17.2452 62.9993 68.2119)" class="config--fill-blue-dark"/>
+
+  <!-- Green-muted rotated rectangle (bottom right) -->
+  <rect x="133.687" y="72.8691" width="39.7817" height="44.4595" rx="8" transform="rotate(13.6543 133.687 72.8691)" class="config--shadow"/>
+  <rect x="133.687" y="71.8691" width="39.7817" height="44.4595" rx="8" transform="rotate(13.6543 133.687 71.8691)" class="config--fill-green-muted"/>
+</svg>
