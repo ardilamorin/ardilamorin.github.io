@@ -1,0 +1,66 @@
+<svg viewBox="0 0 271 132" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .graphic-book-blue-dark {
+      fill: #9FAFCE;
+    }
+
+    .graphic-book-green {
+      fill: #AEBBAE;
+    }
+
+    .graphic-book-blue {
+      fill: #B4DEEC;
+    }
+
+    .graphic-book-beige {
+      fill: #D2C5B5;
+    }
+
+    .graphic-accent-beige {
+      stroke: #F4E3CE;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .graphic-dot-green {
+      fill: #BFD7BF;
+    }
+
+    .graphic-shape-blue-dark {
+      fill: #BECDE9;
+    }
+
+    .graphic-shape-blue {
+      fill: #CBEDF9;
+    }
+
+    .graphic-shadow {
+      fill: black;
+    }
+  </style>
+
+  <!-- Book shadows -->
+  <rect x="70.9993" y="12.8076" width="29" height="109" rx="8" class="graphic-shadow"/>
+  <rect x="104.999" y="25.8076" width="29" height="96" rx="8" class="graphic-shadow"/>
+  <rect x="138.999" y="18.8076" width="29" height="103" rx="8" class="graphic-shadow"/>
+  <rect x="167.999" y="43.9766" width="29" height="79" rx="8" transform="rotate(-10.2669 167.999 43.9766)" class="graphic-shadow"/>
+
+  <!-- Books -->
+  <rect x="70.9993" y="11.8076" width="29" height="109" rx="8" class="graphic-book-blue-dark"/>
+  <rect x="104.999" y="24.8076" width="29" height="96" rx="8" class="graphic-book-green"/>
+  <rect x="138.999" y="17.8076" width="29" height="103" rx="8" class="graphic-book-blue"/>
+  <rect x="167.999" y="42.9766" width="29" height="79" rx="8" transform="rotate(-10.2669 167.999 42.9766)" class="graphic-book-beige"/>
+
+  <!-- Decorative accent shadows -->
+  <circle cx="119.499" cy="106.308" r="4.5" class="graphic-shadow"/>
+  <path d="M85.4993 103.808L90.2624 110.558H80.7361L85.4993 103.808Z" class="graphic-shadow"/>
+  <path d="M153.499 101.808L154.734 105.608H158.73L155.497 107.957L156.732 111.757L153.499 109.408L150.266 111.757L151.501 107.957L148.268 105.608H152.264L153.499 101.808Z" class="graphic-shadow"/>
+
+  <!-- Decorative accents -->
+  <path d="M192.999 107.123L197.996 104.838" class="graphic-accent-beige"/>
+  <path d="M197.033 110.216L197.999 104.807" class="graphic-accent-beige"/>
+  <circle cx="119.499" cy="105.308" r="4.5" class="graphic-dot-green"/>
+  <path d="M85.4993 102.808L90.2624 109.558H80.7361L85.4993 102.808Z" class="graphic-shape-blue-dark"/>
+  <path d="M153.499 100.808L154.734 104.608H158.73L155.497 106.957L156.732 110.757L153.499 108.408L150.266 110.757L151.501 106.957L148.268 104.608H152.264L153.499 100.808Z" class="graphic-shape-blue"/>
+</svg>

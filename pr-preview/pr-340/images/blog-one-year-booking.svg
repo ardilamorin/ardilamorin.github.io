@@ -1,0 +1,64 @@
+<svg viewBox="0 0 271 132" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Embedded styles using your design tokens */
+    .graphic-bar-blue {
+      fill: #e7ebf3;
+      stroke: #1e1e1e;
+      stroke-width: 1;
+    }
+    
+    .graphic-bar-blue-dark {
+      fill: #7B9BD8;
+      stroke: #1e1e1e;
+      stroke-width: 1;
+    }
+    
+    .graphic-bar-green {
+      fill: #e3ece3;
+      stroke: #1e1e1e;
+      stroke-width: 1;
+    }
+    
+    .graphic-bar-beige {
+      fill: #f4f1ed;
+      stroke: #1e1e1e;
+      stroke-width: 1;
+    }
+    
+    .graphic-baseline {
+      stroke: #1e1e1e;
+      stroke-width: 1;
+      stroke-dasharray: 4 4;
+    }
+    
+    .graphic-dot-gray {
+      fill: #D9D9D9;
+    }
+  </style>
+  
+  <!-- Bar chart bars (from top to bottom) -->
+  <!-- Blue bar (top) -->
+  <path d="M190 45.5H137C133.962 45.5 131.5 47.9624 131.5 51C131.5 54.0376 133.962 56.5 137 56.5H190C193.038 56.5 195.5 54.0376 195.5 51C195.5 47.9624 193.038 45.5 190 45.5Z" 
+        class="graphic-bar-blue"/>
+  
+  <!-- Dark blue bar (second) -->
+  <path d="M246 26.5H193C189.962 26.5 187.5 28.9624 187.5 32C187.5 35.0376 189.962 37.5 193 37.5H246C249.038 37.5 251.5 35.0376 251.5 32C251.5 28.9624 249.038 26.5 246 26.5Z" 
+        class="graphic-bar-blue-dark"/>
+  
+  <!-- Green bar (third) -->
+  <path d="M130 64.5H77C73.9624 64.5 71.5 66.9624 71.5 70C71.5 73.0376 73.9624 75.5 77 75.5H130C133.038 75.5 135.5 73.0376 135.5 70C135.5 66.9624 133.038 64.5 130 64.5Z" 
+        class="graphic-bar-green"/>
+  
+  <!-- Beige bar (bottom) -->
+  <path d="M70 83.5H17C13.9624 83.5 11.5 85.9624 11.5 89C11.5 92.0376 13.9624 94.5 17 94.5H70C73.0376 94.5 75.5 92.0376 75.5 89C75.5 85.9624 73.0376 83.5 70 83.5Z" 
+        class="graphic-bar-beige"/>
+  
+  <!-- Baseline (dashed line) -->
+  <line x1="8" y1="111.5" x2="265" y2="111.5" class="graphic-baseline"/>
+  
+  <!-- Dots on baseline -->
+  <circle cx="74.5" cy="111.5" r="3.5" class="graphic-dot-gray"/>
+  <circle cx="135.5" cy="111.5" r="3.5" class="graphic-dot-gray"/>
+  <circle cx="196.5" cy="111.5" r="3.5" class="graphic-dot-gray"/>
+  <circle cx="257.5" cy="111.5" r="3.5" class="graphic-dot-gray"/>
+</svg>
