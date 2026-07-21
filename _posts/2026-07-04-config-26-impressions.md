@@ -25,8 +25,7 @@ Other AI tools still feel like a solo sport. Every person playing around, prompt
 
 ## Building the right thing
 
->“In a world where anyone can build anything… what matters is building the right thing.”
-> — Most repeated sentence during the conference
+>In a world where anyone can build anything… what matters is building the right thing.
 
 This was my first config, and I attended as a “partner”. [Maze](https://www.maze.co), the company I work for, is one of the companies sponsoring the event and with a booth at the conference floor. To my surprise, we were next to five other user research platform companies, which I imagine is a first.
 
