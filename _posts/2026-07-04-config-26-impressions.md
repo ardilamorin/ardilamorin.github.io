@@ -7,7 +7,6 @@ tags:
 title: Config '26 impressions
 excerpt: "More than design tooling: collaboration, insights and connection."
 card-image: blog-config-26.svg
-hero-image: blog-config-26.svg
 image-caption:
 ---
 I attended this year's Figma Config. Here are my main takeaways.
