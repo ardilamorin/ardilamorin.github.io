@@ -52,6 +52,6 @@ I hope I get to see you on the next one.
 
 ## Bookmarks
 
-- [Config 2026 Playlist](https://youtube.com/playlist?list=PLXDU_eVOJTx65_s_f3kbLB12X_LB_Qtp1)
+- [Figma's Config 2026 Youtube Playlist](https://youtube.com/playlist?list=PLXDU_eVOJTx65_s_f3kbLB12X_LB_Qtp1)
 
 
