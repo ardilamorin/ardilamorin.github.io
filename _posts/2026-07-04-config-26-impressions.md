@@ -17,6 +17,7 @@ With the introduction of AI into design workflows, the process and tooling evolv
 Now, Figma is aiming to bring everyone back to the canvas, bringing to it all the benefits designers were leaving they were getting from other AI tools (agentic prototyping, connecting your codebase), and adding what those tools haven’t managed to offer designers. A high degree of control over the output, and the ability to generate and refine in the same space (iteration, motion). It felt like a very powerful combination, getting all these capabilities under the same roof, in an impressive effort of keeping the UI clean and uncluttered.
 
 >“Not only raise the floor, but elevate the ceiling”
+>
 > — Dylan Field, Figma’s CEO
 
 What stood out for me in the evolution of the tool was not necessarily the features (only time will tell if it was enough, or just too late), but the fact that it was done while keeping the core value proposition of Figma at the center of it. Collaboration.
@@ -42,6 +43,7 @@ Config, and any conference for that matter, is gathering place for like-minded p
 In several interactions with designers on the floor, I would ask what they wanted to see next, and the answer was “nothing, I would just like to talk to other designers today”. That impressed me, in a conference where you get to see top minds of the design world present, the preference wasn’t to watch talks - “they will send me the recording” -  it was to make the new connections with people you might not see again.
 
 > “I’m not looking forward to any talks, I would just like to talk to other designers today”
+>
 > — Designer at Config
 
 My personal highlight was also that, reconnecting with people I used to work with, meeting new designers from around the world, and some of which you “click” with, and hope you get to run into again.
