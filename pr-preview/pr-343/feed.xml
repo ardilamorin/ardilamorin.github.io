@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>José Daniel Ardila</title>
+    <description>Personal Blog of José Daniel Ardila Morin. Design Director at Maze, previously at Booking.com, Bose, mediamonks and the cocktail.</description>
+    <link>https://ardilamorin.com</link>
+    <atom:link href="https://ardilamorin.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Config ‘26 impressions</title>
+        <description>&lt;p&gt;I attended this year’s Figma Config. Here are my main takeaways.&lt;/p&gt;
+&lt;h2 id=&quot;the-canvas-as-the-central-place-for-design&quot;&gt;The canvas as the central place for design&lt;/h2&gt;
+
+&lt;p&gt;With the introduction of AI into design workflows, the process and tooling evolved. Some would start in the canvas and move on elsewhere. Others skipped the canvas completely.&lt;/p&gt;
+
+&lt;p&gt;Now, Figma is aiming to bring everyone back to the canvas, bringing to it all the benefits designers were leaving they were getting from other AI tools (agentic prototyping, connecting your codebase), and adding what those tools haven’t managed to offer designers. A high degree of control over the output, and the ability to generate and refine in the same space (iteration, motion). It felt like a very powerful combination, getting all these capabilities under the same roof, in an impressive effort of keeping the UI clean and uncluttered.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Not only raise the floor, but elevate the ceiling”&lt;/p&gt;
+
+  &lt;p&gt;— Dylan Field, Figma’s CEO&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What stood out for me in the evolution of the tool was not necessarily the features (only time will tell if it was enough, or just too late), but the fact that it was done while keeping the core value proposition of Figma at the center of it. Collaboration.&lt;/p&gt;
+
+&lt;p&gt;Other AI tools still feel like a solo sport. Every person playing around, prompting, refining in their own space, emerging on the other side with an output. What Figma is offering is the same approach that made it the default tool in design, multi-player collaboration.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-the-right-thing&quot;&gt;Building the right thing&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In a world where anyone can build anything… what matters is building the right thing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This was my first config, and I attended as a “partner”. &lt;a href=&quot;https://www.maze.co&quot;&gt;Maze&lt;/a&gt;, the company I work for, is one of the companies sponsoring the event and with a booth at the conference floor. To my surprise, we were next to five other user research platform companies, which I imagine is a first.&lt;/p&gt;
+
+&lt;p&gt;I watched one of them give a talk, and although I was aware of their offering, I was impressed by how much the differentiation comes not from features, but from what each company stands for, and how you consider research “should” be done.&lt;/p&gt;
+
+&lt;p&gt;I have a strong belief that, as the speed of creation accelerates, so will the speed and scale of testing to validate and derisk those ideas. The value of knowing how real people interact with your product will only be greater as we move deeper into hyper-speed of development.&lt;/p&gt;
+
+&lt;p&gt;It was very rewarding to hear people visiting the booth say “I love Maze”. By the time of writing, I have only been with the company three months, so I can’t take any credit for their expressed affection.&lt;/p&gt;
+
+&lt;h2 id=&quot;its-all-about-connection&quot;&gt;It’s all about connection&lt;/h2&gt;
+
+&lt;p&gt;Config, and any conference for that matter, is gathering place for like-minded people. People that have similar interests, challenges, and viewpoints, who create a strong feeling of belonging when gathered in the same place.&lt;/p&gt;
+
+&lt;p&gt;In several interactions with designers on the floor, I would ask what they wanted to see next, and the answer was “nothing, I would just like to talk to other designers today”. That impressed me, in a conference where you get to see top minds of the design world present, the preference wasn’t to watch talks - “they will send me the recording” -  it was to make the new connections with people you might not see again.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m not looking forward to any talks, I would just like to talk to other designers today”&lt;/p&gt;
+
+  &lt;p&gt;— Designer at Config&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My personal highlight was also that, reconnecting with people I used to work with, meeting new designers from around the world, and some of which you “click” with, and hope you get to run into again.&lt;/p&gt;
+
+&lt;p&gt;I hope I get to see you on the next one.&lt;/p&gt;
+
+&lt;h2 id=&quot;bookmarks&quot;&gt;Bookmarks&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/playlist?list=PLXDU_eVOJTx65_s_f3kbLB12X_LB_Qtp1&quot;&gt;Figma’s Config 2026 Youtube Playlist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/config-26-impressions/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/config-26-impressions/</guid>
+      </item>
+    
+      <item>
+        <title>One year at Booking.com</title>
+        <description>&lt;p&gt;Last year I joined Booking.com as a Design Manager for UX Foundations, responsible for design in Design Systems, Design Language and Accessibility. After a year, I wanted to put into words why I decided to join the company.&lt;/p&gt;
+
+&lt;p&gt;Booking.com is the leader of the online travel industry, with the mission to make it easier for everyone to experience the world. Available in 45 languages, offering services in over 220 countries around the world. But you can read all of this in booking.com website. So, what is actually interesting from a design point of view?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post-booking.jpg&quot; alt=&quot;Booking.com Headquarters&quot; loading=&quot;lazy&quot; /&gt;&lt;em&gt;Booking.com headquarters in Amsterdam.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-scale-of-the-challenge&quot;&gt;The scale of the challenge&lt;/h2&gt;
+
+&lt;p&gt;Working at Booking.com means dealing with problems at a scale that few companies in the world face. Every decision you make affects millions of users across different cultures, languages, and contexts.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The beauty of working at this scale is that even small improvements can have massive impact on people’s lives.” - Design Leader at Booking.com&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When I joined, I knew I wanted to work on problems that would push me to think differently about design systems and accessibility. The opportunity to work with 150+ product teams and influence the design experience for millions of users was exactly what I was looking for.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-for-the-long-term&quot;&gt;Building for the long term&lt;/h2&gt;
+
+&lt;p&gt;One of the things that attracted me to Booking.com was their commitment to building sustainable systems. They weren’t looking for quick fixes or trendy solutions - they wanted to build something that would serve their teams and users for years to come.&lt;/p&gt;
+
+&lt;p&gt;This aligned perfectly with my approach to design systems work:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Start with solid foundations&lt;/li&gt;
+  &lt;li&gt;Build incrementally and iteratively&lt;/li&gt;
+  &lt;li&gt;Measure impact and iterate based on data&lt;/li&gt;
+  &lt;li&gt;Focus on adoption and enabling teams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-people-and-culture&quot;&gt;The people and culture&lt;/h2&gt;
+
+&lt;p&gt;Beyond the technical challenges, what really makes Booking.com special is the people. I’m working with some of the smartest designers, engineers, and product managers I’ve ever met. The level of collaboration and knowledge sharing across teams is exceptional.&lt;/p&gt;
+
+&lt;p&gt;The culture encourages experimentation and learning from failure. There’s a healthy balance between moving fast and being thoughtful about decisions that will impact millions of users.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking ahead&lt;/h2&gt;
+
+&lt;p&gt;After a year, I’m more excited than ever about the work ahead. We’ve made significant progress in transforming how design systems work at Booking.com, but there’s still so much more to do.&lt;/p&gt;
+
+&lt;p&gt;The journey of building great design experiences at scale is never finished - it’s an ongoing process of learning, iterating, and improving. And I’m grateful to be part of a team that understands and embraces that reality.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/one-year-booking/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/one-year-booking/</guid>
+      </item>
+    
+      <item>
+        <title>Really Simple Syndication</title>
+        <description>&lt;p&gt;I just added a RSS feed to this website. A free and standard format where anyone can subscribe to and receive updates of my content&lt;/p&gt;
+
+&lt;h2 id=&quot;why-rss&quot;&gt;Why RSS&lt;/h2&gt;
+
+&lt;p&gt;My personal site has been a way to keep me more hands on, experiment with new (and old) technologies, and most of all, do it all by hand to understand how things work.&lt;/p&gt;
+
+&lt;p&gt;For example, this site was created without using media queries and is completely responsive, using Jekyll now as a base, which allows me to update and maintain from an iPad, without any costs other than paying for the domain. You can read more about it
+&lt;a href=&quot;https://ardilamorin.com/responsive-no-media-queries/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So now, I wanted to add &lt;a href=&quot;https://en.wikipedia.org/wiki/RSS&quot;&gt;RSS&lt;/a&gt; to it, as a way to integrate a foundational technology of the web. A free and standard format where anyone can subscribe to and receive updates of my content (rarely updated, don’t judge… I’m working on it).&lt;/p&gt;
+
+&lt;h2 id=&quot;less-social-networks-more-value&quot;&gt;Less social networks, more value&lt;/h2&gt;
+
+&lt;p&gt;I stopped using Twitter (now called X), and switched to &lt;a href=&quot;https://mastodon.social/explore/&quot;&gt;Mastodon&lt;/a&gt;, with the intention to leverage a free, community driven social network. This has also resulted in less time spent in social, and a switch to consume less but longer content, from fewer people that I believe have really interesting things to say. I also started using &lt;a href=&quot;https://feedly.com/&quot;&gt;Feedly&lt;/a&gt; (use as a syncing service) in combination with &lt;a href=&quot;https://netnewswire.com/&quot;&gt;NetNewsWire&lt;/a&gt; (free native app to read across devices) to add these sources, the content that I really read, when I want to read it. Both apps work really well and you should check them out if you are looking to get into RSS.&lt;/p&gt;
+
+&lt;p&gt;I have learned so much from others that have made the effort to share their knowledge on the internet (Thank you!). And I still want to discover more content from people, less algorithms, less content tailored to sell me something. I want to hear and read from others like you.&lt;/p&gt;
+
+&lt;p&gt;This also means that - I will try to - &lt;a href=&quot;https://ethanmarcotte.com/wrote/blockin-bots/&quot;&gt;block this blog from being crawled by AI bots &lt;/a&gt;. I’m still understanding these new technologies, but I rather have my content be consumed by people who can interpret it and digest it for their own benefit, rather than it be smashed and remixed with multiple other sources to provide a different (probably better version, but not my version) of what I intended to share.&lt;/p&gt;
+
+&lt;p&gt;Some smarter people have written on why its cool to own your content. So don’t take my word for it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Matthias Ott - &lt;a href=&quot;https://buttondown.com/ownyourweb/&quot;&gt;Own your web&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Verge - &lt;a href=&quot;https://buttondown.com/ownyourweb/&quot;&gt;Bring back personal blogging&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/RSS/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/RSS/</guid>
+      </item>
+    
+      <item>
+        <title>Taking a break &amp; finding balance</title>
+        <description>&lt;p&gt;I’m currently on a break from my job. Four weeks away after dedicating my full attention to, what we sometimes say but don’t practice, what’s most important to me: my family.&lt;/p&gt;
+
+&lt;p&gt;This break has allowed me to grasp perspective when it comes to how I manage my time. I often have prioritized work over other parts of my life. Sometimes with the feeling of chasing the next step, a salary bump, a better title. With a feeling of work expanding into other parts of life, squeezing time out of other important areas.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-traits-to-achieve-balance&quot;&gt;Key traits to achieve balance&lt;/h2&gt;
+
+&lt;p&gt;I have met a few people that are able to find that balance, to fully thrive without compromising their passions, friendships and health. I have noticed a few traits in them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They are unapologetic when it comes to setting boundaries for their time.&lt;/li&gt;
+  &lt;li&gt;They choose very carefully what they do and are laser focused.&lt;/li&gt;
+  &lt;li&gt;They prioritize execution over perfection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have also come to realize that, finding this balance is very dependent on your strengths, your context and your motivations.&lt;/p&gt;
+
+&lt;p&gt;Where do you live, your age, years of expertise in the field, company you work for, personal situation. How do you work best, alone or with others, what are your strengths and weaknesses, what work gives or drains energy. And finally what motivates you.&lt;/p&gt;
+
+&lt;p&gt;These are important because you won’t be able to find balance if you put yourself in a position where you don’t make the most of your strengths. That means the right company, the right team, the right position.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-perspective&quot;&gt;Adding perspective&lt;/h2&gt;
+
+&lt;p&gt;As a nice coincidence I have come across this quote from a speech from Bryan Dyson, Ex-CEO of Coca-Cola.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;”Imagine life as a game in which you are juggling some five balls in the air. You name them – work, family, health, friends and spirit – and you’re keeping all of these in the air. You will soon understand that work is a rubber ball. If you drop it, it will bounce back. But the other four balls – family, health, friends and spirit – are made of glass. If you drop one of these, they will be irrevocably scuffed, marked, nicked, damaged, or even shattered. They will never be the same. You must understand that and strive for balance in your life.”&lt;/p&gt;
+
+  &lt;p&gt;— Bryan Dyson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;helpful-resources&quot;&gt;Helpful resources&lt;/h2&gt;
+
+&lt;p&gt;Resources that have helped me find balance are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://maketime.blog&quot;&gt;Make time&lt;/a&gt; Book by Jake Knapp and John Zeratsky.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://designingyour.life/the-book/&quot;&gt;Designing your life&lt;/a&gt; Book by Bill Burnett and Dave Evans.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hbr.org/2005/01/managing-oneself&quot; target=&quot;_blank&quot;&gt;Peter Drucker managing oneself&lt;/a&gt; by Peter F. Drucker.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamesclear.com/atomic-habits&quot;&gt;Atomic Habits&lt;/a&gt; Book by James Clear.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From those resources, there is a key take away. You have to plan and schedule time for the things that are important to you, and create the right environment that will help you make them happen on a daily basis - no matter if its work related or personal. Your holidays, gym time, classes, focus time for that key project, quality family time. If you don’t schedule time for it, most likely it won’t happen.&lt;/p&gt;
+
+&lt;p&gt;After this break I am more self-aware, but that doesn’t mean I have figured out how to solve this. I’m making this a resolution for the upcoming year to optimize my schedule to better match the lifestyle I want to have, accomplish my goals and spend time with loved ones.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/taking-a-brake-and-finding-balance/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/taking-a-brake-and-finding-balance/</guid>
+      </item>
+    
+      <item>
+        <title>What makes a Senior UX Designer?</title>
+        <description>&lt;p&gt;One question I get asked, either from people in my team or during interview processes, is what makes a UX designer a Senior UX Designer? Here is my answer.&lt;/p&gt;
+
+&lt;p&gt;First of all, I don’t like the labels “junior” or “mid”. Everyone has different levels of expertise on different things, and we can learn a lot from any level designer. Experience is not directly tied to years of practice and the role and responsibilities may be different on each company.&lt;/p&gt;
+
+&lt;p&gt;But, as Dan Mall says, &lt;a href=&quot;https://medium.com/@danielmall/titles-are-important-4d816fc913c&quot; target=&quot;_blank&quot;&gt;“Titles are important”&lt;/a&gt;, because they set expectations to people that you interact with, helping understand your role and responsibility.&lt;/p&gt;
+
+&lt;p&gt;So for me, the things that make a Senior UX Designer are:&lt;/p&gt;
+
+&lt;h2 id=&quot;capacity&quot;&gt;Capacity&lt;/h2&gt;
+
+&lt;p&gt;This means the level of complexity of the challenges you can solve. Identifying the real problem to solve, with the ability to define the right process, anticipate problems, moving at different levels of abstraction (between the strategy and the interface) to drive and deliver good results.&lt;/p&gt;
+
+&lt;h2 id=&quot;autonomy&quot;&gt;Autonomy&lt;/h2&gt;
+
+&lt;p&gt;Being able to deal with ambiguity and solve a challenge with little direction. Good management of (changing) timelines, being able to scope the work and manage expectations of what you are going to produce. Having a good sense of communication, knowing when and what to share to get alignment, adapting your message to the audience you are delivering it to.&lt;/p&gt;
+
+&lt;h2 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h2&gt;
+
+&lt;p&gt;Working alongside others to generate better results based on each person skill set. Knowing when to lead and when to follow. Being great at giving and receiving feedback.&lt;/p&gt;
+
+&lt;p&gt;That’s it. 
+So if you are shooting for that senior role, or need to explain it to people looking to grow in their career path, try to articulate it in terms of capacity, autonomy and collaborating with others.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;Dan Mall &lt;a href=&quot;https://medium.com/@danielmall/titles-are-important-4d816fc913c&quot; target=&quot;_blank&quot;&gt;“Titles are important”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cyd Harrel &lt;a href=&quot;https://docs.google.com/presentation/d/1v3SlMKO5_9zrEJINhaOlT-YIA0UZi2Qpiv_gYCJMiCI/edit&quot; target=&quot;_blank&quot;&gt;“Getting to Senior in UX”&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/what-makes-senior-ux-designer/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/what-makes-senior-ux-designer/</guid>
+      </item>
+    
+      <item>
+        <title>Leadership resolutions</title>
+        <description>&lt;p&gt;I believe that managing others is a big responsibility. One that could make or break their experience at a company, or even their careers. With that in mind I try to do my best, to put the time and the effort to support the team and constantly question whether I’m having a positive or negative impact.&lt;/p&gt;
+
+&lt;p&gt;So I created this list of things I aspire to do, a list to keep myself in check, to not repeat the mistakes of the past, the things I have suffered and things I’ve made others endure. My list of resolutions to continuously challenge myself, help my team’s professional development and avoid screwing up.&lt;/p&gt;
+
+&lt;h2 id=&quot;01-think-big-and-act-lean&quot;&gt;01 Think Big and act Lean&lt;/h2&gt;
+
+&lt;p&gt;One effective thing you can do as a “lead” is set big ambitious goals. But in order to keep everyone engaged on the goal you also have to show progress and keep momentum. Break those big goals into smaller short-term milestones that allow you to see the steps you are taking towards the big picture, keep track of progress, celebrating small victories.&lt;/p&gt;
+
+&lt;h2 id=&quot;02-distrust-the-process&quot;&gt;02 Distrust the process&lt;/h2&gt;
+
+&lt;p&gt;See process as a way to enable great design, a common language and set the right expectations. But be ready to challenge the process, instill trust and empower your team to change it when it doesn’t make sense, enabling the flexibility to react to change.&lt;/p&gt;
+
+&lt;h2 id=&quot;03-be-honest-not-an-asshole&quot;&gt;03 Be honest not an asshole&lt;/h2&gt;
+
+&lt;p&gt;You have the responsibility to be honest and tell your team what they are doing wrong, it’s the only way they will be able to fix it. But there is a big difference between being honest and being an asshole. Separate the person from the work, articulate your feedback in a way that is actionable and provide challenges instead of tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;04-show-instead-of-tell&quot;&gt;04 Show instead of tell&lt;/h2&gt;
+
+&lt;p&gt;The best way to help others understand what you want more of, is to show them. Highlight what “good” looks like, give timely feedback that reinforces the right attitudes and use artifacts that help everyone be on the same page.&lt;/p&gt;
+
+&lt;h2 id=&quot;05-help-others-find-their-own-answers&quot;&gt;05 Help others find their own answers&lt;/h2&gt;
+
+&lt;p&gt;You don’t have to have all the answers, and even if you do, you should try to refrain and ask questions. People learn more when they find their own answers. It’s not the most efficient way, but it will be the most powerful way to empower your team and help them grow.&lt;/p&gt;
+
+&lt;h2 id=&quot;06-consider-the-person-before-the-work&quot;&gt;06 Consider the person before the work&lt;/h2&gt;
+
+&lt;p&gt;When things are not going as expected try to see the person before the work. There could be other factors affecting the person and impacting their performance. Take the time to know them, it will allow you to identify signals that you need to ask before you judge.&lt;/p&gt;
+
+&lt;h2 id=&quot;07-dont-make-promises-you-cant-keep&quot;&gt;07 Don’t make promises you can’t keep&lt;/h2&gt;
+
+&lt;p&gt;In order to have influence over a group of people you have to gain their trust, and nothing has a more negative impact that not keeping your promises. Be aware of what things are under your control, stay on the safe side and be clear on the agreements you make with your team.&lt;/p&gt;
+
+&lt;h2 id=&quot;08-share-the-weight&quot;&gt;08 Share the weight&lt;/h2&gt;
+
+&lt;p&gt;You can’t do it all. Aim to give your team goals and allow for them to contribute to solving the challenges that you have as a team. Ideas generated by them will have more traction. Make your limited time an opportunity to share the tasks and let others grow.&lt;/p&gt;
+
+&lt;h2 id=&quot;09-embrace-your-critics&quot;&gt;09 Embrace your critics&lt;/h2&gt;
+
+&lt;p&gt;Ask and act on feedback. You may have the right intentions and put a lot of effort, but that doesn’t mean it’s having the expected effect. Create the space where people feel comfortable providing feedback and calling out your mistakes.&lt;/p&gt;
+
+&lt;h2 id=&quot;10-have-tender-discipline&quot;&gt;10 Have tender discipline&lt;/h2&gt;
+
+&lt;p&gt;Some things just take time, the value is not always tangible. Be nice to yourself, take breaks, find motivation to keep going, celebrate your small victories and trust in your ability to accomplish what you set out to do.&lt;/p&gt;
+
+&lt;p&gt;I hope this can help you reflect, identify the things that are important to you and define your own principles to work better with people on your team. Do you have your own set of resolutions? Let me know on twitter @ardilamorin&lt;/p&gt;
+
+&lt;p&gt;Ps: I recently gave a talk about what it means to be a UX Lead, where I share my views on the role, the challenges and (a condensed version) of my resolutions. &lt;a href=&quot;https://vimeo.com/529312180/2216f0cf9f&quot; target=&quot;_blank&quot;&gt;Here is the video&lt;/a&gt; (Spanish only) in case you want to watch the recording.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tender discipline by Jocelyn K. Glei &lt;a href=&quot;https://hurryslowly.co/215-jocelyn-k-glei/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/design-leadership-resolutions/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/design-leadership-resolutions/</guid>
+      </item>
+    
+      <item>
+        <title>Design Chat UX career map</title>
+        <description>&lt;p&gt;The following is a copy of an interview with Molly Jennings from Few &amp;amp; Far, as part of a Design Chat, a series of short interviews with Design Leaders talking about all things design.&lt;/p&gt;
+
+&lt;p&gt;Link to the original article &lt;a href=&quot;https://www.linkedin.com/pulse/design-chat-jos%C3%A9-daniel-ardila-m-mediamonks-molly-jennings&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Meet José Daniel Ardila, the UX Lead at Amsterdam-based MediaMonks - a creative production company that produced 131 Cannes Lions and 250+ FWAs to date.
+José has worked for different companies - big and small and more recently in digital agencies doing consultancy work (although admitting that most people are not calling it that). With time, his role has expanded from designing to helping other designers with their career path and overseeing project teams to deliver great work, and hopefully, have fun in the process.&lt;/p&gt;
+
+&lt;p&gt;Originally from Venezuela, now living in Amsterdam, José is hoping that sharing his experience might help others who are struggling with figuring out what to do next.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-your-advice-for-people-starting-out-what-would-be-a-good-place-to-work&quot;&gt;What is your advice for people starting out? What would be a good place to work?&lt;/h2&gt;
+
+&lt;p&gt;This is a question I’ve gotten recently, more in the form of “Should I work for an agency or a startup? Should I try to land a job in a big corp?” and I tried to summarise my answer in three factors: the work, guidance and team.&lt;/p&gt;
+
+&lt;p&gt;When you are starting out, what you look for is to start getting hands on experience. Start learning by doing, moving from the things you have learned as an ideal process to the constraints and challenges of real life. That also means that you should aim for a place where you have enough room to make mistakes, try different things and grow.&lt;/p&gt;
+
+&lt;p&gt;You should also consider who is going to oversee your work, who you will be reporting to and how much time they will have to invest in your growth.&lt;/p&gt;
+
+&lt;p&gt;Finally, who your team will be and most importantly what spaces will you have to learn from them, will you work together in the same projects? Consider how much knowledge sharing and interaction you will have on a daily basis.&lt;/p&gt;
+
+&lt;p&gt;Try to answer those three, no matter if you are looking at an agency or a product company.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-you-tell-people-who-would-like-to-take-the-next-step-in-their-careers-who-are-feeling-stuck-and-dont-know-how-to-keep-progressing&quot;&gt;What can you tell people who would like to take the next step in their careers, who are feeling stuck and don’t know how to keep progressing?&lt;/h2&gt;
+
+&lt;p&gt;The most common mistake I’ve seen people make at this stage is trying to land their next title by ticking boxes, filling this magical list of things that are required to be a “senior” (or whatever other title you might be chasing). A senior role can require different skills depending on the place you work.&lt;/p&gt;
+
+&lt;p&gt;The first thing to understand is that this is not a race, a lot of people feel they should have a senior role after a couple of years on the job. There is this feeling of having all that it takes after working for “Evil corp” or “Fruit company X”. I have suffered this pressure myself, and the thing that helped the most was to look for opportunities that allowed growth and worrying about titles later.&lt;/p&gt;
+
+&lt;p&gt;Consider what the project that will allow you to develop new skills or keep building on your strengths.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Look for opportunities that allow growth and worry about titles later”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t get me wrong, you might be growing at high pace, and by all means push for that title if you think you deserve it, but make sure to ask for feedback, understand what is required at the next level and make your case by knowing what it means for you.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-choose-my-next-step-management-or-individual-track-are-there-other-options&quot;&gt;How to choose my next step? Management or individual track? Are there other options?&lt;/h2&gt;
+
+&lt;p&gt;There will be a moment where we are presented with this question, or confronted with it for the sake of improving our conditions, to keep moving up in the ladder. How do you know which way is the right way?&lt;/p&gt;
+
+&lt;p&gt;Making a switch to a management path is a big change, the skills you need to have are different, and you might find yourself moving away from hands on design work. Companies sometimes make the mistake of making their more senior people managers, and everyone suffers for it, they lose their best designer and the team is stuck with someone that can’t manage others.&lt;/p&gt;
+
+&lt;p&gt;If you really love being hands on, try looking for a next step in the individual contributor path. If it doesn’t exist in your company, propose to create it. Why not? The worst that can happen is they say no.&lt;/p&gt;
+
+&lt;p&gt;If you do not know which route would be the best fit for you, I suggest you tackle this as a design problem. Interview others that are currently doing the job. What does their day look like? What do they enjoy the most? Do you see yourself doing those things? Or not doing what you are doing today?&lt;/p&gt;
+
+&lt;p&gt;Try to do some of the tasks yourself, ask for a project, or “stretch assignment”, cover for them in their vacations, or offer to help out for some time. Try it on and see if it fits.
+I have tried this in the past, and what’s best is it gives you the chance to understand what the job entails without the pressure of having all the responsibility.&lt;/p&gt;
+
+&lt;p&gt;Finally, consider alternatives. Creating digital products is a specialised business, which means there are tons of other paths to explore: UX Writing, UX Research, Service Design, Front-end design, Product management. The list is endless. Don’t be afraid to try alternate routes, these are reversible decisions, you don’t have to run and immediately change your twitter bio. Experiment, learn about yourself and pursue the path that you enjoy the most, or that works the best for your abilities.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Creating digital products is a specialised business, which means there are tons of other paths to explore”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;/h2&gt;
+
+&lt;p&gt;There is no map, of course there is a landscape, a playing field that you should be familiar with, but there is no one way to move forward, you can build new roads along the way. Every person is different, growth happens at different pace, and opportunities come along in different moments (or don’t come, and you have to make your own). Give yourself permission to experiment and design the next steps in your career.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/design-chat-ux-career-map/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/design-chat-ux-career-map/</guid>
+      </item>
+    
+      <item>
+        <title>Controlled growth environment</title>
+        <description>&lt;p&gt;In our industry, creating digital products, professional growth and learning is determined by your formal education and experience. Experience can be a crucial factor in shaping your growth, the type of designer you will be, and finding out what is that you actually enjoy doing in our very fragmented and specialised profession.&lt;/p&gt;
+
+&lt;p&gt;As someone who has a certain level of responsibility of what projects people on my team get to do, I believe that you have to make an effort on finding the right person for the job based on the needs of the project and their skills. But (there is always a but…) if we only allow people to do what they are already good at, they probably won’t grow.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;if we only allow people to do what they are already good at, they probably won’t grow&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In my personal experience the projects that I’ve grown the most are the ones that presented the biggest challenges, those that push you beyond what you think you are capable of doing. At the end, you push through and come out in the other side better and stronger. That process is hard, people struggle a lot, requires them to put in extra hours and could take a toll in their confidence if things don’t turn out well.&lt;/p&gt;
+
+&lt;p&gt;It’s “sink or swim” and we have accepted it as the way people are supposed to grow, to challenge themselves, face bigger or harder tasks, pushing themselves to be better, sometimes underestimating what could happen if they can’t swim.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-better-growth-experience&quot;&gt;Creating a better growth experience&lt;/h2&gt;
+&lt;p&gt;At a meeting, while discussing this subject regarding a person on our team, the magic phrase came out from one of my colleagues “just because we had to suffer to grow doesn’t mean they have to”.&lt;/p&gt;
+
+&lt;p&gt;Then, I was able to put into words what is that we try to do every time we assign someone to a project, throwing them in the water, but making sure they won’t drown. To give them a “Controlled growth environment”.&lt;/p&gt;
+
+&lt;p&gt;In order to do that well - provide controlled growth environment - you have to do some things first.&lt;/p&gt;
+
+&lt;h3 id=&quot;understand-their-capabilities&quot;&gt;Understand their capabilities&lt;/h3&gt;
+&lt;p&gt;You have to know what that person can do well, tangible things, like creating wireframes, defining the information architecture, conceptualising new solutions, creating prototypes. What others things they bring to the project, and this can be more subjective, like their ability to collaborate with others, or their stakeholder management abilities, presenting and articulating design solutions.&lt;/p&gt;
+
+&lt;p&gt;Additionally you have to understand what motivates them, where would they like to grow, and what’s their idea of a good project, are they better on short or longer projects, do they need supervision, what’s their preferred way of communication.&lt;/p&gt;
+
+&lt;h3 id=&quot;growth-trajectory--personal-phase&quot;&gt;Growth trajectory / Personal Phase&lt;/h3&gt;
+&lt;p&gt;For most people, you know what their capabilities are if you work long enough with them. But one thing that we should also consider is how are they in that particular moment on a professional and personal level.&lt;/p&gt;
+
+&lt;p&gt;The growth trajectory refers to how they feel about the kind of work they want to do: are they eager to tackle a new challenge, or are they coming off a big hard project and prefer something different. Are they looking to grow towards management roles or they love their craft and are happy with refining it further.&lt;/p&gt;
+
+&lt;p&gt;On a personal level, we should be aware of what is going on in their life that could impact their performance. Moving houses, sick relative, hard breakup, newborn. How we are in our lives impacts our work more than we know.&lt;/p&gt;
+
+&lt;p&gt;But even doing your best as a manager, knowing your team and what motivates them is not enough. Most times we depend on what projects come in and who is available at that time, starting a process that I call “resourcing Tetris”.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-can-you-do&quot;&gt;So, what can you do?&lt;/h2&gt;
+
+&lt;h3 id=&quot;visibility-of-the-teams-skills-and-growth-plan&quot;&gt;Visibility of the team’s skills and growth plan&lt;/h3&gt;
+&lt;p&gt;Make the information of your team’s skills and growth plan visible to the people in charge of resourcing projects, if that’s you, keep a document where you can review them before assigning people to projects.&lt;/p&gt;
+
+&lt;p&gt;Sometimes we see some level of unconscious favouritism, people who get assigned to the best projects, or who we have in our top of mind because we’ve seen more of their work lately, that could result in a vicious cycle where only a few continue to grow and have the opportunity to show their worth while others get stuck on less challenging projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;clear-goals-and-responsibilities&quot;&gt;Clear goals and responsibilities&lt;/h3&gt;
+&lt;p&gt;This is the most common problem I have seen. Projects start with incomplete teams, the main goal wasn’t clearly communicated to the group, or roles were unclear.&lt;/p&gt;
+
+&lt;p&gt;If you are doing this well it should be reflected in the quality of your project kickoff sessions.&lt;/p&gt;
+
+&lt;h3 id=&quot;goals-alignment&quot;&gt;Goals alignment&lt;/h3&gt;
+&lt;p&gt;Help the person assign to the project align their personal goals with the project goals. Where are the opportunities to grow and make sure there is enough space for the challenge.&lt;/p&gt;
+
+&lt;p&gt;Doing something new sometimes mean requiring more time to do so, or it could mean compromising quality, so make sure that the challenge given to the person is not the most critical element of the project or that you have a solid backup plan in place.&lt;/p&gt;
+
+&lt;h3 id=&quot;pair-up-and-let-go&quot;&gt;Pair up, and let go&lt;/h3&gt;
+&lt;p&gt;Depending on the person, you can give them a challenge and they will find the way to figure it out on their own.&lt;/p&gt;
+
+&lt;p&gt;Other times is best to show them the way, pairing them up with someone that can show how it’s done and slowly move out, giving more responsibility to the more junior person on the team after having set up a common understanding on the next steps and what is expected from them.&lt;/p&gt;
+
+&lt;h3 id=&quot;know-when-not-to-step-back-in&quot;&gt;Know when (not) to step back in&lt;/h3&gt;
+&lt;p&gt;During the project, it will come a time where your team member will struggle. It’s important that you learn when is a moment that requires you to step back in and support them, or in the contrary, let them face the challenge on their own.&lt;/p&gt;
+
+&lt;p&gt;Make sure you stay in the loop and offer the right level of support during the process.&lt;/p&gt;
+
+&lt;h3 id=&quot;transition-plan&quot;&gt;Transition plan&lt;/h3&gt;
+&lt;p&gt;Projects change, move to different phases, or change scope. You have to be willing to adapt to those changes. Allow people to step out when the project is no longer aligned with their goals, or after they have spent more time than expected.&lt;/p&gt;
+
+&lt;p&gt;It’s common for managers to take the comfortable way out and trying to keep people for as long as possible in the same project, they would be the most knowledgeable and also means not playing resourcing Tetris to replace them. I have seen this go wrong multiple times, when people leave the company because of feeling stuck, sometimes even before even saying that they would rather work on something else and searching for a solution internally.&lt;/p&gt;
+
+&lt;p&gt;Try to anticipate this, create a transition plan, don’t make promises you can’t keep regarding the timelines, and try to bring some fresh air into projects by changing who gets to work on them.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-shared-responsibility&quot;&gt;A shared responsibility&lt;/h2&gt;
+&lt;p&gt;Your team’s growth is important, but it’s a shared responsibility. They are responsible for their own growth,  as such, they should work on knowing what should be their next steps and ask you for the opportunities to make it happen. Then, you can provide the right context to enable it, support them through the process, course correct, and provide the right work to keep growing.&lt;/p&gt;
+
+&lt;p&gt;If you know other ways to help team members grow, or think one of these has flaws let me know. This is a process and should change and adapt based on the types of projects that we get to work on and the people that form the team.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/controlled-growth-environment/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/controlled-growth-environment/</guid>
+      </item>
+    
+      <item>
+        <title>Responsive website with no media queries</title>
+        <description>&lt;p&gt;I finally redesigned this website. The challenge was to do a fully responsive site without media queries using &lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot; target=&quot;_blank&quot;&gt;Flexbox&lt;/a&gt; and &lt;a href=&quot;https://css-tricks.com/snippets/css/complete-guide-grid/&quot; target=&quot;_blank&quot;&gt;CSS Grid&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where users were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.&lt;/p&gt;
+
+&lt;p&gt;There are other techniques to design responsive websites that embrace flexibility, making the content accessible regardless of the browser, platform or screen that the person chooses to access your page. The concept is not new, and John Allsopp has been advocating for it since the year 2000 when he wrote the article &lt;a href=&quot;https://alistapart.com/article/dao/&quot; target=&quot;_blank&quot;&gt;The DAO of the web.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But It wasn’t until last year, when I read and article from &lt;a href=&quot;https://www.juangarcia.design&quot; target=&quot;_blank&quot;&gt;Juan Martin García&lt;/a&gt; titled &lt;a href=&quot;https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/&quot; target=&quot;_blank&quot;&gt;Look Ma, no media Queries! Responsive Layouts Using CSS Grid&lt;/a&gt; that I decided to give it a try, explore what could be done with the new CSS capabilities like CSS Grid and Flexbox, that promised to accomplish better results with less development effort, and in the case of Juan’s article, no media-queries.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Creating a full site without media queries was more a personal challenge than a technical one&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Creating a full site without media queries was more a personal challenge than a technical one. I knew could be done, but could I do it? Answering that question involved overcoming certain challenges:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Making time for it, when there are tools coming out every month that promise of getting a “premium look on your website without struggling to create it.” But in this case, it was more about setting a goal and committing to it than a matter of speed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Force myself to do the end-to-end process of designing, creating the html structure and working out the css. Having an &lt;a href=&quot;https://en.wikipedia.org/wiki/Information_engineering&quot; target=&quot;_blank&quot;&gt;information engineering&lt;/a&gt; degree and years of experience working as a UX Designer would mean I should be able to do it right? Well, not exactly. Building websites has become a fairly specialised process that involves several specialties, so it’s not often that you get to participate in every phase.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learning-by-doing what is actually possible to do with the new technologies that were being advocated for some years - Flexbox and CSS Grid - but apparently few people dared to use for real projects due to poor browser support. I wanted to flex the muscles and acquire some hands on experience.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There you go, a self imposed challenge that allowed me to learn something new.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process&quot;&gt;The process&lt;/h2&gt;
+&lt;p&gt;Before I jumped into creation mode, I first wanted to think about the redesign in terms of layout and visual style. The previous version was super basic, a 1 column layout that just grew vertically. This looked like a good opportunity to try something different and test the limits of what was possible with this “no media queries” approach.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post-responsive-explorations.jpg&quot; alt=&quot;Visual explorations for the new  website&quot; /&gt;&lt;em&gt;Explorations as a form of procrastination&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This exploration mode went on for some time, and it became a form of procrastination. Fast forward to February 2020, I went to the AWWWards conference in Amsterdam and listened to &lt;a href=&quot;https://robin-noguier.com&quot; target=&quot;_blank&quot;&gt;Robin Noguier&lt;/a&gt; give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“consistency over intensity”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first part I had to do was translate the design into the HTML structure and make it responsive without media queries as shown on the article. That meant making changes to the initial design layout to accomplish the goal and without falling again into procrastination mode.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/video-responsive-no-media2.gif&quot; alt=&quot;Testing the html content break points&quot; /&gt;&lt;em&gt;Testing the html content break points&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I used css grid for the layout and overall structure, the main columns and their responsive behaviour. Grid offers a way to define as many columns as the number of elements on the container using ”repeat (auto-fit)” and their width in fractions of the space available “1fr”.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;auto-fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minmax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Flexbox was used to define the flexibility within the elements of a component. For example the site header, where specifying that the logo and navigation should each align to the edges is done through the justify content property: space-between. And when there is not enough space to fit in the same row, they just move to a new line through the flex-wrap property.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.site-header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;justify-content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;space-between&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;flex-wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The second part was making it work with &lt;a href=&quot;https://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, which I wanted to continue using to write blog articles. I wanted to have my content in a place I could control, tinker with and use as a tool for communication and learning. This was a bit more intimidating since I am not a developer. Jekyll is based on &lt;a href=&quot;https://shopify.github.io/liquid/&quot; target=&quot;_blank&quot;&gt;Liquid&lt;/a&gt; for the templating system, which turned out not to be so hard to modify and adapt to my needs.&lt;/p&gt;
+
+&lt;p&gt;Showing the last three posts of the blog is done through this sentence:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;for post in site.posts limit:3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;!-- ![Writing the CSS](/images/post-responsive-css-atom.png)*Writing the html and CSS in Atom, it&apos;s a bit messy, I know* --&gt;
+
+&lt;p&gt;The third was polishing the design, working on the CSS on the details to make it look better, now that the technical part of making work was done. One of the things I wanted to improve was how the site font scaled in different resolutions.&lt;/p&gt;
+
+&lt;p&gt;I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn’t what I expected. By looking for ways to solve this, I found this &lt;a href=&quot;https://css-tricks.com/simplified-fluid-typography/&quot; target=&quot;_blank&quot;&gt;Simplified fluid typography&lt;/a&gt; approach that aligned well with what I wanted to do. By defining a minimum and maximum size limits where the actual size would change based on the width of the screen. (If you are using safari, you won’t be able to see it if you try resizing this page, unless you refresh the page).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2.25rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;4vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;4rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;/h2&gt;
+
+&lt;p&gt;So this is it, a fully responsive personal website, blog capabilities without media queries or breakpoints defined by a device but its content. And, as the previous one, it’s not done. I will play with it, add functionality and evolve it based on what I want to learn or express.&lt;/p&gt;
+
+&lt;p&gt;Building it has given me a different perspective on what can be done with these new technologies in terms of layout and responsive design, but even more about making the time to get things done and sharing the process, even when its far from perfect.&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank You!&lt;/h2&gt;
+
+&lt;p&gt;I have to thank &lt;a href=&quot;https://rachelandrew.co.uk&quot; target=&quot;_blank&quot;&gt;Rachel Andrews&lt;/a&gt; for her great explanations of CSS Grid, &lt;a href=&quot;https://css-tricks.com&quot; target=&quot;_blank&quot;&gt;CSS-tricks&lt;/a&gt; for their flex-box and grid guides and the open nature of the web that allowed me to peek into other websites by inspecting the html. Here are some of the resources I used if you want to give it a try:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot; target=&quot;_blank&quot;&gt;A Complete Guide to Flexbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/snippets/css/complete-guide-grid/&quot; target=&quot;_blank&quot;&gt;A Complete Guide to CSS Grid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/&quot; target=&quot;_blank&quot;&gt;Look Ma no Media Queries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/&quot; target=&quot;_blank&quot;&gt;Create a responsive grid layout with no media queries, using CSS Grid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/simplified-fluid-typography/&quot; target=&quot;_blank&quot;&gt;Simplified fluid typography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/responsive-no-media-queries/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/responsive-no-media-queries/</guid>
+      </item>
+    
+      <item>
+        <title>Best books for every UX Designer</title>
+        <description>&lt;p&gt;I am creating this list for myself (and for you of course) and because is a question I get often from people wanting to make the transition to UX Design. These are books that I have read and found useful. I have categorised them according to the moment you are in your career and the different roles and challenges you may face along the way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/books-elements-user-experience.jpg&quot; alt=&quot;Elements of User Experience Book&quot; /&gt;&lt;em&gt;Elements of User Experience by Jesse James Garret&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt;
+&lt;p&gt;For anyone starting out, or simply haven’t read them, these are great books about the foundations of user experience as a discipline.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jjg.net/elements/pdf/elements_ch02.pdf&quot; title=&quot;The elements of user experience by Jesse James Garret&quot; target=&quot;_blank&quot;&gt;The elements of user experience by Jesse James Garret&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jnd.org/the-design-of-everyday-things-revised-and-expanded-edition/&quot; title=&quot;The Design of Everyday Things, Revised and Expanded Edition&quot; target=&quot;_blank&quot;&gt;The design of everyday things by Don Norman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sensible.com/dmmt.html&quot; title=&quot;Don’t make me think by Steve Krug&quot; target=&quot;_blank&quot;&gt;Don’t make me think by Steve Krug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jarango.com/books/&quot; title=&quot;Information architecture (AKA the polar bear book) By Louis Rosenfeld, Peter Morville, and Jorge Arango&quot; target=&quot;_blank&quot;&gt;Information architecture (AKA the polar bear book) By Louis Rosenfeld, Peter Morville, and Jorge Arango&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/books-atomic-design.jpg&quot; alt=&quot;Atomic Design Book&quot; /&gt;&lt;em&gt;Atomic Design by Brad Frost&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intermediate&quot;&gt;Intermediate&lt;/h2&gt;
+&lt;p&gt;A mix between process, practical and theoretical books that help in your everyday practice.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://atomicdesign.bradfrost.com&quot; target=&quot;_blank&quot;&gt;Atomic Design by Brad Frost&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://leahbuley.com/&quot; title=&quot;The UX team of one by Leah Buley&quot; target=&quot;_blank&quot;&gt;The UX team of one by Leah Buley&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://abookapart.com/products/designing-for-emotion&quot; title=&quot;Designing for emotion by Aaron Walter&quot; target=&quot;_blank&quot;&gt;Designing for emotion by Aaron Walter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://abookapart.com/products/design-is-a-job&quot; title=&quot;Design is a job by Mike Monteiro&quot; target=&quot;_blank&quot;&gt;Design is a job by Mike Monteiro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/books-radical-candor.jpg&quot; alt=&quot;Radical Candor by Kim Scott&quot; /&gt;&lt;em&gt;Radical Candor by Kim Scott&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;management&quot;&gt;Management&lt;/h2&gt;
+&lt;p&gt;If you’ve chosen a management path, you probably found out that managing designers is not easy. These books will help you understand better what your role demands and be a better boss for your team.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.radicalcandor.com/&quot; title=&quot;Radical candor by Kim Scott&quot; target=&quot;_blank&quot;&gt;Radical candor by Kim Scott&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.juliezhuo.com/book/manager.html&quot; title=&quot;The making of a manager by Julie Zhuo&quot; target=&quot;_blank&quot;&gt;The making of a manager by Julie Zhuo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/books-sprint.jpg&quot; alt=&quot;Sprint by Jake Knapp&quot; /&gt;&lt;em&gt;Sprint by Jake Knapp&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;methodologies&quot;&gt;Methodologies&lt;/h2&gt;
+&lt;p&gt;Some classic, some new(ish) methodologies to create and design digital products.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thesprintbook.com/&quot; title=&quot;Sprint by Jake Knapp&quot; target=&quot;_blank&quot;&gt;Sprint by Jake Knapp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jeffgothelf.com/books/#LIBROS-PAGE&quot; title=&quot;Lean UX by Jeff Gothelf with Josh Seiden&quot; target=&quot;_blank&quot;&gt;Lean UX by Jeff Gothelf with Josh Seiden&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jaimelevy.com/ux-strategy-book/&quot; title=&quot;UX Strategy by Jaime Levy&quot; target=&quot;_blank&quot;&gt;UX Strategy by Jaime Levy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Feel free to recommend new books to add to this list, and this page will be alive and updated when I discover new books that I consider to be must reads.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/books-for-UX-designers/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/books-for-UX-designers/</guid>
+      </item>
+    
+      <item>
+        <title>What I learned working remotely</title>
+        <description>&lt;p&gt;For the last 5 months I worked remotely. As the first UX employee working on this model I had to find the best way to work in this way and also try to change the companies dynamics towards making this work. Here are some of my learnings during this process.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-office&quot;&gt;Your office&lt;/h2&gt;
+&lt;p&gt;Find the best location and setup to do your work. Based on your personality you could find it difficult to work from home, tempted to stay in bed, or doing chores, a co-working space could be the best scenario for you. In my case, I enjoyed working from home, because it allowed me to configure my setup, cook my own meals and have more time for actual work and less on commute. The down side is I didn’t get to see people, which I tried to solve outside office hours (see “create a network” further down this list).&lt;/p&gt;
+
+&lt;p&gt;If you go for the “home office” approach, be sure to have a proper chair, a good monitor, and a good webcam (yes I know it sounds very 90’s, but I swear its important). Here is &lt;a href=&quot;https://maeda.pm/2017/11/04/the-best-webcam-at-least-for-me/&quot; title=&quot;the best web cam - according to John Maeda&quot; target=&quot;_blank&quot;&gt;the best webcam for video conferencing according to John Maeda&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t be afraid to ask your employer to pay for the co-working space or reimburse some of the expenses associated to your home office.&lt;/p&gt;
+
+&lt;h2 id=&quot;establish-a-work-routine&quot;&gt;Establish a work routine&lt;/h2&gt;
+&lt;p&gt;What I mean by this, is to find what works for you. Working remotely can make it harder to either start working or stop. So try to determine in what schedule you are more productive, when can you collaborate with the rest of the company and when to take breaks.&lt;/p&gt;
+
+&lt;p&gt;Before, when I worked at the office, I would stand up regularly to go to meetings, and changed the type of task and activities based on what I had scheduled for the day (I also got interrupted a lot…but let’s not get into that). Being remote I also had meetings but they were hang out calls, which meant sitting at my desk longer and strained eyes.&lt;/p&gt;
+
+&lt;p&gt;What I learned is that is important to schedule your day in blocks that allowed to switch the type of task, or simply how you do them, sitting in another place, going out to a cafe, a library or just simply standing up for the next call made a huge difference. For more info on how to defrag your calendar I recommend &lt;a href=&quot;https://larahogan.me/blog/manager-energy-drain/&quot; target=&quot;_blank&quot;&gt;this post from Lara Hogan&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, try to find stuff to do as transition between tasks. Cooking was good for me (I’m sure I read this tip somewhere but can’t remember where).&lt;/p&gt;
+
+&lt;p&gt;Working remotely doesn’t mean that you can’t have a commute, and for some people is important to have it to get into “work mode”. Pablo Stanley talks about this in a podcast called “breadtime” (i wanted to add the link but the url is now broken, google it…maybe you will find it).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/google_calendar_appointment_slots.png&quot; alt=&quot;Google Calendar Appointment Slots&quot; /&gt;&lt;em&gt;Google calendar appointment slots&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;visibility-and-collaboration&quot;&gt;Visibility and collaboration&lt;/h2&gt;
+&lt;p&gt;Keep your calendar updated and visible. Block time for your work so you have a better understanding of how you will spend your time and let others know what you are working on.
+It’s also important to reserve slots that are available to meet with others. Google Calendar allows you to define blocks of time that are free for meeting with other people.&lt;/p&gt;
+
+&lt;h3 id=&quot;collaboration-requires-tools-but-also-common-sense&quot;&gt;Collaboration requires tools! But also common sense.&lt;/h3&gt;
+&lt;p&gt;Tools help a lot to communicate with other people when you are in different locations, and can help make more visible the work you do but they won’t solve everything if you don’t apply some common sense. Try to have check points regularly and don’t rely only on these tools to align and have clear expectations about the work you expect from others and communicate what you understand is your responsibility.&lt;/p&gt;
+
+&lt;p&gt;Don’t overthink it, pick up the phone and talk it out
+When you are by yourself, it’s easy to start second guessing and have doubts about how your work is being perceived, or why some decisions were made. If you have some doubts try to clarify them as soon as possible, and if it’s on a call way better. Somehow the email and text being asynchronous opened too much room for interpretation and more second guessing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/remote-work-invision-meetup.jpeg&quot; alt=&quot;Create a network&quot; /&gt;&lt;em&gt;Invision Design Leadership meet up&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-network&quot;&gt;Create a network&lt;/h2&gt;
+&lt;p&gt;If you, like me, work from home, you will find yourself longing human interaction (maybe not, and that’s ok too). In order to compensate I joined several meet-up groups related to UX that would allow me to meet different people and also learn new things. Here are some ways to foster social interaction:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Work from a co-working space.&lt;/li&gt;
+  &lt;li&gt;Join meet-ups in your city.&lt;/li&gt;
+  &lt;li&gt;Do non-work related activities (join a sports team, a dancing group, book club or whatever you fancy).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Here are some resources if you want to dig deeper on the subject:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nngroup.com/articles/remote-ux-work-nng-case-study/&quot; title=&quot;Remote UX Work: The NN/g Case Study&quot; target=&quot;_blank&quot;&gt;Remote UX Work: The NN/g Case Study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://buffer.com/state-of-remote-work-2019&quot; title=&quot;The state of remote work - Buffer&quot; target=&quot;_blank&quot;&gt;The state of remote work 2019 - Buffer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/remote&quot; title=&quot;Book: Remote, Office not required by Basecamp&quot; target=&quot;_blank&quot;&gt;Remote, office not required - Basecamp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ma.tt/2019/04/happy-tools/&quot; title=&quot;Happy Tools by Automattic&quot; target=&quot;_blank&quot;&gt;Happy Tools - Automattic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a closing thought, it’s important for me to let you know that Working Remotely is not the same as being on vacation all year long, and I think it’s not for everyone. Make sure it aligns well with your personality, and the company you work for has the dynamics in place to make it work. The things I missed the most was working alongside talented people, the magic that comes from random encounters and the growth that comes from collective knowledge and collaboration.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/working-remotely/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/working-remotely/</guid>
+      </item>
+    
+      <item>
+        <title>The UX of healthcare platforms</title>
+        <description>&lt;p&gt;In 2011, people with an illness basically didn’t have a secure place where to communicate with others, and people around them had a hard time finding reliable information regarding the illness.&lt;/p&gt;
+
+&lt;p&gt;I was part of the small team of four that started this amazing journey to create a new kind of digital platform for patients.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/PW_Wireframes.png&quot; alt=&quot;UX and Wireframes for People Who&quot; /&gt;&lt;em&gt;People Who initial wireframes using Balsamiq&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-project&quot;&gt;The project&lt;/h2&gt;
+&lt;p&gt;While working at Saatchi &amp;amp; Saatchi Health, I was asked to participate in a new kind of web platform, a platform for patients with a chronic illness. At first it sounded dull and full of constraints, and full of constraints it was, but not dull.&lt;/p&gt;
+
+&lt;p&gt;The project was born inside the agency and the Product Manager had a clear vision of what it needed to convey, who was it for, what tools they needed and what type of content should have based on the experience of working with the major pharmaceutical brands in Spain.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h3&gt;
+&lt;p&gt;To create a digital platform for patients with a chronic illness, their care takers, friends and family, that could be a place to share with others, provide tools to help control the illness, and find updated, reliable information.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;I was hired to translate a product vision into a tangible product that could meet those expectations for the Spanish market while complying with a restrictive regulated market and still be a viable product. I led the user experience for the initial MVP for Spain, and the expansion to 4 other countries, adding new illnesses, additional functionalities and development of mobile apps.&lt;/p&gt;
+
+&lt;p&gt;I worked alongside the product manager, visual designers, content and development teams defining the product and creating user flows, wireframes and writing documentation for development.&lt;/p&gt;
+
+&lt;p&gt;The platform was launched in October 2012 in Spain. And I left on 2015 when the platform had over 10 illnesses available, and was available in 4 countries in Europe.&lt;/p&gt;
+
+&lt;div class=&quot;fluid-width-video-wrapper&quot;&gt;
+&lt;iframe title=&quot;Video&quot; src=&quot;https://player.vimeo.com/video/189963907&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;our-users-who-are-we-designing-for-and-their-needs&quot;&gt;Our users, who are we designing for and their needs&lt;/h2&gt;
+&lt;p&gt;People who live with an illness don’t go through it alone, so the platform needed to be a place for patients but also for caretakers, family and friends.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-their-needs&quot;&gt;What are their needs&lt;/h3&gt;
+&lt;p&gt;The needs were common to most illnesses:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Connect: to connect and feel understood by others living in a similar situation.&lt;/li&gt;
+  &lt;li&gt;Control: manage their treatment, medication, food, and other habits that may affect their health.&lt;/li&gt;
+  &lt;li&gt;Express: tell their stories, as a way to unload and share experiences that may help others.&lt;/li&gt;
+  &lt;li&gt;Know: current and reliable information about treatment, experiences, professional opinions that could make their lives better.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-market&quot;&gt;The market&lt;/h3&gt;
+&lt;p&gt;There were several platforms available, but most did not attend the Spanish market and didn’t have an all-in-one solution for their needs. Patients associations didn’t have the resources to provide the digital tools that patients needed and Pharma companies didn’t see the investment viable since they don’t offer solutions for a wide range of illnesses, and those illnesses required specific tools to be of value to patients.&lt;/p&gt;
+
+&lt;h3 id=&quot;competitors-and-alternatives&quot;&gt;Competitors and alternatives&lt;/h3&gt;
+&lt;p&gt;The closest to our vision was “Patients like me”, which was focused on the United States and made no distinction between illnesses. Carenity (France) and other specific apps for wearables, or communities created for just one illness.&lt;/p&gt;
+
+&lt;h3 id=&quot;constraints&quot;&gt;Constraints&lt;/h3&gt;
+&lt;p&gt;As you can imagine, the health industry is heavily regulated, so all patient information is critical, any advice on treatment must be given by a licensed doctor, and other considerations are important like reporting suicidal behaviour, offering help lines, avoiding spam for drugs and the difference between the drugs offered in each market.&lt;/p&gt;
+
+&lt;h2 id=&quot;designing-the-experience&quot;&gt;Designing the experience&lt;/h2&gt;
+&lt;p&gt;Created with six sections: Home, Community, Data centre, Apps, Experiences, Magazine. With the focus on social interaction, providing tools that could help keep control of the illness and provide up-to-date information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/people_who_sections.png&quot; alt=&quot;People Who sections&quot; /&gt;&lt;em&gt;People Who website sections&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;illnesses&quot;&gt;Illnesses&lt;/h3&gt;
+&lt;p&gt;The tricky part is not every illness available on the platform has all five sections, and the name of the illness was part of the header, so we created a modular structure that allows to have the number of sections necessary and still work, changing its width depending on the illness selected and the sections available. Making it flexible and still familiar to users.
+&lt;img src=&quot;/images/pw_flexible_nav.gif&quot; alt=&quot;People who - Flexible nav&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;roles-patient-for-one-illness-caretaker-for-another&quot;&gt;Roles: Patient for one illness /caretaker for another&lt;/h3&gt;
+&lt;p&gt;We found that some of the users were patients for an illness, but also had a family member with another illness, and the way they wanted to interact with the platform was different depending on the role they were playing.&lt;/p&gt;
+
+&lt;p&gt;That was a big insight, so we designed it to be vertical, everything was tied to an illness, that meant you could only interact with people that suffered or cared for that same illness. That, for us, was a huge benefit, reducing noise, and improving the quality of relationships.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pw_icons_role.svg&quot; alt=&quot;Patient, caretaker, interested&quot; /&gt;&lt;em&gt;User roles&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;privacy&quot;&gt;Privacy&lt;/h3&gt;
+&lt;p&gt;This was a big factor to take into account, since some illnesses are more delicate than others, people may choose to share with others that they have the illness. So we designed for privacy:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We asked for a username, instead of real names.&lt;/li&gt;
+  &lt;li&gt;We offered avatars that users could choose, instead of uploading their personal photo.&lt;/li&gt;
+  &lt;li&gt;You shared gender and city of residence, for statistical purposes, but you could choose to share it publicly or not.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/privacy_avatars.png&quot; alt=&quot;Users avatars to protect privacy&quot; /&gt;&lt;em&gt;User avatars&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;anonymous-relationships&quot;&gt;Anonymous Relationships&lt;/h3&gt;
+&lt;p&gt;This presented a new challenge, to create friendships with people you didn’t know, and coming to a place where everyone maintains their privacy. So the challenge was to create a social network focused on discovery, where you didn’t have any friends when you first go in and start building your own “circles” of friends from interacting with others on the platform.&lt;/p&gt;
+
+&lt;h3 id=&quot;safety&quot;&gt;Safety&lt;/h3&gt;
+&lt;p&gt;This was a major constraint, but we managed to put in place all the resources needed with a mix of technology and great people.&lt;/p&gt;
+
+&lt;h3 id=&quot;avoiding-spam-and-medical-databases&quot;&gt;Avoiding spam and Medical databases&lt;/h3&gt;
+&lt;p&gt;We wanted to avoid companies going into the platform to promote their medications so we developed an integration with medical databases that detected the drug name and replaced it with its active component.&lt;/p&gt;
+
+&lt;h3 id=&quot;suicide-prevention&quot;&gt;Suicide prevention&lt;/h3&gt;
+&lt;p&gt;We started the platform with bipolar disorder as the first illness, that meant a specific set of control tools, but also meant a special attention to our users. We were required by law to report if any user had expressed they wanted to end their life. So we developed a supervision tool that analysed the comments and watched for specific words that could mean they could be in danger.
+When this happened, the platform informed the user to call the emergency services, and reported to the authorities all comments with those criteria in less than 12 hours.&lt;/p&gt;
+
+&lt;h3 id=&quot;community-management&quot;&gt;Community management&lt;/h3&gt;
+&lt;p&gt;We also had a team of community managers that could help with the supervision of the platform, detecting spam, unauthorised users (people pretending to be doctors, recommending treatments, etc) or helping users with doubts that they could have while using the platform.&lt;/p&gt;
+
+&lt;h3 id=&quot;licensed-doctor&quot;&gt;Licensed doctor&lt;/h3&gt;
+&lt;p&gt;We also had a licensed doctor for each illness, one that could actively participate in the conversation, answer questions and make sure that people were not following treatments that could put them in danger, always referring them to their doctor if they wanted to make changes in their treatment or were thinking of stopping it.&lt;/p&gt;
+
+&lt;p&gt;The doctors we had were vital for the development of tools that could help patients control their illnesses. We interview them to have a better picture of what was important, how was the best way to capture that information and what kind of information we could provide users to stick to their treatment.&lt;/p&gt;
+
+&lt;h3 id=&quot;visual-design&quot;&gt;Visual design&lt;/h3&gt;
+&lt;p&gt;The big major difference was in the design and its look and feel (I had nothing to do with that, it was all the Product Manager and Visual Designer there). What we found was that every platform looked liked going to a hospital with sad colours, bad (stock) images or pictures that made you feel sorry for the people that had the illness.&lt;/p&gt;
+
+&lt;p&gt;Our approach was different, the fact that you suffer an illness doesn’t mean that you are unhappy, or need to be reminded how bad it is living with it by all aspects of the design. So we designed it with a focus on light colours, a heavy presence of illustration, and overall care for aesthetics. Making it a place where you were comfortable and were pleased to be a part of.&lt;/p&gt;
+
+&lt;h2 id=&quot;going-global&quot;&gt;Going global&lt;/h2&gt;
+&lt;p&gt;Due to each country’s regulations, we need a global platform with local websites, adjusting language, medical databases, community supervision and the specific cultural needs.&lt;/p&gt;
+
+&lt;p&gt;The first to arrive was Germany, France and Italy, each with its own set of challenges but proving the concept worked with some adjustments.&lt;/p&gt;
+
+&lt;p&gt;There are some things that we could have done better:&lt;/p&gt;
+
+&lt;h3 id=&quot;agile-mindset&quot;&gt;Agile mindset:&lt;/h3&gt;
+&lt;p&gt;We followed a waterfall process and didn’t launch until all sections of the platform were developed.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-informed-decisions&quot;&gt;Data informed decisions&lt;/h3&gt;
+&lt;p&gt;We didn’t have a specialised data team to really understand user behaviour, we were a small startup, but we definitely could have gained a lot by better insights from analytics or user testing.&lt;/p&gt;
+
+&lt;h3 id=&quot;focus-on-acquisition&quot;&gt;Focus on acquisition&lt;/h3&gt;
+&lt;p&gt;We put a lot of effort on adding new functionalities for existing users, looking back seems that the real challenge was gaining traction and adding more users consistently.&lt;/p&gt;
+
+&lt;h2 id=&quot;awards&quot;&gt;Awards&lt;/h2&gt;
+&lt;p&gt;On 2013, The platform won a &lt;a href=&quot;https://www.youtube.com/watch?v=ay86Yzjgtqg&amp;amp;list=LLjZ11Zg2k39RqPiDGTpowbA “Gold Laus Award ceremony Youtube video”&quot;&gt;Gold Laus Award&lt;/a&gt; in the category of best web application, for its overall user experience, navigation structure, visual simplicity, iconography and easy access to content.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/ux-healthcare-designing-peoplewho/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/ux-healthcare-designing-peoplewho/</guid>
+      </item>
+    
+      <item>
+        <title>SXSW Interactive 2017</title>
+        <description>&lt;p&gt;I was lucky to attend South by Southwest 2017 thanks to &lt;a href=&quot;https://the-cocktail.com&quot; title=&quot;The cocktail website&quot;&gt;The Cocktail&lt;/a&gt; (my current employer), a digital products consultancy in Spain. I had an idea that it was a big thing, but no idea how many people attended and the vision of the future that it would give me. So here is a summary of what I learned and the main topics from the sessions I attended, seen from a UX Designer perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sxsw-2017.jpeg&quot; alt=&quot;SXSW 2017&quot; /&gt;&lt;em&gt;SXSW 2017 -What’s the Future of Intelligence&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;first-some-tips&quot;&gt;First some tips&lt;/h2&gt;
+
+&lt;h3 id=&quot;buy-your-ticket-early-and-avoid-queues&quot;&gt;Buy your ticket early and avoid queues&lt;/h3&gt;
+
+&lt;p&gt;If you get early company approval to go, get your ticket as early as possible, enjoy an early bird discount and get a “Platinum” badge and save time getting preferred access for sessions and entertainment that goes on afterwards.&lt;/p&gt;
+
+&lt;h3 id=&quot;housing-find-a-place-near-the-conference-venues&quot;&gt;Housing: find a place near the conference venues&lt;/h3&gt;
+
+&lt;p&gt;Whether you pick a five star hotel or an AirBnb shared room, be sure it’s close by to the conference venues, you will enjoy those extra minutes when trying to arrive early for your first session, going for change of clothes or a quick bath before a party or just walking home at night at the end of a long day. They go fast so be sure to make arrangements.&lt;/p&gt;
+
+&lt;h3 id=&quot;leave-your-laptop-and-put-in-some-extra-clothes&quot;&gt;Leave your laptop and put in some extra clothes&lt;/h3&gt;
+
+&lt;p&gt;Don’t take your laptop for notes, your battery won’t last a full day and you’ll be carrying the weight all day (and maybe night) while looking for power outlets. You will be sitting in small chairs crashing elbows with everyone. I recommend to use pen and paper (or an iPad) and take lots of pictures.&lt;/p&gt;
+
+&lt;p&gt;Also, the weather in Austin is usually hot, but it can get colder at night, so be prepared and put a jacket in your backpack.&lt;/p&gt;
+
+&lt;p&gt;Now the “tech” stuff…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sxsw-2017-artifcial-intelligence.jpeg&quot; alt=&quot;SXSW 2017&quot; /&gt;&lt;em&gt;SXSW 2017 - Building J.A.R.V.I.S. - Built.io SXSW 2017 Presentation&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h2&gt;
+&lt;p&gt;The main subject of the event was AI, around 60% of the sessions were about AI or had some direct relation with it. What I learned:&lt;/p&gt;
+
+&lt;h3 id=&quot;its-not-about-tech-its-about-the-story&quot;&gt;It’s not about tech, It’s about the story&lt;/h3&gt;
+&lt;p&gt;The guys at Disney talked about how they embraced Artificial Intelligence, but the say is at the service of the story, and it should be invisible, it’s success measured by the greatness of the story. This resonates with me, AI seen as a tool should be used only when it makes sense.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hard-part-is-conversation-management&quot;&gt;The hard part is conversation management&lt;/h3&gt;
+&lt;p&gt;Natural language processing has come a long way, but is still struggling with handling conversations. Conversation Analysis as discipline is key to get the UX right in our digital products that have Artificial Intelligence at their core. Applying the principles of conversation design: Recipient Design, Minimisation, Repair.&lt;/p&gt;
+
+&lt;h3 id=&quot;skills-skills-skills&quot;&gt;Skills, Skills, Skills&lt;/h3&gt;
+&lt;p&gt;Siri, Cortana, Alexa, and other personal assistants will be everywhere, but they will be as powerful as the abilities they have to really be useful to users. Those capabilities will be in form of skills programmed by products and services able to “talk” to those personal assistants and give the best solutions to you based on what they know of you. At the moment of writing, Alexa has over &lt;a href=&quot;https://www.amazon.com/b?ie=UTF8&amp;amp;node=13727921011&quot; target=&quot;_blank&quot;&gt;10,000 skills available&lt;/a&gt; giving you the power to give recipes for a cupcake, control the lights or play soothing sounds to help sleep. The challenge will be to be ready to communicate with that tech, and become the preferred option depending on the user.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources-on-artificial-intelligence&quot;&gt;Resources on Artificial Intelligence:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://conversational-ux.mybluemix.net/design/conversational-ux/&quot; target=&quot;_blank&quot;&gt;IBM Conversation Design Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/actions/design/&quot; target=&quot;_blank&quot;&gt;Actions on google: Conversations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SXSW_2017_John_Maeda.jpg&quot; alt=&quot;SXSW_IBM_John_Maeda&quot; /&gt;&lt;em&gt;John Maeda presents his design in tech report&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;product-design&quot;&gt;Product Design&lt;/h2&gt;
+&lt;p&gt;As a UX Designer my job involves building digital products and  - as John Maeda points out is his &lt;a href=&quot;https://designintechreport.wordpress.com/2017/03/11/design-in-tech-report-2017/&quot; target=&quot;_blank&quot;&gt;Design in Tech Report&lt;/a&gt; - Computational Designers are the ones that will have bigger impact in the world in the coming years. So here are the key learnings for building products:&lt;/p&gt;
+
+&lt;h3 id=&quot;designing-for-humans-and-robots&quot;&gt;Designing for humans and robots&lt;/h3&gt;
+&lt;p&gt;Everyday we make decisions that affect the experience we provide to humans - improving for SEO, for personal assistants tech, and other systems - for those products to perform better, which doesn’t seem new but I never thought of it as making them better for “robots” and is something we will continue doing in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-is-the-new-black&quot;&gt;Data is the new black&lt;/h3&gt;
+&lt;p&gt;We have learned the importance of data over the years, and have developed different methodologies around it. Data driven, data informed  design and more recently CRO (conversion rate optimisation) as ways to develop a framework around the data that we collect from users to improve their experience. As big as data has become in our daily process it has to be partnered with talking to our users and take into account what they tell us (explicit data) and what we know from how they behave (implicit data).&lt;/p&gt;
+
+&lt;h3 id=&quot;you-have-to-tell-a-good-story&quot;&gt;You have to tell a good story&lt;/h3&gt;
+&lt;p&gt;With all the robots in the room we can’t forget about our flesh and bone friends, and the best way to communicate with other humans is by telling a good story. In digital products we have to understand who our main characters are,  who or what plays supporting roles and the best way to apply the core elements of dramaturgy: structure, rhythm, flow, even individual word choices.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://schedule.sxsw.com/2017/events/PP65833&quot; target=&quot;_blank&quot;&gt;In her Keynote&lt;/a&gt;, Anna Dahlstrom gave us a great technique to better understand the pieces that make our products using visual mapping of our prototypes. Laying them out on the wall so we can better understand how they fit together and if they can work by themselves if a user doesn’t follow the usual path, our new landing page is …google, Instagram, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources-on-product-design&quot;&gt;Resources on Product Design:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://designintechreport.files.wordpress.com/2017/03/dit-2017-1-0-6-smallest.pdf&quot; target=&quot;_blank&quot;&gt;Design in Tech Report 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dtelepathy.com/ux-metrics/#intro&quot; target=&quot;_blank&quot;&gt;How to choose the right UX metrics for your product&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trends&quot;&gt;Trends&lt;/h2&gt;
+&lt;p&gt;There was lots about the future and the one that got me the most was hacking our brains to learn faster. But since that is a bit scary a further in the future I’ll leave you with what I think is coming now:&lt;/p&gt;
+
+&lt;h3 id=&quot;move-fasterin-the-right-direction&quot;&gt;Move faster…in the right direction&lt;/h3&gt;
+&lt;p&gt;With Agile, Lean, Design Sprints, everyone is trying to move faster, but big corporations are also worried to go in the right direction. Big companies like Citi are trying new concepts like ‘Fintegration’ &lt;a href=&quot;https://www.youtube.com/watch?v=NUjqLVMcOtc&quot; target=&quot;_blank&quot;&gt;(check out Yolande Piazza explaining their strategy)&lt;/a&gt; trying to partner with smaller companies that allow them to innovate faster.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We know that our clients need our advice, the key is to understand what they need advice with…”
+Yolande Piazza.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;a-new---augmented---reality&quot;&gt;A new - augmented - reality&lt;/h3&gt;
+&lt;p&gt;I’m not a big fan of VR but I can definitely see it coming, and judging by the amount of companies demoing products and investing big in these technologies is a matter of time to see it play a bigger role in our lives.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources-on-future-trends&quot;&gt;Resources on Future Trends:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gv.com/sprint/&quot; target=&quot;_blank&quot;&gt;The Design Sprint&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnet.com/news/vr-virtual-reality-sxsw-music/&quot; target=&quot;_blank&quot;&gt;VR at SXSW 2017&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;/h2&gt;
+&lt;p&gt;SXSW was an amazing experience, if you have the chance to attend don’t give it a second thought and get on a plane to meet incredible people (I see you friends!) and get a glimpse of the future. If you are lucky you will be inspired to build something that plays a big role in that future.&lt;/p&gt;
+
+&lt;p&gt;Ps: I also got to see great bands during the week. If you haven’t heard them I recommend that you do: &lt;a href=&quot;https://open.spotify.com/artist/0p5axeJsbtTCXBrRVoKjwu&quot;&gt;The drums&lt;/a&gt; , &lt;a href=&quot;https://open.spotify.com/artist/1btWGBz4Uu1HozTwb2Lm8A&quot; target=&quot;_blank&quot;&gt;Hippo Campus&lt;/a&gt; , &lt;a href=&quot;https://open.spotify.com/artist/34vLhockmYhf3LgznwyNaQ&quot; target=&quot;_blank&quot;&gt;Poliça&lt;/a&gt; , &lt;a href=&quot;https://open.spotify.com/artist/39vA9YljbnOApXKniLWBZv&quot; target=&quot;_blank&quot;&gt;Sylvan Esso&lt;/a&gt; , &lt;a href=&quot;https://open.spotify.com/artist/0UZq6vAHrwGgctvxTzzxYm&quot; target=&quot;_blank&quot;&gt;Tokyo Ska Paradise Orchestra&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 May 2017 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/SXSW-2017/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/SXSW-2017/</guid>
+      </item>
+    
+      <item>
+        <title>UXMad, group about UX on LinkedIn</title>
+        <description>&lt;p&gt;I moved to Madrid on 2011 and didn’t know many people in the city. I worked on digital products for some time, but I didn’t know anyone here. I tried different ways to enter the “scene” but it didn’t work out so well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/UXMAD.png&quot; alt=&quot;UXMAD&quot; /&gt;&lt;em&gt;UXMAD a group for UX Designers in Madrid&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;local-events&quot;&gt;Local events&lt;/h2&gt;
+&lt;p&gt;Madrid has its fair share of local events about Design, User Experience, Customer Experience and Digital products. Here is a list of some of those in case you are interested:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vimeo.com/04x10&quot; target=&quot;_blank&quot;&gt;04x10&lt;/a&gt; (No longer active)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ladiesthatux.com/madrid/&quot; target=&quot;_blank&quot;&gt;Ladies that UX: Madrid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.playrestart.es&quot; target=&quot;_blank&quot;&gt;Play Restart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.meetup.com/es-ES/UX-Academy/?chapter_analytics_code=UA-55896633-1&quot; target=&quot;_blank&quot;&gt;UX Academy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://experiencefighters.com&quot; target=&quot;_blank&quot;&gt;UX Fighters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I attended some of these events planning to meet people, collaborate and maybe find job opportunities in the future. Apparently most people already know each other, and after a while I noticed that there wasn’t much rotation in the speakers lineup. So I stopped attending.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-ways-to-network&quot;&gt;Other ways to network&lt;/h2&gt;
+&lt;p&gt;That doesn’t mean I gave up. I looked for other ways to stay in the loop and I decided to take the matter in my own hands. I did not start a “UX and Ribs” meetup, but I did create a group on LinkedIn for UX professionals in Madrid. It’s gaining some traction and there are some job posts from time to time but people are still a bit shy when it comes to posting.&lt;/p&gt;
+
+&lt;h2 id=&quot;join-us&quot;&gt;Join us&lt;/h2&gt;
+&lt;p&gt;The more the merrier, so please join, introduce yourself, ask questions and make some friends, that’s why I created it in the first place.
+If you want to join here is the link:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/groups/4816589&quot; target=&quot;_blank&quot;&gt;UX MAD on LinkedIn&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/ux-mad-linkedin/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/ux-mad-linkedin/</guid>
+      </item>
+    
+      <item>
+        <title>New website built using Jekyll</title>
+        <description>&lt;h2 id=&quot;technology&quot;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;The first thing to stand out in this website is that it works using github pages, powered by Jekyll, a flat file website generator. You probably have heard about flat file cms, and static website generators and their advantages. Simple, fast and easy to deploy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/new-website-jekyll-now.png&quot; alt=&quot;New Website with JekyllNow&quot; /&gt;&lt;em&gt;Jekyll Now&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;checklist-for-the-new-website&quot;&gt;Checklist for the new website&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A simple way to publish content (a blog!), and Jekyll Now offers just that.&lt;/li&gt;
+  &lt;li&gt;Decoupled theming system that allows me to change the website design without affecting the content.&lt;/li&gt;
+  &lt;li&gt;Simple hosting, since I don’t need much space, database or dynamic content I didn’t want to deal with web hosting services and the monthly cost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
+
+&lt;p&gt;I hope to publish blog posts about UX design, side projects and any resources I found could be useful for the rest of the community.&lt;/p&gt;
+
+&lt;p&gt;So if you are reading this, let me know your thoughts.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+        <link>https://ardilamorin.com/new-website/</link>
+        <guid isPermaLink="true">https://ardilamorin.com/new-website/</guid>
+      </item>
+    
+  </channel>
+</rss>

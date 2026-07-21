@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <title>Responsive website with no media queries | José Daniel Ardila – Personal Blog of José Daniel Ardila Morin. Design Director at Maze, previously at Booking.com, Bose, mediamonks and the cocktail.</title>
+
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a1917">
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="description" content="A fully responsive site without media queries using Flexbox and CSS Grid." />
+    <meta property="og:description" content="A fully responsive site without media queries using Flexbox and CSS Grid." />
+    
+    <meta name="author" content="José Daniel Ardila" />
+
+    
+    <meta property="og:title" content="Responsive website with no media queries" />
+    <meta property="twitter:title" content="Responsive website with no media queries" />
+    
+
+    
+
+
+    <!-- CSS for redesigned homepage -->
+    <link rel="stylesheet" type="text/css" href="/css/styles-playground.css" />
+
+    <link rel="alternate" type="application/rss+xml" title="José Daniel Ardila - Personal Blog of José Daniel Ardila Morin. Design Director at Maze, previously at Booking.com, Bose, mediamonks and the cocktail."
+        href="/feed.xml" />
+</head>
+
+<body class="page-responsive-website-with-no-media-queries page-blog">
+    <!-- Skip link (keyboard navigation) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <div class="nav-brand">
+            <a href="/">
+                <p>ardila morín</p>
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="/info" class="nav-link nav-link-info">info<span class="nav-indicator"></span></a></li>
+            <li><a href="/work" class="nav-link nav-link-work">work<span class="nav-indicator"></span></a></li>
+            <li><a href="/blog" class="nav-link nav-link-blog">blog<span class="nav-indicator"></span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <!-- Back Button -->
+<div class="back-navigation">
+    <a href="/blog" class="back-link">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+        <span>blog</span>
+    </a>
+</div>
+
+<!-- Two Column Layout -->
+<main id="main-content" class="main-content">
+
+    <!-- Left Column: Post Info Card -->
+    <aside class="info-section">
+        <article class="card card-post-intro">
+            <div class="card-content">
+                <!-- Post header wrapper -->
+                <div class="post-header">
+                    <time class="post-date" datetime="2020-05-19">19.05.20</time>
+                    <h1 class="post-title">Responsive website with no media queries</h1>
+                    
+                    <p class="post-excerpt">A fully responsive site without media queries using Flexbox and CSS Grid.</p>
+                    
+                </div>
+                
+                <div class="post-tags">
+                    
+                    <a href="/tag/technology/" class="tag">Technology</a>
+                    
+                </div>
+                
+            </div>
+        </article>
+    </aside>
+
+    <!-- Right Column: Post Content -->
+    <div class="content-column">
+
+        <!-- Post Illustration (from card-image) -->
+        
+        
+        <div class="post-illustration" role="img" aria-label="Responsive website with no media queries">
+            <svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .responsive--column {
+      fill: var(--color-bg-info);
+    }
+
+    .responsive--block-blue-dark {
+      fill: var(--il-blue-medium);
+    }
+
+    .responsive--block-blue {
+      fill: var(--il-blue-light);
+    }
+
+    .responsive--block-green {
+      fill: var(--il-green-muted);
+    }
+
+    .responsive--block-beige {
+      fill: var(--il-beige);
+    }
+
+    .responsive--shadow {
+      fill: var(--color-text-primary);
+    }
+  </style>
+
+  <!-- Grid columns -->
+  <rect x="14.9996" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+  <rect x="76.9996" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+  <rect x="138" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+  <rect x="200" y="12.8076" width="55" height="108" rx="8" class="responsive--column"/>
+
+  <!-- Content block shadows -->
+  <rect x="19.9996" y="17.8076" width="229" height="31" rx="8" class="responsive--shadow"/>
+  <rect x="19.9996" y="52.8076" width="47" height="31" rx="8" class="responsive--shadow"/>
+  <rect x="80.9996" y="52.8076" width="168" height="31" rx="8" class="responsive--shadow"/>
+  <rect x="20.9996" y="86.8076" width="228" height="31" rx="8" class="responsive--shadow"/>
+
+  <!-- Content blocks -->
+  <rect x="19.9996" y="16.8076" width="229" height="31" rx="8" class="responsive--block-blue-dark"/>
+  <rect x="19.9996" y="51.8076" width="47" height="31" rx="8" class="responsive--block-blue"/>
+  <rect x="80.9996" y="51.8076" width="168" height="31" rx="8" class="responsive--block-green"/>
+  <rect x="20.9996" y="85.8076" width="228" height="31" rx="8" class="responsive--block-beige"/>
+</svg>
+
+        </div>
+        
+
+        <!-- Hero Image (if provided) - uses separate hero-image field -->
+        
+
+        <!-- Post Intro (if provided) - larger text -->
+        
+
+        <!-- Main Content (from markdown) -->
+        <p>I finally redesigned this website. The challenge was to do a fully responsive site without media queries using <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a> and <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS Grid</a>.</p>
+
+<p>For the last decade, working on websites for companies, you would always hear the question: “how many break points are we designing for?” or “are we delivering desktop and mobile…what about tablet?” So, you would create different designs for each of the agreed upon “breakpoints”, which were then translated to specific CSS styles for each device resolution using media queries, and sometimes problems would emerge. A new device would come out, a smaller iPad, a bigger phone, that would break the design and would add a new breakpoint to the requirements. The device where users were supposed to view the website determined how we designed it, and for me, it felt wrong, inefficient and not built to last.</p>
+
+<p>There are other techniques to design responsive websites that embrace flexibility, making the content accessible regardless of the browser, platform or screen that the person chooses to access your page. The concept is not new, and John Allsopp has been advocating for it since the year 2000 when he wrote the article <a href="https://alistapart.com/article/dao/" target="_blank">The DAO of the web.</a></p>
+
+<p>But It wasn’t until last year, when I read and article from <a href="https://www.juangarcia.design" target="_blank">Juan Martin García</a> titled <a href="https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/" target="_blank">Look Ma, no media Queries! Responsive Layouts Using CSS Grid</a> that I decided to give it a try, explore what could be done with the new CSS capabilities like CSS Grid and Flexbox, that promised to accomplish better results with less development effort, and in the case of Juan’s article, no media-queries.</p>
+
+<blockquote>
+  <p>Creating a full site without media queries was more a personal challenge than a technical one</p>
+</blockquote>
+
+<h2 id="the-challenge">The Challenge</h2>
+
+<p>Creating a full site without media queries was more a personal challenge than a technical one. I knew could be done, but could I do it? Answering that question involved overcoming certain challenges:</p>
+
+<ol>
+  <li>
+    <p>Making time for it, when there are tools coming out every month that promise of getting a “premium look on your website without struggling to create it.” But in this case, it was more about setting a goal and committing to it than a matter of speed.</p>
+  </li>
+  <li>
+    <p>Force myself to do the end-to-end process of designing, creating the html structure and working out the css. Having an <a href="https://en.wikipedia.org/wiki/Information_engineering" target="_blank">information engineering</a> degree and years of experience working as a UX Designer would mean I should be able to do it right? Well, not exactly. Building websites has become a fairly specialised process that involves several specialties, so it’s not often that you get to participate in every phase.</p>
+  </li>
+  <li>
+    <p>Learning-by-doing what is actually possible to do with the new technologies that were being advocated for some years - Flexbox and CSS Grid - but apparently few people dared to use for real projects due to poor browser support. I wanted to flex the muscles and acquire some hands on experience.</p>
+  </li>
+</ol>
+
+<p>There you go, a self imposed challenge that allowed me to learn something new.</p>
+
+<h2 id="the-process">The process</h2>
+<p>Before I jumped into creation mode, I first wanted to think about the redesign in terms of layout and visual style. The previous version was super basic, a 1 column layout that just grew vertically. This looked like a good opportunity to try something different and test the limits of what was possible with this “no media queries” approach.</p>
+
+<p><img src="/images/post-responsive-explorations.jpg" alt="Visual explorations for the new  website" /><em>Explorations as a form of procrastination</em></p>
+
+<p>This exploration mode went on for some time, and it became a form of procrastination. Fast forward to February 2020, I went to the AWWWards conference in Amsterdam and listened to <a href="https://robin-noguier.com" target="_blank">Robin Noguier</a> give a talk about side projects, and the idea of “consistency over intensity” got stuck in my mind as a way to finish the website. I scheduled an hour every day to work on it, and split the work in small tasks that I could tackle in this short blocks of time.</p>
+
+<blockquote>
+  <p>“consistency over intensity”</p>
+</blockquote>
+
+<p>The first part I had to do was translate the design into the HTML structure and make it responsive without media queries as shown on the article. That meant making changes to the initial design layout to accomplish the goal and without falling again into procrastination mode.</p>
+
+<p><img src="/images/video-responsive-no-media2.gif" alt="Testing the html content break points" /><em>Testing the html content break points</em></p>
+
+<p>I used css grid for the layout and overall structure, the main columns and their responsive behaviour. Grid offers a way to define as many columns as the number of elements on the container using ”repeat (auto-fit)” and their width in fractions of the space available “1fr”.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.block</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">grid</span><span class="p">;</span>
+  <span class="py">grid-template-columns</span><span class="p">:</span> <span class="nb">repeat</span><span class="p">(</span><span class="n">auto-fit</span><span class="p">,</span> <span class="n">minmax</span><span class="p">(</span><span class="m">300px</span><span class="p">,</span> <span class="m">1</span><span class="n">fr</span><span class="p">));</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0em</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Flexbox was used to define the flexibility within the elements of a component. For example the site header, where specifying that the logo and navigation should each align to the edges is done through the justify content property: space-between. And when there is not enough space to fit in the same row, they just move to a new line through the flex-wrap property.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.site-header</span><span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+  <span class="nl">justify-content</span><span class="p">:</span><span class="n">space-between</span><span class="p">;</span>
+  <span class="nl">flex-wrap</span><span class="p">:</span> <span class="n">wrap</span><span class="p">;</span>
+  <span class="p">}</span></code></pre></figure>
+
+<p>The second part was making it work with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, which I wanted to continue using to write blog articles. I wanted to have my content in a place I could control, tinker with and use as a tool for communication and learning. This was a bit more intimidating since I am not a developer. Jekyll is based on <a href="https://shopify.github.io/liquid/" target="_blank">Liquid</a> for the templating system, which turned out not to be so hard to modify and adapt to my needs.</p>
+
+<p>Showing the last three posts of the blog is done through this sentence:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">for post in site.posts limit:3</code></pre></figure>
+
+<!-- ![Writing the CSS](/images/post-responsive-css-atom.png)*Writing the html and CSS in Atom, it's a bit messy, I know* -->
+
+<p>The third was polishing the design, working on the CSS on the details to make it look better, now that the technical part of making work was done. One of the things I wanted to improve was how the site font scaled in different resolutions.</p>
+
+<p>I was already using scalable sizes (rem and em values that adapt to the text container or the base font size) but in some cases the result wasn’t what I expected. By looking for ways to solve this, I found this <a href="https://css-tricks.com/simplified-fluid-typography/" target="_blank">Simplified fluid typography</a> approach that aligned well with what I wanted to do. By defining a minimum and maximum size limits where the actual size would change based on the width of the screen. (If you are using safari, you won’t be able to see it if you try resizing this page, unless you refresh the page).</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span><span class="p">{</span>
+<span class="nl">font-size</span><span class="p">:</span> <span class="n">clamp</span><span class="p">(</span><span class="m">2.25rem</span><span class="p">,</span> <span class="m">4vw</span><span class="p">,</span> <span class="m">4rem</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="closing-thoughts">Closing thoughts</h2>
+
+<p>So this is it, a fully responsive personal website, blog capabilities without media queries or breakpoints defined by a device but its content. And, as the previous one, it’s not done. I will play with it, add functionality and evolve it based on what I want to learn or express.</p>
+
+<p>Building it has given me a different perspective on what can be done with these new technologies in terms of layout and responsive design, but even more about making the time to get things done and sharing the process, even when its far from perfect.</p>
+
+<h2 id="thank-you">Thank You!</h2>
+
+<p>I have to thank <a href="https://rachelandrew.co.uk" target="_blank">Rachel Andrews</a> for her great explanations of CSS Grid, <a href="https://css-tricks.com" target="_blank">CSS-tricks</a> for their flex-box and grid guides and the open nature of the web that allowed me to peek into other websites by inspecting the html. Here are some of the resources I used if you want to give it a try:</p>
+
+<ul>
+  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a></li>
+  <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to CSS Grid</a></li>
+  <li><a href="https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/" target="_blank">Look Ma no Media Queries</a></li>
+  <li><a href="https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/" target="_blank">Create a responsive grid layout with no media queries, using CSS Grid</a></li>
+  <li><a href="https://css-tricks.com/simplified-fluid-typography/" target="_blank">Simplified fluid typography</a></li>
+</ul>
+
+
+        <!-- Kudos Section (only on blog posts) -->
+        <div class="kudos-section">
+            <span class="kudos-label">Give Kudos</span>
+            <button class="kudos-button tinylytics_kudos" aria-label="Give kudos to this post"></button>
+        </div>
+
+        <!-- Keep Reading Navigation -->
+        
+        <nav class="keep-reading" aria-label="More blog posts">
+            <h2 class="keep-reading__title">Keep reading</h2>
+            <div class="keep-reading__cards">
+                <div class="keep-reading__item keep-reading__item--prev">
+                    
+                    <span class="keep-reading__label">Previous</span>
+                    
+
+
+<a href="/books-for-UX-designers/" class="blog-card-link">
+    <article class="card card-blog card-blog--horizontal">
+
+        <!-- SVG Graphic or Placeholder -->
+        <div class="card-graphic">
+            
+            
+            <div class="card-graphic-svg" role="img" aria-label="Best books for every UX Designer">
+                <svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .books--book-blue-dark {
+      fill: var(--il-blue-medium);
+    }
+
+    .books--book-green {
+      fill: var(--il-green-muted);
+    }
+
+    .books--book-blue {
+      fill: var(--il-blue-light);
+    }
+
+    .books--book-beige {
+      fill: var(--il-beige);
+    }
+
+    .books--accent-beige {
+      stroke: var(--il-cream);
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .books--dot-green {
+      fill: var(--il-green-light);
+    }
+
+    .books--shape-blue-soft {
+      fill: var(--il-blue-soft);
+    }
+
+    .books--shape-blue-pale {
+      fill: var(--il-blue-pale);
+    }
+
+    .books--shadow {
+      fill: var(--color-text-primary);
+    }
+  </style>
+
+  <!-- Book shadows -->
+  <rect x="70.9993" y="12.8076" width="29" height="109" rx="8" class="books--shadow"/>
+  <rect x="104.999" y="25.8076" width="29" height="96" rx="8" class="books--shadow"/>
+  <rect x="138.999" y="18.8076" width="29" height="103" rx="8" class="books--shadow"/>
+  <rect x="167.999" y="43.9766" width="29" height="79" rx="8" transform="rotate(-10.2669 167.999 43.9766)" class="books--shadow"/>
+
+  <!-- Books -->
+  <rect x="70.9993" y="11.8076" width="29" height="109" rx="8" class="books--book-blue-dark"/>
+  <rect x="104.999" y="24.8076" width="29" height="96" rx="8" class="books--book-green"/>
+  <rect x="138.999" y="17.8076" width="29" height="103" rx="8" class="books--book-blue"/>
+  <rect x="167.999" y="42.9766" width="29" height="79" rx="8" transform="rotate(-10.2669 167.999 42.9766)" class="books--book-beige"/>
+
+  <!-- Decorative accent shadows -->
+  <circle cx="119.499" cy="106.308" r="4.5" class="books--shadow"/>
+  <path d="M85.4993 103.808L90.2624 110.558H80.7361L85.4993 103.808Z" class="books--shadow"/>
+  <path d="M153.499 101.808L154.734 105.608H158.73L155.497 107.957L156.732 111.757L153.499 109.408L150.266 111.757L151.501 107.957L148.268 105.608H152.264L153.499 101.808Z" class="books--shadow"/>
+
+  <!-- Decorative accents -->
+  <path d="M192.999 107.123L197.996 104.838" class="books--accent-beige"/>
+  <path d="M197.033 110.216L197.999 104.807" class="books--accent-beige"/>
+  <circle cx="119.499" cy="105.308" r="4.5" class="books--dot-green"/>
+  <path d="M85.4993 102.808L90.2624 109.558H80.7361L85.4993 102.808Z" class="books--shape-blue-soft"/>
+  <path d="M153.499 100.808L154.734 104.608H158.73L155.497 106.957L156.732 110.757L153.499 108.408L150.266 110.757L151.501 106.957L148.268 104.608H152.264L153.499 100.808Z" class="books--shape-blue-pale"/>
+</svg>
+
+            </div>
+            
+        </div>
+
+        <!-- Card Content -->
+        <div class="card-content">
+            
+            <h3>Best books for every UX Designer</h3>
+            
+        </div>
+
+    </article>
+</a>
+
+                    
+                </div>
+                <div class="keep-reading__item keep-reading__item--next">
+                    
+                    <span class="keep-reading__label">Next</span>
+                    
+
+
+<a href="/controlled-growth-environment/" class="blog-card-link">
+    <article class="card card-blog card-blog--horizontal">
+
+        <!-- SVG Graphic or Placeholder -->
+        <div class="card-graphic">
+            
+            
+            <div class="card-graphic-svg" role="img" aria-label="Controlled growth environment">
+                <svg viewBox="0 0 271 132" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .growth--line-green {
+      stroke: var(--il-green-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .growth--line-blue {
+      stroke: var(--il-blue-light);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .growth--shadow {
+      stroke: var(--color-text-primary);
+      stroke-width: 0.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .growth--dashed-line {
+      stroke: var(--color-text-primary);
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <!-- Dashed baseline -->
+  <line x1="8" y1="65.3076" x2="265" y2="65.3076" class="growth--dashed-line"/>
+
+  <!-- Green line (upper right) with arrow -->
+  <path d="M133 61.8076L249.642 11.2317" class="growth--line-green" stroke-width="4"/>
+  <path d="M133 62.8076L249.642 12.2317" class="growth--shadow"/>
+  <path d="M242.51 11.0059L249.783 11.2355" class="growth--line-green" stroke-width="4"/>
+  <path d="M242.51 12.0059L249.783 12.2355" class="growth--shadow"/>
+  <path d="M245.323 16.6719L249.806 11.2031" class="growth--line-green" stroke-width="4"/>
+  <path d="M245.323 17.6719L249.806 12.2031" class="growth--shadow"/>
+
+  <!-- Blue line (lower left) with arrow -->
+  <path d="M124 65.8066L18.1384 114.547" class="growth--line-blue" stroke-width="4"/>
+  <path d="M124 66.8066L18.1384 115.547" class="growth--shadow"/>
+  <path d="M19.9914 108.788L16.6517 115.817" class="growth--line-blue" stroke-width="4"/>
+  <path d="M19.9914 109.788L16.6517 116.817" class="growth--shadow"/>
+  <path d="M24.0449 114.752L16.6094 115.82" class="growth--line-blue" stroke-width="4"/>
+  <path d="M24.0449 115.752L16.6094 116.82" class="growth--shadow"/>
+</svg>
+
+            </div>
+            
+        </div>
+
+        <!-- Card Content -->
+        <div class="card-content">
+            
+            <h3>Controlled growth environment</h3>
+            
+        </div>
+
+    </article>
+</a>
+
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+    </div>
+
+</main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <!-- Left: Let's talk -->
+            <div class="footer-cta">
+                <h2>Let's talk</h2>
+            </div>
+
+            <!-- Right: Contact + Social Links wrapper -->
+            <div class="footer-right">
+
+                <div class="footer-contact">
+                    <div class="contact-text">
+                        <h3>Want to collaborate?</h3>
+                        <p>Reach out if you think we can collaborate on a project, teach a class about UX, or speak at
+                            your conference.</p>
+                    </div>
+                    <a href="mailto:info@ardilamorin.com"
+                        class="btn btn-primary">Contact me</a>
+                </div>
+
+                <nav class="footer-links">
+                    <a href="/feed.xml">rss</a>
+                    <a href="https://www.linkedin.com/in/ardilamorin/">linkedin</a>
+                    <a href="https://bsky.app/profile/ardilamorin.com">bluesky</a>
+                </nav>
+
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+
+</html>
